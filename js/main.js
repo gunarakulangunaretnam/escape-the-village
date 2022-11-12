@@ -212,19 +212,26 @@ function birdenm() {
 
 // Fly birds on sky function
 function FlyBirdsOnSky() {
+
+  const randomNumbers = (min, max) => {
+    return 
+  }
+
+  downValue = Math.round(Math.random() * (70 - 150)) + 70;
+  upValue = Math.round(Math.random() * (250 - 350)) + 250;;
   
   setTimeout(function(){
 
   $(".skybirds").animate({
       position: 'absolute',
       top: 'auto',
-      bottom: '120px'
+      bottom: downValue+"px",
   }, 1200)
 
   $(".skybirds").animate({
       position: 'absolute',
       top: 'auto',
-      bottom: '300px'
+      bottom: upValue+"px",
   }, 1200, 'linear')
     
   }, 2000);
