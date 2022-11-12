@@ -53,7 +53,7 @@ function lastlayer() {
 
 
 
-function player() {
+function jumper() {
   $("#player2").css("display", "none");
   $("#jump").css("display", "block");
 
