@@ -81,9 +81,29 @@ window.setInterval(function() {
     $('.result').text(getpointscoin($('#coin7'), $('#div2'),'#coin7')); 
     $('.result').text(getpointscoin($('#coin8'), $('#div2'),'#coin8')); 
     $('.result').text(getpointscoin($('#coin9'), $('#div2'),'#coin9')); 
-    $('.result').text(getpointscoin($('#coin8'), $('#div2'),'#coin10')); 
-    $('.result').text(getpointscoin($('#coin9'), $('#div2'),'#coin11')); 
-    $('.result').text(getpointscoin($('#coin9'), $('#div2'),'#coin12')); 
+    $('.result').text(getpointscoin($('#coin10'), $('#div2'),'#coin10')); 
+    $('.result').text(getpointscoin($('#coin11'), $('#div2'),'#coin11')); 
+    $('.result').text(getpointscoin($('#coin12'), $('#div2'),'#coin12')); 
+    $('.result').text(getpointscoin($('#coin13'), $('#div2'),'#coin13')); 
+    $('.result').text(getpointscoin($('#coin14'), $('#div2'),'#coin14')); 
+    $('.result').text(getpointscoin($('#coin15'), $('#div2'),'#coin15')); 
+    $('.result').text(getpointscoin($('#coin16'), $('#div2'),'#coin16')); 
+    $('.result').text(getpointscoin($('#coin17'), $('#div2'),'#coin17')); 
+    $('.result').text(getpointscoin($('#coin18'), $('#div2'),'#coin18')); 
+    $('.result').text(getpointscoin($('#coin19'), $('#div2'),'#coin19')); 
+    $('.result').text(getpointscoin($('#coin20'), $('#div2'),'#coin20')); 
+    $('.result').text(getpointscoin($('#coin21'), $('#div2'),'#coin21')); 
+    $('.result').text(getpointscoin($('#coin22'), $('#div2'),'#coin22')); 
+    $('.result').text(getpointscoin($('#coin23'), $('#div2'),'#coin23')); 
+    $('.result').text(getpointscoin($('#coin24'), $('#div2'),'#coin24')); 
+    $('.result').text(getpointscoin($('#coin25'), $('#div2'),'#coin25')); 
+    $('.result').text(getpointscoin($('#coin26'), $('#div2'),'#coin26')); 
+    $('.result').text(getpointscoin($('#coin27'), $('#div2'),'#coin27')); 
+    $('.result').text(getpointscoin($('#coin28'), $('#div2'),'#coin28')); 
+    $('.result').text(getpointscoin($('#coin29'), $('#div2'),'#coin29'));
+    $('.result').text(getpointscoin($('#coin30'), $('#div2'),'#coin30')); 
+    $('.result').text(getpointscoin($('#coin31'), $('#div2'),'#coin31')); 
+    $('.result').text(getpointscoin($('#coin32'), $('#div2'),'#coin32'));
 }, 200); }); 
 
     
