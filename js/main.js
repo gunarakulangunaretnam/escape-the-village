@@ -10,8 +10,10 @@ function stage1moving() {
   playerstart('images/running/frame-1.png', arr);
   coins('images/coin/c1.png', arr3);
   bomb('images/bomb/bomb1.png', arr4);
-  flybird();
 
+  // Birds Playing Methods
+  FlyBirdsOnSky()
+  FlyBirdsOnGround()
 
 }
 
@@ -76,7 +78,9 @@ function jumper() {
       bottom: '80px'
   }, 800, 'linear')
 
-  flybird();
+  FlyBirdsOnSky();
+  FlyBirdsOnGround();
+
 }
 
 
@@ -100,7 +104,6 @@ function addpoint(coinid) {
   number = 50 + number++;
   computerScore.innerHTML = number;
 }
-
 
 
 
@@ -207,25 +210,43 @@ function birdenm() {
 }
 
 
-function swmingbird() {
+// Fly birds on sky function
+function FlyBirdsOnSky() {
+  
+  setTimeout(function(){
 
-
-  $(".bird").animate({
+  $(".skybirds").animate({
       position: 'absolute',
       top: 'auto',
-      bottom: '-80px'
+      bottom: '120px'
   }, 1200)
-  $(".bird").animate({
+
+  $(".skybirds").animate({
       position: 'absolute',
       top: 'auto',
-      bottom: '-150px'
+      bottom: '300px'
   }, 1200, 'linear')
-
-
+    
+  }, 2000);
 }
 
-function flybird() {
-  setTimeout(swmingbird, 2000);
+
+// Fly birds on ground function
+function FlyBirdsOnGround() {
+  setTimeout(function(){
+
+      $(".groundbirds").animate({
+        position: 'absolute',
+        top: 'auto',
+        bottom: '-80px'
+    }, 1200)
+    $(".groundbirds").animate({
+        position: 'absolute',
+        top: 'auto',
+        bottom: '-150px'
+    }, 1200, 'linear')
+    
+  }, 2000);
 }
 
 

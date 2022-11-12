@@ -29,23 +29,15 @@ $(window).load(function(){
     
 window.setInterval(function() {
 
+    //Flying Birds on High
+    $('.result').text(collision($('#skybirds-enm1'), $('#div2')));
+
     $('.result').text(collision($('#croco1'), $('#div2')));
     $('.result').text(collision($('#croco2'), $('#div2')));
     $('.result').text(collision($('#croco3'), $('#div2'))); 
-    $('.result').text(collision($('#enm1'), $('#div2')));
     $('.result').text(collision($('#enm13'), $('#div2')));  
     $('.result').text(collision($('#enm14'), $('#div2')));  
-    
-    $('.result').text(collision($('#enm2'), $('#div2')));  
-    $('.result').text(collision($('#enm3'), $('#div2')));  
-    $('.result').text(collision($('#enm4'), $('#div2')));  
-    $('.result').text(collision($('#enm5'), $('#div2')));  
-    $('.result').text(collision($('#enm6'), $('#div2')));  
-    $('.result').text(collision($('#enm7'), $('#div2')));  
-    $('.result').text(collision($('#enm8'), $('#div2')));  
-    $('.result').text(collision($('#enm10'), $('#div2')));  
-    $('.result').text(collision($('#enm11'), $('#div2')));  
-    $('.result').text(collision($('#enm12'), $('#div2')));  
+
 
 }, 200); }); 
     
