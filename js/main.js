@@ -217,7 +217,7 @@ function FlyBirdsOnSky() {
     return 
   }
 
-  downValue = Math.round(Math.random() * (70 - 250)) + 70;
+  downValue = Math.round(Math.random() * (120 - 250)) + 70;
   upValue = Math.round(Math.random() * (250 - 450)) + 150;;
   
   setTimeout(function(){

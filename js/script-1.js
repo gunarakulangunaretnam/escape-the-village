@@ -81,6 +81,9 @@ window.setInterval(function() {
     $('.result').text(getpointscoin($('#coin7'), $('#div2'),'#coin7')); 
     $('.result').text(getpointscoin($('#coin8'), $('#div2'),'#coin8')); 
     $('.result').text(getpointscoin($('#coin9'), $('#div2'),'#coin9')); 
+    $('.result').text(getpointscoin($('#coin8'), $('#div2'),'#coin10')); 
+    $('.result').text(getpointscoin($('#coin9'), $('#div2'),'#coin11')); 
+    $('.result').text(getpointscoin($('#coin9'), $('#div2'),'#coin12')); 
 }, 200); }); 
 
     
