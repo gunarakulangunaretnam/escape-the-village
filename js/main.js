@@ -217,8 +217,8 @@ function FlyBirdsOnSky() {
     return 
   }
 
-  downValue = Math.round(Math.random() * (70 - 150)) + 70;
-  upValue = Math.round(Math.random() * (250 - 350)) + 250;;
+  downValue = Math.round(Math.random() * (70 - 250)) + 70;
+  upValue = Math.round(Math.random() * (250 - 450)) + 250;;
   
   setTimeout(function(){
 
@@ -233,9 +233,12 @@ function FlyBirdsOnSky() {
       top: 'auto',
       bottom: upValue+"px",
   }, 1200, 'linear')
+      
+  }, 2000)
+
     
-  }, 2000);
-}
+};
+
 
 
 // Fly birds on ground function
