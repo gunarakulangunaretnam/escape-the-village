@@ -70,7 +70,7 @@ function jumper() {
   $("#box").animate({
       position: 'absolute',
       top: 'auto',
-      bottom: '350px'
+      bottom: '450px'
   }, 1300)
   $("#box").animate({
       position: 'absolute',

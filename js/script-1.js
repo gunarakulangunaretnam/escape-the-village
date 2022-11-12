@@ -33,10 +33,9 @@ window.setInterval(function() {
     $('.result').text(collision($('#skybirds-enm1'), $('#div2')));
 
     $('.result').text(collision($('#croco1'), $('#div2')));
-    $('.result').text(collision($('#croco2'), $('#div2')));
-    $('.result').text(collision($('#croco3'), $('#div2'))); 
+    $('.result').text(collision($('#croco2'), $('#div2'))); 
     $('.result').text(collision($('#enm13'), $('#div2')));  
-    $('.result').text(collision($('#enm14'), $('#div2')));  
+
 
 
 }, 200); }); 
@@ -104,6 +103,18 @@ window.setInterval(function() {
     $('.result').text(getpointscoin($('#coin30'), $('#div2'),'#coin30')); 
     $('.result').text(getpointscoin($('#coin31'), $('#div2'),'#coin31')); 
     $('.result').text(getpointscoin($('#coin32'), $('#div2'),'#coin32'));
+    $('.result').text(getpointscoin($('#coin33'), $('#div2'),'#coin33')); 
+    $('.result').text(getpointscoin($('#coin34'), $('#div2'),'#coin34')); 
+    $('.result').text(getpointscoin($('#coin35'), $('#div2'),'#coin35')); 
+    $('.result').text(getpointscoin($('#coin36'), $('#div2'),'#coin36')); 
+    $('.result').text(getpointscoin($('#coin37'), $('#div2'),'#coin37')); 
+    $('.result').text(getpointscoin($('#coin38'), $('#div2'),'#coin38')); 
+    $('.result').text(getpointscoin($('#coin39'), $('#div2'),'#coin39'));
+    $('.result').text(getpointscoin($('#coin40'), $('#div2'),'#coin40')); 
+    $('.result').text(getpointscoin($('#coin41'), $('#div2'),'#coin41')); 
+    $('.result').text(getpointscoin($('#coin42'), $('#div2'),'#coin42'));
+    $('.result').text(getpointscoin($('#coin43'), $('#div2'),'#coin43')); 
+    $('.result').text(getpointscoin($('#coin44'), $('#div2'),'#coin44'));
 }, 200); }); 
 
     
