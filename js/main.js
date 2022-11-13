@@ -210,31 +210,31 @@ function birdenm() {
 // Fly birds on sky function
 function FlyBirdsOnSky() {
 
-  const randomNumbers = (min, max) => {
-    return 
-  }
+  $('.skybirds').each(function(i, obj) {
+    
+    FromFlyingRateValue = Math.round(Math.random() * (130)) + 160;
+    LandFlyingRateValue = Math.round(Math.random() * (110)) + 150;;
+    
+    setTimeout(function(){
 
-  downValue = Math.round(Math.random() * (200 - 200)) + 200;
-  upValue = Math.round(Math.random() * (250 - 450)) + 250;;
-  
-  setTimeout(function(){
+    $(obj).animate({
+        position: 'absolute',
+        top: 'auto',
+        bottom: FromFlyingRateValue+"px",
+    }, 1200)
 
-  $(".skybirds").animate({
-      position: 'absolute',
-      top: 'auto',
-      bottom: upValue+"px",
-  }, 1200)
+    $(obj).animate({
+        position: 'absolute',
+        top: 'auto',
+        bottom: LandFlyingRateValue+"px",
+    }, 1200, 'linear')
+        
+    }, 2000)
 
-  $(".skybirds").animate({
-      position: 'absolute',
-      top: 'auto',
-      bottom: downValue+"px",
-  }, 1200, 'linear')
-      
-  }, 2000)
+    console.log("From"+ FromFlyingRateValue)
+    console.log("Land"+ LandFlyingRateValue)
 
-  console.log("down"+ downValue)
-  console.log("up"+ upValue);
+});
 
     
 };
