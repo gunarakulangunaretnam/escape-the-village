@@ -233,6 +233,9 @@ function FlyBirdsOnSky() {
       
   }, 2000)
 
+  console.log("down"+ downValue)
+  console.log("up"+ upValue);
+
     
 };
 
