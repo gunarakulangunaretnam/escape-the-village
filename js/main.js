@@ -1,7 +1,17 @@
+function InitialObjectsMover(){
+  
+  // Birds Playing Methods
+  FlyBirdsOnSky();
+  stage1moving();
+
+}
+
 function stage1moving() {
+
   $("#stage").animate({
-      marginLeft: "-20000px"
+    marginLeft: "-20000px"
   }, 150000, 'linear');
+
   grasstreemoving();
   maintreemoving();
   lastlayer();
@@ -11,11 +21,34 @@ function stage1moving() {
   coins('images/coin/c1.png', arr3);
   bomb('images/bomb/bomb1.png', arr4);
 
-  // Birds Playing Methods
-  FlyBirdsOnSky()
-  FlyBirdsOnGround()
-
+  BirdsLayer();
 }
+
+function PlayerMoveRight(){
+
+
+  
+}
+
+$(window).load(function(){
+
+  document.addEventListener('keydown', (event) => {
+    var name = event.key;
+    var code = event.code;
+  
+    if(name == "ArrowRight"){
+      
+      PlayerMoveRight();
+
+    }else if(name == "ArrowLeft"){
+
+      
+    }
+
+  }, false);
+  
+});
+
 
 /*$(window).load(function(){
 window.setInterval(function() {
@@ -24,7 +57,15 @@ $("#skydiv").animate({ 'zoom': 1.2}, 40000 ,'linear');
 $("#skydiv").animate({ 'zoom': 0.9}, 25000 ,'linear');						
 }, 500); });  */
 
-
+// Fly birds on sky function
+function FlyBirdsOnSky() {
+  
+    $(".skybirds").animate({
+        position: 'absolute',
+        top: 'auto',
+        bottom: 200+"px",
+    },800)    
+};
 
 function enymain() {
   $(".enmybox").animate({
@@ -48,6 +89,13 @@ function lastlayer() {
   $(".seenlayer").animate({
       marginLeft: "-20000px"
   }, 500000, 'linear');
+}
+function BirdsLayer() {
+$(".skybirds").animate({
+  position: 'absolute',
+  top: 'auto',
+  left: -500+"px",
+},900000)
 }
 
 
@@ -76,8 +124,6 @@ function jumper() {
       bottom: '90px'
   }, 800, 'linear')
 
-  FlyBirdsOnSky();
-  FlyBirdsOnGround();
 
 }
 
@@ -207,40 +253,10 @@ function birdenm() {
 
 */
 
-// Fly birds on sky function
-function FlyBirdsOnSky() {
-
-  $('.skybirds').each(function(i, obj) {
-    
-    FromFlyingRateValue = Math.round(Math.random() * (130)) + 160;
-    LandFlyingRateValue = Math.round(Math.random() * (110)) + 150;;
-    
-    setTimeout(function(){
-
-    $(obj).animate({
-        position: 'absolute',
-        top: 'auto',
-        bottom: FromFlyingRateValue+"px",
-    }, 1200)
-
-    $(obj).animate({
-        position: 'absolute',
-        top: 'auto',
-        bottom: LandFlyingRateValue+"px",
-    }, 1200, 'linear')
-        
-    }, 2000)
-
-    console.log("From"+ FromFlyingRateValue)
-    console.log("Land"+ LandFlyingRateValue)
-
-});
-
-    
-};
 
 
 
+/*
 // Fly birds on ground function
 function FlyBirdsOnGround() {
   setTimeout(function(){
@@ -258,6 +274,8 @@ function FlyBirdsOnGround() {
     
   }, 2000);
 }
+
+*/
 
 
 
