@@ -30,7 +30,7 @@ $(window).load(function(){
 window.setInterval(function() {
 
     //Flying Birds on High
-    $('.result').text(collision($('#skybirds-enm1'), $('#div2')));
+    //$('.result').text(collision($('#skybirds-enm1'), $('#div2')));
 
     $('.result').text(collision($('#croco1'), $('#div2')));
     $('.result').text(collision($('#croco2'), $('#div2'))); 

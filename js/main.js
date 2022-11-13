@@ -6,7 +6,7 @@ function stage1moving() {
   maintreemoving();
   lastlayer();
   enymain();
-  birdenm('images/enm_stage1/bird1.png', arre1);
+  //birdenm('images/enm_stage1/bird1.png', arre1); Muted Code 
   playerstart('images/running/frame-1.png', arr);
   coins('images/coin/c1.png', arr3);
   bomb('images/bomb/bomb1.png', arr4);
@@ -32,13 +32,11 @@ function enymain() {
   }, 300000, 'linear');
 }
 
-
 function grasstreemoving() {
   $(".grasstree").animate({
       marginLeft: "-20000px"
   }, 400000, 'linear');
 }
-
 
 function maintreemoving() {
   $(".maintree").animate({
@@ -70,12 +68,12 @@ function jumper() {
   $("#box").animate({
       position: 'absolute',
       top: 'auto',
-      bottom: '450px'
+      bottom: '300px'
   }, 1300)
   $("#box").animate({
       position: 'absolute',
       top: 'auto',
-      bottom: '80px'
+      bottom: '90px'
   }, 800, 'linear')
 
   FlyBirdsOnSky();
@@ -86,7 +84,7 @@ function jumper() {
 
 
 function endgame() {
-  $("#changer").css("display", "none");
+  $("#player").css("display", "none");
   $("#endgamer").css("display", "block");
   dieplayer();
 }
@@ -96,8 +94,6 @@ function endgame() {
 function addpoint(coinid) {
 
   $(coinid).css("display", "none");
-
-
 
   var computerScore = document.getElementById('doughnuts');
   var number = computerScore.innerHTML;
@@ -183,7 +179,7 @@ function playerstart() {
 
 
 
-/*Bird Running*/
+/*Bird Running
 
 
 var arre1 = [];
@@ -209,6 +205,7 @@ function birdenm() {
   }, 100);
 }
 
+*/
 
 // Fly birds on sky function
 function FlyBirdsOnSky() {
@@ -217,7 +214,7 @@ function FlyBirdsOnSky() {
     return 
   }
 
-  downValue = Math.round(Math.random() * (160 - 250)) + 160;
+  downValue = Math.round(Math.random() * (200 - 200)) + 200;
   upValue = Math.round(Math.random() * (250 - 450)) + 250;;
   
   setTimeout(function(){
@@ -225,13 +222,13 @@ function FlyBirdsOnSky() {
   $(".skybirds").animate({
       position: 'absolute',
       top: 'auto',
-      bottom: downValue+"px",
+      bottom: upValue+"px",
   }, 1200)
 
   $(".skybirds").animate({
       position: 'absolute',
       top: 'auto',
-      bottom: upValue+"px",
+      bottom: downValue+"px",
   }, 1200, 'linear')
       
   }, 2000)
