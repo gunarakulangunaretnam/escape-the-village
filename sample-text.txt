@@ -12,6 +12,13 @@ priya
 
 thilux
 <<<<<<< HEAD
+nijhjdjwhdkdkef
+=======
+
+
+
+
+<<<<<<< HEAD
 Thuluxsan
 
 
@@ -22,5 +29,13 @@ krish
 
 priya
 hyper
+<<<<<<< HEAD
 
 git up up
+=======
+good night'.'
+>>>>>>> 515ae395bdb88095e0f537f673177cbb38b260e3
+dfhejhe
+>>>>>>> 0db9be0286d2c990607e02ab26d4a432db8def90
+
+good morning
