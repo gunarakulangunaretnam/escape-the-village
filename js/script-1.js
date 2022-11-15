@@ -43,7 +43,7 @@ window.setInterval(function() {
     
 $(window).load(function(){
     
-    function getpointscoin($div1, $div2, coin1) {
+    function getpointscoin($div1, $div2, coin1, type) {
             var ci = coin1;
             var x1 = $div1.offset().left;
             var y1 = $div1.offset().top;
@@ -62,8 +62,17 @@ $(window).load(function(){
             return false ;
 
         } else{
+
+            if(type == "CoinType"){
+                
+                AddCoinPoint(ci);
+
+            }else if(type == "DiamondType"){
+
+                AddDiamondPoint(ci);
+            }
             
-            addpoint(ci);
+          
             return true;
 
         }
@@ -71,50 +80,55 @@ $(window).load(function(){
     }
     
 window.setInterval(function() {
-    $('.result').text(getpointscoin($('#coin1'), $('#div2'),'#coin1')); 
-    $('.result').text(getpointscoin($('#coin2'), $('#div2'),'#coin2')); 
-    $('.result').text(getpointscoin($('#coin3'), $('#div2'),'#coin3')); 
-    $('.result').text(getpointscoin($('#coin4'), $('#div2'),'#coin4')); 
-    $('.result').text(getpointscoin($('#coin5'), $('#div2'),'#coin5')); 
-    $('.result').text(getpointscoin($('#coin6'), $('#div2'),'#coin6')); 
-    $('.result').text(getpointscoin($('#coin7'), $('#div2'),'#coin7')); 
-    $('.result').text(getpointscoin($('#coin8'), $('#div2'),'#coin8')); 
-    $('.result').text(getpointscoin($('#coin9'), $('#div2'),'#coin9')); 
-    $('.result').text(getpointscoin($('#coin10'), $('#div2'),'#coin10')); 
-    $('.result').text(getpointscoin($('#coin11'), $('#div2'),'#coin11')); 
-    $('.result').text(getpointscoin($('#coin12'), $('#div2'),'#coin12')); 
-    $('.result').text(getpointscoin($('#coin13'), $('#div2'),'#coin13')); 
-    $('.result').text(getpointscoin($('#coin14'), $('#div2'),'#coin14')); 
-    $('.result').text(getpointscoin($('#coin15'), $('#div2'),'#coin15')); 
-    $('.result').text(getpointscoin($('#coin16'), $('#div2'),'#coin16')); 
-    $('.result').text(getpointscoin($('#coin17'), $('#div2'),'#coin17')); 
-    $('.result').text(getpointscoin($('#coin18'), $('#div2'),'#coin18')); 
-    $('.result').text(getpointscoin($('#coin19'), $('#div2'),'#coin19')); 
-    $('.result').text(getpointscoin($('#coin20'), $('#div2'),'#coin20')); 
-    $('.result').text(getpointscoin($('#coin21'), $('#div2'),'#coin21')); 
-    $('.result').text(getpointscoin($('#coin22'), $('#div2'),'#coin22')); 
-    $('.result').text(getpointscoin($('#coin23'), $('#div2'),'#coin23')); 
-    $('.result').text(getpointscoin($('#coin24'), $('#div2'),'#coin24')); 
-    $('.result').text(getpointscoin($('#coin25'), $('#div2'),'#coin25')); 
-    $('.result').text(getpointscoin($('#coin26'), $('#div2'),'#coin26')); 
-    $('.result').text(getpointscoin($('#coin27'), $('#div2'),'#coin27')); 
-    $('.result').text(getpointscoin($('#coin28'), $('#div2'),'#coin28')); 
-    $('.result').text(getpointscoin($('#coin29'), $('#div2'),'#coin29'));
-    $('.result').text(getpointscoin($('#coin30'), $('#div2'),'#coin30')); 
-    $('.result').text(getpointscoin($('#coin31'), $('#div2'),'#coin31')); 
-    $('.result').text(getpointscoin($('#coin32'), $('#div2'),'#coin32'));
-    $('.result').text(getpointscoin($('#coin33'), $('#div2'),'#coin33')); 
-    $('.result').text(getpointscoin($('#coin34'), $('#div2'),'#coin34')); 
-    $('.result').text(getpointscoin($('#coin35'), $('#div2'),'#coin35')); 
-    $('.result').text(getpointscoin($('#coin36'), $('#div2'),'#coin36')); 
-    $('.result').text(getpointscoin($('#coin37'), $('#div2'),'#coin37')); 
-    $('.result').text(getpointscoin($('#coin38'), $('#div2'),'#coin38')); 
-    $('.result').text(getpointscoin($('#coin39'), $('#div2'),'#coin39'));
-    $('.result').text(getpointscoin($('#coin40'), $('#div2'),'#coin40')); 
-    $('.result').text(getpointscoin($('#coin41'), $('#div2'),'#coin41')); 
-    $('.result').text(getpointscoin($('#coin42'), $('#div2'),'#coin42'));
-    $('.result').text(getpointscoin($('#coin43'), $('#div2'),'#coin43')); 
-    $('.result').text(getpointscoin($('#coin44'), $('#div2'),'#coin44'));
+
+    $('.result').text(getpointscoin($('#diamond1'), $('#div2'),'#diamond1', 'DiamondType'));
+
+    $('.result').text(getpointscoin($('#coin1'), $('#div2'),'#coin1', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin2'), $('#div2'),'#coin2', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin3'), $('#div2'),'#coin3', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin4'), $('#div2'),'#coin4', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin5'), $('#div2'),'#coin5', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin6'), $('#div2'),'#coin6', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin7'), $('#div2'),'#coin7', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin8'), $('#div2'),'#coin8', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin9'), $('#div2'),'#coin9', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin10'), $('#div2'),'#coin10', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin11'), $('#div2'),'#coin11', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin12'), $('#div2'),'#coin12', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin13'), $('#div2'),'#coin13', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin14'), $('#div2'),'#coin14', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin15'), $('#div2'),'#coin15', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin16'), $('#div2'),'#coin16', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin17'), $('#div2'),'#coin17', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin18'), $('#div2'),'#coin18', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin19'), $('#div2'),'#coin19', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin20'), $('#div2'),'#coin20', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin21'), $('#div2'),'#coin21', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin22'), $('#div2'),'#coin22', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin23'), $('#div2'),'#coin23', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin24'), $('#div2'),'#coin24', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin25'), $('#div2'),'#coin25', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin26'), $('#div2'),'#coin26', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin27'), $('#div2'),'#coin27', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin28'), $('#div2'),'#coin28', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin29'), $('#div2'),'#coin29', 'CoinType'));
+    $('.result').text(getpointscoin($('#coin30'), $('#div2'),'#coin30', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin31'), $('#div2'),'#coin31', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin32'), $('#div2'),'#coin32', 'CoinType'));
+    $('.result').text(getpointscoin($('#coin33'), $('#div2'),'#coin33', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin34'), $('#div2'),'#coin34', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin35'), $('#div2'),'#coin35', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin36'), $('#div2'),'#coin36', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin37'), $('#div2'),'#coin37', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin38'), $('#div2'),'#coin38', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin39'), $('#div2'),'#coin39', 'CoinType'));
+    $('.result').text(getpointscoin($('#coin40'), $('#div2'),'#coin40', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin41'), $('#div2'),'#coin41', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin42'), $('#div2'),'#coin42', 'CoinType'));
+    $('.result').text(getpointscoin($('#coin43'), $('#div2'),'#coin43', 'CoinType')); 
+    $('.result').text(getpointscoin($('#coin44'), $('#div2'),'#coin44', 'CoinType'));
+    $('.result').text(getpointscoin($('#coin45'), $('#div2'),'#coin45', 'CoinType')); 
+   
 }, 200); }); 
 
     

@@ -3,6 +3,8 @@ function InitialObjectsMover(){
   // Birds Playing Methods
   FlyBirdsOnSky();
   stage1moving();
+  FlyAirBalloon();
+  FlyAircraft();
 
 }
 
@@ -10,7 +12,7 @@ function stage1moving() {
 
   $("#stage").animate({
     marginLeft: "-20000px"
-  }, 150000, 'linear');
+  }, 300000, 'linear');
 
   grasstreemoving();
   maintreemoving();
@@ -65,22 +67,35 @@ function FlyBirdsOnSky() {
         top: 'auto',
         bottom: 300+"px",
     },800)    
+    
 };
 
+function FlyAirBalloon(){
 
-/*
-function aircraftFlying(){
+  $("#AirBalloon").animate({
+    position: 'absolute',
+    top: 'auto',
+    left: 2000+"px",
+    bottom: 300+"px",
+    
+  },15000, "easeInOutQuint")    
 
-    $(".aircraft").animate({
-      position: 'absolute',
-      top: 'auto',
-      bottom: 200+"px",
-  },800)    
-  
 }
 
-aircraftFlying();
- */
+function FlyAircraft(){
+
+  $("#Aircraft").animate({
+    position: 'absolute',
+    top: 'auto',
+    left: -2000+"px",
+    bottom: -600+"px",
+    
+  },25000)    
+
+}
+
+
+
 
 function enymain() {
   $(".enmybox").animate({
@@ -107,14 +122,12 @@ function lastlayer() {
 }
 
 function BirdsLayer() {
-$(".skybirds").animate({
-  position: 'absolute',
-  top: 'auto',
-  left: -500+"px",
-},900000)
+  $(".skybirds").animate({
+    position: 'absolute',
+    top: 'auto',
+    left: -500+"px",
+  },900000)
 }
-
-
 
 
 function jumper() {
@@ -153,13 +166,23 @@ function endgame() {
 
 
 
-function addpoint(coinid) {
+function AddCoinPoint(coinid) {
 
   $(coinid).css("display", "none");
 
   var computerScore = document.getElementById('doughnuts');
   var number = computerScore.innerHTML;
   number = 50 + number++;
+  computerScore.innerHTML = number;
+}
+
+function AddDiamondPoint(coinid) {
+
+  $(coinid).css("display", "none");
+
+  var computerScore = document.getElementById('doughnuts');
+  var number = computerScore.innerHTML;
+  number = 200 + number++;
   computerScore.innerHTML = number;
 }
 
