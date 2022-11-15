@@ -63,9 +63,23 @@ function FlyBirdsOnSky() {
     $(".skybirds").animate({
         position: 'absolute',
         top: 'auto',
-        bottom: 200+"px",
+        bottom: 300+"px",
     },800)    
 };
+
+/*
+function aircraftFlying(){
+
+    $(".aircraft").animate({
+      position: 'absolute',
+      top: 'auto',
+      bottom: 200+"px",
+  },800)    
+  
+}
+
+aircraftFlying();
+ */
 
 function enymain() {
   $(".enmybox").animate({
@@ -90,6 +104,7 @@ function lastlayer() {
       marginLeft: "-20000px"
   }, 500000, 'linear');
 }
+
 function BirdsLayer() {
 $(".skybirds").animate({
   position: 'absolute',
