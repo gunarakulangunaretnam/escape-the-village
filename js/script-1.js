@@ -114,6 +114,10 @@ window.setInterval(function() {
 
 
 
+
+
+
+
     
     $('.result').text(getpointscoin($('#coin1'), $('#div2'),'#coin1', 'CoinType')); 
     $('.result').text(getpointscoin($('#coin2'), $('#div2'),'#coin2', 'CoinType')); 

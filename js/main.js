@@ -6,6 +6,7 @@ function InitialObjectsMover(){
   FlyAirBalloon();
   FlyAircraft();
   train();
+  ant();
 }
 
 
@@ -74,6 +75,20 @@ function FlyBirdsOnSky() {
     },800)    
     
 };
+
+
+function ant(){
+
+  $("#train").animate({
+    position: 'absolute',
+    top: 'auto',
+    left: 0+"px",
+    bottom: -200+"px",
+    
+  },15000,) 
+}
+
+
 
 function train(){
 
