@@ -26,6 +26,12 @@ $(window).load(function(){
     
 }
     
+var audio = new Audio();
+audio.play();
+
+
+
+
     
 window.setInterval(function() {
 
