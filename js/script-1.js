@@ -93,16 +93,28 @@ window.setInterval(function() {
     $('.result').text(getpointscoin($('#diamond9'), $('#div2'),'#diamond9', 'DiamondType'));
     $('.result').text(getpointscoin($('#diamond10'), $('#div2'),'#diamond10', 'DiamondType'));
     $('.result').text(getpointscoin($('#diamond11'), $('#div2'),'#diamond11', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond12'), $('#div2'),'#diamond12', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond13'), $('#div2'),'#diamond13', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond14'), $('#div2'),'#diamond14', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond15'), $('#div2'),'#diamond15', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond16'), $('#div2'),'#diamond16', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond17'), $('#div2'),'#diamond17', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond18'), $('#div2'),'#diamond18', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond19'), $('#div2'),'#diamond19', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond20'), $('#div2'),'#diamond20', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond21'), $('#div2'),'#diamond21', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond22'), $('#div2'),'#diamond22', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond23'), $('#div2'),'#diamond23', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond24'), $('#div2'),'#diamond24', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond25'), $('#div2'),'#diamond25', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond26'), $('#div2'),'#diamond26', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond27'), $('#div2'),'#diamond27', 'DiamondType'));
+
+
+
+
+
     
-    
-  
-
-
-
-
-
-
-
     $('.result').text(getpointscoin($('#coin1'), $('#div2'),'#coin1', 'CoinType')); 
     $('.result').text(getpointscoin($('#coin2'), $('#div2'),'#coin2', 'CoinType')); 
     $('.result').text(getpointscoin($('#coin3'), $('#div2'),'#coin3', 'CoinType')); 
