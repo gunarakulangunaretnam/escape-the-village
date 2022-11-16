@@ -1,4 +1,4 @@
-body{
+``body{
         margin:0px;
          font-family:Arial, Helvetica, sans-serif;
          font-size:13px;
@@ -101,16 +101,29 @@ body{
          height:80px;
          width:20000px;
     }
-     .grass{
-        height:132px;
+    
+     .train{
+        height:300px;
          position:absolute;
          left:0px;
-         bottom:-66px;
-         background-image:url(../images/grass.png);
-         background-repeat:repeat-x;
+         bottom:90px;
+         background-image:url(../images/enm_stage1/train.gif);
          width:100%;
          z-index:6;
     }
+
+    .grass{
+     height:132px;
+      position:absolute;
+      left:0px;
+      bottom:-66px;
+      background-image:url(../images/grass.png);
+      background-repeat:repeat-x;
+      width:100%;
+      z-index:6;
+ }
+
+
      .maintree{
         position:absolute;
          z-index:7;

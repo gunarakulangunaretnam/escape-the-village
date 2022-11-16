@@ -5,7 +5,7 @@ function InitialObjectsMover(){
   stage1moving();
   FlyAirBalloon();
   FlyAircraft();
-
+  train();
 }
 
 function stage1moving() {
@@ -70,6 +70,18 @@ function FlyBirdsOnSky() {
     
 };
 
+function train(){
+
+  $("#train").animate({
+    position: 'absolute',
+    top: 'auto',
+    left: 0+"px",
+    bottom: -200+"px",
+    
+  },15000,)    
+
+}
+
 function FlyAirBalloon(){
 
   $("#AirBalloon").animate({
@@ -81,6 +93,8 @@ function FlyAirBalloon(){
   },15000, "easeInOutQuint")    
 
 }
+
+
 
 function FlyAircraft(){
 

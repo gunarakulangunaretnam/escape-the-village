@@ -1,4 +1,4 @@
-
+                    
 $(window).load(function(){
     
     function collision($div1, $div2) {
@@ -82,6 +82,23 @@ $(window).load(function(){
 window.setInterval(function() {
 
     $('.result').text(getpointscoin($('#diamond1'), $('#div2'),'#diamond1', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond2'), $('#div2'),'#diamond2', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond3'), $('#div2'),'#diamond3', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond4'), $('#div2'),'#diamond4', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond5'), $('#div2'),'#diamond5', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond6'), $('#div2'),'#diamond6', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond7'), $('#div2'),'#diamond7', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond8'), $('#div2'),'#diamond8', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond9'), $('#div2'),'#diamond9', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond10'), $('#div2'),'#diamond10', 'DiamondType'));
+    $('.result').text(getpointscoin($('#diamond11'), $('#div2'),'#diamond11', 'DiamondType'));
+  
+
+
+
+
+
+
 
     $('.result').text(getpointscoin($('#coin1'), $('#div2'),'#coin1', 'CoinType')); 
     $('.result').text(getpointscoin($('#coin2'), $('#div2'),'#coin2', 'CoinType')); 

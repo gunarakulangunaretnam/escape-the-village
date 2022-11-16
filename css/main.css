@@ -21,6 +21,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2fa9e5', end
 .waterwarn200{width:179px; height:4px; position:absolute; left:9px; bottom:-14px; }
 .grasstree{position:absolute; z-index:6; left:0px; bottom:0px; height:80px; width:20000px;}
 .grass{height:132px; position:absolute; left:0px; bottom:-66px; background-image:url(../images/grass.png); background-repeat:repeat-x;   width:100%; z-index:6;}
+.train{height:132px; position:absolute; left:0px; bottom:-66px; background-image:url(../images/enm_stage1/train.gif);width:100%; z-index:6;}
+
 .maintree{position:absolute; z-index:7; left:0px; bottom:0px; height:80px; width:20000px;}
 .tree1{position:absolute; left:755px; bottom:9px; width:186px; height:193px; background-image:url(../images/tree1.png);}
 .tree2{position:absolute; left:755px; bottom:4px; width:186px; height:193px; background-image:url(../images/tree2.png);}
