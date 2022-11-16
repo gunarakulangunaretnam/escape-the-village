@@ -34,8 +34,9 @@ window.setInterval(function() {
 
     $('.result').text(collision($('#croco1'), $('#div2')));
     $('.result').text(collision($('#croco2'), $('#div2'))); 
-    $('.result').text(collision($('#enm13'), $('#div2')));  
-
+    $('.result').text(collision($('#enm13'), $('#div2')));
+    $('.result').text(collision($('#flag'), $('#div2')));
+    $('.result').text(collision($('#bomb'), $('#div2')));
 
 
 }, 200); }); 
@@ -92,6 +93,8 @@ window.setInterval(function() {
     $('.result').text(getpointscoin($('#diamond9'), $('#div2'),'#diamond9', 'DiamondType'));
     $('.result').text(getpointscoin($('#diamond10'), $('#div2'),'#diamond10', 'DiamondType'));
     $('.result').text(getpointscoin($('#diamond11'), $('#div2'),'#diamond11', 'DiamondType'));
+    
+    
   
 
 

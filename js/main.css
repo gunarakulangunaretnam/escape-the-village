@@ -102,15 +102,6 @@
          width:20000px;
     }
     
-     .train{
-        height:300px;
-         position:absolute;
-         left:0px;
-         bottom:90px;
-         background-image:url(../images/enm_stage1/train.gif);
-         width:100%;
-         z-index:6;
-    }
 
     .grass{
      height:132px;
@@ -122,6 +113,14 @@
       width:100%;
       z-index:6;
  }
+
+
+ #train{
+
+     z-index:10;
+ }
+
+
 
 
      .maintree{
@@ -163,7 +162,22 @@
          left:1100px;
          position:absolute;
          bottom:80px;
+
+     
     }
+
+
+    .palace{
+     width:591px;
+      height:350px;
+      background-image:url(../images/enm_stage1/palace1.png);
+      left:1200px;
+      position:absolute;
+      bottom:80px;
+    }
+
+
+
      .enmybox{
         position:absolute;
          z-index:80;

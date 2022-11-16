@@ -8,11 +8,16 @@ function InitialObjectsMover(){
   train();
 }
 
+
+
+
+
+
 function stage1moving() {
 
   $("#stage").animate({
     marginLeft: "-20000px"
-  }, 150000, 'linear');
+  }, 100000, 'linear');
 
   grasstreemoving();
   maintreemoving();
@@ -122,6 +127,7 @@ function grasstreemoving() {
       marginLeft: "-20000px"
   }, 400000, 'linear');
 }
+
 
 function maintreemoving() {
   $(".maintree").animate({
