@@ -13,7 +13,7 @@ function stage1moving() {
 
   $("#stage").animate({
     marginLeft: "-20000px"
-  }, 100000, 'linear');
+  }, 60000, 'linear');
 
   grasstreemoving();
   maintreemoving();
