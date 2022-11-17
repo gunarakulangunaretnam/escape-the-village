@@ -43,9 +43,34 @@ function PlayerMoveRight() {
 
 }
 
+function PlayerStop() {
+
+  var previousPlayerState = playerState;
+
+  playerState = "[IDLE]"
+
+  if(movingTrue == true && previousPlayerState != "[JUMP]" && playerState == "[IDLE]"){
+ 
+    $(".grasstree").stop();
+    $(".maintree").stop();
+    $(".seenlayer").stop();
+    $("#stage").stop();
+
+    $("#player-idle").css("display", "block");
+    $("#player-jump").css("display", "none");
+    $("#player-run").css("display", "none");
+
+    movingTrue = false;
+
+  }
+}
+
+
 
 
 function jumper() {
+
+  var previousPlayerState = playerState;
 
   playerState = "[JUMP]";
 
@@ -65,11 +90,21 @@ function jumper() {
     bottom: '130px',
   }, 800, 'linear', function(){
 
-    playerState = "[IDLE]";
+    if(previousPlayerState == '[RUN]'){
 
-    $("#player-idle").css("display", "none");
-    $("#player-run").css("display", "block");
-    $("#player-jump").css("display", "none");
+      $("#player-idle").css("display", "none");
+      $("#player-run").css("display", "block");
+      $("#player-jump").css("display", "none");
+
+    }else if(previousPlayerState == '[IDLE]'){
+
+      $("#player-idle").css("display", "block");
+      $("#player-run").css("display", "none");
+      $("#player-jump").css("display", "none");
+    }
+
+    playerState = previousPlayerState; // Replace with previous playerstate
+
 
   })
 
@@ -78,7 +113,11 @@ function jumper() {
 
 function runner() {
 
-  if(playerState != "[JUMP]"){
+  var previousPlayerState = playerState;
+
+  playerState = "[RUN]";
+  
+  if(previousPlayerState != "[JUMP]" && playerState == "[RUN]"){
 
     $("#player-idle").css("display", "none");
     $("#player-jump").css("display", "none");
@@ -88,23 +127,6 @@ function runner() {
 
 }
 
-function PlayerStop() {
-
-  if(movingTrue == true && playerState != "[JUMP]"){
- 
-    $(".grasstree").stop();
-    $(".maintree").stop();
-    $(".seenlayer").stop();
-    $("#stage").stop();
-
-    $("#player-idle").css("display", "block");
-    $("#player-jump").css("display", "none");
-    $("#player-run").css("display", "none");
-
-    movingTrue = false;
-
-  }
-}
 
 
 
