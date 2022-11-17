@@ -35,7 +35,7 @@ function PlayerMoveRight() {
 
     $("#stage").animate({
       marginLeft: "-20000px"
-    }, 90000, 'linear');
+    }, 50000, 'linear');
 
     movingTrue = true;
 
@@ -47,9 +47,11 @@ function PlayerStop() {
 
   var previousPlayerState = playerState;
 
-  playerState = "[IDLE]"
+  playerState = "[IDLE]";
 
-  if(movingTrue == true && previousPlayerState != "[JUMP]" && playerState == "[IDLE]"){
+
+
+  if(movingTrue == true){
  
     $(".grasstree").stop();
     $(".maintree").stop();
@@ -63,6 +65,7 @@ function PlayerStop() {
     movingTrue = false;
 
   }
+
 }
 
 
@@ -90,17 +93,27 @@ function jumper() {
     bottom: '130px',
   }, 800, 'linear', function(){
 
-    if(previousPlayerState == '[RUN]'){
-
-      $("#player-idle").css("display", "none");
-      $("#player-run").css("display", "block");
-      $("#player-jump").css("display", "none");
-
-    }else if(previousPlayerState == '[IDLE]'){
+    if(previousPlayerState == '[RUN]' && playerState == "[JUMP]" && movingTrue == false){
 
       $("#player-idle").css("display", "block");
       $("#player-run").css("display", "none");
       $("#player-jump").css("display", "none");
+    
+
+
+    }else if(previousPlayerState == '[IDLE]' && playerState == "[JUMP]" && movingTrue == false){
+
+      $("#player-idle").css("display", "block");
+      $("#player-run").css("display", "none");
+      $("#player-jump").css("display", "none");
+     
+  
+    }else if(previousPlayerState == '[RUN]' && playerState == "[JUMP]" && movingTrue == true){
+   
+      $("#player-idle").css("display", "none");
+      $("#player-run").css("display", "block");
+      $("#player-jump").css("display", "none");
+      
     }
 
     playerState = previousPlayerState; // Replace with previous playerstate
