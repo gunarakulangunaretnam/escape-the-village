@@ -1,17 +1,19 @@
-function InitialObjectsMover(){
-  
+function InitialObjectsMover() {
+
   // Birds Playing Methods
   FlyBirdsOnSky();
   FlyAirBalloon();
   FlyAircraft();
   train();
   ObjectsMover();
-  PlayerIdle('images/game-player/0-idle/Idle__000.png', arr);
-  PlayerJump('images/game-player/2-jump/Jump__000.png', arr);
+  PlayerIdle();
+  PlayerJump();
+  PlayerRunning();
+
 }
 
 
-function ObjectsMover(){
+function ObjectsMover() {
 
   enymain();
   coins('images/coin/c1.png', arr3);
@@ -19,47 +21,101 @@ function ObjectsMover(){
 
 }
 
+var movingTrue = false;
 
 function PlayerMoveRight() {
 
-  grasstreemoving();
-  maintreemoving();
-  lastlayer();
+  if(movingTrue == false){
 
-  $("#stage").animate({
-    marginLeft: "-20000px"
-  }, 90000, 'linear');
+    runner();
+    grasstreemoving();
+    maintreemoving();
+    lastlayer();
 
-}
+    $("#stage").animate({
+      marginLeft: "-20000px"
+    }, 90000, 'linear');
 
-function PlayerMoveStop() {
+    movingTrue = true;
 
-  $("#player").attr("src","images/running/frame-3.png");
-  grasstreemoving();
-  maintreemoving();
-  lastlayer();
-  
-  $("#stage").animate({
-    marginLeft: "-20000px"
-  }, 90000, 'linear');
+  }
 
 }
 
 
 
-$(window).load(function(){
+
+function jumper() {
+
+  $("#player-idle").css("display", "none");
+  $("#player-run").css("display", "none");
+  $("#player-jump").css("display", "block");
+
+  setTimeout(function () {
+    $("#player-idle").css("display", "block");
+    $("#player-run").css("display", "none");
+    $("#player-jump").css("display", "none");
+
+  }, 2000);
+
+
+  $("#box").animate({
+    position: 'absolute',
+    top: 'auto',
+    bottom: '400px'
+  }, 1300)
+
+  $("#box").animate({
+    position: 'absolute',
+    top: 'auto',
+    bottom: '130px'
+  }, 800, 'linear')
+
+}
+
+
+function runner() {
+
+  $("#player-idle").css("display", "none");
+  $("#player-jump").css("display", "none");
+  $("#player-run").css("display", "block");
+
+
+}
+
+function PlayerStop() {
+
+  if(movingTrue == true){
+ 
+    $(".grasstree").stop();
+    $(".maintree").stop();
+    $(".seenlayer").stop();
+    $("#stage").stop();
+
+    $("#player-idle").css("display", "block");
+    $("#player-jump").css("display", "none");
+    $("#player-run").css("display", "none");
+
+    movingTrue = false;
+  }
+}
+
+
+
+
+$(window).load(function () {
 
   document.addEventListener('keydown', (event) => {
     var name = event.key;
     var code = event.code;
-  
-    if(name == "ArrowRight"){
-      
+
+    if (name == "ArrowRight") {
+
       PlayerMoveRight();
 
-    }else if(name == "ArrowLeft"){
+    } else if (name == "ArrowLeft") {
 
-      
+
     }
 
   }, false);
@@ -67,18 +123,18 @@ $(window).load(function(){
   document.addEventListener('keyup', (event) => {
     var name = event.key;
     var code = event.code;
-  
-    if(name == "ArrowRight"){
-      
-      PlayerMoveStop();
 
-    }else if(name == "ArrowLeft"){
+    if (name == "ArrowRight") {
 
-      
+      PlayerStop();
+
+    } else if (name == "ArrowLeft") {
+
+
     }
 
   }, false);
-  
+
 });
 
 
@@ -91,81 +147,79 @@ $("#skydiv").animate({ 'zoom': 0.9}, 25000 ,'linear');
 
 // Fly birds on sky function
 function FlyBirdsOnSky() {
-  
-    $(".skybirds").animate({
-        position: 'absolute',
-        top: 'auto',
-        bottom: 300+"px",
-    },800)    
-    
+
+  $(".skybirds").animate({
+    position: 'absolute',
+    top: 'auto',
+    bottom: 300 + "px",
+  }, 800)
+
 };
 
 
 
 
-function train(){
+function train() {
 
   $("#train").animate({
     position: 'absolute',
     top: 'auto',
-    left: -300+"px",
-    bottom: -200+"px",
-    
-  },15000,)    
+    left: -300 + "px",
+    bottom: -200 + "px",
+
+  }, 15000)
 
 }
 
-function FlyAirBalloon(){
+function FlyAirBalloon() {
 
   $("#AirBalloon").animate({
     position: 'absolute',
     top: 'auto',
-    left: 2000+"px",
-    bottom: 300+"px",
-    
-  },15000, "easeInOutQuint")    
+    left: 2000 + "px",
+    bottom: 300 + "px",
+
+  }, 15000, "easeInOutQuint")
 
 }
 
 
 
-function FlyAircraft(){
+function FlyAircraft() {
 
   $("#Aircraft").animate({
     position: 'absolute',
     top: 'auto',
-    left: -2000+"px",
-    bottom: -600+"px",
-    
-  },25000)    
+    left: -2000 + "px",
+    bottom: -600 + "px",
+
+  }, 25000)
 
 }
 
 
-
-
 function enymain() {
   $(".enmybox").animate({
-      marginLeft: "-20000px"
+    marginLeft: "-20000px"
   }, 300000, 'linear');
 }
 
 function grasstreemoving() {
   $(".grasstree").animate({
-      marginLeft: "-20000px"
+    marginLeft: "-20000px"
   }, 400000, 'linear');
 }
 
 
 function maintreemoving() {
   $(".maintree").animate({
-      marginLeft: "-20000px"
+    marginLeft: "-20000px"
   }, 330000, 'linear');
 }
 
 function lastlayer() {
   $(".seenlayer").animate({
-      marginLeft: "-20000px"
+    marginLeft: "-20000px"
   }, 500000, 'linear');
 }
 
@@ -173,8 +227,8 @@ function BirdsLayer() {
   $(".skybirds").animate({
     position: 'absolute',
     top: 'auto',
-    left: -500+"px",
-  },900000)
+    left: -500 + "px",
+  }, 900000)
 }
 
 
@@ -207,57 +261,31 @@ function AddDiamondPoint(coinid) {
 
 
 
-function jumper() {
-
-  $("#player-idle").css("display", "none");
-  $("#player-jump").css("display", "block");
-
-  setTimeout(function() {
-      $("#player-idle").css("display", "block");
-      $("#player-jump").css("display", "none");
-
-  }, 2000);
-
-
-  $("#box").animate({
-      position: 'absolute',
-      top: 'auto',
-      bottom: '400px'
-  }, 1300)
-
-  $("#box").animate({
-      position: 'absolute',
-      top: 'auto',
-      bottom: '130px'
-  }, 800, 'linear')
-
-}
-
 
 function dieplayer() {
 
-  $(function() {
+  $(function () {
     var $elie = $("#box"), degree = 0, timer;
     rotate();
     function rotate() {
-        
-        $elie.css({ WebkitTransform: 'rotate(' + degree + 'deg)'});  
-        $elie.css({ '-moz-transform': 'rotate(' + degree + 'deg)'});                      
-        timer = setTimeout(function() {
-            ++degree; rotate();
-        },5);
+
+      $elie.css({ WebkitTransform: 'rotate(' + degree + 'deg)' });
+      $elie.css({ '-moz-transform': 'rotate(' + degree + 'deg)' });
+      timer = setTimeout(function () {
+        ++degree; rotate();
+      }, 5);
     }
-  }); 
+  });
 
   $("#box").animate({
-      position: 'absolute',
-      top: 'auto',
-      bottom: '50%'
+    position: 'absolute',
+    top: 'auto',
+    bottom: '50%'
   }, 1300);
   $("#box").animate({
-      position: 'absolute',
-      top: 'auto',
-      bottom: '-50%'
+    position: 'absolute',
+    top: 'auto',
+    bottom: '-50%'
   }, 1000, 'linear');
 
   $("#gaveoverbox").slideDown("slow");
@@ -325,10 +353,10 @@ function PlayerIdle() {
   document.getElementById("player-idle").src = arr[i].src;
   i++;
   if (i == arr.length) {
-      i = 0;
+    i = 0;
   }
-  setTimeout(function() {
-     PlayerIdle();
+  setTimeout(function () {
+    PlayerIdle();
   }, 60);
 }
 
@@ -376,15 +404,68 @@ function PlayerJump() {
   i2++;
 
   if (i2 == arr2.length) {
-      i2 = 0;
+    i2 = 0;
   }
-  
-  setTimeout(function() {
+
+  setTimeout(function () {
     PlayerJump();
   }, 200);
 
 }
 
+
+
+/*Player Running*/
+
+var arr3 = [];
+
+arr3[0] = new Image();
+arr3[0].src = "images/game-player/3-run/Run__000.png";
+
+arr3[1] = new Image();
+arr3[1].src = "images/game-player/3-run/Run__001.png";
+
+arr3[2] = new Image();
+arr3[2].src = "images/game-player/3-run/Run__002.png";
+
+arr3[3] = new Image();
+arr3[3].src = "images/game-player/3-run/Run__003.png";
+
+arr3[4] = new Image();
+arr3[4].src = "images/game-player/3-run/Run__004.png";
+
+arr3[5] = new Image();
+arr3[5].src = "images/game-player/3-run/Run__005.png";
+
+arr3[6] = new Image();
+arr3[6].src = "images/game-player/3-run/Run__006.png";
+
+arr3[7] = new Image();
+arr3[7].src = "images/game-player/3-run/Run__007.png";
+
+arr3[8] = new Image();
+arr3[8].src = "images/game-player/3-run/Run__008.png";
+
+arr3[9] = new Image();
+arr3[9].src = "images/game-player/3-run/Run__009.png";
+
+
+var i3 = 0;
+
+function PlayerRunning() {
+
+  document.getElementById("player-run").src = arr3[i3].src;
+  i3++;
+
+  if (i3 == arr3.length) {
+    i3 = 0;
+  }
+
+  setTimeout(function () {
+    PlayerRunning();
+  }, 60);
+
+}
 
 
 
@@ -445,35 +526,35 @@ function FlyBirdsOnGround() {
 
 /*Running Coins*/
 
-var arr3 = [];
+var arr5 = [];
 
-arr3[0] = new Image();
-arr3[0].src = "images/coin/c1.png";
+arr5[0] = new Image();
+arr5[0].src = "images/coin/c1.png";
 
-arr3[1] = new Image();
-arr3[1].src = "images/coin/c2.png";
+arr5[1] = new Image();
+arr5[1].src = "images/coin/c2.png";
 
-arr3[2] = new Image();
-arr3[2].src = "images/coin/c3.png";
+arr5[2] = new Image();
+arr5[2].src = "images/coin/c3.png";
 
-arr3[3] = new Image();
-arr3[3].src = "images/coin/c4.png";
+arr5[3] = new Image();
+arr5[3].src = "images/coin/c4.png";
 
-arr3[4] = new Image();
-arr3[4].src = "images/coin/c5.png";
+arr5[4] = new Image();
+arr5[4].src = "images/coin/c5.png";
 
-arr3[5] = new Image();
-arr3[5].src = "images/coin/c6.png";
+arr5[5] = new Image();
+arr5[5].src = "images/coin/c6.png";
 
-var i3 = 0;
+var i5 = 0;
 
 function coins() {
-  $("img.runcoin").attr("src", arr3[i3].src);
-  i3++;
-  if (i3 == arr3.length) {
-      i3 = 0;
+  $("img.runcoin").attr("src", arr5[i5].src);
+  i5++;
+  if (i5 == arr5.length) {
+    i5 = 0;
   }
-  setTimeout(function() {
-      coins();
+  setTimeout(function () {
+    coins();
   }, 90);
 }
