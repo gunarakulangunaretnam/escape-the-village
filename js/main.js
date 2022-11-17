@@ -6,12 +6,7 @@ function InitialObjectsMover(){
   FlyAirBalloon();
   FlyAircraft();
   train();
-  ant();
 }
-
-
-
-
 
 
 function stage1moving() {
@@ -76,17 +71,6 @@ function FlyBirdsOnSky() {
     
 };
 
-
-function ant(){
-
-  $("#train").animate({
-    position: 'absolute',
-    top: 'auto',
-    left: 0+"px",
-    bottom: -200+"px",
-    
-  },15000,) 
-}
 
 
 
@@ -223,19 +207,33 @@ function AddDiamondPoint(coinid) {
 
 
 
+
+
 function dieplayer() {
+
+  $(function() {
+    var $elie = $("#box"), degree = 0, timer;
+    rotate();
+    function rotate() {
+        
+        $elie.css({ WebkitTransform: 'rotate(' + degree + 'deg)'});  
+        $elie.css({ '-moz-transform': 'rotate(' + degree + 'deg)'});                      
+        timer = setTimeout(function() {
+            ++degree; rotate();
+        },5);
+    }
+  }); 
 
   $("#box").animate({
       position: 'absolute',
       top: 'auto',
-      bottom: '40%'
+      bottom: '30%'
   }, 1300);
   $("#box").animate({
       position: 'absolute',
       top: 'auto',
       bottom: '-50%'
   }, 1000, 'linear');
-  $("#btn1").css("display", "none");
 
   $("#gaveoverbox").slideDown("slow");
 
