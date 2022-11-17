@@ -227,7 +227,7 @@ function dieplayer() {
   $("#box").animate({
       position: 'absolute',
       top: 'auto',
-      bottom: '30%'
+      bottom: '50%'
   }, 1300);
   $("#box").animate({
       position: 'absolute',
