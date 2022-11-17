@@ -90,7 +90,7 @@ function jumper() {
   $("#box").animate({
     position: 'absolute',
     top: 'auto',
-    bottom: '130px',
+    bottom: '120px',
   }, 800, 'linear', function(){
 
     if(previousPlayerState == '[RUN]' && playerState == "[JUMP]" && movingTrue == false){
