@@ -31,6 +31,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2fa9e5', end
 .palace{width:591px; height:300px; background-image:url(../images/kutubminar.png); left:1200px; position:absolute; bottom:80px;}
 .enmybox{position:absolute; z-index:80; left:0px; bottom:0px; height:300px; width:20000px;  }
 
+.score-objects{position:absolute; z-index:80; left:0px; bottom:0px; height:300px; width:20000px;  }
+
 .tort{position:absolute; left:6000px; width:100px; top:130px; -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
         -webkit-transform: scaleX(-1);

@@ -2,36 +2,50 @@ function InitialObjectsMover(){
   
   // Birds Playing Methods
   FlyBirdsOnSky();
-  stage1moving();
   FlyAirBalloon();
   FlyAircraft();
   train();
+  ObjectsMover();
+  PlayerIdle('images/game-player/0-idle/Idle__000.png', arr);
+  PlayerJump('images/game-player/2-jump/Jump__000.png', arr);
 }
 
 
-function stage1moving() {
+function ObjectsMover(){
 
-  $("#stage").animate({
-    marginLeft: "-20000px"
-  }, 60000, 'linear');
+  enymain();
+  coins('images/coin/c1.png', arr3);
+  BirdsLayer();
+
+}
+
+
+function PlayerMoveRight() {
 
   grasstreemoving();
   maintreemoving();
   lastlayer();
-  enymain();
-  //birdenm('images/enm_stage1/bird1.png', arre1); Muted Code 
-  playerstart('images/running/frame-1.png', arr);
-  coins('images/coin/c1.png', arr3);
-  bomb('images/bomb/bomb1.png', arr4);
 
-  BirdsLayer();
+  $("#stage").animate({
+    marginLeft: "-20000px"
+  }, 90000, 'linear');
+
 }
 
-function PlayerMoveRight(){
+function PlayerMoveStop() {
 
-
+  $("#player").attr("src","images/running/frame-3.png");
+  grasstreemoving();
+  maintreemoving();
+  lastlayer();
   
+  $("#stage").animate({
+    marginLeft: "-20000px"
+  }, 90000, 'linear');
+
 }
+
+
 
 $(window).load(function(){
 
@@ -42,6 +56,21 @@ $(window).load(function(){
     if(name == "ArrowRight"){
       
       PlayerMoveRight();
+
+    }else if(name == "ArrowLeft"){
+
+      
+    }
+
+  }, false);
+
+  document.addEventListener('keyup', (event) => {
+    var name = event.key;
+    var code = event.code;
+  
+    if(name == "ArrowRight"){
+      
+      PlayerMoveStop();
 
     }else if(name == "ArrowLeft"){
 
@@ -79,7 +108,7 @@ function train(){
   $("#train").animate({
     position: 'absolute',
     top: 'auto',
-    left: 0+"px",
+    left: -300+"px",
     bottom: -200+"px",
     
   },15000,)    
@@ -149,40 +178,11 @@ function BirdsLayer() {
 }
 
 
-function jumper() {
-  $("#player2").css("display", "none");
-  $("#jump").css("display", "block");
-
-
-  setTimeout(function() {
-      $("#player2").css("display", "block");
-      $("#jump").css("display", "none");
-
-  }, 2000);
-
-
-  $("#box").animate({
-      position: 'absolute',
-      top: 'auto',
-      bottom: '300px'
-  }, 1300)
-  $("#box").animate({
-      position: 'absolute',
-      top: 'auto',
-      bottom: '90px'
-  }, 800, 'linear')
-
-
-}
-
-
-
 function endgame() {
-  $("#player").css("display", "none");
+  $("#playerContainer").css("display", "none");
   $("#endgamer").css("display", "block");
   dieplayer();
 }
-
 
 
 function AddCoinPoint(coinid) {
@@ -207,6 +207,31 @@ function AddDiamondPoint(coinid) {
 
 
 
+function jumper() {
+
+  $("#player-idle").css("display", "none");
+  $("#player-jump").css("display", "block");
+
+  setTimeout(function() {
+      $("#player-idle").css("display", "block");
+      $("#player-jump").css("display", "none");
+
+  }, 2000);
+
+
+  $("#box").animate({
+      position: 'absolute',
+      top: 'auto',
+      bottom: '400px'
+  }, 1300)
+
+  $("#box").animate({
+      position: 'absolute',
+      top: 'auto',
+      bottom: '130px'
+  }, 800, 'linear')
+
+}
 
 
 function dieplayer() {
@@ -259,39 +284,105 @@ function dieplayer() {
 
 
 
-/*Player Running*/
+/*Player IDLE*/
 
 var arr = [];
 
 arr[0] = new Image();
-arr[0].src = "images/running/frame-1.png";
+arr[0].src = "images/game-player/0-idle/Idle__000.png";
 
 arr[1] = new Image();
-arr[1].src = "images/running/frame-2.png";
+arr[1].src = "images/game-player/0-idle/Idle__001.png";
 
 arr[2] = new Image();
-arr[2].src = "images/running/frame-3.png";
+arr[2].src = "images/game-player/0-idle/Idle__002.png";
 
 arr[3] = new Image();
-arr[3].src = "images/running/frame-4.png";
+arr[3].src = "images/game-player/0-idle/Idle__003.png";
 
 arr[4] = new Image();
-arr[4].src = "images/running/frame-5.png";
+arr[4].src = "images/game-player/0-idle/Idle__004.png";
 
 arr[5] = new Image();
-arr[5].src = "images/running/frame-6.png";
+arr[5].src = "images/game-player/0-idle/Idle__005.png";
+
+arr[6] = new Image();
+arr[6].src = "images/game-player/0-idle/Idle__006.png";
+
+arr[7] = new Image();
+arr[7].src = "images/game-player/0-idle/Idle__007.png";
+
+arr[8] = new Image();
+arr[8].src = "images/game-player/0-idle/Idle__008.png";
+
+arr[9] = new Image();
+arr[9].src = "images/game-player/0-idle/Idle__009.png";
+
 
 var i = 0;
 
-function playerstart() {
-  document.getElementById("player2").src = arr[i].src;
+function PlayerIdle() {
+  document.getElementById("player-idle").src = arr[i].src;
   i++;
   if (i == arr.length) {
       i = 0;
   }
   setTimeout(function() {
-      playerstart();
-  }, 140);
+     PlayerIdle();
+  }, 60);
+}
+
+
+/*Player Jump*/
+
+var arr2 = [];
+
+arr2[0] = new Image();
+arr2[0].src = "images/game-player/2-jump/Jump__000.png";
+
+arr2[1] = new Image();
+arr2[1].src = "images/game-player/2-jump/Jump__001.png";
+
+arr2[2] = new Image();
+arr2[2].src = "images/game-player/2-jump/Jump__002.png";
+
+arr2[3] = new Image();
+arr2[3].src = "images/game-player/2-jump/Jump__003.png";
+
+arr2[4] = new Image();
+arr2[4].src = "images/game-player/2-jump/Jump__004.png";
+
+arr2[5] = new Image();
+arr2[5].src = "images/game-player/2-jump/Jump__005.png";
+
+arr2[6] = new Image();
+arr2[6].src = "images/game-player/2-jump/Jump__006.png";
+
+arr2[7] = new Image();
+arr2[7].src = "images/game-player/2-jump/Jump__007.png";
+
+arr2[8] = new Image();
+arr2[8].src = "images/game-player/2-jump/Jump__008.png";
+
+arr2[9] = new Image();
+arr2[9].src = "images/game-player/2-jump/Jump__009.png";
+
+
+var i2 = 0;
+
+function PlayerJump() {
+
+  document.getElementById("player-jump").src = arr2[i2].src;
+  i2++;
+
+  if (i2 == arr2.length) {
+      i2 = 0;
+  }
+  
+  setTimeout(function() {
+    PlayerJump();
+  }, 200);
+
 }
 
 
@@ -384,38 +475,5 @@ function coins() {
   }
   setTimeout(function() {
       coins();
-  }, 90);
-}
-
-
-
-
-/*Running bomb*/
-
-var arr4 = [];
-
-arr4[0] = new Image();
-arr4[0].src = "images/bomb/bomb1.png";
-
-arr4[1] = new Image();
-arr4[1].src = "images/bomb/bomb1-2.png";
-
-arr4[2] = new Image();
-arr4[2].src = "images/bomb/bomb2.png";
-
-arr4[3] = new Image();
-arr4[3].src = "images/bomb/bomb3.png";
-
-
-var i4 = 0;
-
-function bomb() {
-  $("img.runbomb").attr("src", arr4[i4].src);
-  i4++;
-  if (i4 == arr4.length) {
-      i4 = 0;
-  }
-  setTimeout(function() {
-      bomb();
   }, 90);
 }
