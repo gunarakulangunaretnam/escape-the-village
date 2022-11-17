@@ -22,6 +22,7 @@ function ObjectsMover() {
 }
 
 var movingTrue = false;
+var playerState = "[IDLE]";
 
 function PlayerMoveRight() {
 
@@ -44,20 +45,13 @@ function PlayerMoveRight() {
 
 
 
-
 function jumper() {
+
+  playerState = "[JUMP]";
 
   $("#player-idle").css("display", "none");
   $("#player-run").css("display", "none");
   $("#player-jump").css("display", "block");
-
-  setTimeout(function () {
-    $("#player-idle").css("display", "block");
-    $("#player-run").css("display", "none");
-    $("#player-jump").css("display", "none");
-
-  }, 2000);
-
 
   $("#box").animate({
     position: 'absolute',
@@ -68,24 +62,37 @@ function jumper() {
   $("#box").animate({
     position: 'absolute',
     top: 'auto',
-    bottom: '130px'
-  }, 800, 'linear')
+    bottom: '130px',
+  }, 800, 'linear', function(){
+
+    playerState = "[IDLE]";
+
+    $("#player-idle").css("display", "none");
+    $("#player-run").css("display", "block");
+    $("#player-jump").css("display", "none");
+
+  })
 
 }
 
 
 function runner() {
 
-  $("#player-idle").css("display", "none");
-  $("#player-jump").css("display", "none");
-  $("#player-run").css("display", "block");
+  if(playerState != "[JUMP]"){
+
+    $("#player-idle").css("display", "none");
+    $("#player-jump").css("display", "none");
+    $("#player-run").css("display", "block");
+  
+  }
+
 
 
 }
 
 function PlayerStop() {
 
-  if(movingTrue == true){
+  if(movingTrue == true && playerState != "[JUMP]"){
  
     $(".grasstree").stop();
     $(".maintree").stop();
@@ -97,6 +104,7 @@ function PlayerStop() {
     $("#player-run").css("display", "none");
 
     movingTrue = false;
+
   }
 }
 
@@ -113,10 +121,7 @@ $(window).load(function () {
 
       PlayerMoveRight();
 
-    } else if (name == "ArrowLeft") {
-
-
-    }
+    } 
 
   }, false);
 
@@ -128,10 +133,7 @@ $(window).load(function () {
 
       PlayerStop();
 
-    } else if (name == "ArrowLeft") {
-
-
-    }
+    } 
 
   }, false);
 
