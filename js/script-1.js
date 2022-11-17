@@ -20,7 +20,7 @@ $(window).load(function(){
 
     }else{
 
-        endgame();
+        dieplayer();
         return true;
     }   
     

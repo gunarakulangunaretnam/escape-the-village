@@ -9,6 +9,7 @@ function InitialObjectsMover() {
   PlayerIdle();
   PlayerJump();
   PlayerRunning();
+ 
 
 }
 
@@ -23,6 +24,7 @@ function ObjectsMover() {
 
 var movingTrue = false;
 var playerState = "[IDLE]";
+var isPlayerAlive = true;
 
 function PlayerMoveRight() {
 
@@ -90,7 +92,7 @@ function jumper() {
   $("#box").animate({
     position: 'absolute',
     top: 'auto',
-    bottom: '120px',
+    bottom: '128px',
   }, 800, 'linear', function(){
 
     if(previousPlayerState == '[RUN]' && playerState == "[JUMP]" && movingTrue == false){
@@ -150,7 +152,7 @@ $(window).load(function () {
     var name = event.key;
     var code = event.code;
 
-    if (name == "ArrowRight") {
+    if (name == "ArrowRight" && isPlayerAlive == true) {
 
       PlayerMoveRight();
 
@@ -162,7 +164,7 @@ $(window).load(function () {
     var name = event.key;
     var code = event.code;
 
-    if (name == "ArrowRight") {
+    if (name == "ArrowRight" &&  isPlayerAlive == true) {
 
       PlayerStop();
 
@@ -266,14 +268,6 @@ function BirdsLayer() {
   }, 900000)
 }
 
-
-function endgame() {
-  $("#playerContainer").css("display", "none");
-  $("#endgamer").css("display", "block");
-  dieplayer();
-}
-
-
 function AddCoinPoint(coinid) {
 
   $(coinid).css("display", "none");
@@ -299,37 +293,25 @@ function AddDiamondPoint(coinid) {
 
 function dieplayer() {
 
-  $(function () {
-    var $elie = $("#box"), degree = 0, timer;
-    rotate();
-    function rotate() {
+  isPlayerAlive = false;
 
-      $elie.css({ WebkitTransform: 'rotate(' + degree + 'deg)' });
-      $elie.css({ '-moz-transform': 'rotate(' + degree + 'deg)' });
-      timer = setTimeout(function () {
-        ++degree; rotate();
-      }, 5);
-    }
-  });
+  $("#player-die").css("display", "block");
+  $("#player-idle").css("display", "none");
+  $("#player-jump").css("display", "none");
+  $("#player-run").css("display", "none");
 
-  $("#box").animate({
-    position: 'absolute',
-    top: 'auto',
-    bottom: '50%'
-  }, 1300);
-  $("#box").animate({
-    position: 'absolute',
-    top: 'auto',
-    bottom: '-50%'
-  }, 1000, 'linear');
+  $(".grasstree").stop();
+  $(".maintree").stop();
+  $(".seenlayer").stop();
+  $("#stage").stop();
 
-  $("#gaveoverbox").slideDown("slow");
+  PlayerDying();
 
-  var MyDiv1 = document.getElementById('doughnuts');
-  var MyDiv2 = document.getElementById('showscor');
-  MyDiv2.innerHTML = MyDiv1.innerHTML;
+  movingTrue = false;
 
-  $("#scoreb").css("display", "none");
+  $("#gaveoverbox").slideDown("slow").focus();;
+
+
 }
 
 
@@ -498,6 +480,56 @@ function PlayerRunning() {
 
   setTimeout(function () {
     PlayerRunning();
+  }, 60);
+
+}
+
+
+/*Player Dying */
+
+var arr4 = [];
+
+arr4[0] = new Image();
+arr4[0].src = "images/game-player/1-dead/Dead__000.png";
+
+arr4[1] = new Image();
+arr4[1].src = "images/game-player/1-dead/Dead__001.png";
+
+arr4[2] = new Image();
+arr4[2].src = "images/game-player/1-dead/Dead__002.png";
+
+arr4[3] = new Image();
+arr4[3].src = "images/game-player/1-dead/Dead__003.png";
+
+arr4[4] = new Image();
+arr4[4].src = "images/game-player/1-dead/Dead__004.png";
+
+arr4[5] = new Image();
+arr4[5].src = "images/game-player/1-dead/Dead__005.png";
+
+arr4[6] = new Image();
+arr4[6].src = "images/game-player/1-dead/Dead__006.png";
+
+arr4[7] = new Image();
+arr4[7].src = "images/game-player/1-dead/Dead__007.png";
+
+arr4[8] = new Image();
+arr4[8].src = "images/game-player/1-dead/Dead__008.png";
+
+arr4[9] = new Image();
+arr4[9].src = "images/game-player/1-dead/Dead__009.png";
+
+
+var i4 = 0;
+
+function PlayerDying() {
+
+
+  document.getElementById("player-die").src = arr4[i4].src;
+  i4++;
+
+  setTimeout(function () {
+    PlayerDying();
   }, 60);
 
 }
