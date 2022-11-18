@@ -17,6 +17,27 @@ function InitialObjectsMover() {
 }
 
 
+function LevelUpSoundEffect(){
+
+  if(isLevelFinished == false){
+   
+    isLevelFinished = true;
+
+    var audio = new Audio("music/player-sounds/level-up.mp3");
+    audio.play();
+    audio.volume = 1;  
+    
+    audio.onended = function(){
+      
+      location.href = "level-1.html";
+
+    }
+
+  }
+
+}
+
+
 function PlayerDieSoundEffect(){
 
   if(isPlayerAlive == true){
@@ -26,7 +47,6 @@ function PlayerDieSoundEffect(){
     audio.volume = 1;  
 
   }
-
 
 }
 
@@ -66,6 +86,7 @@ function ObjectsMover() {
 var movingTrue = false;
 var playerState = "[IDLE]";
 var isPlayerAlive = true;
+var isLevelFinished = false;
 
 function PlayerMoveRight() {
 
@@ -344,7 +365,7 @@ function AddDiamondPoint(coinid) {
 function dieplayer() {
 
   PlayerDieSoundEffect();
-  
+
   isPlayerAlive = false;
 
   $("#player-die").css("display", "block");
