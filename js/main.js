@@ -4,7 +4,7 @@ function InitialObjectsMover() {
 
   var audio = new Audio("music/stage-1-background-music.mp3");
   audio.play();
-  audio.volume = 0.4;
+  audio.volume = 1;
 
   FlyBirdsOnSky();
   FlyAirBalloon();
@@ -14,7 +14,29 @@ function InitialObjectsMover() {
   PlayerIdle();
   PlayerJump();
   PlayerRunning();
- 
+}
+
+function CoinCollectingSound(){
+
+  var soundEffects = ["1.mp3", "2.mp3", "3.mp3", "4.mp3"]
+
+  var randomItem = soundEffects[Math.floor(Math.random()*soundEffects.length)];
+
+  var audio = new Audio("music/coin-sound-effects/"+randomItem);
+  audio.play();
+  audio.volume = 1;
+
+}
+
+function DiamondCollectingSound(){
+
+  var soundEffects = ["1.mp3", "2.mp3", "3.mp3"]
+
+  var randomItem = soundEffects[Math.floor(Math.random()*soundEffects.length)];
+
+  var audio = new Audio("music/diamond-sound-effects/"+randomItem);
+  audio.play();
+  audio.volume = 1;
 
 }
 
@@ -282,6 +304,7 @@ function BirdsLayer() {
 
 function AddCoinPoint(coinid) {
 
+  CoinCollectingSound();
   $(coinid).css("display", "none");
 
   var computerScore = document.getElementById('doughnuts');
@@ -291,6 +314,7 @@ function AddCoinPoint(coinid) {
 }
 
 function AddDiamondPoint(coinid) {
+  DiamondCollectingSound();
 
   $(coinid).css("display", "none");
 
