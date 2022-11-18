@@ -224,7 +224,7 @@ function FlyAirBalloon() {
 
 function FlyAircraft() {
 
-  $("#Aircraft").animate({
+  $(".Aircraft").animate({
     position: 'absolute',
     top: 'auto',
     left: -2000 + "px",
