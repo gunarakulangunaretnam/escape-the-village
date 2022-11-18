@@ -210,7 +210,7 @@ function train() {
 
 function FlyAirBalloon() {
 
-  $("#AirBalloon").animate({
+  $(".AirBalloon").animate({
     position: 'absolute',
     top: 'auto',
     left: 2000 + "px",
