@@ -1,4 +1,3 @@
-                    
 $(window).load(function(){
     
     function collision($div1, $div2) {
@@ -26,11 +25,6 @@ $(window).load(function(){
     
 }
     
-var audio = new Audio();
-audio.play();
-
-
-
 
     
 window.setInterval(function() {

@@ -8,12 +8,21 @@
       <script type="text/javascript" src="js/jquery-ui.js"></script>
       <script type="text/javascript" src="js/main.js"></script>
       <link href="css/main.css" rel="stylesheet" type="text/css" />
+      <link href="css/custom.css" rel="stylesheet" type="text/css" />
       <link href="css/style-1.css" rel="stylesheet" type="text/css" />
       <script type="text/javascript" src="js/script-1.js"></script>
 
    </head>
-   <body onload="InitialObjectsMover();">
-      <div class="bluesky" id="skydiv">
+   <body>
+
+
+   <div id="level-1-cover-box">
+
+      <img id="level-play-btn" src="images/ui-assets/play-btn-1.png">
+
+   </div>
+   
+   <div class="bluesky" id="skydiv">
          <div id="stage">
 
             <div class="mudroadtexture"  style="left:0px; width:2200px;"></div>
@@ -225,9 +234,10 @@
          </div>
       </div>
       </div>
+
       <!--Game Over Box-->
       <div style="width:100%; margin-top:10%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999; display:none; " id="gaveoverbox">
-         <div style="width:300px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
+         <div style="width:900px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
             <h1 class="style1">Game Over</h1>
             <div style="font-size:25px; font-weight:bold; margin-bottom:10px; margin-top:10px;" >Total Score <span id="showscor"></span></div>
             <div style="margin-top:10px; font-size:13px;">Retry</div>
@@ -236,8 +246,10 @@
             </form>
          </div>
       </div>
+
       <div id="scoreb" style=" padding:10px; background-color:#CC0000; color:#FFFFFF; font-size:25px; font-weight:bold; position:fixed; right:10px; top:10px; border:5px #FFFFFF; border-radius:50px;" >Score : <span id="doughnuts">0</span></div>
       <!--Score Box-->
+
    </body>
 
 

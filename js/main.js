@@ -1,6 +1,11 @@
 function InitialObjectsMover() {
 
   // Birds Playing Methods
+
+  var audio = new Audio("music/stage-1-background-music.mp3");
+  audio.play();
+  audio.volume = 0.4;
+
   FlyBirdsOnSky();
   FlyAirBalloon();
   FlyAircraft();
@@ -116,8 +121,15 @@ function jumper() {
       $("#player-run").css("display", "block");
       $("#player-jump").css("display", "none");
       
+    }else if(previousPlayerState == '[IDLE]' && playerState == "[RUN]" && movingTrue == true){
+
+      $("#player-idle").css("display", "none");
+      $("#player-run").css("display", "block");
+      $("#player-jump").css("display", "none");
+
     }
 
+   
     playerState = previousPlayerState; // Replace with previous playerstate
 
 
@@ -525,8 +537,11 @@ var i4 = 0;
 function PlayerDying() {
 
 
-  document.getElementById("player-die").src = arr4[i4].src;
-  i4++;
+  if(i4 <= 9){  
+    document.getElementById("player-die").src = arr4[i4].src;
+    i4++;
+  }
+
 
   setTimeout(function () {
     PlayerDying();
