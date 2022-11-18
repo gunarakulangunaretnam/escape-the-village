@@ -5,6 +5,7 @@ function InitialObjectsMover() {
   var audio = new Audio("music/stage-1-background-music.mp3");
   audio.play();
   audio.volume = 1;
+  audio.loop = true;
 
   FlyBirdsOnSky();
   FlyAirBalloon();
