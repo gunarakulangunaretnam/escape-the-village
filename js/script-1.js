@@ -1,5 +1,3 @@
-
-
 $(window).load(function(){
     
     function collision($div1, $div2) {
@@ -28,13 +26,24 @@ $(window).load(function(){
 }
 
 
+function PuzzleSolvingMusicOn(){
+   
+   
+    stage1Audio.pause();
+
+    var PuzzleAudio = new Audio("music/other-musics/puzzle-solving-music.mp3");
+    PuzzleAudio.volume = 1;
+    PuzzleAudio.loop = true;
+    PuzzleAudio.play()
+        
+}
+
+
 function PauseTheObjectMover(){
-    
 
+    PlayerStop();
+    PuzzleSolvingMusicOn();
     $(".MovingObjects").stop();
-    
-
- 
 
 }
 
@@ -50,8 +59,6 @@ const SmileApiRequest = async () => {
     PauseTheObjectMover()
 
 }
-
-
 
 function LevelUp($div1, $div2) {
     var x1 = $div1.offset().left;

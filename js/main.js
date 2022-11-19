@@ -1,4 +1,8 @@
 isPuzzleMode = false;
+var movingTrue = false;
+var playerState = "[IDLE]";
+var isPlayerAlive = true;
+var isLevelFinished = false;
 
 // Stage 1 Sound
 var stage1Audio = new Audio("music/stage-1-background-music.mp3");
@@ -38,7 +42,6 @@ function LevelUpSoundEffect(){
 
 }
 
-
 function PlayerDieSoundEffect(){
 
   if(isPlayerAlive == true){
@@ -63,6 +66,7 @@ function CoinCollectingSound(){
 
 }
 
+
 function DiamondCollectingSound(){
 
   var soundEffects = ["1.mp3", "2.mp3", "3.mp3"]
@@ -85,10 +89,6 @@ function ObjectsMover() {
   
 }
 
-var movingTrue = false;
-var playerState = "[IDLE]";
-var isPlayerAlive = true;
-var isLevelFinished = false;
 
 function PlayerMoveRight() {
 
@@ -132,9 +132,6 @@ function PlayerStop() {
   }
 
 }
-
-
-
 
 function jumper() {
 
@@ -213,7 +210,9 @@ function runner() {
 
 $(window).load(function () {
 
+  
   document.addEventListener('keydown', (event) => {
+
     var name = event.key;
     var code = event.code;
 
@@ -339,6 +338,7 @@ function AddCoinPoint(coinid) {
 }
 
 function AddDiamondPoint(coinid) {
+
   DiamondCollectingSound();
 
   $(coinid).css("display", "none");
