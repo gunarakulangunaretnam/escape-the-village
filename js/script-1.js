@@ -14,21 +14,19 @@ $(window).load(function(){
         var b2 = y2 + h2;
         var r2 = x2 + w2;
     
-    if (b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2){
-        return false ;
+        if (b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2){
+            return false ;
 
-    }else{
+        }else{
 
-        dieplayer();
-        return true;
-    }   
+            dieplayer();
+            return true;
+        }   
  
-}
-
-
+    }
+   
 
 function PuzzleSolvingMusicOn(){
-   
    
     stage1Audio.pause()
 
@@ -48,35 +46,51 @@ function PauseTheObjectMover(){
     
 }
 
+function PuzzleBoxType(puzzleImageBase64, doortype, PuzzleAnswerFromAPI){
 
-function ConvertBase64AsImage(base64){
 
-    $("#door-open-box-1-puzzle-image").attr('src',"data:image/png;base64,"+base64);
-    $("#door-open-box-1").slideDown("slow").focus();
+    if(doortype == "door-open-box-1"){
+
+
+        $("#door-open-box-1-puzzle-image").attr('src',"data:image/png;base64,"+puzzleImageBase64);
+        $("#door-open-box-1").slideDown("slow").focus();
+
+        $(".DoorOpenBox1AnswerBTN").click(function(){
+
+            var PuzzleAnswerFromUser = $(this).text();
+            var PuzzleAnswerFromAPI = PuzzleAnswerFromAPI;
+
+            
+    
+        });
+
+    }
 
 
 }
 
-const SmileApiRequest = async () => {
+
+const SmileApiRequest = async (doortype) => {
 
     const response = await fetch('https://marcconrad.com/uob/smile/api.php?out=csv&base64=yes');
     const responseData = await response.text(); //extract JSON from the http response
     var responseDataArray = responseData.split(",");
     
     var puzzleImageBase64 = responseDataArray[0];
-    var puzzleAnswer = responseDataArray[1];
+    var PuzzleAnswerFromAPI = responseDataArray[1];
+    console.log(PuzzleAnswerFromAPI)
 
-    ConvertBase64AsImage(puzzleImageBase64);
+    PuzzleBoxType(puzzleImageBase64, doortype, PuzzleAnswerFromAPI)
 
 }
 
 
-const DoorOpenPuzzleFunction = async () => {
+const DoorOpenPuzzleFunction = async (doortype) => {
 
     isPuzzleMode = true; // Turn on puzzle mode
     
     PauseTheObjectMover();
-    SmileApiRequest();
+    SmileApiRequest(doortype);
   
 }
 
@@ -104,7 +118,7 @@ function LevelUp($div1, $div2) {
     }   
 }  
 
-function DoorLogic($div1, $div2, type) {
+function DoorLogic($div1, $div2, doortype) {
     var x1 = $div1.offset().left;
     var y1 = $div1.offset().top;
     var h1 = $div1.outerHeight(true);
@@ -125,7 +139,7 @@ function DoorLogic($div1, $div2, type) {
 
         if(isPuzzleMode == false){
 
-            DoorOpenPuzzleFunction();
+            DoorOpenPuzzleFunction(doortype);
         }
        
         return true;
@@ -147,7 +161,7 @@ window.setInterval(function() {
 
 
      //Doors
-     DoorLogic($('#door1'), $('#div2'), "door1");
+     DoorLogic($('#door1'), $('#div2'), "door-open-box-1");
      
 
 

@@ -10,14 +10,14 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link href="css/main.css" rel="stylesheet" type="text/css" />
       <link href="css/custom.css" rel="stylesheet" type="text/css" />
-      <link href="css/timer-tick-style.css" rel="stylesheet" type="text/css" />
-      <link href="css/style-1.css" rel="stylesheet" type="text/css" />
-
-
+      <link href="css/timer-ticker-style.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="js/script-1.js"></script>
+    
+      
    </head>
    <body>
 
-
+   
    <div id="level-1-cover-box">
 
       <img id="level-play-btn" src="images/ui-assets/play-btn-1.png">
@@ -34,10 +34,11 @@
        
          <form class="form-group py-3">
             <label for="exampleInputEmail1" style="font-weight: bold; font-size: 20px;">Select Your Answer: </label><br>
-            <button id="DoorOpenBox1AnswerBTN1" style="margin-left: 10px;" class="btn btn-success" style="">124</button>
-            <button id="DoorOpenBox1AnswerBTN2" style="margin-left: 10px;" class="btn btn-success" style="">233</button>
-            <button id="DoorOpenBox1AnswerBTN3" style="margin-left: 10px;" class="btn btn-success" style="">4227</button>
-            <button id="DoorOpenBox1AnswerBTN4" style="margin-left: 10px;" class="btn btn-success" style="">47</button>
+            
+            <button  id="DoorOpenBox1AnswerBTN1" style="margin-left: 10px;" class="btn btn-success DoorOpenBox1AnswerBTN">124</button>
+            <button  id="DoorOpenBox1AnswerBTN2" style="margin-left: 10px;" class="btn btn-success DoorOpenBox1AnswerBTN">233</button>
+            <button  id="DoorOpenBox1AnswerBTN3" style="margin-left: 10px;" class="btn btn-success DoorOpenBox1AnswerBTN">4227</button>
+            <button  id="DoorOpenBox1AnswerBTN4" style="margin-left: 10px;" class="btn btn-success DoorOpenBox1AnswerBTN">47</button>
             
          </form>
 
@@ -45,7 +46,7 @@
    </div>
 
 
-   <div style="width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-2">
+   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-2">
       <div style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
          <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
          <hr>
@@ -54,10 +55,10 @@
          
          <form class="form-group py-3">
             <label for="exampleInputEmail1" style="font-weight: bold; font-size: 20px;">Select Your Answer: </label><br>
-            <button id="DoorOpenBox2AnswerBTN1" style="margin-left: 10px;" class="btn btn-success" style="">124</button>
-            <button id="DoorOpenBox2AnswerBTN2" style="margin-left: 10px;" class="btn btn-success" style="">233</button>
-            <button id="DoorOpenBox2AnswerBTN3" style="margin-left: 10px;" class="btn btn-success" style="">4227</button>
-            <button id="DoorOpenBox2AnswerBTN4" style="margin-left: 10px;" class="btn btn-success" style="">47</button>
+            <button  id="DoorOpenBox2AnswerBTN1" style="margin-left: 10px;" class="btn btn-success" style="">124</button>
+            <button  id="DoorOpenBox2AnswerBTN2" style="margin-left: 10px;" class="btn btn-success DoorOpenBox2AnswerBTN">233</button>
+            <button  id="DoorOpenBox2AnswerBTN3" style="margin-left: 10px;" class="btn btn-success DoorOpenBox2AnswerBTN">4227</button>
+            <button  id="DoorOpenBox2AnswerBTN4" style="margin-left: 10px;" class="btn btn-success DoorOpenBox2AnswerBTN">47</button>
             <div id="app"></div>
             <br>
    
@@ -87,7 +88,7 @@
 
    
 
-   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-3">
+   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-4">
       <div style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
          <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
          <hr>
@@ -338,8 +339,9 @@
 
    </body>
 
-
    <script type="text/javascript" src="js/script-2.js"></script>
+   <script type="text/javascript" src="js/timer-ticker-script.js"></script>
+   
 
 
 </html>
