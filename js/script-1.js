@@ -1,4 +1,4 @@
-isPuzzleMode = false;
+
 
 $(window).load(function(){
     

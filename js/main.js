@@ -1,3 +1,5 @@
+isPuzzleMode = false;
+
 // Stage 1 Sound
 var stage1Audio = new Audio("music/stage-1-background-music.mp3");
 stage1Audio.volume = 0.9;
@@ -90,7 +92,7 @@ var isLevelFinished = false;
 
 function PlayerMoveRight() {
 
-  if(movingTrue == false){
+  if(movingTrue == false && isPuzzleMode == false){
 
     runner();
     grasstreemoving();
@@ -193,7 +195,6 @@ function jumper() {
 
 }
 
-
 function runner() {
 
   var previousPlayerState = playerState;
@@ -209,7 +210,6 @@ function runner() {
   }
 
 }
-
 
 $(window).load(function () {
 
