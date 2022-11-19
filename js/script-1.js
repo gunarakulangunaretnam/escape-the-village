@@ -1,3 +1,5 @@
+
+
 $(window).load(function(){
     
     function collision($div1, $div2) {
@@ -25,6 +27,17 @@ $(window).load(function(){
  
 }
 
+const SmileApiRequest = async () => {
+
+    isPuzzleMode = true;
+    
+    const response = await fetch('https://marcconrad.com/uob/smile/api.php?out=json&base64=yes');
+    const myJson = await response.json(); //extract JSON from the http response
+    console.log(myJson);
+
+}
+
+
 
 function LevelUp($div1, $div2) {
     var x1 = $div1.offset().left;
@@ -50,7 +63,7 @@ function LevelUp($div1, $div2) {
     }   
 }  
 
-function DoorLogic($div1, $div2) {
+function DoorLogic($div1, $div2, type) {
     var x1 = $div1.offset().left;
     var y1 = $div1.offset().top;
     var h1 = $div1.outerHeight(true);
@@ -69,7 +82,13 @@ function DoorLogic($div1, $div2) {
 
     }else{
 
-        
+
+
+        if(isPuzzleMode == false){
+
+            SmileApiRequest();
+        }
+       
         return true;
     }   
 } 
@@ -89,7 +108,7 @@ window.setInterval(function() {
 
 
      //Doors
-     DoorLogic($('#door1'), $('#div2'));
+     DoorLogic($('#door1'), $('#div2'), "door1");
      
 
 

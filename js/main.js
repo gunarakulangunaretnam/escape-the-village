@@ -1,4 +1,5 @@
 
+  var isPuzzleMode = false;
   
 // Stage 1 Sound
 var stage1Audio = new Audio("music/stage-1-background-music.mp3");
