@@ -32,7 +32,7 @@ function PuzzleSolvingMusicOn(){
     stage1Audio.pause();
 
     var PuzzleAudio = new Audio("music/other-musics/puzzle-solving-music.mp3");
-    PuzzleAudio.volume = 1;
+    PuzzleAudio.volume = 0.5;
     PuzzleAudio.loop = true;
     PuzzleAudio.play()
         
@@ -41,23 +41,42 @@ function PuzzleSolvingMusicOn(){
 
 function PauseTheObjectMover(){
 
-    PlayerStop();
+    $(".MovingObjects").stop(); // Stop moving objects
+    PlayerStop();               // Stop the player
     PuzzleSolvingMusicOn();
-    $(".MovingObjects").stop();
+    
+}
+
+
+function ConvertBase64AsImage(base64){
+
+    $("#door-open-box-1-puzzle-image").attr('src',"data:image/png;base64,"+base64);
+    $("#door-open-box-1").css("display", "block")
+
+
+}
+
+const SmileApiRequest = async () => {
+
+    const response = await fetch('https://marcconrad.com/uob/smile/api.php?out=csv&base64=yes');
+    const responseData = await response.text(); //extract JSON from the http response
+    var responseDataArray = responseData.split(",");
+    
+    var puzzleImageBase64 = responseDataArray[0];
+    var puzzleAnswer = responseDataArray[1];
+
+    ConvertBase64AsImage(puzzleImageBase64);
 
 }
 
 
-const SmileApiRequest = async () => {
+const DoorOpenPuzzleFunction = async () => {
 
-    isPuzzleMode = true;
+    isPuzzleMode = true; // Turn on puzzle mode
     
-    const response = await fetch('https://marcconrad.com/uob/smile/api.php?out=json&base64=yes');
-    const myJson = await response.json(); //extract JSON from the http response
-    console.log(myJson);
-
-    PauseTheObjectMover()
-
+    PauseTheObjectMover();
+    SmileApiRequest();
+  
 }
 
 function LevelUp($div1, $div2) {
@@ -105,7 +124,7 @@ function DoorLogic($div1, $div2, type) {
 
         if(isPuzzleMode == false){
 
-            SmileApiRequest();
+            DoorOpenPuzzleFunction();
         }
        
         return true;
