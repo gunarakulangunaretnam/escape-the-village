@@ -1,3 +1,5 @@
+isPuzzleMode = false;
+
 $(window).load(function(){
     
     function collision($div1, $div2) {
@@ -26,6 +28,16 @@ $(window).load(function(){
 }
 
 
+function PauseTheObjectMover(){
+    
+
+    $(".MovingObjects").stop();
+    
+
+ 
+
+}
+
 
 const SmileApiRequest = async () => {
 
@@ -34,6 +46,8 @@ const SmileApiRequest = async () => {
     const response = await fetch('https://marcconrad.com/uob/smile/api.php?out=json&base64=yes');
     const myJson = await response.json(); //extract JSON from the http response
     console.log(myJson);
+
+    PauseTheObjectMover()
 
 }
 

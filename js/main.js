@@ -80,8 +80,7 @@ function ObjectsMover() {
   FlyAirBalloon();
   FlyAircraft();
   train();
-  enymain();
-
+  
 }
 
 var movingTrue = false;
@@ -115,7 +114,7 @@ function PlayerStop() {
   playerState = "[IDLE]";
 
   if(movingTrue == true){
-   
+
 
     $(".grasstree").stop();
     $(".maintree").stop();
@@ -263,9 +262,11 @@ function FlyBirdsOnSky() {
     left: -500 + "px",
   }, 900000)
 
+  $(".enmybox").animate({
+    marginLeft: "-20000px"
+  }, 300000, 'linear');
+
 };
-
-
 
 
 function train() {
@@ -304,13 +305,6 @@ function FlyAircraft() {
 
   }, 25000)
 
-}
-
-
-function enymain() {
-  $(".enmybox").animate({
-    marginLeft: "-20000px"
-  }, 300000, 'linear');
 }
 
 function grasstreemoving() {
@@ -368,6 +362,7 @@ function dieplayer() {
   $("#player-idle").css("display", "none");
   $("#player-jump").css("display", "none");
   $("#player-run").css("display", "none");
+  
 
   $(".grasstree").stop();
   $(".maintree").stop();
