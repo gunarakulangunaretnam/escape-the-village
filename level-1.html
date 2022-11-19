@@ -24,7 +24,7 @@
    </div>
 
    <!--Door Open Logic API-->
-   <div style="width:100%; margin-top:1.7%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-1">
+   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-1">
       <div style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
          <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
          <hr>
@@ -33,10 +33,34 @@
        
          <form class="form-group py-3">
             <label for="exampleInputEmail1" style="font-weight: bold; font-size: 20px;">Select Your Answer: </label><br>
-            <button id="answerBTN1" style="margin-left: 10px;" class="btn btn-success" style="">124</button>
-            <button id="answerBTN2" style="margin-left: 10px;" class="btn btn-success" style="">233</button>
-            <button id="answerBTN3" style="margin-left: 10px;" class="btn btn-success" style="">4227</button>
-            <button id="answerBTN4" style="margin-left: 10px;" class="btn btn-success" style="">47</button>
+            <button id="DoorOpenBox1AnswerBTN1" style="margin-left: 10px;" class="btn btn-success" style="">124</button>
+            <button id="DoorOpenBox1AnswerBTN2" style="margin-left: 10px;" class="btn btn-success" style="">233</button>
+            <button id="DoorOpenBox1AnswerBTN3" style="margin-left: 10px;" class="btn btn-success" style="">4227</button>
+            <button id="DoorOpenBox1AnswerBTN4" style="margin-left: 10px;" class="btn btn-success" style="">47</button>
+            
+         </form>
+
+      </div>
+   </div>
+
+
+   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-2">
+      <div style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
+         <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
+         <hr>
+
+         <img src = "test-img.png" style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
+         
+         <form class="form-group py-3">
+            <label for="exampleInputEmail1" style="font-weight: bold; font-size: 20px;">Select Your Answer: </label><br>
+            <button id="DoorOpenBox2AnswerBTN1" style="margin-left: 10px;" class="btn btn-success" style="">124</button>
+            <button id="DoorOpenBox2AnswerBTN2" style="margin-left: 10px;" class="btn btn-success" style="">233</button>
+            <button id="DoorOpenBox2AnswerBTN3" style="margin-left: 10px;" class="btn btn-success" style="">4227</button>
+            <button id="DoorOpenBox2AnswerBTN4" style="margin-left: 10px;" class="btn btn-success" style="">47</button>
+
+            <br>
+
+            <div id="app"></div>
             
          </form>
 
@@ -258,12 +282,12 @@
 
       <!--Game Over Box-->
       <div style="width:100%; margin-top:10%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999; display:none; " id="gaveoverbox">
-         <div style="width:600px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
+         <div style="width:500px; height: 250px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
             <h1 class="style1">Game Over</h1>
             <div style="font-size:25px; font-weight:bold; margin-bottom:10px; margin-top:10px;" >Total Score <span id="showscor"></span></div>
             <div style="margin-top:10px; font-size:13px;">Retry</div>
             <form style="margin-top:20px;">
-               <input type="submit"  style="background-color:#CC3300; border-radius:10px; padding:10px; color:#FFFFFF; border:2px solid #000; font-size:18px; font-family:Verdana, Arial, Helvetica, sans-serif;" value="Start Over"/>
+               <a href="level-1.html" style="text-decoration: none; background-color:#CC3300; border-radius:10px; padding:10px; color:#FFFFFF; border:2px solid #000; font-size:18px; font-family:Verdana, Arial, Helvetica, sans-serif;">Start Over</a>
             </form>
          </div>
       </div>
