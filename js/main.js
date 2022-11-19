@@ -1,6 +1,3 @@
-
-  var isPuzzleMode = false;
-  
 // Stage 1 Sound
 var stage1Audio = new Audio("music/stage-1-background-music.mp3");
 stage1Audio.volume = 0.9;
@@ -86,7 +83,7 @@ function ObjectsMover() {
 
   enymain();
   coins('images/coin/c1.png', arr3);
-  BirdsLayer();
+
 
 }
 
@@ -123,7 +120,7 @@ function PlayerStop() {
 
 
   if(movingTrue == true){
- 
+   
     $(".grasstree").stop();
     $(".maintree").stop();
     $(".seenlayer").stop();
@@ -219,9 +216,6 @@ function runner() {
 }
 
 
-
-
-
 $(window).load(function () {
 
   document.addEventListener('keydown', (event) => {
@@ -266,6 +260,12 @@ function FlyBirdsOnSky() {
     top: 'auto',
     bottom: 300 + "px",
   }, 800)
+
+  $(".skybirds").animate({
+    position: 'absolute',
+    top: 'auto',
+    left: -500 + "px",
+  }, 900000)
 
 };
 
@@ -336,13 +336,6 @@ function lastlayer() {
   }, 500000, 'linear');
 }
 
-function BirdsLayer() {
-  $(".skybirds").animate({
-    position: 'absolute',
-    top: 'auto',
-    left: -500 + "px",
-  }, 900000)
-}
 
 function AddCoinPoint(coinid) {
 

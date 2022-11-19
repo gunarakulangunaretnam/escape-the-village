@@ -1,5 +1,3 @@
-
-
 $(window).load(function(){
     
     function collision($div1, $div2) {
@@ -26,6 +24,8 @@ $(window).load(function(){
     }   
  
 }
+
+
 
 const SmileApiRequest = async () => {
 
@@ -81,8 +81,6 @@ function DoorLogic($div1, $div2, type) {
         return false ;
 
     }else{
-
-
 
         if(isPuzzleMode == false){
 
