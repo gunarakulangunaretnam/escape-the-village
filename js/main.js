@@ -373,7 +373,7 @@ function dieplayer() {
 
   movingTrue = false;
 
-  $("#gaveoverbox").slideDown("slow").focus();;
+  $("#gaveoverbox").slideDown("slow").focus();
 
 
 }

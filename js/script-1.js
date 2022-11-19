@@ -26,13 +26,14 @@ $(window).load(function(){
 }
 
 
+
 function PuzzleSolvingMusicOn(){
    
    
-    stage1Audio.pause();
+    stage1Audio.pause()
 
     var PuzzleAudio = new Audio("music/other-musics/puzzle-solving-music.mp3");
-    PuzzleAudio.volume = 0.5;
+    PuzzleAudio.volume = 0.2;
     PuzzleAudio.loop = true;
     PuzzleAudio.play()
         
@@ -51,7 +52,7 @@ function PauseTheObjectMover(){
 function ConvertBase64AsImage(base64){
 
     $("#door-open-box-1-puzzle-image").attr('src',"data:image/png;base64,"+base64);
-    $("#door-open-box-1").css("display", "block")
+    $("#door-open-box-1").slideDown("slow").focus();
 
 
 }
