@@ -8,16 +8,11 @@ function InitialObjectsMover() {
 
   stage1Audio.play();
 
-  // Birds Playing Methods
-
-  FlyBirdsOnSky();
-  FlyAirBalloon();
-  FlyAircraft();
-  train();
   ObjectsMover();
   PlayerIdle();
   PlayerJump();
   PlayerRunning();
+  coinsAnimator();
 }
 
 
@@ -81,9 +76,11 @@ function DiamondCollectingSound(){
 
 function ObjectsMover() {
 
+  FlyBirdsOnSky();
+  FlyAirBalloon();
+  FlyAircraft();
+  train();
   enymain();
-  coins('images/coin/c1.png', arr3);
-
 
 }
 
@@ -117,10 +114,9 @@ function PlayerStop() {
 
   playerState = "[IDLE]";
 
-
-
   if(movingTrue == true){
    
+
     $(".grasstree").stop();
     $(".maintree").stop();
     $(".seenlayer").stop();
@@ -691,13 +687,13 @@ arr5[5].src = "images/coin/c6.png";
 
 var i5 = 0;
 
-function coins() {
+function coinsAnimator() {
   $("img.runcoin").attr("src", arr5[i5].src);
   i5++;
   if (i5 == arr5.length) {
     i5 = 0;
   }
   setTimeout(function () {
-    coins();
+    coinsAnimator();
   }, 90);
 }
