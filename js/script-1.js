@@ -78,7 +78,7 @@ function MCQAnswersSetter(btnClass, PuzzleAnswerFromAPI){
 
 }
 
-function PuzzleBoxType(puzzleImageBase64, doortype, PuzzleAnswerFromAPI, TimeDuration){
+function PuzzleBoxType(door,puzzleImageBase64, doortype, PuzzleAnswerFromAPI, TimeDuration){
 
 
     if(doortype == "door-open-box-1" && TimeDuration == 0){
@@ -98,9 +98,9 @@ function PuzzleBoxType(puzzleImageBase64, doortype, PuzzleAnswerFromAPI, TimeDur
 
             if(PuzzleAnswerFromUser == PuzzleAnswerFromAPI){
 
-                $("#door-open-box-1").slideUp("slow").focus(); // Slide up current window
+                $("#door-open-box-1").slideUp("slow") // Slide up current window
+                door.slideUp("slow");
                
-
 
             }else{
                 $("#door-open-box-1").slideUp("slow").focus(); // Slide up current window
@@ -116,7 +116,7 @@ function PuzzleBoxType(puzzleImageBase64, doortype, PuzzleAnswerFromAPI, TimeDur
 }
 
 
-const SmileApiRequest = async (doortype,TimeDuration) => {
+const SmileApiRequest = async (door, doortype,TimeDuration) => {
 
     const response = await fetch('https://marcconrad.com/uob/smile/api.php?out=csv&base64=yes');
     const responseData = await response.text(); //extract JSON from the http response
@@ -126,17 +126,17 @@ const SmileApiRequest = async (doortype,TimeDuration) => {
     var PuzzleAnswerFromAPI = responseDataArray[1];
     console.log(PuzzleAnswerFromAPI)
 
-    PuzzleBoxType(puzzleImageBase64, doortype, PuzzleAnswerFromAPI, TimeDuration)
+    PuzzleBoxType(door, puzzleImageBase64, doortype, PuzzleAnswerFromAPI, TimeDuration)
 
 }
 
 
-const DoorOpenPuzzleFunction = async (doortype, TimeDuration) => {
+const DoorOpenPuzzleFunction = async (door,doortype, TimeDuration) => {
 
     isPuzzleMode = true; // Turn on puzzle mode
     
     PauseTheObjectMover();
-    SmileApiRequest(doortype, TimeDuration);
+    SmileApiRequest(door, doortype, TimeDuration);
   
 }
 
@@ -185,7 +185,7 @@ function DoorLogic($div1, $div2, doortype, TimeDuration) {
 
         if(isPuzzleMode == false){
 
-            DoorOpenPuzzleFunction(doortype, TimeDuration);
+            DoorOpenPuzzleFunction($div1, doortype, TimeDuration);
         }
        
         return true;
