@@ -98,11 +98,13 @@ function PuzzleBoxType(puzzleImageBase64, doortype, PuzzleAnswerFromAPI, TimeDur
 
             if(PuzzleAnswerFromUser == PuzzleAnswerFromAPI){
 
-                alert("you are right")
+                $("#door-open-box-1").slideUp("slow").focus(); // Slide up current window
+               
+
 
             }else{
-
-                alert("you are failed")
+                $("#door-open-box-1").slideUp("slow").focus(); // Slide up current window
+                $("#gaveoverbox").slideDown("slow").focus();   // Slide down gameover window
             }
 
     
