@@ -46,21 +46,65 @@ function PauseTheObjectMover(){
     
 }
 
-function PuzzleBoxType(puzzleImageBase64, doortype, PuzzleAnswerFromAPI){
+function MCQAnswersSetter(btnClass, PuzzleAnswerFromAPI){
+
+    $(btnClass).each(function (i, obj) {
+
+        var randonValue = Math.round(Math.random() * (11 - 0)) + 0;
+
+        if(parseInt(PuzzleAnswerFromAPI) != parseInt(randonValue)){
+
+            obj.innerHTML = randonValue;
+
+        }else{
+
+            var randonValue2 = Math.round(Math.random() * (11 - 0)) + 0;
+
+            obj.innerHTML = randonValue2;
+        }
+
+    });
+
+    var randonAnswerPlaceHolder = Math.round(Math.random() * (3 - 0)) + 0;
+
+    $(btnClass).each(function (i, obj) {
+
+        if(i == randonAnswerPlaceHolder){
+
+            obj.innerHTML = PuzzleAnswerFromAPI;
+        }
+
+    });
+
+}
+
+function PuzzleBoxType(puzzleImageBase64, doortype, PuzzleAnswerFromAPI, TimeDuration){
 
 
-    if(doortype == "door-open-box-1"){
+    if(doortype == "door-open-box-1" && TimeDuration == 0){
 
 
+        // Place question image | Slide down the puzzle viwer div
         $("#door-open-box-1-puzzle-image").attr('src',"data:image/png;base64,"+puzzleImageBase64);
         $("#door-open-box-1").slideDown("slow").focus();
+
+
+        MCQAnswersSetter(".DoorOpenBox1AnswerBTN", PuzzleAnswerFromAPI); // Set random MCQ answers and API answer
+
 
         $(".DoorOpenBox1AnswerBTN").click(function(){
 
             var PuzzleAnswerFromUser = $(this).text();
-            var PuzzleAnswerFromAPI = PuzzleAnswerFromAPI;
 
-            
+            if(PuzzleAnswerFromUser == PuzzleAnswerFromAPI){
+
+                alert("you are right")
+
+            }else{
+
+                alert("you are failed")
+            }
+
     
         });
 
@@ -70,7 +114,7 @@ function PuzzleBoxType(puzzleImageBase64, doortype, PuzzleAnswerFromAPI){
 }
 
 
-const SmileApiRequest = async (doortype) => {
+const SmileApiRequest = async (doortype,TimeDuration) => {
 
     const response = await fetch('https://marcconrad.com/uob/smile/api.php?out=csv&base64=yes');
     const responseData = await response.text(); //extract JSON from the http response
@@ -80,17 +124,17 @@ const SmileApiRequest = async (doortype) => {
     var PuzzleAnswerFromAPI = responseDataArray[1];
     console.log(PuzzleAnswerFromAPI)
 
-    PuzzleBoxType(puzzleImageBase64, doortype, PuzzleAnswerFromAPI)
+    PuzzleBoxType(puzzleImageBase64, doortype, PuzzleAnswerFromAPI, TimeDuration)
 
 }
 
 
-const DoorOpenPuzzleFunction = async (doortype) => {
+const DoorOpenPuzzleFunction = async (doortype, TimeDuration) => {
 
     isPuzzleMode = true; // Turn on puzzle mode
     
     PauseTheObjectMover();
-    SmileApiRequest(doortype);
+    SmileApiRequest(doortype, TimeDuration);
   
 }
 
@@ -118,7 +162,7 @@ function LevelUp($div1, $div2) {
     }   
 }  
 
-function DoorLogic($div1, $div2, doortype) {
+function DoorLogic($div1, $div2, doortype, TimeDuration) {
     var x1 = $div1.offset().left;
     var y1 = $div1.offset().top;
     var h1 = $div1.outerHeight(true);
@@ -139,7 +183,7 @@ function DoorLogic($div1, $div2, doortype) {
 
         if(isPuzzleMode == false){
 
-            DoorOpenPuzzleFunction(doortype);
+            DoorOpenPuzzleFunction(doortype, TimeDuration);
         }
        
         return true;
@@ -161,7 +205,7 @@ window.setInterval(function() {
 
 
      //Doors
-     DoorLogic($('#door1'), $('#div2'), "door-open-box-1");
+     DoorLogic($('#door1'), $('#div2'), "door-open-box-1", 0);
      
 
 
