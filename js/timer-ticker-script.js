@@ -1,5 +1,6 @@
 /*<START> CSS STYLE FOR TIMER <START>*/
 
+
 const FULL_DASH_ARRAY = 283;
 const WARNING_THRESHOLD = 10;
 const ALERT_THRESHOLD = 5;
@@ -18,7 +19,7 @@ const COLOR_CODES = {
   }
 };
 
-const TIME_LIMIT = 20;
+var TIME_LIMIT = 0;
 let timePassed = 0;
 let timeLeft = TIME_LIMIT;
 let timerInterval = null;
@@ -74,11 +75,21 @@ document.getElementById("app2").innerHTML = `
 
 
 
+function GameOver(boxtype){
+    $(boxtype).slideUp("slow").focus(); // Slide up current window
+    $("#gameoverbox").slideDown("slow").focus();   // Slide down gameover window
+    PuzzleAudio.pause();
+    stage1Audio.pause();
+    GameOverSound.play();
+}
+
 function onTimesUp() {
   clearInterval(timerInterval);
 }
 
-function startTimer() {
+function startTimer(value, boxtype) {
+
+    TIME_LIMIT = parseInt(value);
 
     var audio = new Audio("music/other-musics/timer-tick-sound.mp3");
     audio.play();
@@ -95,8 +106,9 @@ function startTimer() {
     setRemainingPathColor(timeLeft);
 
     if (timeLeft === 0) {
-        audio.pause();
+      audio.pause();
       onTimesUp();
+      GameOver(boxtype);
     }
   }, 1000);
 }

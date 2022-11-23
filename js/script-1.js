@@ -52,9 +52,6 @@ $(window).load(function () {
           
             if (isPuzzleMode == false) {
 
-                $div1.remove();
-        
-               
                 DoorOpenPuzzleFunction($div1, doortype, TimeDuration);
             }
 
@@ -146,7 +143,6 @@ $(window).load(function () {
 
         if (doortype == "door-open-box-1" && TimeDuration == 0) {
 
-
             // Place question image | Slide down the puzzle viwer div
             $("#door-open-box-1-puzzle-image").attr('src', "data:image/png;base64," + puzzleImageBase64);
             $("#door-open-box-1").slideDown("slow").focus();
@@ -162,7 +158,7 @@ $(window).load(function () {
                 if (PuzzleAnswerFromUser == PuzzleAnswerFromAPI) {
 
                     $("#door-open-box-1").slideUp("slow") // Slide up current window
-                    door.css("display", 'none');
+                    door.remove(); // Remove the door
 
                     PuzzleAudio.pause();
                     stage1Audio.play();
@@ -174,15 +170,26 @@ $(window).load(function () {
                 } else {
                     
                     $("#door-open-box-1").slideUp("slow").focus(); // Slide up current window
-                    $("#gaveoverbox").slideDown("slow").focus();   // Slide down gameover window
+                    $("#gameoverbox").slideDown("slow").focus();   // Slide down gameover window
                     PuzzleAudio.pause();
                     stage1Audio.pause();
-                    GameOver.play();
-                    
+                    GameOverSound.play();
+
                 }
 
 
             });
+
+        }else if(doortype == "door-open-box-2" && TimeDuration != 0){
+
+            // Place question image | Slide down the puzzle viwer div
+            $("#door-open-box-2-puzzle-image").attr('src', "data:image/png;base64," + puzzleImageBase64);
+            $("#door-open-box-2").slideDown("slow").focus();
+
+            MCQAnswersSetter(".DoorOpenBox2AnswerBTN", PuzzleAnswerFromAPI); // Set random MCQ answers and API answer
+
+            startTimer(300, "#door-open-box-2");
+
 
         }
 
@@ -231,6 +238,12 @@ $(window).load(function () {
         if( $('#door1').length)
         {
             DoorLogic($('#door1'), $('#div2'), "door-open-box-1", 0);
+        }
+
+        //Doors
+        if( $('#door2').length)
+        {
+            DoorLogic($('#door2'), $('#div2'), "door-open-box-2", 180);
         }
         
         

@@ -16,8 +16,8 @@ PuzzleAudio.loop = true;
 
 
 // Game Over Sound
-var GameOver = new Audio("music/other-musics/game-over-sound-effect.mp3");
-GameOver.volume = 1;
+var GameOverSound = new Audio("music/other-musics/game-over-sound-effect.mp3");
+GameOverSound.volume = 1;
 
 
 function InitialObjectsMover() {
@@ -381,7 +381,7 @@ function dieplayer() {
 
   movingTrue = false;
 
-  $("#gaveoverbox").slideDown("slow").focus();
+  $("#gameoverbox").slideDown("slow").focus();
 
 
 }
