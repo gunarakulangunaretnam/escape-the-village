@@ -340,8 +340,6 @@ $(window).load(function () {
             DoorLogic($('#door4'), $('#div2'), "door-open-box-3", 0);
         }
         
-        
-        
 
     }, 200);
 });
