@@ -172,6 +172,7 @@ $(window).load(function () {
 
 
                 } else {
+                    
                     $("#door-open-box-1").slideUp("slow").focus(); // Slide up current window
                     $("#gaveoverbox").slideDown("slow").focus();   // Slide down gameover window
                     PuzzleAudio.pause();

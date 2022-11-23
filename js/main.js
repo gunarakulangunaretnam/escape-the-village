@@ -11,7 +11,7 @@ stage1Audio.loop = true;
 
 // Puzzle Sound
 var PuzzleAudio = new Audio("music/other-musics/puzzle-solving-music.mp3");
-PuzzleAudio.volume = 0.2;
+PuzzleAudio.volume = 0.3;
 PuzzleAudio.loop = true;
 
 
