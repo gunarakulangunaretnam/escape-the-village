@@ -149,7 +149,6 @@ $(window).load(function () {
 
     function PuzzleBoxType(door, puzzleImageBase64, doortype, PuzzleAnswerFromAPI, TimeDuration) {
 
-
         if (doortype == "door-open-box-1" && TimeDuration == 0) {
 
             // Place question image | Slide down the puzzle viwer div
@@ -159,12 +158,9 @@ $(window).load(function () {
 
             MCQAnswersSetter(".DoorOpenBox1AnswerBTN", PuzzleAnswerFromAPI); // Set random MCQ answers and API answer
 
-            $(".DoorOpenBox1AnswerBTN").click(function () {
+            $(".DoorOpenBox1AnswerBTN").unbind("click").click(function () {
 
                 var PuzzleAnswerFromUser = $(this).text();
-
-                alert("User: "+PuzzleAnswerFromUser)
-                alert("API: "+PuzzleAnswerFromAPI)
 
                 if (PuzzleAnswerFromUser == PuzzleAnswerFromAPI) {
 
@@ -189,7 +185,6 @@ $(window).load(function () {
                     
                 }
 
-
             });
 
         }else if(doortype == "door-open-box-2" && TimeDuration != 0){
@@ -202,7 +197,7 @@ $(window).load(function () {
 
             startTimer(TimeDuration, "#door-open-box-2");
 
-            $(".DoorOpenBox2AnswerBTN").click(function () {
+            $(".DoorOpenBox2AnswerBTN").unbind("click").click(function () {
 
                 var PuzzleAnswerFromUser = $(this).text();
 
@@ -214,10 +209,8 @@ $(window).load(function () {
                     PuzzleAudio.pause();
                     timerTicker.pause();
                     DoorOpenSound()
-                    stage1Audio.play();
-                    
+                    stage1Audio.play();    
                     ObjectsMover();
-
                     isPuzzleMode = false;
                     movingTrue = false;
 
@@ -243,7 +236,7 @@ $(window).load(function () {
              $("#door-open-box-3-puzzle-image").attr('src', "data:image/png;base64," + puzzleImageBase64);
              $("#door-open-box-3").slideDown("slow").focus();
 
-             $("#DoorOpenBox3AnswerBTN").click(function(){
+             $("#DoorOpenBox3AnswerBTN").unbind("click").click(function(){
 
 
                 var PuzzleAnswerFromUser = $("#DoorOpenBox3AnswerTEXTBOX").val();
@@ -262,8 +255,6 @@ $(window).load(function () {
 
                     isPuzzleMode = false;
                     movingTrue = false;
-
-
                    
 
                 }else{
@@ -331,12 +322,12 @@ $(window).load(function () {
         //Doors
         if( $('#door1').length)
         {         
-            DoorLogic($('#door1'), $('#div2'), "door-open-box-1", 0);
+            DoorLogic($('#door1'), $('#div2'), "door-open-box-3", 0);
         }
 
         if( $('#door2').length)
         {  
-            DoorLogic($('#door2'), $('#div2'), "door-open-box-1", 0);
+            DoorLogic($('#door2'), $('#div2'), "door-open-box-3", 0);
         }
 
         if( $('#door3').length)
