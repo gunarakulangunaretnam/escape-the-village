@@ -163,6 +163,9 @@ $(window).load(function () {
 
                 var PuzzleAnswerFromUser = $(this).text();
 
+                alert("User: "+PuzzleAnswerFromUser)
+                alert("API: "+PuzzleAnswerFromAPI)
+
                 if (PuzzleAnswerFromUser == PuzzleAnswerFromAPI) {
 
                     $("#door-open-box-1").slideUp("slow") // Slide up current window
@@ -244,9 +247,6 @@ $(window).load(function () {
 
 
                 var PuzzleAnswerFromUser = $("#DoorOpenBox3AnswerTEXTBOX").val();
-
-                alert(PuzzleAnswerFromUser)
-                alert(PuzzleAnswerFromAPI)
              
                 if (PuzzleAnswerFromUser == PuzzleAnswerFromAPI) {
 
@@ -330,13 +330,13 @@ $(window).load(function () {
 
         //Doors
         if( $('#door1').length)
-        {
+        {         
             DoorLogic($('#door1'), $('#div2'), "door-open-box-1", 0);
         }
 
         if( $('#door2').length)
-        {
-            DoorLogic($('#door2'), $('#div2'), "door-open-box-2", 180);
+        {  
+            DoorLogic($('#door2'), $('#div2'), "door-open-box-1", 0);
         }
 
         if( $('#door3').length)
