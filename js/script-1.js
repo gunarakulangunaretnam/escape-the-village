@@ -97,6 +97,15 @@ $(window).load(function () {
 
     }
 
+    function DoorOpenSound(){
+
+        // Door open Sound
+        var doorOpen = new Audio("music/other-musics/door-open-sound.wav");
+        doorOpen.volume = 1;
+        doorOpen.play();
+
+    }
+
 
     function PauseTheObjectMover() {
 
@@ -160,6 +169,7 @@ $(window).load(function () {
                     door.remove(); // Remove the door
 
                     PuzzleAudio.pause();
+                    DoorOpenSound()
                     stage1Audio.play();
                     ObjectsMover();
                     isPuzzleMode = false;
@@ -200,6 +210,7 @@ $(window).load(function () {
 
                     PuzzleAudio.pause();
                     timerTicker.pause();
+                    DoorOpenSound()
                     stage1Audio.play();
                     
                     ObjectsMover();
