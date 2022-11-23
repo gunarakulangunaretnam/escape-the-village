@@ -94,13 +94,9 @@ $(window).load(function () {
     }
 
 
-    var PuzzleAudio = new Audio("music/other-musics/puzzle-solving-music.mp3");
-
     function PuzzleSolvingMusicOn() {
 
         stage1Audio.pause()
-        PuzzleAudio.volume = 0.2;
-        PuzzleAudio.loop = true;
         PuzzleAudio.play()
 
     }
