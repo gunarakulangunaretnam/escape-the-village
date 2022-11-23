@@ -28,14 +28,6 @@ $(window).load(function(){
 
     });
 
-
-    $("#DoorOpenBox2AnswerBTN1").click(function(){
-        
-        startTimer();
-
-    });
-
-
 });
 
 
