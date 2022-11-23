@@ -234,8 +234,52 @@ $(window).load(function () {
             });
 
 
-        }
+        }else if(doortype == "door-open-box-3" && TimeDuration == 0){
 
+             // Place question image | Slide down the puzzle viwer div
+             $("#door-open-box-3-puzzle-image").attr('src', "data:image/png;base64," + puzzleImageBase64);
+             $("#door-open-box-3").slideDown("slow").focus();
+
+             $("#DoorOpenBox3AnswerBTN").click(function(){
+
+
+                var PuzzleAnswerFromUser = $("#DoorOpenBox3AnswerTEXTBOX").val();
+             
+                if (PuzzleAnswerFromUser == PuzzleAnswerFromAPI) {
+
+                    $("#door-open-box-3").slideUp("slow") // Slide up current window
+                    door.remove(); // Remove the door
+
+                    PuzzleAudio.pause();
+                    timerTicker.pause();
+                    DoorOpenSound()
+                    stage1Audio.play();
+                    
+                    ObjectsMover();
+
+                    isPuzzleMode = false;
+                    movingTrue = false;
+
+
+                   
+
+                }else{
+
+                    $("#door-open-box-3").slideUp("slow").focus(); // Slide up current window
+                    $("#gameoverbox").slideDown("slow").focus();   // Slide down gameover window
+                    PuzzleAudio.pause();
+                    stage1Audio.pause();
+                    timerTicker.pause();
+                    GameOverSound.play();
+                    
+                }
+
+
+
+             });
+
+
+        }
 
     }
 
@@ -290,7 +334,7 @@ $(window).load(function () {
 
         if( $('#door3').length)
         {
-            DoorLogic($('#door3'), $('#div2'), "door-open-box-2", 180);
+            DoorLogic($('#door3'), $('#div2'), "door-open-box-3", 0);
         }
         
         
