@@ -76,10 +76,11 @@ document.getElementById("app2").innerHTML = `
 
 
 function GameOver(boxtype){
-    $(boxtype).slideUp("slow").focus(); // Slide up current window
+    $(boxtype).slideUp("slow") // Slide up current window
     $("#gameoverbox").slideDown("slow").focus();   // Slide down gameover window
     PuzzleAudio.pause();
     stage1Audio.pause();
+    timerTicker.pause();
     GameOverSound.play();
 }
 
@@ -89,12 +90,8 @@ function onTimesUp() {
 
 function startTimer(value, boxtype) {
 
-    TIME_LIMIT = parseInt(value);
-
-    var audio = new Audio("music/other-musics/timer-tick-sound.mp3");
-    audio.play();
-    audio.volume = 1;  
-    audio.loop = true;
+  TIME_LIMIT = parseInt(value);
+  timerTicker.play();
 
   timerInterval = setInterval(() => {
     timePassed = timePassed += 1;
@@ -106,10 +103,16 @@ function startTimer(value, boxtype) {
     setRemainingPathColor(timeLeft);
 
     if (timeLeft === 0) {
-      audio.pause();
       onTimesUp();
       GameOver(boxtype);
     }
+
+    if(isPuzzleMode == false){
+
+      clearInterval(timerInterval);
+
+    }
+
   }, 1000);
 }
 

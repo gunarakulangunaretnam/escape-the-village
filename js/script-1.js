@@ -150,7 +150,6 @@ $(window).load(function () {
 
             MCQAnswersSetter(".DoorOpenBox1AnswerBTN", PuzzleAnswerFromAPI); // Set random MCQ answers and API answer
 
-
             $(".DoorOpenBox1AnswerBTN").click(function () {
 
                 var PuzzleAnswerFromUser = $(this).text();
@@ -174,7 +173,7 @@ $(window).load(function () {
                     PuzzleAudio.pause();
                     stage1Audio.pause();
                     GameOverSound.play();
-
+                    
                 }
 
 
@@ -188,7 +187,40 @@ $(window).load(function () {
 
             MCQAnswersSetter(".DoorOpenBox2AnswerBTN", PuzzleAnswerFromAPI); // Set random MCQ answers and API answer
 
-            startTimer(300, "#door-open-box-2");
+            startTimer(10, "#door-open-box-2");
+
+            $(".DoorOpenBox2AnswerBTN").click(function () {
+
+                var PuzzleAnswerFromUser = $(this).text();
+
+                if (PuzzleAnswerFromUser == PuzzleAnswerFromAPI) {
+
+                    $("#door-open-box-2").slideUp("slow") // Slide up current window
+                    door.remove(); // Remove the door
+
+                    PuzzleAudio.pause();
+                    timerTicker.pause();
+                    stage1Audio.play();
+                    
+                    ObjectsMover();
+
+                    isPuzzleMode = false;
+                    movingTrue = false;
+
+
+                } else {
+                    
+                    $("#door-open-box-2").slideUp("slow").focus(); // Slide up current window
+                    $("#gameoverbox").slideDown("slow").focus();   // Slide down gameover window
+                    PuzzleAudio.pause();
+                    stage1Audio.pause();
+                    timerTicker.pause();
+                    GameOverSound.play();
+
+                }
+
+
+            });
 
 
         }

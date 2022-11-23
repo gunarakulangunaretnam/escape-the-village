@@ -19,6 +19,14 @@ PuzzleAudio.loop = true;
 var GameOverSound = new Audio("music/other-musics/game-over-sound-effect.mp3");
 GameOverSound.volume = 1;
 
+// Timer Ticker Over Sound
+var timerTicker = new Audio("music/other-musics/timer-tick-sound.mp3");
+timerTicker.volume = 1;  
+timerTicker.loop = true;
+
+
+
+
 
 function InitialObjectsMover() {
 
