@@ -178,6 +178,7 @@ $(window).load(function () {
                     PuzzleAudio.pause();
                     stage1Audio.pause();
                     GameOver.play();
+                    
                 }
 
 
