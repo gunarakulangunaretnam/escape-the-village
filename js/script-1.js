@@ -197,7 +197,7 @@ $(window).load(function () {
 
             MCQAnswersSetter(".DoorOpenBox2AnswerBTN", PuzzleAnswerFromAPI); // Set random MCQ answers and API answer
 
-            startTimer(10, "#door-open-box-2");
+            startTimer(TimeDuration, "#door-open-box-2");
 
             $(".DoorOpenBox2AnswerBTN").click(function () {
 
@@ -283,10 +283,14 @@ $(window).load(function () {
             DoorLogic($('#door1'), $('#div2'), "door-open-box-1", 0);
         }
 
-        //Doors
         if( $('#door2').length)
         {
             DoorLogic($('#door2'), $('#div2'), "door-open-box-2", 180);
+        }
+
+        if( $('#door3').length)
+        {
+            DoorLogic($('#door3'), $('#div2'), "door-open-box-2", 180);
         }
         
         
