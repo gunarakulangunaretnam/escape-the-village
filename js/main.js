@@ -160,8 +160,6 @@ function jumper() {
       $("#player-idle").css("display", "block");
       $("#player-run").css("display", "none");
       $("#player-jump").css("display", "none");
-    
-
 
     }else if(previousPlayerState == '[IDLE]' && playerState == "[JUMP]" && movingTrue == false){
 
