@@ -275,8 +275,13 @@ $(window).load(function () {
                 }
 
 
+                $("#DoorOpenBox3AnswerTEXTBOX").val("");
 
              });
+
+        }else if(doortype == "door-open-box-4" && TimeDuration != 0){
+
+
 
 
         }
