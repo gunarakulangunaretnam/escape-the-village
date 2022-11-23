@@ -244,6 +244,9 @@ $(window).load(function () {
 
 
                 var PuzzleAnswerFromUser = $("#DoorOpenBox3AnswerTEXTBOX").val();
+
+                alert(PuzzleAnswerFromUser)
+                alert(PuzzleAnswerFromAPI)
              
                 if (PuzzleAnswerFromUser == PuzzleAnswerFromAPI) {
 
@@ -274,10 +277,9 @@ $(window).load(function () {
                     
                 }
 
-
                 $("#DoorOpenBox3AnswerTEXTBOX").val("");
 
-             });
+            });
 
         }else if(doortype == "door-open-box-4" && TimeDuration != 0){
 
@@ -341,6 +343,12 @@ $(window).load(function () {
         {
             DoorLogic($('#door3'), $('#div2'), "door-open-box-3", 0);
         }
+
+        if( $('#door4').length)
+        {
+            DoorLogic($('#door4'), $('#div2'), "door-open-box-3", 0);
+        }
+        
         
         
 
