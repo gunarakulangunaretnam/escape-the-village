@@ -85,7 +85,6 @@ $(window).load(function () {
 
         } else {
 
-          
         
             LevelUpSoundEffect();
             return true;
@@ -163,7 +162,6 @@ $(window).load(function () {
                 if (PuzzleAnswerFromUser == PuzzleAnswerFromAPI) {
 
                     $("#door-open-box-1").slideUp("slow") // Slide up current window
-                    //door.slideUp("slow");
                     door.css("display", 'none');
 
                     PuzzleAudio.pause();
@@ -176,6 +174,9 @@ $(window).load(function () {
                 } else {
                     $("#door-open-box-1").slideUp("slow").focus(); // Slide up current window
                     $("#gaveoverbox").slideDown("slow").focus();   // Slide down gameover window
+                    PuzzleAudio.pause();
+                    stage1Audio.pause();
+                    GameOver.play();
                 }
 
 

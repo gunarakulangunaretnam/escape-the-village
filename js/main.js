@@ -15,6 +15,11 @@ PuzzleAudio.volume = 0.2;
 PuzzleAudio.loop = true;
 
 
+// Game Over Sound
+var GameOver = new Audio("music/other-musics/game-over-sound-effect.mp3");
+GameOver.volume = 1;
+
+
 function InitialObjectsMover() {
 
   stage1Audio.play();
