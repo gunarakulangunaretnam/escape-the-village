@@ -1,5 +1,5 @@
 
-$(window).load(function () {
+$(window).on('load', function(){
 
     function collision($div1, $div2) {
         var x1 = $div1.offset().left;
@@ -345,7 +345,7 @@ $(window).load(function () {
 });
 
 
-$(window).load(function () {
+$(window).on('load', function(){
 
     function getpointscoin($div1, $div2, coin1, type) {
         var ci = coin1;

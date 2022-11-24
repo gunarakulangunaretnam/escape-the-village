@@ -224,7 +224,7 @@ function runner() {
 
 }
 
-$(window).load(function () {
+$(window).on('load', function(){
 
   
   document.addEventListener('keydown', (event) => {
