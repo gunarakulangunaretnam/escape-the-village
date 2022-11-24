@@ -77,7 +77,7 @@ document.getElementById("app2").innerHTML = `
 
 function GameOver(boxtype){
     $(boxtype).slideUp("slow") // Slide up current window
-    $("#gameoverbox").slideDown("slow").focus();   // Slide down gameover window
+    $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
     PuzzleAudio.pause();
     stage1Audio.pause();
     timerTicker.pause();
@@ -107,7 +107,7 @@ function startTimer(value, boxtype) {
       GameOver(boxtype);
     }
 
-    if(isPuzzleMode == false){
+    if(isPuzzleMode == false){ // To turn off the timer once the puzzle is solved
 
       clearInterval(timerInterval);
 

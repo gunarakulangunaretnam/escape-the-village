@@ -389,7 +389,7 @@ function dieplayer() {
 
   movingTrue = false;
 
-  $("#gameoverbox").slideDown("slow").focus();
+  $("#gameoverbox").slideDown("slow").trigger("focus");
 
 
 }

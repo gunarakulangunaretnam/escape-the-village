@@ -12,7 +12,7 @@ $(window).on('load', function(){
        
     }
 
-    $("#level-play-btn").hover(function(){
+    $("#level-play-btn").on('hover', function(){
 
         this.src = "images/ui-assets/play-btn-2.png";
 
@@ -21,8 +21,8 @@ $(window).on('load', function(){
         this.src = "images/ui-assets/play-btn-1.png";
     });
 
-    $("#level-play-btn").click(function(){
-
+    $("#level-play-btn").on('click', function(){
+    
         InitialObjectsMover();
         $("#level-1-cover-box").hide();
 

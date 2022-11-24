@@ -153,7 +153,7 @@ $(window).on('load', function(){
 
             // Place question image | Slide down the puzzle viwer div
             $("#door-open-box-1-puzzle-image").attr('src', "data:image/png;base64," + puzzleImageBase64);
-            $("#door-open-box-1").slideDown("slow").focus();
+            $("#door-open-box-1").slideDown("slow").trigger("focus")
 
 
             MCQAnswersSetter(".DoorOpenBox1AnswerBTN", PuzzleAnswerFromAPI); // Set random MCQ answers and API answer
@@ -177,8 +177,8 @@ $(window).on('load', function(){
 
                 } else {
                     
-                    $("#door-open-box-1").slideUp("slow").focus(); // Slide up current window
-                    $("#gameoverbox").slideDown("slow").focus();   // Slide down gameover window
+                    $("#door-open-box-1").slideUp("slow").trigger("focus"); // Slide up current window
+                    $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
                     PuzzleAudio.pause();
                     stage1Audio.pause();
                     GameOverSound.play();
@@ -191,7 +191,7 @@ $(window).on('load', function(){
 
             // Place question image | Slide down the puzzle viwer div
             $("#door-open-box-2-puzzle-image").attr('src', "data:image/png;base64," + puzzleImageBase64);
-            $("#door-open-box-2").slideDown("slow").focus();
+            $("#door-open-box-2").slideDown("slow").trigger("focus");
 
             MCQAnswersSetter(".DoorOpenBox2AnswerBTN", PuzzleAnswerFromAPI); // Set random MCQ answers and API answer
 
@@ -217,8 +217,8 @@ $(window).on('load', function(){
 
                 } else {
                     
-                    $("#door-open-box-2").slideUp("slow").focus(); // Slide up current window
-                    $("#gameoverbox").slideDown("slow").focus();   // Slide down gameover window
+                    $("#door-open-box-2").slideUp("slow").trigger("focus"); // Slide up current window
+                    $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
                     PuzzleAudio.pause();
                     stage1Audio.pause();
                     timerTicker.pause();
@@ -234,7 +234,7 @@ $(window).on('load', function(){
 
              // Place question image | Slide down the puzzle viwer div
              $("#door-open-box-3-puzzle-image").attr('src', "data:image/png;base64," + puzzleImageBase64);
-             $("#door-open-box-3").slideDown("slow").focus();
+             $("#door-open-box-3").slideDown("slow").trigger("focus");
 
              $("#DoorOpenBox3AnswerBTN").unbind("click").click(function(){
 
@@ -259,8 +259,8 @@ $(window).on('load', function(){
 
                 }else{
 
-                    $("#door-open-box-3").slideUp("slow").focus(); // Slide up current window
-                    $("#gameoverbox").slideDown("slow").focus();   // Slide down gameover window
+                    $("#door-open-box-3").slideUp("slow").trigger("focus"); // Slide up current window
+                    $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
                     PuzzleAudio.pause();
                     stage1Audio.pause();
                     timerTicker.pause();
@@ -322,22 +322,22 @@ $(window).on('load', function(){
         //Doors
         if( $('#door1').length)
         {         
-            DoorLogic($('#door1'), $('#div2'), "door-open-box-3", 0);
+            DoorLogic($('#door1'), $('#div2'), "door-open-box-2", 30);
         }
 
         if( $('#door2').length)
         {  
-            DoorLogic($('#door2'), $('#div2'), "door-open-box-3", 0);
+            DoorLogic($('#door2'), $('#div2'), "door-open-box-2", 30);
         }
 
         if( $('#door3').length)
         {
-            DoorLogic($('#door3'), $('#div2'), "door-open-box-3", 0);
+            DoorLogic($('#door3'), $('#div2'), "door-open-box-2", 30);
         }
 
         if( $('#door4').length)
         {
-            DoorLogic($('#door4'), $('#div2'), "door-open-box-3", 0);
+            DoorLogic($('#door4'), $('#div2'), "door-open-box-2", 30);
         }
         
 

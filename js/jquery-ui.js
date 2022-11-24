@@ -64,7 +64,7 @@ $.fn.extend({
 			this.each(function() {
 				var elem = this;
 				setTimeout(function() {
-					$( elem ).focus();
+					$( elem ).trigger("focus");
 					if ( fn ) {
 						fn.call( elem );
 					}
@@ -5767,7 +5767,7 @@ $.widget( "ui.accordion", {
 		if ( toFocus ) {
 			$( event.target ).attr( "tabIndex", -1 );
 			$( toFocus ).attr( "tabIndex", 0 );
-			toFocus.focus();
+			toFocus.trigger("focus");
 			return false;
 		}
 
@@ -6015,7 +6015,7 @@ $.widget( "ui.accordion", {
 				"aria-expanded": "true",
 				tabIndex: 0
 			})
-			.focus();
+			.trigger("focus");
 	},
 
 	_completed: function( cancel ) {
@@ -6309,7 +6309,7 @@ $.widget( "ui.autocomplete", {
 
 					// only trigger when focus was lost (click on menu)
 					if ( self.element[0] !== doc.activeElement ) {
-						self.element.focus();
+						self.element.trigger("focus");
 						self.previous = previous;
 						// #6109 - IE triggers two focus events and the second
 						// is asynchronous, so we need to reset the previous
@@ -7770,7 +7770,7 @@ $.extend(Datepicker.prototype, {
 			if (!showAnim || !duration)
 				postProcess();
 			if (inst.input.is(':visible') && !inst.input.is(':disabled'))
-				inst.input.focus();
+				inst.input.trigger("focus");
 			$.datepicker._curInst = inst;
 		}
 	},
@@ -7815,7 +7815,7 @@ $.extend(Datepicker.prototype, {
 			'Class']('ui-datepicker-rtl');
 		if (inst == $.datepicker._curInst && $.datepicker._datepickerShowing && inst.input &&
 				inst.input.is(':visible') && !inst.input.is(':disabled'))
-			inst.input.focus();
+			inst.input.trigger("focus");
 		// deffered render of the years select (to avoid flashes on Firefox) 
 		if( inst.yearshtml ){
 			var origyearshtml = inst.yearshtml;
@@ -7978,7 +7978,7 @@ $.extend(Datepicker.prototype, {
 		var inst = this._getInst(target[0]);
 		if (inst.input && inst._selectingMonthYear) {
 			setTimeout(function() {
-				inst.input.focus();
+				inst.input.trigger("focus");
 			}, 0);
 		}
 		inst._selectingMonthYear = !inst._selectingMonthYear;
@@ -8024,7 +8024,7 @@ $.extend(Datepicker.prototype, {
 			this._hideDatepicker();
 			this._lastInput = inst.input[0];
 			if (typeof(inst.input[0]) != 'object')
-				inst.input.focus(); // restore focus
+				inst.input.trigger("focus"); // restore focus
 			this._lastInput = null;
 		}
 	},
@@ -9214,7 +9214,7 @@ $.widget("ui.dialog", {
 		// if there are no tabbable elements, set focus on the dialog itself
 		$(self.element.find(':tabbable').get().concat(
 			uiDialog.find('.ui-dialog-buttonpane :tabbable').get().concat(
-				uiDialog.get()))).eq(0).focus();
+				uiDialog.get()))).eq(0).trigger("focus");
 
 		self._isOpen = true;
 		self._trigger('open');
@@ -10386,7 +10386,7 @@ $.widget( "ui.slider", $.ui.mouse, {
 
 		closestHandle
 			.addClass( "ui-state-active" )
-			.focus();
+			.trigger("focus");
 		
 		offset = closestHandle.offset();
 		mouseOverHandle = !$( event.target ).parents().andSelf().is( ".ui-slider-handle" );
