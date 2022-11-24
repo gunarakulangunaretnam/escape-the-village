@@ -238,7 +238,6 @@ $(window).on('load', function(){
 
              $("#DoorOpenBox3AnswerBTN").unbind("click").click(function(){
 
-
                 var PuzzleAnswerFromUser = $("#DoorOpenBox3AnswerTEXTBOX").val();
              
                 if (PuzzleAnswerFromUser == PuzzleAnswerFromAPI) {

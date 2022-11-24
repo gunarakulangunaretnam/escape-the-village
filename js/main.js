@@ -224,7 +224,7 @@ function runner() {
 
 }
 
-$(window).on('load', function(){
+$(window).on('load', function(){ 
 
   
   document.addEventListener('keydown', (event) => {
@@ -389,7 +389,7 @@ function dieplayer() {
 
   movingTrue = false;
 
-  $("#gameoverbox").slideDown("slow").trigger("focus");
+  $("#gameoverbox").slideDown("slow").focus();
 
 
 }
