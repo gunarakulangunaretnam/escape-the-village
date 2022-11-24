@@ -118,8 +118,8 @@ function PlayerMoveRight() {
     lastlayer();
 
     $("#stage").animate({
-      marginLeft: "-30000px"
-    }, 40000, 'linear');
+      marginLeft: "-50000px"
+    }, 60000, 'linear');
 
     movingTrue = true;
 
@@ -278,7 +278,7 @@ function FlyBirdsOnSky() {
   }, 900000)
 
   $(".enmybox").animate({
-    marginLeft: "-30000px"
+    marginLeft: "-50000px"
   }, 300000, 'linear');
 
 };
@@ -324,20 +324,20 @@ function FlyAircraft() {
 
 function grasstreemoving() {
   $(".grasstree").animate({
-    marginLeft: "-30000px"
+    marginLeft: "-50000px"
   }, 400000, 'linear');
 }
 
 
 function maintreemoving() {
   $(".maintree").animate({
-    marginLeft: "-30000px"
+    marginLeft: "-50000px"
   }, 330000, 'linear');
 }
 
 function lastlayer() {
   $(".seenlayer").animate({
-    marginLeft: "-30000px"
+    marginLeft: "-50000px"
   }, 500000, 'linear');
 }
 
