@@ -356,17 +356,17 @@ $(window).on('load', function(){
         //Doors
         if( $('#door1').length)
         {         
-            DoorLogic($('#door1'), $('#div2'), "door-open-box-2", 30);
+            DoorLogic($('#door1'), $('#div2'), "door-open-box-1", 0);
         }
 
         if( $('#door2').length)
         {  
-            DoorLogic($('#door2'), $('#div2'), "door-open-box-4", 30);
+            DoorLogic($('#door2'), $('#div2'), "door-open-box-2", 30);
         }
 
         if( $('#door3').length)
         {
-            DoorLogic($('#door3'), $('#div2'), "door-open-box-2", 30);
+            DoorLogic($('#door3'), $('#div2'), "door-open-box-3", 0);
         }
 
         if( $('#door4').length)
