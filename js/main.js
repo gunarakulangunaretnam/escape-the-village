@@ -119,7 +119,7 @@ function PlayerMoveRight() {
 
     $("#stage").animate({
       marginLeft: "-20000px"
-    }, 50000, 'linear');
+    }, 10000, 'linear');
 
     movingTrue = true;
 
