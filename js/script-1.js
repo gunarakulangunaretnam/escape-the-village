@@ -322,7 +322,7 @@ $(window).on('load', function(){
         //Doors
         if( $('#door1').length)
         {         
-            DoorLogic($('#door1'), $('#div2'), "door-open-box-2", 30);
+            DoorLogic($('#door1'), $('#div2'), "door-open-box-3", 0);
         }
 
         if( $('#door2').length)

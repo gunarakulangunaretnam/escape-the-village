@@ -1,31 +1,38 @@
 $(window).on('load', function(){
 
-    $('form').submit(false); //Disabled Form Submission
+    $('form').on('submit', function(){
 
-    document.body.onkeyup = function (e) {
-            
+        return false; //Disabled Form Submission
+
+    });
+
+
+    $('body').on('keyup', function(e){
+  
         if(e.key== " "){
             
             jumper();
 
         }
        
-    }
+    });
 
-    $("#level-play-btn").on('hover', function(){
+    
+
+    $('#level-play-btn').on('mouseenter', this, function() {
 
         this.src = "images/ui-assets/play-btn-2.png";
 
-    }, function(){
+     }).on('mouseleave', this , function() {
 
         this.src = "images/ui-assets/play-btn-1.png";
+     
     });
 
-    $("#level-play-btn").on('click', function(){
-    
+
+    $( "#level-play-btn" ).on( "click", function() {
         InitialObjectsMover();
         $("#level-1-cover-box").hide();
-
     });
 
 });
