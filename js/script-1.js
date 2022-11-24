@@ -370,7 +370,7 @@ $(window).on('load', function(){
 
         if( $('#door2').length)
         {  
-            DoorLogic($('#door2'), $('#div2'), "door-open-box-2", 30);
+            DoorLogic($('#door2'), $('#div2'), "door-open-box-2", 300);
         }
 
         if( $('#door3').length)
@@ -380,7 +380,42 @@ $(window).on('load', function(){
 
         if( $('#door4').length)
         {
-            DoorLogic($('#door4'), $('#div2'), "door-open-box-4", 30);
+            DoorLogic($('#door4'), $('#div2'), "door-open-box-4", 240);
+        }
+
+        if( $('#door5').length)
+        {
+            DoorLogic($('#door5'), $('#div2'), "door-open-box-3", 0);
+        }
+
+        if( $('#door6').length)
+        {
+            DoorLogic($('#door6'), $('#div2'), "door-open-box-2", 120);
+        }
+
+        if( $('#door7').length)
+        {
+            DoorLogic($('#door7'), $('#div2'), "door-open-box-4", 360);
+        }
+
+        if( $('#door8').length)
+        {
+            DoorLogic($('#door8'), $('#div2'), "door-open-box-3", 0);
+        }
+
+        if( $('#door9').length)
+        {
+            DoorLogic($('#door9'), $('#div2'), "door-open-box-2", 180);
+        }
+
+        if( $('#door10').length)
+        {
+            DoorLogic($('#door10'), $('#div2'), "door-open-box-2", 240);
+        }
+
+        if( $('#door11').length)
+        {
+            DoorLogic($('#door11'), $('#div2'), "door-open-box-4", 90);
         }
         
 
