@@ -195,7 +195,7 @@ $(window).on('load', function(){
 
             MCQAnswersSetter(".DoorOpenBox2AnswerBTN", PuzzleAnswerFromAPI); // Set random MCQ answers and API answer
 
-            TimerFunction(TimeDuration, "#door-open-box-2");
+            TimerFunctionForDoorOpenBox2(TimeDuration);
 
             $(".DoorOpenBox2AnswerBTN").unbind("click").click(function () {
 
@@ -273,9 +273,44 @@ $(window).on('load', function(){
 
         }else if(doortype == "door-open-box-4" && TimeDuration != 0){
 
+            
+             // Place question image | Slide down the puzzle viwer div
+             $("#door-open-box-4-puzzle-image").attr('src', "data:image/png;base64," + puzzleImageBase64);
+             $("#door-open-box-4").slideDown("slow").trigger("focus");
 
+             TimerFunctionForDoorOpenBox4(TimeDuration);
 
+             $("#DoorOpenBox4AnswerBTN").unbind("click").click(function(){
 
+                var PuzzleAnswerFromUser = $("#DoorOpenBox4AnswerTEXTBOX").val();
+
+                if (PuzzleAnswerFromUser == PuzzleAnswerFromAPI) {
+
+                    $("#door-open-box-4").slideUp("slow") // Slide up current window
+                    door.remove(); // Remove the door
+
+                    PuzzleAudio.pause();
+                    timerTicker.pause();
+                    DoorOpenSound()
+                    stage1Audio.play();
+                    
+                    ObjectsMover();
+
+                    isPuzzleMode = false;
+                    movingTrue = false;
+
+                }else{
+
+                    $("#door-open-box-4").slideUp("slow").trigger("focus"); // Slide up current window
+                    $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
+                    PuzzleAudio.pause();
+                    stage1Audio.pause();
+                    timerTicker.pause();
+                    GameOverSound.play();
+                }
+
+                $("#DoorOpenBox4AnswerTEXTBOX").val("");
+            });
         }
 
     }
@@ -326,7 +361,7 @@ $(window).on('load', function(){
 
         if( $('#door2').length)
         {  
-            DoorLogic($('#door2'), $('#div2'), "door-open-box-2", 30);
+            DoorLogic($('#door2'), $('#div2'), "door-open-box-4", 30);
         }
 
         if( $('#door3').length)
@@ -336,7 +371,7 @@ $(window).on('load', function(){
 
         if( $('#door4').length)
         {
-            DoorLogic($('#door4'), $('#div2'), "door-open-box-2", 30);
+            DoorLogic($('#door4'), $('#div2'), "door-open-box-4", 30);
         }
         
 
