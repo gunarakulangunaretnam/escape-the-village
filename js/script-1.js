@@ -354,6 +354,9 @@ $(window).on('load', function(){
         $('.result').text(collision($('#enm15'), $('#div2')));
         $('.result').text(collision($('#enm16'), $('#div2')));
 
+        $('.result').text(collision($('#enm17'), $('#div2')));
+        $('.result').text(collision($('#enm18'), $('#div2')));
+
 
         LevelUp($('#flag'), $('#div2'));
 
