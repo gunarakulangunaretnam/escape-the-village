@@ -9,11 +9,6 @@ var stage1Audio = new Audio("music/stage-1-background-music.mp3");
 stage1Audio.volume = 0.9;
 stage1Audio.loop = true;
 
-// Puzzle Sound
-var PuzzleAudio = new Audio("music/other-musics/puzzle-solving-music.mp3");
-PuzzleAudio.volume = 0.3;
-PuzzleAudio.loop = true;
-
 
 // Game Over Sound
 var GameOverSound = new Audio("music/other-musics/game-over-sound-effect.mp3");

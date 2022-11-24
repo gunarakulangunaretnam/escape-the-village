@@ -90,13 +90,6 @@ $(window).on('load', function(){
     }
 
 
-    function PuzzleSolvingMusicOn() {
-
-        stage1Audio.pause()
-        PuzzleAudio.play()
-
-    }
-
     function DoorOpenSound(){
 
         // Door open Sound
@@ -111,7 +104,7 @@ $(window).on('load', function(){
 
         $(".MovingObjects").stop(); // Stop moving objects
         PlayerStop();               // Stop the player
-        PuzzleSolvingMusicOn();
+        
 
     }
 
@@ -167,9 +160,7 @@ $(window).on('load', function(){
                     $("#door-open-box-1").slideUp("slow") // Slide up current window
                     door.remove(); // Remove the door
 
-                    PuzzleAudio.pause();
                     DoorOpenSound()
-                    stage1Audio.play();
                     ObjectsMover();
                     isPuzzleMode = false;
                     movingTrue = false;
@@ -179,7 +170,7 @@ $(window).on('load', function(){
                     
                     $("#door-open-box-1").slideUp("slow").trigger("focus"); // Slide up current window
                     $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
-                    PuzzleAudio.pause();
+
                     stage1Audio.pause();
                     GameOverSound.play();
                     
@@ -206,10 +197,10 @@ $(window).on('load', function(){
                     $("#door-open-box-2").slideUp("slow") // Slide up current window
                     door.remove(); // Remove the door
 
-                    PuzzleAudio.pause();
+              
                     timerTicker.pause();
                     DoorOpenSound()
-                    stage1Audio.play();    
+                  
                     ObjectsMover();
                     isPuzzleMode = false;
                     movingTrue = false;
@@ -219,7 +210,7 @@ $(window).on('load', function(){
                     
                     $("#door-open-box-2").slideUp("slow").trigger("focus"); // Slide up current window
                     $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
-                    PuzzleAudio.pause();
+                 
                     stage1Audio.pause();
                     timerTicker.pause();
                     GameOverSound.play();
@@ -245,10 +236,9 @@ $(window).on('load', function(){
                     $("#door-open-box-3").slideUp("slow") // Slide up current window
                     door.remove(); // Remove the door
 
-                    PuzzleAudio.pause();
+                   
                     timerTicker.pause();
                     DoorOpenSound()
-                    stage1Audio.play();
                     
                     ObjectsMover();
 
@@ -260,7 +250,7 @@ $(window).on('load', function(){
 
                     $("#door-open-box-3").slideUp("slow").trigger("focus"); // Slide up current window
                     $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
-                    PuzzleAudio.pause();
+                   
                     stage1Audio.pause();
                     timerTicker.pause();
                     GameOverSound.play();
@@ -289,10 +279,10 @@ $(window).on('load', function(){
                     $("#door-open-box-4").slideUp("slow") // Slide up current window
                     door.remove(); // Remove the door
 
-                    PuzzleAudio.pause();
+                  
                     timerTicker.pause();
                     DoorOpenSound()
-                    stage1Audio.play();
+                  
                     
                     ObjectsMover();
 
@@ -303,7 +293,7 @@ $(window).on('load', function(){
 
                     $("#door-open-box-4").slideUp("slow").trigger("focus"); // Slide up current window
                     $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
-                    PuzzleAudio.pause();
+                  
                     stage1Audio.pause();
                     timerTicker.pause();
                     GameOverSound.play();
