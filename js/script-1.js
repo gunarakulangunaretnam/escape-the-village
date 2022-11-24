@@ -347,6 +347,7 @@ $(window).on('load', function(){
 
         $('.result').text(collision($('#croco1'), $('#div2')));
         $('.result').text(collision($('#croco2'), $('#div2')));
+        $('.result').text(collision($('#croco3'), $('#div2')));
 
         $('.result').text(collision($('#enm13'), $('#div2')));
         $('.result').text(collision($('#enm14'), $('#div2')));
