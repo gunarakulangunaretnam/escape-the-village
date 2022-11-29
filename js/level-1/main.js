@@ -20,6 +20,9 @@ timerTicker.volume = 1;
 timerTicker.loop = true;
 
 
+
+
+
 function InitialObjectsMover() {
 
   stage1Audio.play();
@@ -270,7 +273,7 @@ function FlyBirdsOnSky() {
   }, 900000)
 
   $(".enmybox").animate({
-    marginLeft: "-80000px"
+    marginLeft: "-50000px"
   }, 300000, 'linear');
 
 };
@@ -316,20 +319,20 @@ function FlyAircraft() {
 
 function grasstreemoving() {
   $(".grasstree").animate({
-    marginLeft: "-80000px"
+    marginLeft: "-50000px"
   }, 400000, 'linear');
 }
 
 
 function maintreemoving() {
   $(".maintree").animate({
-    marginLeft: "-80000px"
+    marginLeft: "-50000px"
   }, 330000, 'linear');
 }
 
 function lastlayer() {
   $(".seenlayer").animate({
-    marginLeft: "-80000px"
+    marginLeft: "-50000px"
   }, 500000, 'linear');
 }
 
