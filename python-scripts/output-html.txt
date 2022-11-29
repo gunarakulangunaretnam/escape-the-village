@@ -1,100 +1,105 @@
-<img src="images/coin/dim.png" class="" style="position:absolute; left:12109px; top:-15.31238161755634px;" id="diamond1" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:30804px; top:28.851287068813576px;" id="diamond2" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:8525px; top:13.266207546801255px;" id="diamond3" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:11670px; top:-87.42988183654218px;" id="diamond4" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:19763px; top:16.217505600872897px;" id="diamond5" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:34660px; top:-41.30655076589898px;" id="diamond6" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:36239px; top:-28.083472608591237px;" id="diamond7" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10367px; top:8.649905451126102px;" id="diamond8" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:19936px; top:-69.51367531643436px;" id="diamond9" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:34837px; top:29.880357102303435px;" id="diamond10" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:33471px; top:-29.081626749384768px;" id="diamond11" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:35319px; top:35.99514672447407px;" id="diamond12" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10625px; top:37.55814929424025px;" id="diamond13" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:7099px; top:-29.83426111846434px;" id="diamond14" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31700px; top:-25.45404447789126px;" id="diamond15" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:8557px; top:33.81504320418358px;" id="diamond16" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31788px; top:17.57939526526735px;" id="diamond17" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15876px; top:-18.28867167755928px;" id="diamond18" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:13322px; top:35.20012243283438px;" id="diamond19" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:20370px; top:-42.16920295153174px;" id="diamond20" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:24660px; top:8.592683161026358px;" id="diamond21" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31478px; top:-25.61309773562907px;" id="diamond22" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:33031px; top:3.842534758801577px;" id="diamond23" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:3352px; top:-45.60659269052809px;" id="diamond24" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:21752px; top:-63.59723621601742px;" id="diamond25" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:6702px; top:-6.7686841874627675px;" id="diamond26" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:20674px; top:-91.94767644384689px;" id="diamond27" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:18099px; top:-93.47970547754962px;" id="diamond28" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:26508px; top:-67.58599118202375px;" id="diamond29" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:34581px; top:36.89543139607326px;" id="diamond30" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10264px; top:12.070318719648313px;" id="diamond31" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:21308px; top:-90.4438043161685px;" id="diamond32" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:37258px; top:34.601254900074565px;" id="diamond33" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15845px; top:38.20804516680573px;" id="diamond34" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:32397px; top:-98.24836976157746px;" id="diamond35" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:19324px; top:17.853033353499725px;" id="diamond36" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31077px; top:26.014159205969847px;" id="diamond37" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:33794px; top:-67.91933396939817px;" id="diamond38" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:18211px; top:-45.1281688181828px;" id="diamond39" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:11400px; top:-45.91710787614919px;" id="diamond40" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:7489px; top:18.305746167382182px;" id="diamond41" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10069px; top:-66.89400242158655px;" id="diamond42" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:26592px; top:32.49799048923944px;" id="diamond43" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:33515px; top:22.32841573984136px;" id="diamond44" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:18105px; top:18.8220942835337px;" id="diamond45" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:34803px; top:-59.7736543191474px;" id="diamond46" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:34486px; top:-92.5077482898585px;" id="diamond47" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:26544px; top:-10.359165845949022px;" id="diamond48" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:7966px; top:-85.8583826694951px;" id="diamond49" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:3318px; top:17.05859954907453px;" id="diamond50" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:33399px; top:23.44707509728751px;" id="diamond51" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:12581px; top:2.2164079189531236px;" id="diamond52" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15634px; top:33.44792100616925px;" id="diamond53" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:19930px; top:-44.30576869666353px;" id="diamond54" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31946px; top:-98.95590928361744px;" id="diamond55" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31426px; top:-75.20958185277776px;" id="diamond56" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:7692px; top:-79.96760531246912px;" id="diamond57" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:28910px; top:-7.170460259689975px;" id="diamond58" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:35085px; top:-9.122796484979162px;" id="diamond59" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:21959px; top:-67.75000720984323px;" id="diamond60" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:27185px; top:-26.793474324985397px;" id="diamond61" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15884px; top:-30.839809856779397px;" id="diamond62" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:25681px; top:-56.451486290062526px;" id="diamond63" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:19113px; top:-25.627317468140504px;" id="diamond64" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:3122px; top:28.390623153357552px;" id="diamond65" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:37413px; top:-3.502431524882468px;" id="diamond66" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:35480px; top:-10.276680605348432px;" id="diamond67" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15251px; top:-5.804745835761011px;" id="diamond68" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:18638px; top:-82.2637291548169px;" id="diamond69" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:5055px; top:-45.050966187871516px;" id="diamond70" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:32344px; top:30.33833825111759px;" id="diamond71" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4870px; top:-35.178630201016276px;" id="diamond72" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:19093px; top:-3.665055880831389px;" id="diamond73" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:2319px; top:-31.497417896336444px;" id="diamond74" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:12464px; top:-9.6453578326865px;" id="diamond75" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:28687px; top:-83.503299909215px;" id="diamond76" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:23993px; top:-59.43722035810535px;" id="diamond77" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:29593px; top:-97.66952441924224px;" id="diamond78" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:27942px; top:-18.55046974235121px;" id="diamond79" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:37042px; top:-14.048188601278298px;" id="diamond80" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:5470px; top:-57.55679153502688px;" id="diamond81" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:22748px; top:-89.17224310558629px;" id="diamond82" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:11850px; top:-34.686124415588054px;" id="diamond83" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:32875px; top:-29.65134438100587px;" id="diamond84" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:29038px; top:-91.69193981372065px;" id="diamond85" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:21293px; top:-82.59133942878768px;" id="diamond86" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:36506px; top:6.998047079103046px;" id="diamond87" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:37168px; top:10.109167475155047px;" id="diamond88" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:25368px; top:-57.26332706900439px;" id="diamond89" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:13669px; top:5.909421235855135px;" id="diamond90" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10781px; top:-40.72965787652767px;" id="diamond91" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:8002px; top:6.469278154786508px;" id="diamond92" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:20472px; top:38.11200355396008px;" id="diamond93" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:13289px; top:-99.50510563884289px;" id="diamond94" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:9115px; top:-62.21295828783508px;" id="diamond95" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:25930px; top:-74.26869184689507px;" id="diamond96" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:14306px; top:-91.91411786471546px;" id="diamond97" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:3931px; top:-63.72625095024415px;" id="diamond98" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:26309px; top:-31.52212592405742px;" id="diamond99" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:12514px; top:-1.9751144501937148px;" id="diamond100" /> 
+<div style="position:absolute; z-index:111; left:18522px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-1.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm1"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:35103px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-1.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm2"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:20857px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-2.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm3"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:5564px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-1.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm4"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:12312px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-1.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm5"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:34582px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-2.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm6"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:12132px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-2.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm7"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:4007px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-2.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm8"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:8598px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-1.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm9"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:17858px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-2.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm10"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:8880px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-2.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm11"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:24992px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-1.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm12"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:34820px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-2.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm13"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:4298px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-1.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm14"></div>
+                   </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:36674px; bottom:100px;" >
+                   <div style=" position:relative;">
+                      <img src="images/level-2-assets/Objects/cactus-1.png"/>
+                      <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm15"></div>
+                   </div>
+               </div>
+ 
