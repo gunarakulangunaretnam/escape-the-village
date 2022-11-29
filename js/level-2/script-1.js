@@ -52,6 +52,7 @@ $(window).on('load', function(){
           
             if (isPuzzleMode == false) {
 
+                console.log($div1.attr("id"))
                 DoorOpenPuzzleFunction($div1, doortype, TimeDuration);
             }
 
@@ -90,13 +91,6 @@ $(window).on('load', function(){
     }
 
 
-    function PuzzleSolvingMusicOn() {
-
-        stage1Audio.pause()
-        PuzzleAudio.play()
-
-    }
-
     function DoorOpenSound(){
 
         // Door open Sound
@@ -111,7 +105,7 @@ $(window).on('load', function(){
 
         $(".MovingObjects").stop(); // Stop moving objects
         PlayerStop();               // Stop the player
-        PuzzleSolvingMusicOn();
+      
 
     }
 
@@ -167,9 +161,9 @@ $(window).on('load', function(){
                     $("#door-open-box-1").slideUp("slow") // Slide up current window
                     door.remove(); // Remove the door
 
-                    PuzzleAudio.pause();
+                   
                     DoorOpenSound()
-                    stage1Audio.play();
+                   
                     ObjectsMover();
                     isPuzzleMode = false;
                     movingTrue = false;
@@ -179,7 +173,7 @@ $(window).on('load', function(){
                     
                     $("#door-open-box-1").slideUp("slow").trigger("focus"); // Slide up current window
                     $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
-                    PuzzleAudio.pause();
+                   
                     stage1Audio.pause();
                     GameOverSound.play();
                     
@@ -206,10 +200,10 @@ $(window).on('load', function(){
                     $("#door-open-box-2").slideUp("slow") // Slide up current window
                     door.remove(); // Remove the door
 
-                    PuzzleAudio.pause();
+                  
                     timerTicker.pause();
                     DoorOpenSound()
-                    stage1Audio.play();    
+                   
                     ObjectsMover();
                     isPuzzleMode = false;
                     movingTrue = false;
@@ -219,7 +213,7 @@ $(window).on('load', function(){
                     
                     $("#door-open-box-2").slideUp("slow").trigger("focus"); // Slide up current window
                     $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
-                    PuzzleAudio.pause();
+                   
                     stage1Audio.pause();
                     timerTicker.pause();
                     GameOverSound.play();
@@ -245,10 +239,10 @@ $(window).on('load', function(){
                     $("#door-open-box-3").slideUp("slow") // Slide up current window
                     door.remove(); // Remove the door
 
-                    PuzzleAudio.pause();
+                   
                     timerTicker.pause();
                     DoorOpenSound()
-                    stage1Audio.play();
+                   
                     
                     ObjectsMover();
 
@@ -260,7 +254,7 @@ $(window).on('load', function(){
 
                     $("#door-open-box-3").slideUp("slow").trigger("focus"); // Slide up current window
                     $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
-                    PuzzleAudio.pause();
+                    
                     stage1Audio.pause();
                     timerTicker.pause();
                     GameOverSound.play();
@@ -289,10 +283,10 @@ $(window).on('load', function(){
                     $("#door-open-box-4").slideUp("slow") // Slide up current window
                     door.remove(); // Remove the door
 
-                    PuzzleAudio.pause();
+                   
                     timerTicker.pause();
                     DoorOpenSound()
-                    stage1Audio.play();
+                  
                     
                     ObjectsMover();
 
@@ -303,7 +297,7 @@ $(window).on('load', function(){
 
                     $("#door-open-box-4").slideUp("slow").trigger("focus"); // Slide up current window
                     $("#gameoverbox").slideDown("slow").trigger("focus");   // Slide down gameover window
-                    PuzzleAudio.pause();
+                   
                     stage1Audio.pause();
                     timerTicker.pause();
                     GameOverSound.play();
@@ -344,79 +338,52 @@ $(window).on('load', function(){
 
         //Flying Birds on High
         //$('.result').text(collision($('#skybirds-enm1'), $('#div2')));
-
-        $('.result').text(collision($('#croco1'), $('#div2')));
-        $('.result').text(collision($('#croco2'), $('#div2')));
-        $('.result').text(collision($('#croco3'), $('#div2')));
-
-        $('.result').text(collision($('#enm13'), $('#div2')));
-        $('.result').text(collision($('#enm14'), $('#div2')));
-
-        $('.result').text(collision($('#enm15'), $('#div2')));
-        $('.result').text(collision($('#enm16'), $('#div2')));
-
-        $('.result').text(collision($('#enm17'), $('#div2')));
-        $('.result').text(collision($('#enm18'), $('#div2')));
+        $('.result').text(collision($('#enm1'), $('#div2'))) 
+        $('.result').text(collision($('#enm2'), $('#div2'))) 
+        $('.result').text(collision($('#enm3'), $('#div2'))) 
+        $('.result').text(collision($('#enm4'), $('#div2'))) 
+        $('.result').text(collision($('#enm5'), $('#div2'))) 
+        $('.result').text(collision($('#enm6'), $('#div2'))) 
+        $('.result').text(collision($('#enm7'), $('#div2'))) 
+        $('.result').text(collision($('#enm8'), $('#div2'))) 
+        $('.result').text(collision($('#enm9'), $('#div2'))) 
+        $('.result').text(collision($('#enm10'), $('#div2'))) 
+        $('.result').text(collision($('#enm11'), $('#div2'))) 
+        $('.result').text(collision($('#enm12'), $('#div2'))) 
+        $('.result').text(collision($('#enm13'), $('#div2'))) 
+        $('.result').text(collision($('#enm14'), $('#div2'))) 
+        $('.result').text(collision($('#enm15'), $('#div2'))) 
+        
 
 
         LevelUp($('#flag'), $('#div2'));
 
-
-        //  //Doors
-        //  if( $('#door1').length)
-        //  {         
-        //      DoorLogic($('#door1'), $('#div2'), "door-open-box-1", 0);
-        //  }
-
-        //  if( $('#door2').length)
-        //  {  
-        //      DoorLogic($('#door2'), $('#div2'), "door-open-box-2", 300);
-        //  }
-
-        //  if( $('#door3').length)
-        //  {
-        //      DoorLogic($('#door3'), $('#div2'), "door-open-box-3", 0);
-        //  }
-
-        //  if( $('#door4').length)
-        //  {
-        //      DoorLogic($('#door4'), $('#div2'), "door-open-box-4", 240);
-        //  }
-
-        //  if( $('#door5').length)
-        //  {
-        //      DoorLogic($('#door5'), $('#div2'), "door-open-box-3", 0);
-        //  }
-
-        //  if( $('#door6').length)
-        //  {
-        //      DoorLogic($('#door6'), $('#div2'), "door-open-box-2", 120);
-        //  }
-
-        //  if( $('#door7').length)
-        //  {
-        //      DoorLogic($('#door7'), $('#div2'), "door-open-box-4", 360);
-        //  }
-
-        //  if( $('#door8').length)
-        //  {
-        //      DoorLogic($('#door8'), $('#div2'), "door-open-box-3", 0);
-        //  }
-
-        //  if( $('#door9').length)
-        //  {
-        //      DoorLogic($('#door9'), $('#div2'), "door-open-box-2", 180);
-        //  }
-
-        //  if( $('#door10').length)
-        //  {
-        //      DoorLogic($('#door10'), $('#div2'), "door-open-box-2", 240);
-        //  }
-
-        //  if( $('#door11').length)
-        //  {
-        //      DoorLogic($('#door11'), $('#div2'), "door-open-box-4", 90);
-        //  }
+        if( $("#door1").length)  DoorLogic($("#door1"), $("#div2"), "door-open-box-1", 0); 
+        if( $("#door2").length)  DoorLogic($("#door2"), $("#div2"), "door-open-box-1", 0); 
+        if( $("#door3").length)  DoorLogic($("#door3"), $("#div2"), "door-open-box-3", 0); 
+        if( $("#door4").length)  DoorLogic($("#door4"), $("#div2"), "door-open-box-1", 0); 
+        if( $("#door5").length)  DoorLogic($("#door5"), $("#div2"), "door-open-box-4", 120); 
+        if( $("#door6").length)  DoorLogic($("#door6"), $("#div2"), "door-open-box-1", 0); 
+        if( $("#door7").length)  DoorLogic($("#door7"), $("#div2"), "door-open-box-1", 0); 
+        if( $("#door8").length)  DoorLogic($("#door8"), $("#div2"), "door-open-box-4", 340); 
+        if( $("#door9").length)  DoorLogic($("#door9"), $("#div2"), "door-open-box-4", 240); 
+        if( $("#door10").length)  DoorLogic($("#door10"), $("#div2"), "door-open-box-4", 300); 
+        if( $("#door11").length)  DoorLogic($("#door11"), $("#div2"), "door-open-box-2", 120); 
+        if( $("#door12").length)  DoorLogic($("#door12"), $("#div2"), "door-open-box-1", 0); 
+        if( $("#door13").length)  DoorLogic($("#door13"), $("#div2"), "door-open-box-1", 0); 
+        if( $("#door14").length)  DoorLogic($("#door14"), $("#div2"), "door-open-box-2", 120); 
+        if( $("#door15").length)  DoorLogic($("#door15"), $("#div2"), "door-open-box-4", 240); 
+        if( $("#door16").length)  DoorLogic($("#door16"), $("#div2"), "door-open-box-4", 300); 
+        if( $("#door17").length)  DoorLogic($("#door17"), $("#div2"), "door-open-box-2", 120); 
+        if( $("#door18").length)  DoorLogic($("#door18"), $("#div2"), "door-open-box-1", 0); 
+        if( $("#door19").length)  DoorLogic($("#door19"), $("#div2"), "door-open-box-2", 120); 
+        if( $("#door20").length)  DoorLogic($("#door20"), $("#div2"), "door-open-box-4", 360); 
+        if( $("#door21").length)  DoorLogic($("#door21"), $("#div2"), "door-open-box-3", 0); 
+        if( $("#door22").length)  DoorLogic($("#door22"), $("#div2"), "door-open-box-2", 120); 
+        if( $("#door23").length)  DoorLogic($("#door23"), $("#div2"), "door-open-box-4", 120); 
+        if( $("#door24").length)  DoorLogic($("#door24"), $("#div2"), "door-open-box-2", 180); 
+        if( $("#door25").length)  DoorLogic($("#door25"), $("#div2"), "door-open-box-2", 240); 
+        
         
 
     }, 200);
@@ -864,9 +831,7 @@ $(window).on('load', function(){
         $('.result').text(getpointscoin($('#diamond97'), $('#div2'), '#diamond97', 'DiamondType')); 
         $('.result').text(getpointscoin($('#diamond98'), $('#div2'), '#diamond98', 'DiamondType')); 
         $('.result').text(getpointscoin($('#diamond99'), $('#div2'), '#diamond99', 'DiamondType')); 
-        $('.result').text(getpointscoin($('#diamond100'), $('#div2'), '#diamond100', 'DiamondType')); 
-        
-
+        $('.result').text(getpointscoin($('#diamond100'), $('#div2'), '#diamond100', 'DiamondType'));         
 
     }, 200);
 });
