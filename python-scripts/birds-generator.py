@@ -7,7 +7,7 @@ f = open("output-html.txt", 'w')
 f1 = open("output-js.txt", "w+")
 f1 = open("output-js.txt", 'w')
 
-for i in range(100):
+for i in range(20):
     startfrom = startfrom + 1
     x = random.randint(2000, 38000)
     y = random.randint(60, 300)
