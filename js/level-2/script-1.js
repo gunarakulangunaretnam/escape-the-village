@@ -319,7 +319,7 @@ $(window).on('load', function(){
     const SmileApiRequest = async (door, doortype, TimeDuration) => {
 
         const response = await fetch('https://marcconrad.com/uob/smile/api.php?out=csv&base64=yes');
-        const responseData = await response.text(); //extract JSON from the http response
+        const responseData = await response.text(); 
         var responseDataArray = responseData.split(",");
 
         var puzzleImageBase64 = responseDataArray[0];
