@@ -47,7 +47,7 @@ function LevelUpSoundEffect(){
     
     audio.onended = function(){
       
-      location.href = "level-1.html";
+      location.href = "level-2.html";
 
     }
 
