@@ -5,7 +5,7 @@ var isPlayerAlive = true;
 var isLevelFinished = false;
 
 // Stage 1 Sound
-var stage1Audio = new Audio("music/stage-3-background-music.mp3");
+var stage1Audio = new Audio("music/stage-4-background-music.mp3");
 stage1Audio.volume = 0.9;
 stage1Audio.loop = true;
 
