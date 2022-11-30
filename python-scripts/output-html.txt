@@ -1,200 +1,120 @@
-<img src="images/coin/dim.png" class="" style="position:absolute; left:9563px; top:-10.782285399810007px;" id="diamond1" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15402px; top:-49.55551728933776px;" id="diamond2" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:25528px; top:36.99120355249744px;" id="diamond3" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:9432px; top:38.99582170066594px;" id="diamond4" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10309px; top:-91.28952388680028px;" id="diamond5" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:6973px; top:-36.64028809730387px;" id="diamond6" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:21663px; top:-31.84694659490387px;" id="diamond7" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4522px; top:-40.30716219825153px;" id="diamond8" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:33409px; top:-12.131006277387115px;" id="diamond9" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31996px; top:-30.00535192338812px;" id="diamond10" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4614px; top:-2.348890246577909px;" id="diamond11" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:35921px; top:-21.507129758671212px;" id="diamond12" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15873px; top:-81.38560228088866px;" id="diamond13" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10541px; top:-59.382193049925895px;" id="diamond14" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:25149px; top:26.982583325828358px;" id="diamond15" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:22942px; top:36.80900967619971px;" id="diamond16" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:20216px; top:36.793936360352035px;" id="diamond17" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:33406px; top:37.91088058919061px;" id="diamond18" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:34245px; top:-30.352754659628374px;" id="diamond19" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10968px; top:20.617419121064145px;" id="diamond20" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:6182px; top:21.968265445792497px;" id="diamond21" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:30726px; top:-57.16030590113045px;" id="diamond22" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:23902px; top:-94.99704970760473px;" id="diamond23" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4761px; top:-29.005915802115993px;" id="diamond24" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:24678px; top:23.238839460387652px;" id="diamond25" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:26390px; top:0.3192301825194903px;" id="diamond26" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:28617px; top:-61.447015223771324px;" id="diamond27" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:18556px; top:-56.166959327014744px;" id="diamond28" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4656px; top:-49.35187484011089px;" id="diamond29" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:36677px; top:-9.433295960995423px;" id="diamond30" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:12266px; top:13.576194009058682px;" id="diamond31" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:21824px; top:15.167617669992126px;" id="diamond32" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15675px; top:-61.089786326181596px;" id="diamond33" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:27207px; top:3.2029655303502977px;" id="diamond34" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:9350px; top:-8.863854335862541px;" id="diamond35" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:8358px; top:-74.99488247152607px;" id="diamond36" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:23225px; top:-67.96732665236618px;" id="diamond37" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:27853px; top:-85.4347121349201px;" id="diamond38" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:36220px; top:-8.095574515049051px;" id="diamond39" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:5100px; top:-43.72883274558567px;" id="diamond40" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:37711px; top:-83.04502682726033px;" id="diamond41" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:35643px; top:-35.07762789723141px;" id="diamond42" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:24101px; top:-88.56160148209902px;" id="diamond43" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:6111px; top:-7.391724170410512px;" id="diamond44" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:24317px; top:-67.35157463356104px;" id="diamond45" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:20704px; top:31.980191039817072px;" id="diamond46" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:32875px; top:0.12592495931377812px;" id="diamond47" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:14215px; top:35.44599077013859px;" id="diamond48" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:29572px; top:-42.573897154215366px;" id="diamond49" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15251px; top:-53.53579027513407px;" id="diamond50" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:3307px; top:-5.429427968188577px;" id="diamond51" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:32219px; top:-49.96317488685869px;" id="diamond52" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4993px; top:1.8639735895187783px;" id="diamond53" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:32680px; top:-53.217110052710545px;" id="diamond54" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10260px; top:-95.94964351683846px;" id="diamond55" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:30948px; top:-53.63920223667989px;" id="diamond56" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:23439px; top:-29.904549158497517px;" id="diamond57" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:18575px; top:-3.2718857872540354px;" id="diamond58" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:29908px; top:-97.87534683944367px;" id="diamond59" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:37673px; top:19.75698794086223px;" id="diamond60" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:20453px; top:-82.6938287920504px;" id="diamond61" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:18468px; top:-87.55711406558896px;" id="diamond62" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31012px; top:-55.82143554326767px;" id="diamond63" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:14038px; top:38.637502221374916px;" id="diamond64" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:18731px; top:11.976032746077394px;" id="diamond65" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4365px; top:-37.76111937362196px;" id="diamond66" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:27897px; top:8.651244141014416px;" id="diamond67" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:20956px; top:33.62336856998593px;" id="diamond68" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:29038px; top:-61.58780064782342px;" id="diamond69" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:5657px; top:3.3521418492538118px;" id="diamond70" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:29534px; top:31.005749488433878px;" id="diamond71" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15619px; top:36.0295910858045px;" id="diamond72" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4110px; top:-67.60660657972424px;" id="diamond73" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:8075px; top:-28.00881238876049px;" id="diamond74" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:16183px; top:-5.739693981746427px;" id="diamond75" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:11072px; top:-12.486445359426014px;" id="diamond76" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:8957px; top:-70.92962280631131px;" id="diamond77" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31546px; top:-92.01911696220571px;" id="diamond78" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:5386px; top:36.844438839336675px;" id="diamond79" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:8389px; top:22.670440405700617px;" id="diamond80" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:29712px; top:-48.98783747284917px;" id="diamond81" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:21671px; top:-12.827219795296244px;" id="diamond82" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:7321px; top:35.789175315599266px;" id="diamond83" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31212px; top:-86.00183154388556px;" id="diamond84" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:32351px; top:1.9935223962518052px;" id="diamond85" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:14694px; top:14.352873803292852px;" id="diamond86" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:25197px; top:-98.898345497206px;" id="diamond87" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:6199px; top:-31.406809324486304px;" id="diamond88" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:9398px; top:-52.07449750330411px;" id="diamond89" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:17208px; top:-7.5286763042155656px;" id="diamond90" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:26007px; top:-7.4652078444259615px;" id="diamond91" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:3814px; top:-72.03408498120513px;" id="diamond92" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:5777px; top:-87.35732197465032px;" id="diamond93" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4869px; top:33.72142580680406px;" id="diamond94" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10904px; top:-91.85441695649023px;" id="diamond95" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:36949px; top:-77.22385757409702px;" id="diamond96" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:36404px; top:-75.51416676353665px;" id="diamond97" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:17773px; top:-92.12457584133237px;" id="diamond98" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31070px; top:19.05429652523233px;" id="diamond99" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:20006px; top:-2.6230877184235766px;" id="diamond100" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:37952px; top:23.661713037471046px;" id="diamond101" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:12227px; top:-41.54940170500203px;" id="diamond102" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:9373px; top:17.68455768353037px;" id="diamond103" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:7324px; top:-63.83478407307764px;" id="diamond104" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:13251px; top:-80.78277691902628px;" id="diamond105" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:35592px; top:8.705411252400438px;" id="diamond106" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:26403px; top:5.69376536769272px;" id="diamond107" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:20705px; top:-9.956759755792604px;" id="diamond108" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:33311px; top:-49.92543832769225px;" id="diamond109" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:18171px; top:-55.784085377938815px;" id="diamond110" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10201px; top:-89.48143620958331px;" id="diamond111" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:20987px; top:-76.14201108864133px;" id="diamond112" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:23386px; top:-3.0631583870913914px;" id="diamond113" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4402px; top:11.197141632996846px;" id="diamond114" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:23075px; top:18.205266591835795px;" id="diamond115" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:20893px; top:1.5472647973373768px;" id="diamond116" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:30946px; top:-37.71343769209363px;" id="diamond117" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:30779px; top:-31.676826722475738px;" id="diamond118" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:2538px; top:-55.917098635537045px;" id="diamond119" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:18205px; top:-82.91201636237074px;" id="diamond120" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31870px; top:-46.248521237871586px;" id="diamond121" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:24644px; top:-77.24985129107111px;" id="diamond122" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15737px; top:39.56339269704333px;" id="diamond123" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:34107px; top:-14.638500657005565px;" id="diamond124" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:16919px; top:37.977242439221925px;" id="diamond125" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:19844px; top:-24.303339643718374px;" id="diamond126" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:26591px; top:-91.20879861973094px;" id="diamond127" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4098px; top:-42.95533639884248px;" id="diamond128" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:26785px; top:-33.75208718581369px;" id="diamond129" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:21607px; top:-60.07728517159698px;" id="diamond130" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:3907px; top:-47.29491385691987px;" id="diamond131" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:11251px; top:-8.528873989574436px;" id="diamond132" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:3496px; top:4.94768288090421px;" id="diamond133" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:12556px; top:15.519540712828956px;" id="diamond134" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:16493px; top:-60.16424247675099px;" id="diamond135" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:8561px; top:-57.66222773765602px;" id="diamond136" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:2216px; top:-85.6005532682388px;" id="diamond137" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10171px; top:-56.08939078139152px;" id="diamond138" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:5037px; top:-16.637891525705797px;" id="diamond139" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:25482px; top:-81.78341985952865px;" id="diamond140" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:30995px; top:-66.11521356317209px;" id="diamond141" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:6055px; top:16.649006632382452px;" id="diamond142" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4327px; top:-32.068637378421556px;" id="diamond143" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:8582px; top:-32.204837110559126px;" id="diamond144" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:32090px; top:-56.30592926545305px;" id="diamond145" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:22155px; top:-35.184702875491524px;" id="diamond146" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:27135px; top:-9.812482006214651px;" id="diamond147" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:6520px; top:-13.109941510657094px;" id="diamond148" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:8987px; top:-19.886412179296542px;" id="diamond149" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:19922px; top:-69.98941389965856px;" id="diamond150" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:7917px; top:2.4340099100990074px;" id="diamond151" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10583px; top:-45.56893999116291px;" id="diamond152" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:26445px; top:-5.787163358727739px;" id="diamond153" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4087px; top:-65.09884561248228px;" id="diamond154" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:22210px; top:-43.46527332511263px;" id="diamond155" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:4089px; top:-96.39630039013335px;" id="diamond156" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:34286px; top:8.405712304326116px;" id="diamond157" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:24186px; top:2.0600258100158584px;" id="diamond158" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:23886px; top:-72.62272028695189px;" id="diamond159" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:2448px; top:-43.715015440983564px;" id="diamond160" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:17068px; top:-72.76770037271135px;" id="diamond161" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15220px; top:35.52207417677465px;" id="diamond162" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:21816px; top:38.30301011569961px;" id="diamond163" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:18422px; top:-34.18060003870937px;" id="diamond164" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:19989px; top:-68.02658675533031px;" id="diamond165" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:15381px; top:35.328660841268686px;" id="diamond166" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:28669px; top:-59.492915180992846px;" id="diamond167" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:6198px; top:-37.068545085240764px;" id="diamond168" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:34790px; top:-62.74511617857602px;" id="diamond169" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:21082px; top:-5.804227174201813px;" id="diamond170" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10732px; top:-60.73300179003456px;" id="diamond171" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:5119px; top:-77.15518044300252px;" id="diamond172" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:19493px; top:-16.5181063676918px;" id="diamond173" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:14484px; top:-11.3421721345278px;" id="diamond174" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:16541px; top:-24.6225039853675px;" id="diamond175" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:31707px; top:-62.77155144311956px;" id="diamond176" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:7939px; top:-87.71705629372327px;" id="diamond177" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:16421px; top:-88.86040313821084px;" id="diamond178" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:10055px; top:-81.70360766234847px;" id="diamond179" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:32682px; top:-11.983967815487702px;" id="diamond180" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:5671px; top:-92.8366591728779px;" id="diamond181" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:11654px; top:-81.33223668788403px;" id="diamond182" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:33913px; top:31.117446050895495px;" id="diamond183" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:34028px; top:-6.355294532104281px;" id="diamond184" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:34245px; top:-30.695631446776673px;" id="diamond185" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:24569px; top:28.499132094903217px;" id="diamond186" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:9520px; top:-39.55716716787914px;" id="diamond187" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:13115px; top:-72.51424494387487px;" id="diamond188" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:20377px; top:-82.31980622801925px;" id="diamond189" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:21917px; top:-40.308157258888414px;" id="diamond190" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:26707px; top:-44.56872760746816px;" id="diamond191" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:6649px; top:-74.33117079531063px;" id="diamond192" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:18721px; top:-26.659720738728993px;" id="diamond193" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:37659px; top:-14.943477015501898px;" id="diamond194" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:5279px; top:27.010587576412988px;" id="diamond195" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:11813px; top:-10.287977473340646px;" id="diamond196" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:26897px; top:-5.520564059821467px;" id="diamond197" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:33063px; top:-63.33303904905184px;" id="diamond198" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:16167px; top:3.0428500158653407px;" id="diamond199" /> 
-<img src="images/coin/dim.png" class="" style="position:absolute; left:12350px; top:-75.7094098346439px;" id="diamond200" /> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:20875px; bottom:290px;" id="skybirds-enm1"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:5910px; bottom:285px;" id="skybirds-enm2"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:33515px; bottom:254px;" id="skybirds-enm3"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:16070px; bottom:267px;" id="skybirds-enm4"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:20242px; bottom:253px;" id="skybirds-enm5"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:30427px; bottom:258px;" id="skybirds-enm6"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:6044px; bottom:266px;" id="skybirds-enm7"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:28606px; bottom:277px;" id="skybirds-enm8"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:4348px; bottom:285px;" id="skybirds-enm9"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:22350px; bottom:256px;" id="skybirds-enm10"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:37433px; bottom:277px;" id="skybirds-enm11"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:2171px; bottom:295px;" id="skybirds-enm12"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:25382px; bottom:297px;" id="skybirds-enm13"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:20111px; bottom:300px;" id="skybirds-enm14"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:26278px; bottom:271px;" id="skybirds-enm15"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:32687px; bottom:297px;" id="skybirds-enm16"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:7456px; bottom:295px;" id="skybirds-enm17"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:23133px; bottom:270px;" id="skybirds-enm18"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:22226px; bottom:276px;" id="skybirds-enm19"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:36608px; bottom:270px;" id="skybirds-enm20"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:28298px; bottom:275px;" id="skybirds-enm21"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:28991px; bottom:255px;" id="skybirds-enm22"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:35751px; bottom:296px;" id="skybirds-enm23"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:26215px; bottom:262px;" id="skybirds-enm24"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:9815px; bottom:293px;" id="skybirds-enm25"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:35592px; bottom:272px;" id="skybirds-enm26"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:18085px; bottom:282px;" id="skybirds-enm27"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:2855px; bottom:260px;" id="skybirds-enm28"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:5832px; bottom:261px;" id="skybirds-enm29"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:13809px; bottom:292px;" id="skybirds-enm30"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:24180px; bottom:294px;" id="skybirds-enm31"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:24786px; bottom:251px;" id="skybirds-enm32"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:28640px; bottom:274px;" id="skybirds-enm33"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:24356px; bottom:267px;" id="skybirds-enm34"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:28074px; bottom:265px;" id="skybirds-enm35"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:33289px; bottom:263px;" id="skybirds-enm36"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:29668px; bottom:291px;" id="skybirds-enm37"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:12217px; bottom:280px;" id="skybirds-enm38"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:14476px; bottom:293px;" id="skybirds-enm39"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:15245px; bottom:281px;" id="skybirds-enm40"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:21482px; bottom:269px;" id="skybirds-enm41"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:10471px; bottom:277px;" id="skybirds-enm42"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:24293px; bottom:295px;" id="skybirds-enm43"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:21167px; bottom:264px;" id="skybirds-enm44"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:28686px; bottom:293px;" id="skybirds-enm45"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:27236px; bottom:276px;" id="skybirds-enm46"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:4442px; bottom:250px;" id="skybirds-enm47"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:36740px; bottom:273px;" id="skybirds-enm48"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:23956px; bottom:251px;" id="skybirds-enm49"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:17638px; bottom:286px;" id="skybirds-enm50"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:21228px; bottom:295px;" id="skybirds-enm51"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:12947px; bottom:280px;" id="skybirds-enm52"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:16984px; bottom:296px;" id="skybirds-enm53"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:31152px; bottom:298px;" id="skybirds-enm54"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:24010px; bottom:287px;" id="skybirds-enm55"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:19202px; bottom:255px;" id="skybirds-enm56"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:27331px; bottom:253px;" id="skybirds-enm57"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:13801px; bottom:262px;" id="skybirds-enm58"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:29937px; bottom:275px;" id="skybirds-enm59"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:14110px; bottom:285px;" id="skybirds-enm60"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:15616px; bottom:267px;" id="skybirds-enm61"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:27273px; bottom:253px;" id="skybirds-enm62"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:5621px; bottom:274px;" id="skybirds-enm63"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:32188px; bottom:260px;" id="skybirds-enm64"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:28894px; bottom:262px;" id="skybirds-enm65"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:2894px; bottom:275px;" id="skybirds-enm66"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:31509px; bottom:285px;" id="skybirds-enm67"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:32386px; bottom:251px;" id="skybirds-enm68"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:32822px; bottom:256px;" id="skybirds-enm69"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:26964px; bottom:291px;" id="skybirds-enm70"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:27972px; bottom:252px;" id="skybirds-enm71"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:24334px; bottom:250px;" id="skybirds-enm72"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:3786px; bottom:267px;" id="skybirds-enm73"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:36914px; bottom:250px;" id="skybirds-enm74"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:34907px; bottom:289px;" id="skybirds-enm75"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:11740px; bottom:256px;" id="skybirds-enm76"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:17676px; bottom:280px;" id="skybirds-enm77"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:35757px; bottom:254px;" id="skybirds-enm78"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:31960px; bottom:267px;" id="skybirds-enm79"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:24561px; bottom:265px;" id="skybirds-enm80"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:18306px; bottom:271px;" id="skybirds-enm81"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:4118px; bottom:250px;" id="skybirds-enm82"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:17887px; bottom:298px;" id="skybirds-enm83"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:31950px; bottom:281px;" id="skybirds-enm84"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:21688px; bottom:280px;" id="skybirds-enm85"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:12200px; bottom:292px;" id="skybirds-enm86"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:2521px; bottom:288px;" id="skybirds-enm87"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:31582px; bottom:250px;" id="skybirds-enm88"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:8024px; bottom:254px;" id="skybirds-enm89"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:15597px; bottom:288px;" id="skybirds-enm90"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:24949px; bottom:279px;" id="skybirds-enm91"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:12004px; bottom:251px;" id="skybirds-enm92"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:27984px; bottom:287px;" id="skybirds-enm93"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:12756px; bottom:296px;" id="skybirds-enm94"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:23055px; bottom:271px;" id="skybirds-enm95"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:8661px; bottom:297px;" id="skybirds-enm96"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:12390px; bottom:282px;" id="skybirds-enm97"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:7917px; bottom:275px;" id="skybirds-enm98"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:32314px; bottom:283px;" id="skybirds-enm99"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:32193px; bottom:295px;" id="skybirds-enm100"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:15622px; bottom:265px;" id="skybirds-enm101"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:4890px; bottom:280px;" id="skybirds-enm102"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:17169px; bottom:267px;" id="skybirds-enm103"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:14116px; bottom:260px;" id="skybirds-enm104"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:7373px; bottom:261px;" id="skybirds-enm105"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:34008px; bottom:256px;" id="skybirds-enm106"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:9182px; bottom:260px;" id="skybirds-enm107"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:3160px; bottom:269px;" id="skybirds-enm108"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:36359px; bottom:296px;" id="skybirds-enm109"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:17487px; bottom:286px;" id="skybirds-enm110"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:29666px; bottom:283px;" id="skybirds-enm111"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:16575px; bottom:252px;" id="skybirds-enm112"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:7983px; bottom:250px;" id="skybirds-enm113"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:3787px; bottom:253px;" id="skybirds-enm114"/> 
+<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:7493px; bottom:275px;" id="skybirds-enm115"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:7792px; bottom:269px;" id="skybirds-enm116"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:13799px; bottom:259px;" id="skybirds-enm117"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:4443px; bottom:280px;" id="skybirds-enm118"/> 
+<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:30946px; bottom:297px;" id="skybirds-enm119"/> 
+<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:32233px; bottom:280px;" id="skybirds-enm120"/> 
