@@ -10,17 +10,17 @@ f1 = open("output-js.txt", 'w')
 
 x = 2000
 
-arr = [1,2,3,4]
+arr = [1,2]
 
-for i in range(700):
+for i in range(100):
     startfrom = startfrom + 1
+
+    x = random.randint(200, 36000)
 
     doortype = random.randint(1, 4)
    
-    f.write(f'<div class="bush{random.choice(arr)}" style="left:{x}px;"></div> \n' )
+    f.write(f'<div class="skeleton" style="left:{x}px;"></div> \n' )
 
-
-    x = x + 50
 
 f.close()
 f1.close()
