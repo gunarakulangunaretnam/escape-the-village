@@ -42,6 +42,7 @@ function LevelUpSoundEffect(){
    
     isLevelFinished = true;
 
+    stage1Audio.pause();
     var audio = new Audio("music/player-sounds/level-up.mp3");
     audio.play();
     audio.volume = 1;  
