@@ -1,0 +1,49 @@
+body{margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000000; overflow:hidden;}
+form, h1, h2, h3, h4, h5, img{margin:0px; padding:0px; border:0px;}
+html, body{margin:0px; padding:0px; width:100%; height:100%;}
+.bluesky{
+
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/level-3-assets/BG/BG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+#stage{width:20000px; position:absolute; left:0px; bottom:0px; height:200px;  z-index:8;}
+.mudroadtexture{ background-image:url(../../images/level-3-assets/Tiles/2.png); background-repeat:repeat; height:50%; z-index:10; position:absolute; left:0px; bottom:0px;  width:2000px; outline:0px;}
+.iceblock{ background-image:url(../../images/level-3-assets/Object/IceBox.png); background-repeat:repeat; height:50%; z-index:10; position:absolute; left:0px; bottom:0px;  width:2000px; outline:0px;}
+.waterWhole{ background-image:url(../../images/level-3-assets/Tiles/17.png); z-index:9; background-repeat:repeat; height:50%;   position:absolute; left:0px; bottom:0px;  width:100px; outline:0px;}
+
+#box {background-repeat:no-repeat; width:63px; height:90px;  }
+.waterwarn200{width:179px; height:4px; position:absolute; left:9px; bottom:-14px; }
+
+
+.maintree{position:absolute; z-index:7; left:0px; bottom:0px; height:80px; width:20000px;}
+.tree1{position:absolute; left:955px; bottom:-100px; width:386px; height:393px; background-repeat:no-repeat; background-image:url(../../images/level-3-assets/Object/Tree_2.png);}
+.tree2{position:absolute; left:655px; bottom:-100px; width:386px; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Tree_2.png);}
+.tree3{position:absolute; left:2855px; bottom:-100px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Tree_1.png);}
+.stone1{position:absolute; left:1055px; bottom:-95px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Stone.png);}
+.snowman{position:absolute; left:2055px; bottom:-165px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/SnowMan.png);}
+.crystal{position:absolute; left:1555px; bottom:-105px; width:100%; height:200px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Crystal.png);}
+.right-arrow{position:absolute; left:1555px; bottom:-85px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Sign_2.png);}
+.right-arrow2{position:absolute; left:1000px; bottom:-85px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Sign_1.png);}
+.seenlayer{height:300px; position:absolute; left:0px; bottom:0px; width:40000px; z-index:1; }
+.kutubminar{width:591px; height:500px; background-repeat:no-repeat; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:1100px; position:absolute; bottom:-200px;}
+.palace{width:591px; height:500px; background-repeat:no-repeat; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:2200px; position:absolute; bottom:-200px;}
+
+.kutubminar2{width:591px; background-repeat:no-repeat; background-repeat:no-repeat; height:500px; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:3100px; position:absolute; bottom:-200px;}
+.palace2{width:591px; background-repeat:no-repeat; height:500px; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:4100px; position:absolute; bottom:-200px;}
+
+.enmybox{position:absolute; z-index:80; left:0px; bottom:0px; height:300px; width:20000px;  }
+
+.score-objects{position:absolute; z-index:80; left:0px; bottom:0px; height:300px; width:20000px;  }
+
+.tort{position:absolute; left:6000px; width:100px; top:130px; -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: 'FlipH';  }
+

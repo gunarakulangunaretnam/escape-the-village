@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script type="text/javascript" src="js/jquery-3.6.1.min.JS"></script>
+      <script type="text/javascript" src="js/jquery-ui.js"></script>
+      <script type="text/javascript" src="js/level-5/main.js"></script>
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+      <link href="css/level-5/main.css" rel="stylesheet" type="text/css" />
+      <link href="css/level-5/custom.css" rel="stylesheet" type="text/css" />
+      <link href="css/level-5/timer-ticker-style.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="js/level-3/script-1.js"></script>
+    
+      
+   </head>
+   <body>
+
+   
+   <div id="level-1-cover-box">
+
+      <img id="level-play-btn" src="images/ui-assets/play-btn-1.png">
+
+   </div>
+
+   <!--Door Open Logic API-->
+   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-1">
+      <div style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
+         <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
+         <hr>
+
+         <img id="door-open-box-1-puzzle-image" src="" style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
+       
+         <form class="form-group py-3">
+            <label for="exampleInputEmail1" style="font-weight: bold; font-size: 20px;">Select Your Answer: </label><br>
+            
+            <button  id="DoorOpenBox1AnswerBTN1" style="margin-left: 10px;" class="btn btn-success DoorOpenBox1AnswerBTN">0</button>
+            <button  id="DoorOpenBox1AnswerBTN2" style="margin-left: 10px;" class="btn btn-success DoorOpenBox1AnswerBTN">0</button>
+            <button  id="DoorOpenBox1AnswerBTN3" style="margin-left: 10px;" class="btn btn-success DoorOpenBox1AnswerBTN">0</button>
+            <button  id="DoorOpenBox1AnswerBTN4" style="margin-left: 10px;" class="btn btn-success DoorOpenBox1AnswerBTN">0</button>
+            
+         </form>
+
+      </div>
+   </div>
+
+
+   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-2">
+      <div style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
+         <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
+         <hr>
+
+         <img  id="door-open-box-2-puzzle-image" src = "" style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
+         
+         <form class="form-group py-3">
+            <label for="exampleInputEmail1" style="font-weight: bold; font-size: 20px;">Select Your Answer: </label><br>
+            <button  id="DoorOpenBox2AnswerBTN1" style="margin-left: 10px;" class="btn btn-success DoorOpenBox2AnswerBTN">0</button>
+            <button  id="DoorOpenBox2AnswerBTN2" style="margin-left: 10px;" class="btn btn-success DoorOpenBox2AnswerBTN">0</button>
+            <button  id="DoorOpenBox2AnswerBTN3" style="margin-left: 10px;" class="btn btn-success DoorOpenBox2AnswerBTN">0</button>
+            <button  id="DoorOpenBox2AnswerBTN4" style="margin-left: 10px;" class="btn btn-success DoorOpenBox2AnswerBTN">0</button>
+            <div id="app1"></div>
+            <br>
+   
+         </form>
+
+      </div>
+   </div>
+
+
+   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-3">
+      <div style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
+         <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
+         <hr>
+
+         <img id="door-open-box-3-puzzle-image" src = "" style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
+         
+         <form class="form-inline py-3" style="margin-left: 26%;">
+           
+            <label for="exampleInputEmail1" style="font-weight: bold; font-size: 17px;">Enter Your Answer: </label><br>
+            <input id="DoorOpenBox3AnswerTEXTBOX" style="margin-left: 10px;"  type="text" class="form-control"/>
+            <button id="DoorOpenBox3AnswerBTN" style="margin-left: 10px;" type="submit" class="btn btn-success">Submit The Answer</button>
+            
+         </form>
+
+      </div>
+   </div>
+
+   
+
+   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-4">
+      <div style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
+         <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
+         <hr>
+
+         <img id="door-open-box-4-puzzle-image" src = "" style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
+         
+         <div style="position:absolute;" id="app2"></div>
+        
+         <form class="form-inline py-3" style="margin-left: 26%;">
+           
+            <label for="exampleInputEmail1" style="font-weight: bold; font-size: 17px;">Enter Your Answer: </label><br>
+            <input id="DoorOpenBox4AnswerTEXTBOX" style="margin-left: 10px;"  type="text" class="form-control"/>
+            <button id="DoorOpenBox4AnswerBTN" style="margin-left: 10px;" type="submit" class="btn btn-success">Submit The Answer</button>
+                
+         </form>
+
+      </div>
+   </div>
+
+   
+   <div class="bluesky" id="skydiv">
+         <div id="stage">
+
+            <div class="mudroadtexture"  style="left:0px; width:5000px;"></div>
+
+            <div class="iceblock"  style="left:5000px; width:808px;"></div>
+
+            <div class="mudroadtexture"  style="left:5800px; width:1000px;"></div>
+
+            <div class="iceblock"  style="left:6800px; width:808px;"></div>
+
+            <div class="mudroadtexture"  style="left:7608px; width:2000px;"></div>
+
+            <div class="waterWhole" id="water-whole-1" style="left:9608px; width:250px;"></div>
+
+            <div class="mudroadtexture"  style="left:9858px; width:1000px;"></div>
+
+            <div class="waterWhole" id="water-whole-2"  style="left:10858px; width:250px;"></div>
+
+            <div class="mudroadtexture"  style="left:11108px; width:2000px;"></div>
+
+            <div class="waterWhole"  id="water-whole-3" style="left:13108px; width:250px;"></div>
+
+            <div class="mudroadtexture"  style="left:13358px; width:10000px;"></div>
+
+            <div class="waterWhole" id="water-whole-4"  style="left:23358px; width:350px;"></div>
+
+            <div class="mudroadtexture"  style="left:23708px; width:5000px;"></div>
+
+            <div class="waterWhole" id="water-whole-5"  style="left:28708px; width:350px;"></div>
+
+            <div class="mudroadtexture"  style="left:29058px; width:10000px;"></div>
+            
+            <div class="enmybox MovingObjects">
+
+              <!-- Finsih line -->
+              
+               <!-- Birds Collections -->
+             <div style="position:relative; width:100%; overflow:visible;"> 
+               
+               
+
+             </div>
+
+            </div>
+            <div class="score-objects">
+               <!-- Coins Collections -->
+
+               <img src="images/doors/7.png" style="position:absolute; left:2000px; top:-220px; height: 480px;" id="door1"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:4200px; top:-220px; height: 480px;" id="door2"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:6400px; top:-220px; height: 480px;" id="door3"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:8600px; top:-220px; height: 480px;" id="door4"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:11400px; top:-220px; height: 480px;" id="door5"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:13500px; top:-220px; height: 480px;" id="door6"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:15200px; top:-220px; height: 480px;" id="door7"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:17400px; top:-220px; height: 480px;" id="door8"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:19600px; top:-220px; height: 480px;" id="door9"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:21800px; top:-220px; height: 480px;" id="door10"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:24000px; top:-220px; height: 480px;" id="door11"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:26200px; top:-220px; height: 480px;" id="door12"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:28300px; top:-220px; height: 480px;" id="door13"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:30600px; top:-220px; height: 480px;" id="door14"/> 
+               <img src="images/doors/7.png" style="position:absolute; left:32800px; top:-220px; height: 480px;" id="door15"/> 
+
+
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:20637px; top:9.47450553039134px;" id="coin1" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:18686px; top:-42.22788302651614px;" id="coin2" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:3662px; top:-87.47160352291365px;" id="coin3" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:29121px; top:-62.84753264298521px;" id="coin4" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:3857px; top:17.85472824312332px;" id="coin5" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:18670px; top:-58.869123247660674px;" id="coin6" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:13431px; top:12.408448022434499px;" id="coin7" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:33775px; top:32.60194409582806px;" id="coin8" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:11848px; top:-69.75631679854999px;" id="coin9" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:16041px; top:23.972560714613238px;" id="coin10" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:17558px; top:-50.461735091455246px;" id="coin11" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:2175px; top:-89.31101007222446px;" id="coin12" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:30171px; top:-42.647550400339284px;" id="coin13" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:25077px; top:19.567167530252448px;" id="coin14" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:33976px; top:-43.11363792808892px;" id="coin15" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:6284px; top:13.383982624814692px;" id="coin16" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:13403px; top:-78.07710054738598px;" id="coin17" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:26647px; top:26.90610902702673px;" id="coin18" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:37583px; top:-80.76998894905137px;" id="coin19" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:13788px; top:25.592017098629455px;" id="coin20" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:33766px; top:-75.73626154512601px;" id="coin21" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:30648px; top:11.028223270877973px;" id="coin22" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:12922px; top:-75.64745913687642px;" id="coin23" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:25721px; top:-33.24338027856514px;" id="coin24" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:2674px; top:-72.91550579040506px;" id="coin25" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:28638px; top:-64.03299380755047px;" id="coin26" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:25063px; top:-38.407346836870595px;" id="coin27" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:25554px; top:-70.10538128987432px;" id="coin28" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:21679px; top:-29.059944345732433px;" id="coin29" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:4566px; top:-17.754362399435067px;" id="coin30" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:27578px; top:-79.78789056971544px;" id="coin31" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:5223px; top:17.67157291771254px;" id="coin32" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:2149px; top:-94.13094964056401px;" id="coin33" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:19955px; top:-71.11002298783481px;" id="coin34" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:28903px; top:-51.71854563628306px;" id="coin35" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:36345px; top:-39.26807975123558px;" id="coin36" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:32745px; top:-44.24365729735955px;" id="coin37" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:2711px; top:-34.603087796501455px;" id="coin38" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:29900px; top:-30.14008946773339px;" id="coin39" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:27410px; top:29.938981752864464px;" id="coin40" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:19235px; top:-57.647365301457704px;" id="coin41" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:36946px; top:-16.740975325731526px;" id="coin42" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:29968px; top:14.466074103890747px;" id="coin43" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:18810px; top:17.140573166849563px;" id="coin44" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:19093px; top:-31.18132889233911px;" id="coin45" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:21932px; top:-66.63106845777426px;" id="coin46" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:5772px; top:-55.907970886811206px;" id="coin47" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:25999px; top:-35.35092973447735px;" id="coin48" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:10324px; top:36.58723777991142px;" id="coin49" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:22512px; top:-56.168782643529866px;" id="coin50" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:28512px; top:-78.88828043280147px;" id="coin51" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:37159px; top:17.316951923186508px;" id="coin52" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:24783px; top:-47.13865961067319px;" id="coin53" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:5383px; top:-64.34925773331429px;" id="coin54" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:16909px; top:-82.91596985180904px;" id="coin55" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:14493px; top:-35.12639596498592px;" id="coin56" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:4445px; top:31.147416461300338px;" id="coin57" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:2695px; top:-0.4960248969958059px;" id="coin58" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:18558px; top:35.102488817566865px;" id="coin59" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:30776px; top:-4.095118776786293px;" id="coin60" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:2492px; top:-66.26111738763404px;" id="coin61" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:34940px; top:-19.411014953452494px;" id="coin62" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:37871px; top:-23.52476837631471px;" id="coin63" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:33166px; top:-1.7680959808162413px;" id="coin64" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:20325px; top:-54.80338228249127px;" id="coin65" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:33404px; top:-32.452866503648195px;" id="coin66" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:19375px; top:26.663410867103423px;" id="coin67" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:7972px; top:-60.24042788909865px;" id="coin68" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:15712px; top:-37.72544819488251px;" id="coin69" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:6046px; top:16.754490651051356px;" id="coin70" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:8566px; top:-84.1395397578259px;" id="coin71" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:21882px; top:-47.97191288861421px;" id="coin72" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:27697px; top:-50.99135531792161px;" id="coin73" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:37409px; top:-67.4524023051696px;" id="coin74" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:22731px; top:-46.30521628103368px;" id="coin75" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:13541px; top:32.21936254681643px;" id="coin76" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:10162px; top:-75.10949102791925px;" id="coin77" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:9315px; top:-95.8355837670147px;" id="coin78" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:5674px; top:11.308925876768683px;" id="coin79" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:20078px; top:-9.359279220193656px;" id="coin80" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:25417px; top:32.95618921522694px;" id="coin81" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:4271px; top:-34.35640293485301px;" id="coin82" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:13421px; top:6.481106380976527px;" id="coin83" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:33386px; top:0.9081123056426463px;" id="coin84" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:19147px; top:33.604849500113744px;" id="coin85" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:30078px; top:-62.39019223411095px;" id="coin86" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:7437px; top:19.70908889779679px;" id="coin87" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:34611px; top:-55.21338031573619px;" id="coin88" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:27372px; top:-55.20034429188064px;" id="coin89" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:8997px; top:8.513159879969635px;" id="coin90" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:34370px; top:31.640959279233044px;" id="coin91" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:36905px; top:-50.36908475839117px;" id="coin92" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:5820px; top:11.552256989058606px;" id="coin93" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:10426px; top:-22.044544196610943px;" id="coin94" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:6799px; top:-84.06687857794687px;" id="coin95" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:13441px; top:-62.900496208489336px;" id="coin96" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:35909px; top:-44.52998630161326px;" id="coin97" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:8525px; top:-68.92511393819433px;" id="coin98" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:27375px; top:-99.63624094619254px;" id="coin99" />
+               <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:5143px; top:-77.4961540564528px;" id="coin100" />
+
+
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:31891px; top:-49.22126639057604px;" id="diamond1" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:37936px; top:-40.932929000761355px;" id="diamond2" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:16502px; top:34.64281579801235px;" id="diamond3" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:28965px; top:-94.92384069746332px;" id="diamond4" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:35963px; top:-15.340155672010042px;" id="diamond5" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:10438px; top:-26.145206612091954px;" id="diamond6" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:18155px; top:-17.111791413225518px;" id="diamond7" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:37075px; top:-73.56860484611258px;" id="diamond8" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:10440px; top:-26.824881792591256px;" id="diamond9" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:5177px; top:-93.86207043178536px;" id="diamond10" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:21310px; top:-84.13607234253344px;" id="diamond11" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:29390px; top:-79.07709760221026px;" id="diamond12" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:29142px; top:-29.79190387984235px;" id="diamond13" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:19309px; top:-38.858641250644745px;" id="diamond14" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:14142px; top:-59.740486905063754px;" id="diamond15" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:21839px; top:-36.132150904516685px;" id="diamond16" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:20329px; top:27.13145837655398px;" id="diamond17" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:37722px; top:9.510300124343146px;" id="diamond18" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:9361px; top:11.854131398947075px;" id="diamond19" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:8242px; top:-6.137769215138704px;" id="diamond20" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:23140px; top:19.48065960811094px;" id="diamond21" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:20522px; top:19.13803431231726px;" id="diamond22" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:26793px; top:15.946965790068361px;" id="diamond23" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:37918px; top:1.3796758988264344px;" id="diamond24" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:4708px; top:-30.56310900478887px;" id="diamond25" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:35630px; top:-67.57374720377419px;" id="diamond26" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:25753px; top:-96.43481952987396px;" id="diamond27" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:7464px; top:-3.688821919796993px;" id="diamond28" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:25812px; top:-64.46331409811407px;" id="diamond29" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:27386px; top:-36.38620678555993px;" id="diamond30" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:14323px; top:-74.8164033468746px;" id="diamond31" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:34031px; top:17.39328028262733px;" id="diamond32" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:22631px; top:27.998684500143156px;" id="diamond33" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:11399px; top:-86.02586666368313px;" id="diamond34" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:3023px; top:20.470838716232564px;" id="diamond35" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:31180px; top:-63.78122803611474px;" id="diamond36" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:14580px; top:-81.98529697198039px;" id="diamond37" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:16064px; top:9.1359701796638px;" id="diamond38" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:6853px; top:26.765873574941864px;" id="diamond39" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:33342px; top:30.923302615333483px;" id="diamond40" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:34872px; top:38.91759899069962px;" id="diamond41" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:35903px; top:-86.20593246208811px;" id="diamond42" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:32667px; top:-76.94681058245716px;" id="diamond43" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:34203px; top:23.322793160232052px;" id="diamond44" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:12147px; top:-32.979317359495255px;" id="diamond45" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:11709px; top:16.163776098356976px;" id="diamond46" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:35328px; top:-6.7503436088297235px;" id="diamond47" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:36845px; top:-49.00129873918315px;" id="diamond48" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:26893px; top:11.318387531751739px;" id="diamond49" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:36376px; top:-38.06941572874919px;" id="diamond50" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:25793px; top:27.852883649448145px;" id="diamond51" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:18292px; top:-22.37952448509226px;" id="diamond52" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:13090px; top:17.93741020748834px;" id="diamond53" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:23259px; top:21.39106774144922px;" id="diamond54" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:6728px; top:12.485779399918925px;" id="diamond55" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:22672px; top:-81.12970160273483px;" id="diamond56" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:2913px; top:13.150636477660868px;" id="diamond57" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:4162px; top:-21.25170419705877px;" id="diamond58" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:27514px; top:-57.159553024106906px;" id="diamond59" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:30401px; top:29.463622037946692px;" id="diamond60" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:12307px; top:-90.45034796167783px;" id="diamond61" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:2446px; top:28.711949392245714px;" id="diamond62" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:37181px; top:-69.88833450046249px;" id="diamond63" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:5628px; top:-9.327698062250107px;" id="diamond64" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:10330px; top:-77.95016074123197px;" id="diamond65" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:25958px; top:-42.587368316321886px;" id="diamond66" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:20755px; top:-54.02076036556556px;" id="diamond67" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:32431px; top:34.73331202104504px;" id="diamond68" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:27698px; top:-2.7380588508222985px;" id="diamond69" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:13997px; top:-46.16263606260783px;" id="diamond70" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:12990px; top:-38.025258595256055px;" id="diamond71" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:2302px; top:-25.324125358583814px;" id="diamond72" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:6499px; top:24.38227889794534px;" id="diamond73" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:24776px; top:-40.79464036979628px;" id="diamond74" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:7005px; top:7.059722623398528px;" id="diamond75" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:2812px; top:5.217130120535302px;" id="diamond76" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:23022px; top:-6.081303545963252px;" id="diamond77" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:5446px; top:24.258982000379532px;" id="diamond78" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:30590px; top:0.30109726488974786px;" id="diamond79" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:25552px; top:15.54275828987926px;" id="diamond80" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:10957px; top:38.83369551469639px;" id="diamond81" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:36261px; top:-93.79928294409667px;" id="diamond82" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:2575px; top:-2.7422734918247897px;" id="diamond83" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:6650px; top:-39.30543242305371px;" id="diamond84" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:16432px; top:2.9822116058985415px;" id="diamond85" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:24288px; top:3.739484701023855px;" id="diamond86" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:17079px; top:4.50331285013786px;" id="diamond87" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:2600px; top:-29.561322663985024px;" id="diamond88" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:35660px; top:-57.71162812262403px;" id="diamond89" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:14926px; top:9.658804601285027px;" id="diamond90" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:17463px; top:-99.13558921475591px;" id="diamond91" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:3841px; top:-29.61491318335078px;" id="diamond92" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:12696px; top:8.980438056095778px;" id="diamond93" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:15945px; top:-81.5334827453621px;" id="diamond94" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:4092px; top:-34.44843291683971px;" id="diamond95" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:3118px; top:17.531039744537637px;" id="diamond96" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:23154px; top:3.4811287165015585px;" id="diamond97" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:5076px; top:18.554361506222307px;" id="diamond98" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:12368px; top:-54.384716811927376px;" id="diamond99" /> 
+               <img src="images/coin/dim.png" class="" style="position:absolute; left:19374px; top:29.428958130364975px;" id="diamond100" /> 
+
+                           
+               <img src="images/flag.gif"  id="flag" style="position:absolute; left:37000px; bottom: 100px;" />
+
+            </div>
+         </div>
+      </div>
+      <!--<img src="images/jump.png"  style="position:absolute; z-index:55555; right:11px;  bottom:12px;"  onclick="jumper();" />-->
+
+      <div class="seenlayer">
+         <div class="kutubminar"></div>
+         <div class="palace"></div>
+         <div class="kutubminar2"></div>
+         <div class="palace2"></div>
+      </div>
+      <div class="maintree">
+         <div style="position:relative;">
+            <div class="tree1"></div>
+            
+            <div class="tree1" style="left:1200px;"></div>
+            <div class="tree1" style="left:1800px;"></div>
+            <div class="tree1" style="left:2600px;"></div>
+            <div class="tree1" style="left:2800px;"></div>
+            <div class="tree1" style="left:7000px;"></div>
+            <div class="tree2" style="left:1600px;"></div>
+            <div class="tree2" style="left:3500px;"></div>
+            <div class="tree2" style="left:4400px;"></div>
+            <div class="tree2" style="left:520px;"></div>
+            <div class="tree2" style="left:6800px;"></div>
+            <div class="tree2" style="left:6900px;"></div>
+
+
+
+                        
+            <div class="tree1" style="left:800px;"></div>
+            <div class="tree1" style="left:1450px;"></div>
+            <div class="tree1" style="left:2400px;"></div>
+            <div class="tree1" style="left:2700px;"></div>
+            <div class="tree1" style="left:3200px;"></div>
+            <div class="tree2" style="left:1800px;"></div>
+            <div class="tree2" style="left:3300px;"></div>
+            <div class="tree2" style="left:6400px;"></div>
+            <div class="tree2" style="left:520px;"></div>
+            <div class="tree2" style="left:6300px;"></div>
+            <div class="tree2" style="left:6700px;"></div>
+
+
+            <div class="tree3" style="left:1600px;"></div>
+            <div class="tree3" style="left:3500px;"></div>
+            <div class="tree3" style="left:4400px;"></div>
+            <div class="tree3" style="left:520px;"></div>
+            <div class="tree3" style="left:6800px;"></div>
+            <div class="tree3" style="left:6900px;"></div>
+
+            <div class="tree3" style="left:7600px;"></div>
+            <div class="tree3" style="left:8600px;"></div>
+            <div class="tree3" style="left:9600px;"></div>
+            <div class="tree3" style="left:10600px;"></div>
+            <div class="tree3" style="left:11600px;"></div>
+            <div class="tree3" style="left:12600px;"></div>
+
+            <div class="stone1" style="left:1500px;"></div>
+            <div class="stone1" style="left:3300px;"></div>
+            <div class="stone1" style="left:4000px;"></div>
+            <div class="stone1" style="left:420px;"></div>
+            <div class="stone1" style="left:6800px;"></div>
+            <div class="stone1" style="left:6900px;"></div>
+
+            
+            <div class="stone1" style="left:7900px;"></div>
+            <div class="stone1" style="left:8900px;"></div>
+            <div class="stone1" style="left:9900px;"></div>
+            <div class="stone1" style="left:74900px;"></div>
+            <div class="stone1" style="left:65600px;"></div>
+            <div class="stone1" style="left:10100px;"></div>
+
+
+            <div class="snowman" style="left:1000px;"></div>
+            <div class="snowman" style="left:2000px;"></div>
+            <div class="snowman" style="left:4000px;"></div>
+            <div class="snowman" style="left:6000px;"></div>
+            <div class="snowman" style="left:9000px;"></div>
+            <div class="snowman" style="left:11000px;"></div>
+            
+            <div class="snowman" style="left:13000px;"></div>
+            <div class="snowman" style="left:16000px;"></div>
+            <div class="snowman" style="left:18000px;"></div>
+            <div class="snowman" style="left:22000px;"></div>
+            <div class="snowman" style="left:24000px;"></div>
+            <div class="snowman" style="left:26000px;"></div>
+            <div class="snowman" style="left:28000px;"></div>
+            <div class="snowman" style="left:30000px;"></div>
+            <div class="snowman" style="left:32000px;"></div>
+
+                        
+            <div class="crystal" style="left:3000px;"></div>
+            <div class="crystal" style="left:6000px;"></div>
+            <div class="crystal" style="left:9000px;"></div>
+            <div class="crystal" style="left:12000px;"></div>
+            <div class="crystal" style="left:15000px;"></div>
+            <div class="crystal" style="left:18000px;"></div>
+            <div class="crystal" style="left:22000px;"></div>
+            <div class="crystal" style="left:30000px;"></div>
+            <div class="crystal" style="left:32000px;"></div>
+   
+            
+
+
+            <div class="right-arrow" style="left:2500px;"></div>
+            <div class="right-arrow" style="left:4300px;"></div>
+
+            <div class="right-arrow2" style="left:6500px;"></div>
+            <div class="right-arrow2" style="left:7300px;"></div>
+            
+
+         </div>
+      </div>
+      <div style="position:absolute; bottom:128px; left:201px; z-index:10000" id="box">
+         <div style="position:relative;" id="div2">
+            <span id="playerContainer">
+               <img style="width: 80px; height: 120px;" src="images/game-player/0-idle/Idle__000.png"  id="player-idle"  />
+               <img style="display: none; width: 110px; height: 130px;" src="images/game-player/2-jump/Jump__000.png"  id="player-jump" />
+               <img style="display: none; width: 110px; height: 130px;" src="images/game-player/3-run/Run__000.png"  id="player-run" />
+               <img style="display: none; width: 110px; height: 130px;" src="images/game-player/1-dead/Dead__000.png"  id="player-die" />
+            </span>
+         </div>
+      </div>
+      </div>
+
+      <!--Game Over Box-->
+      <div style="width:100%; margin-top:10%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999; display:none; " id="gameoverbox">
+         <div style="width:500px; height: 250px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
+            <h1 class="style1">Game Over</h1>
+            <div style="font-size:25px; font-weight:bold; margin-bottom:10px; margin-top:10px;" >Total Score <span id="showscor"></span></div>
+            <div style="margin-top:10px; font-size:13px;">Retry</div>
+            <form style="margin-top:20px;">
+               <a href="level-3.html" style="text-decoration: none; background-color:#CC3300; border-radius:10px; padding:10px; color:#FFFFFF; border:2px solid #000; font-size:18px; font-family:Verdana, Arial, Helvetica, sans-serif;">Start Over</a>
+            </form>
+         </div>
+      </div>
+
+      <div id="scoreb" style=" padding:10px; background-color:#CC0000; color:#FFFFFF; font-size:25px; font-weight:bold; position:fixed; right:10px; top:10px; border:5px #FFFFFF; border-radius:50px;" >Score : <span id="doughnuts">0</span></div>
+      <!--Score Box-->
+
+   </body>
+
+   <script type="text/javascript" src="js/level-5/script-2.js"></script>
+   <script type="text/javascript" src="js/level-5/timer-ticker-script.js"></script>
+   
+
+
+</html>
