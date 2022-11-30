@@ -1,700 +1,150 @@
-<div class="stone1" style="left:2000px;"></div> 
-<div class="stone1" style="left:2500px;"></div> 
-<div class="stone1" style="left:3000px;"></div> 
-<div class="stone1" style="left:3500px;"></div> 
-<div class="stone1" style="left:4000px;"></div> 
-<div class="stone1" style="left:4500px;"></div> 
-<div class="stone1" style="left:5000px;"></div> 
-<div class="stone1" style="left:5500px;"></div> 
-<div class="stone1" style="left:6000px;"></div> 
-<div class="stone1" style="left:6500px;"></div> 
-<div class="stone1" style="left:7000px;"></div> 
-<div class="stone1" style="left:7500px;"></div> 
-<div class="stone1" style="left:8000px;"></div> 
-<div class="stone1" style="left:8500px;"></div> 
-<div class="stone1" style="left:9000px;"></div> 
-<div class="stone1" style="left:9500px;"></div> 
-<div class="stone1" style="left:10000px;"></div> 
-<div class="stone1" style="left:10500px;"></div> 
-<div class="stone1" style="left:11000px;"></div> 
-<div class="stone1" style="left:11500px;"></div> 
-<div class="stone1" style="left:12000px;"></div> 
-<div class="stone1" style="left:12500px;"></div> 
-<div class="stone1" style="left:13000px;"></div> 
-<div class="stone1" style="left:13500px;"></div> 
-<div class="stone1" style="left:14000px;"></div> 
-<div class="stone1" style="left:14500px;"></div> 
-<div class="stone1" style="left:15000px;"></div> 
-<div class="stone1" style="left:15500px;"></div> 
-<div class="stone1" style="left:16000px;"></div> 
-<div class="stone1" style="left:16500px;"></div> 
-<div class="stone1" style="left:17000px;"></div> 
-<div class="stone1" style="left:17500px;"></div> 
-<div class="stone1" style="left:18000px;"></div> 
-<div class="stone1" style="left:18500px;"></div> 
-<div class="stone1" style="left:19000px;"></div> 
-<div class="stone1" style="left:19500px;"></div> 
-<div class="stone1" style="left:20000px;"></div> 
-<div class="stone1" style="left:20500px;"></div> 
-<div class="stone1" style="left:21000px;"></div> 
-<div class="stone1" style="left:21500px;"></div> 
-<div class="stone1" style="left:22000px;"></div> 
-<div class="stone1" style="left:22500px;"></div> 
-<div class="stone1" style="left:23000px;"></div> 
-<div class="stone1" style="left:23500px;"></div> 
-<div class="stone1" style="left:24000px;"></div> 
-<div class="stone1" style="left:24500px;"></div> 
-<div class="stone1" style="left:25000px;"></div> 
-<div class="stone1" style="left:25500px;"></div> 
-<div class="stone1" style="left:26000px;"></div> 
-<div class="stone1" style="left:26500px;"></div> 
-<div class="stone1" style="left:27000px;"></div> 
-<div class="stone1" style="left:27500px;"></div> 
-<div class="stone1" style="left:28000px;"></div> 
-<div class="stone1" style="left:28500px;"></div> 
-<div class="stone1" style="left:29000px;"></div> 
-<div class="stone1" style="left:29500px;"></div> 
-<div class="stone1" style="left:30000px;"></div> 
-<div class="stone1" style="left:30500px;"></div> 
-<div class="stone1" style="left:31000px;"></div> 
-<div class="stone1" style="left:31500px;"></div> 
-<div class="stone1" style="left:32000px;"></div> 
-<div class="stone1" style="left:32500px;"></div> 
-<div class="stone1" style="left:33000px;"></div> 
-<div class="stone1" style="left:33500px;"></div> 
-<div class="stone1" style="left:34000px;"></div> 
-<div class="stone1" style="left:34500px;"></div> 
-<div class="stone1" style="left:35000px;"></div> 
-<div class="stone1" style="left:35500px;"></div> 
-<div class="stone1" style="left:36000px;"></div> 
-<div class="stone1" style="left:36500px;"></div> 
-<div class="stone1" style="left:37000px;"></div> 
-<div class="stone1" style="left:37500px;"></div> 
-<div class="stone1" style="left:38000px;"></div> 
-<div class="stone1" style="left:38500px;"></div> 
-<div class="stone1" style="left:39000px;"></div> 
-<div class="stone1" style="left:39500px;"></div> 
-<div class="stone1" style="left:40000px;"></div> 
-<div class="stone1" style="left:40500px;"></div> 
-<div class="stone1" style="left:41000px;"></div> 
-<div class="stone1" style="left:41500px;"></div> 
-<div class="stone1" style="left:42000px;"></div> 
-<div class="stone1" style="left:42500px;"></div> 
-<div class="stone1" style="left:43000px;"></div> 
-<div class="stone1" style="left:43500px;"></div> 
-<div class="stone1" style="left:44000px;"></div> 
-<div class="stone1" style="left:44500px;"></div> 
-<div class="stone1" style="left:45000px;"></div> 
-<div class="stone1" style="left:45500px;"></div> 
-<div class="stone1" style="left:46000px;"></div> 
-<div class="stone1" style="left:46500px;"></div> 
-<div class="stone1" style="left:47000px;"></div> 
-<div class="stone1" style="left:47500px;"></div> 
-<div class="stone1" style="left:48000px;"></div> 
-<div class="stone1" style="left:48500px;"></div> 
-<div class="stone1" style="left:49000px;"></div> 
-<div class="stone1" style="left:49500px;"></div> 
-<div class="stone1" style="left:50000px;"></div> 
-<div class="stone1" style="left:50500px;"></div> 
-<div class="stone1" style="left:51000px;"></div> 
-<div class="stone1" style="left:51500px;"></div> 
-<div class="stone1" style="left:52000px;"></div> 
-<div class="stone1" style="left:52500px;"></div> 
-<div class="stone1" style="left:53000px;"></div> 
-<div class="stone1" style="left:53500px;"></div> 
-<div class="stone1" style="left:54000px;"></div> 
-<div class="stone1" style="left:54500px;"></div> 
-<div class="stone1" style="left:55000px;"></div> 
-<div class="stone1" style="left:55500px;"></div> 
-<div class="stone1" style="left:56000px;"></div> 
-<div class="stone1" style="left:56500px;"></div> 
-<div class="stone1" style="left:57000px;"></div> 
-<div class="stone1" style="left:57500px;"></div> 
-<div class="stone1" style="left:58000px;"></div> 
-<div class="stone1" style="left:58500px;"></div> 
-<div class="stone1" style="left:59000px;"></div> 
-<div class="stone1" style="left:59500px;"></div> 
-<div class="stone1" style="left:60000px;"></div> 
-<div class="stone1" style="left:60500px;"></div> 
-<div class="stone1" style="left:61000px;"></div> 
-<div class="stone1" style="left:61500px;"></div> 
-<div class="stone1" style="left:62000px;"></div> 
-<div class="stone1" style="left:62500px;"></div> 
-<div class="stone1" style="left:63000px;"></div> 
-<div class="stone1" style="left:63500px;"></div> 
-<div class="stone1" style="left:64000px;"></div> 
-<div class="stone1" style="left:64500px;"></div> 
-<div class="stone1" style="left:65000px;"></div> 
-<div class="stone1" style="left:65500px;"></div> 
-<div class="stone1" style="left:66000px;"></div> 
-<div class="stone1" style="left:66500px;"></div> 
-<div class="stone1" style="left:67000px;"></div> 
-<div class="stone1" style="left:67500px;"></div> 
-<div class="stone1" style="left:68000px;"></div> 
-<div class="stone1" style="left:68500px;"></div> 
-<div class="stone1" style="left:69000px;"></div> 
-<div class="stone1" style="left:69500px;"></div> 
-<div class="stone1" style="left:70000px;"></div> 
-<div class="stone1" style="left:70500px;"></div> 
-<div class="stone1" style="left:71000px;"></div> 
-<div class="stone1" style="left:71500px;"></div> 
-<div class="stone1" style="left:72000px;"></div> 
-<div class="stone1" style="left:72500px;"></div> 
-<div class="stone1" style="left:73000px;"></div> 
-<div class="stone1" style="left:73500px;"></div> 
-<div class="stone1" style="left:74000px;"></div> 
-<div class="stone1" style="left:74500px;"></div> 
-<div class="stone1" style="left:75000px;"></div> 
-<div class="stone1" style="left:75500px;"></div> 
-<div class="stone1" style="left:76000px;"></div> 
-<div class="stone1" style="left:76500px;"></div> 
-<div class="stone1" style="left:77000px;"></div> 
-<div class="stone1" style="left:77500px;"></div> 
-<div class="stone1" style="left:78000px;"></div> 
-<div class="stone1" style="left:78500px;"></div> 
-<div class="stone1" style="left:79000px;"></div> 
-<div class="stone1" style="left:79500px;"></div> 
-<div class="stone1" style="left:80000px;"></div> 
-<div class="stone1" style="left:80500px;"></div> 
-<div class="stone1" style="left:81000px;"></div> 
-<div class="stone1" style="left:81500px;"></div> 
-<div class="stone1" style="left:82000px;"></div> 
-<div class="stone1" style="left:82500px;"></div> 
-<div class="stone1" style="left:83000px;"></div> 
-<div class="stone1" style="left:83500px;"></div> 
-<div class="stone1" style="left:84000px;"></div> 
-<div class="stone1" style="left:84500px;"></div> 
-<div class="stone1" style="left:85000px;"></div> 
-<div class="stone1" style="left:85500px;"></div> 
-<div class="stone1" style="left:86000px;"></div> 
-<div class="stone1" style="left:86500px;"></div> 
-<div class="stone1" style="left:87000px;"></div> 
-<div class="stone1" style="left:87500px;"></div> 
-<div class="stone1" style="left:88000px;"></div> 
-<div class="stone1" style="left:88500px;"></div> 
-<div class="stone1" style="left:89000px;"></div> 
-<div class="stone1" style="left:89500px;"></div> 
-<div class="stone1" style="left:90000px;"></div> 
-<div class="stone1" style="left:90500px;"></div> 
-<div class="stone1" style="left:91000px;"></div> 
-<div class="stone1" style="left:91500px;"></div> 
-<div class="stone1" style="left:92000px;"></div> 
-<div class="stone1" style="left:92500px;"></div> 
-<div class="stone1" style="left:93000px;"></div> 
-<div class="stone1" style="left:93500px;"></div> 
-<div class="stone1" style="left:94000px;"></div> 
-<div class="stone1" style="left:94500px;"></div> 
-<div class="stone1" style="left:95000px;"></div> 
-<div class="stone1" style="left:95500px;"></div> 
-<div class="stone1" style="left:96000px;"></div> 
-<div class="stone1" style="left:96500px;"></div> 
-<div class="stone1" style="left:97000px;"></div> 
-<div class="stone1" style="left:97500px;"></div> 
-<div class="stone1" style="left:98000px;"></div> 
-<div class="stone1" style="left:98500px;"></div> 
-<div class="stone1" style="left:99000px;"></div> 
-<div class="stone1" style="left:99500px;"></div> 
-<div class="stone1" style="left:100000px;"></div> 
-<div class="stone1" style="left:100500px;"></div> 
-<div class="stone1" style="left:101000px;"></div> 
-<div class="stone1" style="left:101500px;"></div> 
-<div class="stone1" style="left:102000px;"></div> 
-<div class="stone1" style="left:102500px;"></div> 
-<div class="stone1" style="left:103000px;"></div> 
-<div class="stone1" style="left:103500px;"></div> 
-<div class="stone1" style="left:104000px;"></div> 
-<div class="stone1" style="left:104500px;"></div> 
-<div class="stone1" style="left:105000px;"></div> 
-<div class="stone1" style="left:105500px;"></div> 
-<div class="stone1" style="left:106000px;"></div> 
-<div class="stone1" style="left:106500px;"></div> 
-<div class="stone1" style="left:107000px;"></div> 
-<div class="stone1" style="left:107500px;"></div> 
-<div class="stone1" style="left:108000px;"></div> 
-<div class="stone1" style="left:108500px;"></div> 
-<div class="stone1" style="left:109000px;"></div> 
-<div class="stone1" style="left:109500px;"></div> 
-<div class="stone1" style="left:110000px;"></div> 
-<div class="stone1" style="left:110500px;"></div> 
-<div class="stone1" style="left:111000px;"></div> 
-<div class="stone1" style="left:111500px;"></div> 
-<div class="stone1" style="left:112000px;"></div> 
-<div class="stone1" style="left:112500px;"></div> 
-<div class="stone1" style="left:113000px;"></div> 
-<div class="stone1" style="left:113500px;"></div> 
-<div class="stone1" style="left:114000px;"></div> 
-<div class="stone1" style="left:114500px;"></div> 
-<div class="stone1" style="left:115000px;"></div> 
-<div class="stone1" style="left:115500px;"></div> 
-<div class="stone1" style="left:116000px;"></div> 
-<div class="stone1" style="left:116500px;"></div> 
-<div class="stone1" style="left:117000px;"></div> 
-<div class="stone1" style="left:117500px;"></div> 
-<div class="stone1" style="left:118000px;"></div> 
-<div class="stone1" style="left:118500px;"></div> 
-<div class="stone1" style="left:119000px;"></div> 
-<div class="stone1" style="left:119500px;"></div> 
-<div class="stone1" style="left:120000px;"></div> 
-<div class="stone1" style="left:120500px;"></div> 
-<div class="stone1" style="left:121000px;"></div> 
-<div class="stone1" style="left:121500px;"></div> 
-<div class="stone1" style="left:122000px;"></div> 
-<div class="stone1" style="left:122500px;"></div> 
-<div class="stone1" style="left:123000px;"></div> 
-<div class="stone1" style="left:123500px;"></div> 
-<div class="stone1" style="left:124000px;"></div> 
-<div class="stone1" style="left:124500px;"></div> 
-<div class="stone1" style="left:125000px;"></div> 
-<div class="stone1" style="left:125500px;"></div> 
-<div class="stone1" style="left:126000px;"></div> 
-<div class="stone1" style="left:126500px;"></div> 
-<div class="stone1" style="left:127000px;"></div> 
-<div class="stone1" style="left:127500px;"></div> 
-<div class="stone1" style="left:128000px;"></div> 
-<div class="stone1" style="left:128500px;"></div> 
-<div class="stone1" style="left:129000px;"></div> 
-<div class="stone1" style="left:129500px;"></div> 
-<div class="stone1" style="left:130000px;"></div> 
-<div class="stone1" style="left:130500px;"></div> 
-<div class="stone1" style="left:131000px;"></div> 
-<div class="stone1" style="left:131500px;"></div> 
-<div class="stone1" style="left:132000px;"></div> 
-<div class="stone1" style="left:132500px;"></div> 
-<div class="stone1" style="left:133000px;"></div> 
-<div class="stone1" style="left:133500px;"></div> 
-<div class="stone1" style="left:134000px;"></div> 
-<div class="stone1" style="left:134500px;"></div> 
-<div class="stone1" style="left:135000px;"></div> 
-<div class="stone1" style="left:135500px;"></div> 
-<div class="stone1" style="left:136000px;"></div> 
-<div class="stone1" style="left:136500px;"></div> 
-<div class="stone1" style="left:137000px;"></div> 
-<div class="stone1" style="left:137500px;"></div> 
-<div class="stone1" style="left:138000px;"></div> 
-<div class="stone1" style="left:138500px;"></div> 
-<div class="stone1" style="left:139000px;"></div> 
-<div class="stone1" style="left:139500px;"></div> 
-<div class="stone1" style="left:140000px;"></div> 
-<div class="stone1" style="left:140500px;"></div> 
-<div class="stone1" style="left:141000px;"></div> 
-<div class="stone1" style="left:141500px;"></div> 
-<div class="stone1" style="left:142000px;"></div> 
-<div class="stone1" style="left:142500px;"></div> 
-<div class="stone1" style="left:143000px;"></div> 
-<div class="stone1" style="left:143500px;"></div> 
-<div class="stone1" style="left:144000px;"></div> 
-<div class="stone1" style="left:144500px;"></div> 
-<div class="stone1" style="left:145000px;"></div> 
-<div class="stone1" style="left:145500px;"></div> 
-<div class="stone1" style="left:146000px;"></div> 
-<div class="stone1" style="left:146500px;"></div> 
-<div class="stone1" style="left:147000px;"></div> 
-<div class="stone1" style="left:147500px;"></div> 
-<div class="stone1" style="left:148000px;"></div> 
-<div class="stone1" style="left:148500px;"></div> 
-<div class="stone1" style="left:149000px;"></div> 
-<div class="stone1" style="left:149500px;"></div> 
-<div class="stone1" style="left:150000px;"></div> 
-<div class="stone1" style="left:150500px;"></div> 
-<div class="stone1" style="left:151000px;"></div> 
-<div class="stone1" style="left:151500px;"></div> 
-<div class="stone1" style="left:152000px;"></div> 
-<div class="stone1" style="left:152500px;"></div> 
-<div class="stone1" style="left:153000px;"></div> 
-<div class="stone1" style="left:153500px;"></div> 
-<div class="stone1" style="left:154000px;"></div> 
-<div class="stone1" style="left:154500px;"></div> 
-<div class="stone1" style="left:155000px;"></div> 
-<div class="stone1" style="left:155500px;"></div> 
-<div class="stone1" style="left:156000px;"></div> 
-<div class="stone1" style="left:156500px;"></div> 
-<div class="stone1" style="left:157000px;"></div> 
-<div class="stone1" style="left:157500px;"></div> 
-<div class="stone1" style="left:158000px;"></div> 
-<div class="stone1" style="left:158500px;"></div> 
-<div class="stone1" style="left:159000px;"></div> 
-<div class="stone1" style="left:159500px;"></div> 
-<div class="stone1" style="left:160000px;"></div> 
-<div class="stone1" style="left:160500px;"></div> 
-<div class="stone1" style="left:161000px;"></div> 
-<div class="stone1" style="left:161500px;"></div> 
-<div class="stone1" style="left:162000px;"></div> 
-<div class="stone1" style="left:162500px;"></div> 
-<div class="stone1" style="left:163000px;"></div> 
-<div class="stone1" style="left:163500px;"></div> 
-<div class="stone1" style="left:164000px;"></div> 
-<div class="stone1" style="left:164500px;"></div> 
-<div class="stone1" style="left:165000px;"></div> 
-<div class="stone1" style="left:165500px;"></div> 
-<div class="stone1" style="left:166000px;"></div> 
-<div class="stone1" style="left:166500px;"></div> 
-<div class="stone1" style="left:167000px;"></div> 
-<div class="stone1" style="left:167500px;"></div> 
-<div class="stone1" style="left:168000px;"></div> 
-<div class="stone1" style="left:168500px;"></div> 
-<div class="stone1" style="left:169000px;"></div> 
-<div class="stone1" style="left:169500px;"></div> 
-<div class="stone1" style="left:170000px;"></div> 
-<div class="stone1" style="left:170500px;"></div> 
-<div class="stone1" style="left:171000px;"></div> 
-<div class="stone1" style="left:171500px;"></div> 
-<div class="stone1" style="left:172000px;"></div> 
-<div class="stone1" style="left:172500px;"></div> 
-<div class="stone1" style="left:173000px;"></div> 
-<div class="stone1" style="left:173500px;"></div> 
-<div class="stone1" style="left:174000px;"></div> 
-<div class="stone1" style="left:174500px;"></div> 
-<div class="stone1" style="left:175000px;"></div> 
-<div class="stone1" style="left:175500px;"></div> 
-<div class="stone1" style="left:176000px;"></div> 
-<div class="stone1" style="left:176500px;"></div> 
-<div class="stone1" style="left:177000px;"></div> 
-<div class="stone1" style="left:177500px;"></div> 
-<div class="stone1" style="left:178000px;"></div> 
-<div class="stone1" style="left:178500px;"></div> 
-<div class="stone1" style="left:179000px;"></div> 
-<div class="stone1" style="left:179500px;"></div> 
-<div class="stone1" style="left:180000px;"></div> 
-<div class="stone1" style="left:180500px;"></div> 
-<div class="stone1" style="left:181000px;"></div> 
-<div class="stone1" style="left:181500px;"></div> 
-<div class="stone1" style="left:182000px;"></div> 
-<div class="stone1" style="left:182500px;"></div> 
-<div class="stone1" style="left:183000px;"></div> 
-<div class="stone1" style="left:183500px;"></div> 
-<div class="stone1" style="left:184000px;"></div> 
-<div class="stone1" style="left:184500px;"></div> 
-<div class="stone1" style="left:185000px;"></div> 
-<div class="stone1" style="left:185500px;"></div> 
-<div class="stone1" style="left:186000px;"></div> 
-<div class="stone1" style="left:186500px;"></div> 
-<div class="stone1" style="left:187000px;"></div> 
-<div class="stone1" style="left:187500px;"></div> 
-<div class="stone1" style="left:188000px;"></div> 
-<div class="stone1" style="left:188500px;"></div> 
-<div class="stone1" style="left:189000px;"></div> 
-<div class="stone1" style="left:189500px;"></div> 
-<div class="stone1" style="left:190000px;"></div> 
-<div class="stone1" style="left:190500px;"></div> 
-<div class="stone1" style="left:191000px;"></div> 
-<div class="stone1" style="left:191500px;"></div> 
-<div class="stone1" style="left:192000px;"></div> 
-<div class="stone1" style="left:192500px;"></div> 
-<div class="stone1" style="left:193000px;"></div> 
-<div class="stone1" style="left:193500px;"></div> 
-<div class="stone1" style="left:194000px;"></div> 
-<div class="stone1" style="left:194500px;"></div> 
-<div class="stone1" style="left:195000px;"></div> 
-<div class="stone1" style="left:195500px;"></div> 
-<div class="stone1" style="left:196000px;"></div> 
-<div class="stone1" style="left:196500px;"></div> 
-<div class="stone1" style="left:197000px;"></div> 
-<div class="stone1" style="left:197500px;"></div> 
-<div class="stone1" style="left:198000px;"></div> 
-<div class="stone1" style="left:198500px;"></div> 
-<div class="stone1" style="left:199000px;"></div> 
-<div class="stone1" style="left:199500px;"></div> 
-<div class="stone1" style="left:200000px;"></div> 
-<div class="stone1" style="left:200500px;"></div> 
-<div class="stone1" style="left:201000px;"></div> 
-<div class="stone1" style="left:201500px;"></div> 
-<div class="stone1" style="left:202000px;"></div> 
-<div class="stone1" style="left:202500px;"></div> 
-<div class="stone1" style="left:203000px;"></div> 
-<div class="stone1" style="left:203500px;"></div> 
-<div class="stone1" style="left:204000px;"></div> 
-<div class="stone1" style="left:204500px;"></div> 
-<div class="stone1" style="left:205000px;"></div> 
-<div class="stone1" style="left:205500px;"></div> 
-<div class="stone1" style="left:206000px;"></div> 
-<div class="stone1" style="left:206500px;"></div> 
-<div class="stone1" style="left:207000px;"></div> 
-<div class="stone1" style="left:207500px;"></div> 
-<div class="stone1" style="left:208000px;"></div> 
-<div class="stone1" style="left:208500px;"></div> 
-<div class="stone1" style="left:209000px;"></div> 
-<div class="stone1" style="left:209500px;"></div> 
-<div class="stone1" style="left:210000px;"></div> 
-<div class="stone1" style="left:210500px;"></div> 
-<div class="stone1" style="left:211000px;"></div> 
-<div class="stone1" style="left:211500px;"></div> 
-<div class="stone1" style="left:212000px;"></div> 
-<div class="stone1" style="left:212500px;"></div> 
-<div class="stone1" style="left:213000px;"></div> 
-<div class="stone1" style="left:213500px;"></div> 
-<div class="stone1" style="left:214000px;"></div> 
-<div class="stone1" style="left:214500px;"></div> 
-<div class="stone1" style="left:215000px;"></div> 
-<div class="stone1" style="left:215500px;"></div> 
-<div class="stone1" style="left:216000px;"></div> 
-<div class="stone1" style="left:216500px;"></div> 
-<div class="stone1" style="left:217000px;"></div> 
-<div class="stone1" style="left:217500px;"></div> 
-<div class="stone1" style="left:218000px;"></div> 
-<div class="stone1" style="left:218500px;"></div> 
-<div class="stone1" style="left:219000px;"></div> 
-<div class="stone1" style="left:219500px;"></div> 
-<div class="stone1" style="left:220000px;"></div> 
-<div class="stone1" style="left:220500px;"></div> 
-<div class="stone1" style="left:221000px;"></div> 
-<div class="stone1" style="left:221500px;"></div> 
-<div class="stone1" style="left:222000px;"></div> 
-<div class="stone1" style="left:222500px;"></div> 
-<div class="stone1" style="left:223000px;"></div> 
-<div class="stone1" style="left:223500px;"></div> 
-<div class="stone1" style="left:224000px;"></div> 
-<div class="stone1" style="left:224500px;"></div> 
-<div class="stone1" style="left:225000px;"></div> 
-<div class="stone1" style="left:225500px;"></div> 
-<div class="stone1" style="left:226000px;"></div> 
-<div class="stone1" style="left:226500px;"></div> 
-<div class="stone1" style="left:227000px;"></div> 
-<div class="stone1" style="left:227500px;"></div> 
-<div class="stone1" style="left:228000px;"></div> 
-<div class="stone1" style="left:228500px;"></div> 
-<div class="stone1" style="left:229000px;"></div> 
-<div class="stone1" style="left:229500px;"></div> 
-<div class="stone1" style="left:230000px;"></div> 
-<div class="stone1" style="left:230500px;"></div> 
-<div class="stone1" style="left:231000px;"></div> 
-<div class="stone1" style="left:231500px;"></div> 
-<div class="stone1" style="left:232000px;"></div> 
-<div class="stone1" style="left:232500px;"></div> 
-<div class="stone1" style="left:233000px;"></div> 
-<div class="stone1" style="left:233500px;"></div> 
-<div class="stone1" style="left:234000px;"></div> 
-<div class="stone1" style="left:234500px;"></div> 
-<div class="stone1" style="left:235000px;"></div> 
-<div class="stone1" style="left:235500px;"></div> 
-<div class="stone1" style="left:236000px;"></div> 
-<div class="stone1" style="left:236500px;"></div> 
-<div class="stone1" style="left:237000px;"></div> 
-<div class="stone1" style="left:237500px;"></div> 
-<div class="stone1" style="left:238000px;"></div> 
-<div class="stone1" style="left:238500px;"></div> 
-<div class="stone1" style="left:239000px;"></div> 
-<div class="stone1" style="left:239500px;"></div> 
-<div class="stone1" style="left:240000px;"></div> 
-<div class="stone1" style="left:240500px;"></div> 
-<div class="stone1" style="left:241000px;"></div> 
-<div class="stone1" style="left:241500px;"></div> 
-<div class="stone1" style="left:242000px;"></div> 
-<div class="stone1" style="left:242500px;"></div> 
-<div class="stone1" style="left:243000px;"></div> 
-<div class="stone1" style="left:243500px;"></div> 
-<div class="stone1" style="left:244000px;"></div> 
-<div class="stone1" style="left:244500px;"></div> 
-<div class="stone1" style="left:245000px;"></div> 
-<div class="stone1" style="left:245500px;"></div> 
-<div class="stone1" style="left:246000px;"></div> 
-<div class="stone1" style="left:246500px;"></div> 
-<div class="stone1" style="left:247000px;"></div> 
-<div class="stone1" style="left:247500px;"></div> 
-<div class="stone1" style="left:248000px;"></div> 
-<div class="stone1" style="left:248500px;"></div> 
-<div class="stone1" style="left:249000px;"></div> 
-<div class="stone1" style="left:249500px;"></div> 
-<div class="stone1" style="left:250000px;"></div> 
-<div class="stone1" style="left:250500px;"></div> 
-<div class="stone1" style="left:251000px;"></div> 
-<div class="stone1" style="left:251500px;"></div> 
-<div class="stone1" style="left:252000px;"></div> 
-<div class="stone1" style="left:252500px;"></div> 
-<div class="stone1" style="left:253000px;"></div> 
-<div class="stone1" style="left:253500px;"></div> 
-<div class="stone1" style="left:254000px;"></div> 
-<div class="stone1" style="left:254500px;"></div> 
-<div class="stone1" style="left:255000px;"></div> 
-<div class="stone1" style="left:255500px;"></div> 
-<div class="stone1" style="left:256000px;"></div> 
-<div class="stone1" style="left:256500px;"></div> 
-<div class="stone1" style="left:257000px;"></div> 
-<div class="stone1" style="left:257500px;"></div> 
-<div class="stone1" style="left:258000px;"></div> 
-<div class="stone1" style="left:258500px;"></div> 
-<div class="stone1" style="left:259000px;"></div> 
-<div class="stone1" style="left:259500px;"></div> 
-<div class="stone1" style="left:260000px;"></div> 
-<div class="stone1" style="left:260500px;"></div> 
-<div class="stone1" style="left:261000px;"></div> 
-<div class="stone1" style="left:261500px;"></div> 
-<div class="stone1" style="left:262000px;"></div> 
-<div class="stone1" style="left:262500px;"></div> 
-<div class="stone1" style="left:263000px;"></div> 
-<div class="stone1" style="left:263500px;"></div> 
-<div class="stone1" style="left:264000px;"></div> 
-<div class="stone1" style="left:264500px;"></div> 
-<div class="stone1" style="left:265000px;"></div> 
-<div class="stone1" style="left:265500px;"></div> 
-<div class="stone1" style="left:266000px;"></div> 
-<div class="stone1" style="left:266500px;"></div> 
-<div class="stone1" style="left:267000px;"></div> 
-<div class="stone1" style="left:267500px;"></div> 
-<div class="stone1" style="left:268000px;"></div> 
-<div class="stone1" style="left:268500px;"></div> 
-<div class="stone1" style="left:269000px;"></div> 
-<div class="stone1" style="left:269500px;"></div> 
-<div class="stone1" style="left:270000px;"></div> 
-<div class="stone1" style="left:270500px;"></div> 
-<div class="stone1" style="left:271000px;"></div> 
-<div class="stone1" style="left:271500px;"></div> 
-<div class="stone1" style="left:272000px;"></div> 
-<div class="stone1" style="left:272500px;"></div> 
-<div class="stone1" style="left:273000px;"></div> 
-<div class="stone1" style="left:273500px;"></div> 
-<div class="stone1" style="left:274000px;"></div> 
-<div class="stone1" style="left:274500px;"></div> 
-<div class="stone1" style="left:275000px;"></div> 
-<div class="stone1" style="left:275500px;"></div> 
-<div class="stone1" style="left:276000px;"></div> 
-<div class="stone1" style="left:276500px;"></div> 
-<div class="stone1" style="left:277000px;"></div> 
-<div class="stone1" style="left:277500px;"></div> 
-<div class="stone1" style="left:278000px;"></div> 
-<div class="stone1" style="left:278500px;"></div> 
-<div class="stone1" style="left:279000px;"></div> 
-<div class="stone1" style="left:279500px;"></div> 
-<div class="stone1" style="left:280000px;"></div> 
-<div class="stone1" style="left:280500px;"></div> 
-<div class="stone1" style="left:281000px;"></div> 
-<div class="stone1" style="left:281500px;"></div> 
-<div class="stone1" style="left:282000px;"></div> 
-<div class="stone1" style="left:282500px;"></div> 
-<div class="stone1" style="left:283000px;"></div> 
-<div class="stone1" style="left:283500px;"></div> 
-<div class="stone1" style="left:284000px;"></div> 
-<div class="stone1" style="left:284500px;"></div> 
-<div class="stone1" style="left:285000px;"></div> 
-<div class="stone1" style="left:285500px;"></div> 
-<div class="stone1" style="left:286000px;"></div> 
-<div class="stone1" style="left:286500px;"></div> 
-<div class="stone1" style="left:287000px;"></div> 
-<div class="stone1" style="left:287500px;"></div> 
-<div class="stone1" style="left:288000px;"></div> 
-<div class="stone1" style="left:288500px;"></div> 
-<div class="stone1" style="left:289000px;"></div> 
-<div class="stone1" style="left:289500px;"></div> 
-<div class="stone1" style="left:290000px;"></div> 
-<div class="stone1" style="left:290500px;"></div> 
-<div class="stone1" style="left:291000px;"></div> 
-<div class="stone1" style="left:291500px;"></div> 
-<div class="stone1" style="left:292000px;"></div> 
-<div class="stone1" style="left:292500px;"></div> 
-<div class="stone1" style="left:293000px;"></div> 
-<div class="stone1" style="left:293500px;"></div> 
-<div class="stone1" style="left:294000px;"></div> 
-<div class="stone1" style="left:294500px;"></div> 
-<div class="stone1" style="left:295000px;"></div> 
-<div class="stone1" style="left:295500px;"></div> 
-<div class="stone1" style="left:296000px;"></div> 
-<div class="stone1" style="left:296500px;"></div> 
-<div class="stone1" style="left:297000px;"></div> 
-<div class="stone1" style="left:297500px;"></div> 
-<div class="stone1" style="left:298000px;"></div> 
-<div class="stone1" style="left:298500px;"></div> 
-<div class="stone1" style="left:299000px;"></div> 
-<div class="stone1" style="left:299500px;"></div> 
-<div class="stone1" style="left:300000px;"></div> 
-<div class="stone1" style="left:300500px;"></div> 
-<div class="stone1" style="left:301000px;"></div> 
-<div class="stone1" style="left:301500px;"></div> 
-<div class="stone1" style="left:302000px;"></div> 
-<div class="stone1" style="left:302500px;"></div> 
-<div class="stone1" style="left:303000px;"></div> 
-<div class="stone1" style="left:303500px;"></div> 
-<div class="stone1" style="left:304000px;"></div> 
-<div class="stone1" style="left:304500px;"></div> 
-<div class="stone1" style="left:305000px;"></div> 
-<div class="stone1" style="left:305500px;"></div> 
-<div class="stone1" style="left:306000px;"></div> 
-<div class="stone1" style="left:306500px;"></div> 
-<div class="stone1" style="left:307000px;"></div> 
-<div class="stone1" style="left:307500px;"></div> 
-<div class="stone1" style="left:308000px;"></div> 
-<div class="stone1" style="left:308500px;"></div> 
-<div class="stone1" style="left:309000px;"></div> 
-<div class="stone1" style="left:309500px;"></div> 
-<div class="stone1" style="left:310000px;"></div> 
-<div class="stone1" style="left:310500px;"></div> 
-<div class="stone1" style="left:311000px;"></div> 
-<div class="stone1" style="left:311500px;"></div> 
-<div class="stone1" style="left:312000px;"></div> 
-<div class="stone1" style="left:312500px;"></div> 
-<div class="stone1" style="left:313000px;"></div> 
-<div class="stone1" style="left:313500px;"></div> 
-<div class="stone1" style="left:314000px;"></div> 
-<div class="stone1" style="left:314500px;"></div> 
-<div class="stone1" style="left:315000px;"></div> 
-<div class="stone1" style="left:315500px;"></div> 
-<div class="stone1" style="left:316000px;"></div> 
-<div class="stone1" style="left:316500px;"></div> 
-<div class="stone1" style="left:317000px;"></div> 
-<div class="stone1" style="left:317500px;"></div> 
-<div class="stone1" style="left:318000px;"></div> 
-<div class="stone1" style="left:318500px;"></div> 
-<div class="stone1" style="left:319000px;"></div> 
-<div class="stone1" style="left:319500px;"></div> 
-<div class="stone1" style="left:320000px;"></div> 
-<div class="stone1" style="left:320500px;"></div> 
-<div class="stone1" style="left:321000px;"></div> 
-<div class="stone1" style="left:321500px;"></div> 
-<div class="stone1" style="left:322000px;"></div> 
-<div class="stone1" style="left:322500px;"></div> 
-<div class="stone1" style="left:323000px;"></div> 
-<div class="stone1" style="left:323500px;"></div> 
-<div class="stone1" style="left:324000px;"></div> 
-<div class="stone1" style="left:324500px;"></div> 
-<div class="stone1" style="left:325000px;"></div> 
-<div class="stone1" style="left:325500px;"></div> 
-<div class="stone1" style="left:326000px;"></div> 
-<div class="stone1" style="left:326500px;"></div> 
-<div class="stone1" style="left:327000px;"></div> 
-<div class="stone1" style="left:327500px;"></div> 
-<div class="stone1" style="left:328000px;"></div> 
-<div class="stone1" style="left:328500px;"></div> 
-<div class="stone1" style="left:329000px;"></div> 
-<div class="stone1" style="left:329500px;"></div> 
-<div class="stone1" style="left:330000px;"></div> 
-<div class="stone1" style="left:330500px;"></div> 
-<div class="stone1" style="left:331000px;"></div> 
-<div class="stone1" style="left:331500px;"></div> 
-<div class="stone1" style="left:332000px;"></div> 
-<div class="stone1" style="left:332500px;"></div> 
-<div class="stone1" style="left:333000px;"></div> 
-<div class="stone1" style="left:333500px;"></div> 
-<div class="stone1" style="left:334000px;"></div> 
-<div class="stone1" style="left:334500px;"></div> 
-<div class="stone1" style="left:335000px;"></div> 
-<div class="stone1" style="left:335500px;"></div> 
-<div class="stone1" style="left:336000px;"></div> 
-<div class="stone1" style="left:336500px;"></div> 
-<div class="stone1" style="left:337000px;"></div> 
-<div class="stone1" style="left:337500px;"></div> 
-<div class="stone1" style="left:338000px;"></div> 
-<div class="stone1" style="left:338500px;"></div> 
-<div class="stone1" style="left:339000px;"></div> 
-<div class="stone1" style="left:339500px;"></div> 
-<div class="stone1" style="left:340000px;"></div> 
-<div class="stone1" style="left:340500px;"></div> 
-<div class="stone1" style="left:341000px;"></div> 
-<div class="stone1" style="left:341500px;"></div> 
-<div class="stone1" style="left:342000px;"></div> 
-<div class="stone1" style="left:342500px;"></div> 
-<div class="stone1" style="left:343000px;"></div> 
-<div class="stone1" style="left:343500px;"></div> 
-<div class="stone1" style="left:344000px;"></div> 
-<div class="stone1" style="left:344500px;"></div> 
-<div class="stone1" style="left:345000px;"></div> 
-<div class="stone1" style="left:345500px;"></div> 
-<div class="stone1" style="left:346000px;"></div> 
-<div class="stone1" style="left:346500px;"></div> 
-<div class="stone1" style="left:347000px;"></div> 
-<div class="stone1" style="left:347500px;"></div> 
-<div class="stone1" style="left:348000px;"></div> 
-<div class="stone1" style="left:348500px;"></div> 
-<div class="stone1" style="left:349000px;"></div> 
-<div class="stone1" style="left:349500px;"></div> 
-<div class="stone1" style="left:350000px;"></div> 
-<div class="stone1" style="left:350500px;"></div> 
-<div class="stone1" style="left:351000px;"></div> 
-<div class="stone1" style="left:351500px;"></div> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:22736px; top:-34.457918225319006px;" id="diamond1" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:19777px; top:-58.69205099182981px;" id="diamond2" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:15227px; top:-87.0691980871051px;" id="diamond3" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:29937px; top:-14.971917594650847px;" id="diamond4" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:8776px; top:35.70640574888472px;" id="diamond5" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:36008px; top:-9.029263412008902px;" id="diamond6" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:21210px; top:-69.40457611258505px;" id="diamond7" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:35843px; top:-33.52898182713665px;" id="diamond8" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:9212px; top:-40.19795532109036px;" id="diamond9" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:4249px; top:-6.162330754218232px;" id="diamond10" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:11279px; top:-49.36948007190549px;" id="diamond11" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:24818px; top:-11.843690318038412px;" id="diamond12" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:16185px; top:-1.0133526071106473px;" id="diamond13" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:15872px; top:13.388663176014106px;" id="diamond14" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:11329px; top:28.058925713736215px;" id="diamond15" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:8132px; top:-28.464101840194587px;" id="diamond16" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:9509px; top:-87.93313056181265px;" id="diamond17" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:23582px; top:0.5142687485495401px;" id="diamond18" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:6345px; top:-72.78072152699718px;" id="diamond19" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:20142px; top:-46.7788123512765px;" id="diamond20" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:31453px; top:-23.978444373912524px;" id="diamond21" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:14384px; top:-52.90532630515156px;" id="diamond22" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:12999px; top:-64.0584430690804px;" id="diamond23" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:29182px; top:-99.86351577813578px;" id="diamond24" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:18113px; top:9.036212069507656px;" id="diamond25" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:22713px; top:29.077743061251255px;" id="diamond26" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:8041px; top:15.253685847298257px;" id="diamond27" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:33096px; top:28.57157243263964px;" id="diamond28" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:2087px; top:-4.242023084734257px;" id="diamond29" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:23452px; top:-87.44350328635407px;" id="diamond30" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:14254px; top:31.520282062413713px;" id="diamond31" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:16841px; top:-99.6587602192944px;" id="diamond32" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:7384px; top:-93.63452288716952px;" id="diamond33" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:13823px; top:-18.259446100740703px;" id="diamond34" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:14608px; top:-65.70326990301643px;" id="diamond35" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:29961px; top:39.244203044735855px;" id="diamond36" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:32912px; top:-14.340764407208994px;" id="diamond37" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:5581px; top:30.868606904966043px;" id="diamond38" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:23651px; top:-41.85106507934552px;" id="diamond39" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:16927px; top:-84.0583579875669px;" id="diamond40" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:3454px; top:-98.14468849268913px;" id="diamond41" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:23701px; top:10.881708877344067px;" id="diamond42" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:2788px; top:-70.07512203474181px;" id="diamond43" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:8426px; top:-14.732099821882883px;" id="diamond44" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:28496px; top:-94.50913601536521px;" id="diamond45" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:19709px; top:-29.569802460524173px;" id="diamond46" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:19981px; top:-96.01357534498091px;" id="diamond47" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:2468px; top:-99.45426157894343px;" id="diamond48" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:28359px; top:-95.62952424174279px;" id="diamond49" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:33561px; top:-25.926502638129918px;" id="diamond50" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:17062px; top:-72.88636951694278px;" id="diamond51" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:34878px; top:-71.22112542493775px;" id="diamond52" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:34839px; top:-1.732831415605304px;" id="diamond53" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:19150px; top:26.38330228839054px;" id="diamond54" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:31771px; top:-30.047022136007385px;" id="diamond55" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:14954px; top:-59.93992061839656px;" id="diamond56" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:17361px; top:-43.277511932028766px;" id="diamond57" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:27057px; top:25.562356638341754px;" id="diamond58" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:18993px; top:-55.29800275846686px;" id="diamond59" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:31302px; top:30.003921933613128px;" id="diamond60" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:11218px; top:-33.345559957688636px;" id="diamond61" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:4762px; top:38.02402838106951px;" id="diamond62" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:17129px; top:2.5485463310665892px;" id="diamond63" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:26130px; top:-75.20231557265326px;" id="diamond64" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:32943px; top:-96.13641785086817px;" id="diamond65" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:26441px; top:-60.59413075783992px;" id="diamond66" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:19645px; top:-62.943642645799436px;" id="diamond67" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:6932px; top:-86.29507075553715px;" id="diamond68" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:20483px; top:-93.58147491424988px;" id="diamond69" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:17471px; top:-73.10685375654259px;" id="diamond70" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:35251px; top:-35.712821978098916px;" id="diamond71" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:9347px; top:-38.98219841178955px;" id="diamond72" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:15147px; top:30.005125647839577px;" id="diamond73" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:37923px; top:-43.591703336326574px;" id="diamond74" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:8376px; top:3.817256339019295px;" id="diamond75" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:31795px; top:-18.486694287828044px;" id="diamond76" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:7451px; top:10.825906864583118px;" id="diamond77" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:30245px; top:9.92421611729172px;" id="diamond78" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:35033px; top:-12.074177337542906px;" id="diamond79" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:35532px; top:-56.661780735924px;" id="diamond80" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:17436px; top:-4.701950351980969px;" id="diamond81" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:35175px; top:5.063585001619302px;" id="diamond82" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:14060px; top:11.814338522107406px;" id="diamond83" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:4679px; top:-97.51492287195119px;" id="diamond84" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:35478px; top:-72.60893169043999px;" id="diamond85" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:15336px; top:29.086498829606853px;" id="diamond86" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:8096px; top:30.498638446234594px;" id="diamond87" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:2561px; top:-75.78627416150347px;" id="diamond88" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:6877px; top:-75.57617260047911px;" id="diamond89" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:26279px; top:-93.91462497532775px;" id="diamond90" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:5954px; top:32.31949954661397px;" id="diamond91" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:7242px; top:-52.715565674027786px;" id="diamond92" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:30838px; top:-59.48938949142415px;" id="diamond93" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:3459px; top:-68.8917801913255px;" id="diamond94" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:23339px; top:-63.482012273329886px;" id="diamond95" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:5619px; top:-45.437065326478624px;" id="diamond96" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:10604px; top:-88.37523519790253px;" id="diamond97" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:9496px; top:-71.88564270965466px;" id="diamond98" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:29178px; top:-59.69460311177161px;" id="diamond99" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:28566px; top:-11.835454297967672px;" id="diamond100" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:20701px; top:8.3574271666769px;" id="diamond101" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:17773px; top:-96.14330573240449px;" id="diamond102" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:10428px; top:-40.17108231757054px;" id="diamond103" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:15287px; top:22.94366256729731px;" id="diamond104" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:29783px; top:-51.34799984493061px;" id="diamond105" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:14678px; top:-80.14959863390526px;" id="diamond106" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:14314px; top:-75.90027410548922px;" id="diamond107" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:10242px; top:-33.27837944295082px;" id="diamond108" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:4218px; top:-18.95877260389949px;" id="diamond109" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:24729px; top:-55.97574139038433px;" id="diamond110" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:20766px; top:24.311976462841173px;" id="diamond111" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:27492px; top:28.30488828009271px;" id="diamond112" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:12499px; top:-79.64178309229533px;" id="diamond113" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:37978px; top:-28.645613904539488px;" id="diamond114" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:16966px; top:-62.715520997692884px;" id="diamond115" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:5093px; top:-75.6825359665566px;" id="diamond116" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:37006px; top:-41.454454917458484px;" id="diamond117" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:23036px; top:-47.665325529472px;" id="diamond118" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:13436px; top:-81.08507096689657px;" id="diamond119" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:5500px; top:-25.10754756610784px;" id="diamond120" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:14491px; top:-11.702850341928823px;" id="diamond121" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:22342px; top:0.33366636295897933px;" id="diamond122" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:7104px; top:-91.40020647367582px;" id="diamond123" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:10365px; top:-63.399268855832304px;" id="diamond124" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:10305px; top:-43.56028312037315px;" id="diamond125" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:7686px; top:-90.02069453112335px;" id="diamond126" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:23621px; top:23.64085064515922px;" id="diamond127" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:24989px; top:-36.708071281945784px;" id="diamond128" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:26961px; top:24.182153947905988px;" id="diamond129" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:30584px; top:-83.3745444630225px;" id="diamond130" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:17137px; top:31.172030816230375px;" id="diamond131" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:30464px; top:10.700281694334947px;" id="diamond132" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:15550px; top:-15.827218724466405px;" id="diamond133" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:34554px; top:-41.12916706120877px;" id="diamond134" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:2233px; top:-86.5233008068458px;" id="diamond135" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:14960px; top:-3.5874013998379866px;" id="diamond136" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:36069px; top:4.033607796765779px;" id="diamond137" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:3692px; top:-78.99183346287953px;" id="diamond138" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:31754px; top:-49.54129351467173px;" id="diamond139" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:19568px; top:-28.589909325818425px;" id="diamond140" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:25049px; top:-42.858959331300014px;" id="diamond141" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:13178px; top:-38.410511430728285px;" id="diamond142" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:12014px; top:-33.08053373581282px;" id="diamond143" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:26141px; top:0.3273829787809319px;" id="diamond144" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:11315px; top:9.01609225796949px;" id="diamond145" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:11800px; top:-34.21239249604612px;" id="diamond146" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:5494px; top:-16.48319148216393px;" id="diamond147" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:34330px; top:27.8952660965882px;" id="diamond148" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:8680px; top:-5.219698572679448px;" id="diamond149" /> 
+<img src="images/coin/dim.png" class="" style="position:absolute; left:28518px; top:-42.21816271864368px;" id="diamond150" /> 
