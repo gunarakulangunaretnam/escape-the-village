@@ -53,7 +53,7 @@ $(window).on('load', function(){
             if (isPuzzleMode == false) {
 
                 //console.log($div1.attr("id"))
-                //DoorOpenPuzzleFunction($div1, doortype, TimeDuration);
+                DoorOpenPuzzleFunction($div1, doortype, TimeDuration);
             }
 
             return true;
