@@ -5,7 +5,7 @@ var isPlayerAlive = true;
 var isLevelFinished = false;
 
 // Stage 1 Sound
-var stage1Audio = new Audio("music/stage-2-background-music.mp3");
+var stage1Audio = new Audio("music/stage-3-background-music.mp3");
 stage1Audio.volume = 0.9;
 stage1Audio.loop = true;
 
@@ -48,7 +48,7 @@ function LevelUpSoundEffect(){
     
     audio.onended = function(){
       
-      location.href = "level-2.html";
+      location.href = "level-3.html";
 
     }
 

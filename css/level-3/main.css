@@ -12,9 +12,9 @@ html, body{margin:0px; padding:0px; width:100%; height:100%;}
 
 }
 #stage{width:20000px; position:absolute; left:0px; bottom:0px; height:200px;  z-index:8;}
-.mudroadtexture{ background-image:url(../../images/level-2-assets/Tile/2.png); background-repeat:repeat; height:50%; z-index:10; position:absolute; left:0px; bottom:0px;  width:2000px; outline:0px;}
-.bridgetexture{ background-image:url(../../images/bridge.gif); background-repeat:repeat; height:50%; z-index:10; position:absolute; left:0px; bottom:0px;  width:2000px; outline:0px;}
-.crocodial{ background-image:url(../../images/croco.gif); z-index:9; background-repeat:repeat; height:50%;   position:absolute; left:0px; bottom:0px;  width:200px; outline:0px;}
+.mudroadtexture{ background-image:url(../../images/level-3-assets/Tiles/2.png); background-repeat:repeat; height:50%; z-index:10; position:absolute; left:0px; bottom:0px;  width:2000px; outline:0px;}
+.iceblock{ background-image:url(../../images/level-3-assets/Object/IceBox.png); background-repeat:repeat; height:50%; z-index:10; position:absolute; left:0px; bottom:0px;  width:2000px; outline:0px;}
+.waterWhole{ background-image:url(../../images/level-3-assets/Tiles/17.png); z-index:9; background-repeat:repeat; height:50%;   position:absolute; left:0px; bottom:0px;  width:100px; outline:0px;}
 
 #box {background-repeat:no-repeat; width:63px; height:90px;  }
 .waterwarn200{width:179px; height:4px; position:absolute; left:9px; bottom:-14px; }
