@@ -21,20 +21,37 @@ html, body{margin:0px; padding:0px; width:100%; height:100%;}
 
 
 .maintree{position:absolute; z-index:7; left:0px; bottom:0px; height:80px; width:20000px;}
-.tree1{position:absolute; left:955px; bottom:-100px; width:386px; height:393px; background-repeat:no-repeat; background-image:url(../../images/level-3-assets/Object/Tree_2.png);}
-.tree2{position:absolute; left:655px; bottom:-100px; width:386px; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Tree_2.png);}
-.tree3{position:absolute; left:2855px; bottom:-100px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Tree_1.png);}
-.stone1{position:absolute; left:1055px; bottom:-95px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Stone.png);}
-.snowman{position:absolute; left:2055px; bottom:-165px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/SnowMan.png);}
-.crystal{position:absolute; left:1555px; bottom:-105px; width:100%; height:200px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Crystal.png);}
-.right-arrow{position:absolute; left:1555px; bottom:-85px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Sign_2.png);}
-.right-arrow2{position:absolute; left:1000px; bottom:-85px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Sign_1.png);}
+.tree1{position:absolute; left:855px; bottom:-100px; width:386px; height:393px; background-repeat:no-repeat; background-image:url(../../images/level-4-assets/Object/Tree_2.png);}
+.tree2{position:absolute; left:655px; bottom:-100px; width:386px; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/Tree_2.png);}
+.tree3{position:absolute; left:2855px; bottom:-330px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/Tree_1.png);}
+.stone1{position:absolute; left:1055px; bottom:-110px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/Stone.png);}
+.bush1{ position:absolute; left:1055px; bottom:-320px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/bush-1.png);}
+.bush2{ position:absolute; left:1555px; bottom:-320px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/bush-2.png);}
+.bush3{ position:absolute; left:1955px; bottom:-340px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/bush-3.png);}
+.bush4{ position:absolute; left:2155px; bottom:-330px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/bush-4.png);}
+.crystal{position:absolute; left:1555px; bottom:-130px; width:100%; height:200px; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/Stone.png);}
+.right-arrow{position:absolute; left:1555px; bottom:-110px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/Sign_2.png);}
+.right-arrow2{position:absolute; left:1000px; bottom:-110px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/Sign_1.png);}
 .seenlayer{height:300px; position:absolute; left:0px; bottom:0px; width:40000px; z-index:1; }
-.kutubminar{width:591px; height:500px; background-repeat:no-repeat; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:1100px; position:absolute; bottom:-200px;}
-.palace{width:591px; height:500px; background-repeat:no-repeat; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:2200px; position:absolute; bottom:-200px;}
 
-.kutubminar2{width:591px; background-repeat:no-repeat; background-repeat:no-repeat; height:500px; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:3100px; position:absolute; bottom:-200px;}
-.palace2{width:591px; background-repeat:no-repeat; height:500px; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:4100px; position:absolute; bottom:-200px;}
+.kutubminar{width:750px; height:600px; background-repeat:no-repeat; background-image:url(../../images/level-4-assets/Object/hill.png); left:1100px; position:absolute; bottom:-100px;}
+.palace{width:750px; height:600px; background-repeat:no-repeat; background-image:url(../../images/level-4-assets/Object/hill.png); left:2200px; position:absolute; bottom:-100px;}
+
+.kutubminar2{width:750px; height:600px; background-repeat:no-repeat; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/hill.png); left:3100px; position:absolute; bottom:-100px;}
+.palace2{width:750px; height:600px; background-repeat:no-repeat; background-image:url(../../images/level-4-assets/Object/hill.png); left:4100px; position:absolute; bottom:-100px;}
+
+
+.kutubminar3{width:750px; height:600px; background-repeat:no-repeat; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/hill.png); left:4100px; position:absolute; bottom:-100px;}
+.palace3{width:750px; height:600px; background-repeat:no-repeat; background-image:url(../../images/level-4-assets/Object/hill.png); left:5100px; position:absolute; bottom:-100px;}
+
+
+.kutubminar4{width:750px; height:600px; background-repeat:no-repeat; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/hill.png); left:6100px; position:absolute; bottom:-100px;}
+.palace4{width:750px; height:600px; background-repeat:no-repeat; background-image:url(../../images/level-4-assets/Object/hill.png); left:7100px; position:absolute; bottom:-100px;}
+
+
+.kutubminar5{width:750px; height:600px; background-repeat:no-repeat; background-repeat:no-repeat;  background-image:url(../../images/level-4-assets/Object/hill.png); left:8100px; position:absolute; bottom:-100px;}
+.palace5{width:750px; height:600px; background-repeat:no-repeat; background-image:url(../../images/level-4-assets/Object/hill.png); left:9100px; position:absolute; bottom:-100px;}
+
 
 .enmybox{position:absolute; z-index:80; left:0px; bottom:0px; height:300px; width:20000px;  }
 
