@@ -1,20 +1,18 @@
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:12703px; bottom:149px;" id="skybirds-enm1"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:23533px; bottom:216px;" id="skybirds-enm2"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:4952px; bottom:233px;" id="skybirds-enm3"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:35821px; bottom:147px;" id="skybirds-enm4"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:35798px; bottom:84px;" id="skybirds-enm5"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:16899px; bottom:102px;" id="skybirds-enm6"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:16861px; bottom:162px;" id="skybirds-enm7"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:20089px; bottom:169px;" id="skybirds-enm8"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:11860px; bottom:291px;" id="skybirds-enm9"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:6361px; bottom:64px;" id="skybirds-enm10"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:18057px; bottom:74px;" id="skybirds-enm11"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:22638px; bottom:172px;" id="skybirds-enm12"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:25503px; bottom:138px;" id="skybirds-enm13"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:27213px; bottom:122px;" id="skybirds-enm14"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:35887px; bottom:225px;" id="skybirds-enm15"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:9332px; bottom:223px;" id="skybirds-enm16"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:21792px; bottom:149px;" id="skybirds-enm17"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:6526px; bottom:287px;" id="skybirds-enm18"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:12616px; bottom:91px;" id="skybirds-enm19"/> 
-<img src="images/level-2-assets/Objects/crow-gif.gif" class="MovingObjects" style="position:absolute; left:12352px; bottom:248px;" id="skybirds-enm20"/> 
+<img src="images/doors/1.png" style="position:absolute; left:2000px; top:-175px; height: 480px;" id="door1"/> 
+<img src="images/doors/1.png" style="position:absolute; left:4000px; top:-175px; height: 480px;" id="door2"/> 
+<img src="images/doors/1.png" style="position:absolute; left:6000px; top:-175px; height: 480px;" id="door3"/> 
+<img src="images/doors/1.png" style="position:absolute; left:8000px; top:-175px; height: 480px;" id="door4"/> 
+<img src="images/doors/1.png" style="position:absolute; left:10000px; top:-175px; height: 480px;" id="door5"/> 
+<img src="images/doors/1.png" style="position:absolute; left:12000px; top:-175px; height: 480px;" id="door6"/> 
+<img src="images/doors/1.png" style="position:absolute; left:14000px; top:-175px; height: 480px;" id="door7"/> 
+<img src="images/doors/1.png" style="position:absolute; left:16000px; top:-175px; height: 480px;" id="door8"/> 
+<img src="images/doors/1.png" style="position:absolute; left:18000px; top:-175px; height: 480px;" id="door9"/> 
+<img src="images/doors/1.png" style="position:absolute; left:20000px; top:-175px; height: 480px;" id="door10"/> 
+<img src="images/doors/1.png" style="position:absolute; left:22000px; top:-175px; height: 480px;" id="door11"/> 
+<img src="images/doors/1.png" style="position:absolute; left:24000px; top:-175px; height: 480px;" id="door12"/> 
+<img src="images/doors/1.png" style="position:absolute; left:26000px; top:-175px; height: 480px;" id="door13"/> 
+<img src="images/doors/1.png" style="position:absolute; left:28000px; top:-175px; height: 480px;" id="door14"/> 
+<img src="images/doors/1.png" style="position:absolute; left:30000px; top:-175px; height: 480px;" id="door15"/> 
+<img src="images/doors/1.png" style="position:absolute; left:32000px; top:-175px; height: 480px;" id="door16"/> 
+<img src="images/doors/1.png" style="position:absolute; left:34000px; top:-175px; height: 480px;" id="door17"/> 
+<img src="images/doors/1.png" style="position:absolute; left:36000px; top:-175px; height: 480px;" id="door18"/> 
