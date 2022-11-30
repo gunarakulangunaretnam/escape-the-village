@@ -21,18 +21,21 @@ html, body{margin:0px; padding:0px; width:100%; height:100%;}
 .maintree{position:absolute; z-index:7; left:0px; bottom:0px; height:80px; width:20000px;}
 .tree1{position:absolute; left:955px; bottom:-137px; width:386px; height:393px; background-repeat:no-repeat; background-image:url(../../images/level-5-assets/Objects/Tree.png);}
 .tree2{position:absolute; left:655px; bottom:-100px; width:386px; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-5-assets/Objects/DeadBush.png);}
-.tree3{position:absolute; left:2855px; bottom:-136px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-5-assets/Objects/Tree.png);}
-.stone1{position:absolute; left:1055px; bottom:-95px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Stone.png);}
-.snowman{position:absolute; left:2055px; bottom:-165px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/SnowMan.png);}
-.crystal{position:absolute; left:1555px; bottom:-105px; width:100%; height:200px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Crystal.png);}
+.bush1{position:absolute; left:2855px; bottom:-290px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-5-assets/Objects/bush-1.png);}
+.bush2{position:absolute; left:1855px; bottom:-315px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-5-assets/Objects/bush-2.png);}
+.stone1{position:absolute; left:1055px; bottom:-125px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-5-assets/Objects/stone-1.png);}
+.stone2{position:absolute; left:2055px; bottom:-100px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-5-assets/Objects/stone-2.png);}
+.deadbush{position:absolute; left:1355px; bottom:-100px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-5-assets/Objects/DeadBush.png);}
+.skeleton{position:absolute; left:1455px; bottom:-128px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-5-assets/Objects/Skeleton.png);}
+
 .right-arrow{position:absolute; left:1555px; bottom:-85px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-5-assets/Objects/ArrowSign.png);}
 .right-arrow2{position:absolute; left:1000px; bottom:-85px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-5-assets/Objects/Sign.png);}
 .seenlayer{height:300px; position:absolute; left:0px; bottom:0px; width:40000px; z-index:1; }
-.kutubminar{width:591px; height:500px; background-repeat:no-repeat; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:1100px; position:absolute; bottom:-200px;}
-.palace{width:591px; height:500px; background-repeat:no-repeat; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:2200px; position:absolute; bottom:-200px;}
+.kutubminar{width:591px; height:500px; background-repeat:no-repeat; background-image:url(../../images/level-5-assets/Objects/g-home.png); left:1100px; position:absolute; bottom:-40px;}
+.palace{width:591px; height:500px; background-repeat:no-repeat; background-image:url(../../images/level-5-assets/Objects/g-home.png); left:2200px; position:absolute; bottom:-40px;}
 
-.kutubminar2{width:591px; background-repeat:no-repeat; background-repeat:no-repeat; height:500px; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:3100px; position:absolute; bottom:-200px;}
-.palace2{width:591px; background-repeat:no-repeat; height:500px; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:4100px; position:absolute; bottom:-200px;}
+.kutubminar2{width:591px; background-repeat:no-repeat; background-repeat:no-repeat; height:500px; background-image:url(../../images/level-5-assets/Objects/g-home.png); left:3100px; position:absolute; bottom:-40px;}
+.palace2{width:591px; background-repeat:no-repeat; height:500px; background-image:url(../../images/level-5-assets/Objects/g-home.png); left:4100px; position:absolute; bottom:-40px;}
 
 .enmybox{position:absolute; z-index:80; left:0px; bottom:0px; height:300px; width:20000px;  }
 
