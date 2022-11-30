@@ -1,84 +1,15 @@
-<div style="position:absolute; z-index:111; left:19067px; bottom:60px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 180px; height: 180px;" src="images/enm_stage1/ant.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm1"></div>
-               </div>
-           </div>
- 
-<div style="position:absolute; z-index:111; left:20040px; bottom:60px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 180px; height: 180px;" src="images/enm_stage1/ant.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm2"></div>
-               </div>
-           </div>
- 
-<div style="position:absolute; z-index:111; left:14110px; bottom:60px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 180px; height: 180px;" src="images/enm_stage1/ant.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm3"></div>
-               </div>
-           </div>
- 
-<div style="position:absolute; z-index:111; left:8359px; bottom:60px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 180px; height: 180px;" src="images/enm_stage1/ant.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm4"></div>
-               </div>
-           </div>
- 
-<div style="position:absolute; z-index:111; left:15160px; bottom:60px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 180px; height: 180px;" src="images/enm_stage1/ant.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm5"></div>
-               </div>
-           </div>
- 
-<div style="position:absolute; z-index:111; left:12288px; bottom:60px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 180px; height: 180px;" src="images/enm_stage1/ant.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm6"></div>
-               </div>
-           </div>
- 
-<div style="position:absolute; z-index:111; left:5057px; bottom:60px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 180px; height: 180px;" src="images/enm_stage1/ant.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm7"></div>
-               </div>
-           </div>
- 
-<div style="position:absolute; z-index:111; left:27585px; bottom:60px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 180px; height: 180px;" src="images/enm_stage1/ant.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm8"></div>
-               </div>
-           </div>
- 
-<div style="position:absolute; z-index:111; left:5553px; bottom:60px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 180px; height: 180px;" src="images/enm_stage1/ant.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm9"></div>
-               </div>
-           </div>
- 
-<div style="position:absolute; z-index:111; left:11190px; bottom:60px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 180px; height: 180px;" src="images/enm_stage1/ant.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm10"></div>
-               </div>
-           </div>
- 
-<div style="position:absolute; z-index:111; left:24102px; bottom:60px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 180px; height: 180px;" src="images/enm_stage1/ant.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm11"></div>
-               </div>
-           </div>
- 
-<div style="position:absolute; z-index:111; left:16056px; bottom:60px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 180px; height: 180px;" src="images/enm_stage1/ant.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm12"></div>
-               </div>
-           </div>
- 
+<div class="right-arrow2" style="left:27674px;"></div> 
+<div class="right-arrow2" style="left:17668px;"></div> 
+<div class="right-arrow2" style="left:32285px;"></div> 
+<div class="right-arrow2" style="left:29011px;"></div> 
+<div class="right-arrow2" style="left:18255px;"></div> 
+<div class="right-arrow2" style="left:28708px;"></div> 
+<div class="right-arrow2" style="left:17415px;"></div> 
+<div class="right-arrow2" style="left:36380px;"></div> 
+<div class="right-arrow2" style="left:39048px;"></div> 
+<div class="right-arrow2" style="left:3941px;"></div> 
+<div class="right-arrow2" style="left:12598px;"></div> 
+<div class="right-arrow2" style="left:9174px;"></div> 
+<div class="right-arrow2" style="left:31430px;"></div> 
+<div class="right-arrow2" style="left:4213px;"></div> 
+<div class="right-arrow2" style="left:39302px;"></div> 
