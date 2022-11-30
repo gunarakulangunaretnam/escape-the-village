@@ -338,6 +338,12 @@ $(window).on('load', function(){
 
         LevelUp($('#flag'), $('#div2'));
 
+        $('.result').text(collision($('#water-whole-1'), $('#div2'))) 
+        $('.result').text(collision($('#water-whole-2'), $('#div2'))) 
+        $('.result').text(collision($('#water-whole-3'), $('#div2'))) 
+        $('.result').text(collision($('#water-whole-4'), $('#div2'))) 
+        $('.result').text(collision($('#water-whole-5'), $('#div2'))) 
+
 
     }, 200);
 });
