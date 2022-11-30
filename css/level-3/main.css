@@ -18,23 +18,23 @@ html, body{margin:0px; padding:0px; width:100%; height:100%;}
 
 #box {background-repeat:no-repeat; width:63px; height:90px;  }
 .waterwarn200{width:179px; height:4px; position:absolute; left:9px; bottom:-14px; }
-.grasstree{position:absolute; z-index:6; left:0px; bottom:0px; height:80px; width:20000px;}
-.grass{height:132px; position:absolute; left:0px; bottom:-66px; background-image:url(../../images/level-2-assets/Objects/grass-1.png); background-repeat:repeat-x;   width:100%; z-index:6;}
-.train{height:132px; position:absolute; left:0px; bottom:-66px; background-image:url(../../images/enm_stage1/train.gif);width:100%; z-index:6;}
 
 
 .maintree{position:absolute; z-index:7; left:0px; bottom:0px; height:80px; width:20000px;}
-.tree1{position:absolute; left:755px; bottom:-85px; width:186px; height:193px; background-repeat:no-repeat; background-image:url(../../images/level-2-assets/Objects/bush-1.png);}
-.tree2{position:absolute; left:755px; bottom:-110px; width:186px; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-2-assets/Objects/bush-2.png);}
-.tree3{position:absolute; left:855px; bottom:0px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-2-assets/Objects/Tree.png);}
-.stone1{position:absolute; left:1055px; bottom:-120px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-2-assets/Objects/Stone.png);}
-.right-arrow{position:absolute; left:1555px; bottom:-100px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-2-assets/Objects/SignArrow.png);}
+.tree1{position:absolute; left:955px; bottom:-100px; width:386px; height:393px; background-repeat:no-repeat; background-image:url(../../images/level-3-assets/Object/Tree_2.png);}
+.tree2{position:absolute; left:655px; bottom:-100px; width:386px; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Tree_2.png);}
+.tree3{position:absolute; left:2855px; bottom:-100px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Tree_1.png);}
+.stone1{position:absolute; left:1055px; bottom:-95px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Stone.png);}
+.snowman{position:absolute; left:2055px; bottom:-165px; width:100%; height:393px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/SnowMan.png);}
+.crystal{position:absolute; left:1555px; bottom:-105px; width:100%; height:200px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Crystal.png);}
+.right-arrow{position:absolute; left:1555px; bottom:-85px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Sign_2.png);}
+.right-arrow2{position:absolute; left:1000px; bottom:-85px; width:100%; height:193px; background-repeat:no-repeat;  background-image:url(../../images/level-3-assets/Object/Sign_1.png);}
 .seenlayer{height:300px; position:absolute; left:0px; bottom:0px; width:40000px; z-index:1; }
-.kutubminar{width:591px; height:300px; background-image:url(../../images/level-2-assets/Objects/pyramid.png); left:1100px; position:absolute; bottom:80px;}
-.palace{width:591px; height:300px; background-image:url(../../images/level-2-assets/Objects/pyramid.png); left:2200px; position:absolute; bottom:80px;}
+.kutubminar{width:591px; height:500px; background-repeat:no-repeat; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:1100px; position:absolute; bottom:-200px;}
+.palace{width:591px; height:500px; background-repeat:no-repeat; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:2200px; position:absolute; bottom:-200px;}
 
-.kutubminar2{width:591px; height:300px; background-image:url(../../images/level-2-assets/Objects/pyramid.png); left:3100px; position:absolute; bottom:80px;}
-.palace2{width:591px; height:300px; background-image:url(../../images/level-2-assets/Objects/pyramid.png); left:4100px; position:absolute; bottom:80px;}
+.kutubminar2{width:591px; background-repeat:no-repeat; background-repeat:no-repeat; height:500px; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:3100px; position:absolute; bottom:-200px;}
+.palace2{width:591px; background-repeat:no-repeat; height:500px; background-image:url(../../images/level-3-assets/Object/Igloo.png); left:4100px; position:absolute; bottom:-200px;}
 
 .enmybox{position:absolute; z-index:80; left:0px; bottom:0px; height:300px; width:20000px;  }
 

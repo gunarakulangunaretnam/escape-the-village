@@ -10,7 +10,7 @@ f1 = open("output-js.txt", 'w')
 
 x = 2000
 
-for i in range(18):
+for i in range(15):
     startfrom = startfrom + 1
 
     doortype = random.randint(1, 4)
@@ -19,7 +19,7 @@ for i in range(18):
     
     f1.write(f'''if( $("#door{startfrom}").length)  DoorLogic($("#door{startfrom}"), $("#div2"), "door-open-box-{doortype}", 0); \n''')
 
-    x = x + 2000
+    x = x + 2200
 
 f.close()
 f1.close()
