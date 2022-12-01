@@ -16,7 +16,7 @@ for i in range(200):
     f.write(f'<img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:{x}px; top:{y}px;" id="coin{startfrom}" />\n')
     
     
-    f1.write(f"$('.result').text(getpointscoin($('#coin{startfrom}'), $('#div2'), '#coin{startfrom}', 'CoinType'));  \n")
+    f1.write(f"if($('#coin{startfrom}').length) getpointscoin($('#coin{startfrom}'), $('#div2'), '#coin{startfrom}', 'CoinType');  \n")
 
      
 

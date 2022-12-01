@@ -12,11 +12,9 @@ for i in range(200):
     x = random.randint(2000, 38000)
     y = random.uniform(-100, 40)
 
-   
-    f.write(f'<img src="images/coin/dim.png" class="" style="position:absolute; left:{x}px; top:{y}px;" id="diamond{startfrom}" /> \n')
+    f.write(f'<img src="images/coin/dim.png" class="" style="position:absolute; left:{x}px; top:{y}px;" id="diamond{startfrom}" />\n')
     
-    
-    f1.write(f"$('.result').text(getpointscoin($('#diamond{startfrom}'), $('#div2'), '#diamond{startfrom}', 'DiamondType')); \n")
+    f1.write(f"if($('#diamond{startfrom}').length) getpointscoin($('#diamond{startfrom}'), $('#div2'), '#diamond{startfrom}', 'DiamondType'); \n")
 
      
 
