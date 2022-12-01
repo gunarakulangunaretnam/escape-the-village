@@ -21,7 +21,7 @@ $(window).on('load', function(){
         } else {
 
           
-            //console.log($div1.attr("id"))
+           // console.log($div1.attr("id"))
             dieplayer();
             return true;
         }
@@ -365,16 +365,27 @@ $(window).on('load', function(){
          $('.result').text(collision($('#whole7'), $('#div2'))) 
          $('.result').text(collision($('#whole8'), $('#div2'))) 
 
-        // $('.result').text(collision($('#enm11'), $('#div2'))) 
-        // $('.result').text(collision($('#enm12'), $('#div2'))) 
-        // $('.result').text(collision($('#enm13'), $('#div2'))) 
-        // $('.result').text(collision($('#enm14'), $('#div2'))) 
-        // $('.result').text(collision($('#enm15'), $('#div2'))) 
-        // $('.result').text(collision($('#enm16'), $('#div2'))) 
-        // $('.result').text(collision($('#enm17'), $('#div2'))) 
-        // $('.result').text(collision($('#enm18'), $('#div2'))) 
-        // $('.result').text(collision($('#enm19'), $('#div2'))) 
-        // $('.result').text(collision($('#enm20'), $('#div2'))) 
+         $("#saw1").text(collision($("#saw1"), $("#div2"))) 
+         $("#saw2").text(collision($("#saw2"), $("#div2"))) 
+         $("#saw3").text(collision($("#saw3"), $("#div2"))) 
+         $("#saw4").text(collision($("#saw4"), $("#div2"))) 
+         $("#saw5").text(collision($("#saw5"), $("#div2"))) 
+         $("#saw6").text(collision($("#saw6"), $("#div2"))) 
+         $("#saw7").text(collision($("#saw7"), $("#div2"))) 
+         $("#saw8").text(collision($("#saw8"), $("#div2"))) 
+         $("#saw9").text(collision($("#saw9"), $("#div2"))) 
+         $("#saw10").text(collision($("#saw10"), $("#div2"))) 
+         $("#saw11").text(collision($("#saw11"), $("#div2"))) 
+         $("#saw12").text(collision($("#saw12"), $("#div2"))) 
+         $("#saw13").text(collision($("#saw13"), $("#div2"))) 
+         $("#saw14").text(collision($("#saw14"), $("#div2"))) 
+         $("#saw15").text(collision($("#saw15"), $("#div2"))) 
+         $("#saw16").text(collision($("#saw16"), $("#div2"))) 
+         $("#saw17").text(collision($("#saw17"), $("#div2"))) 
+         $("#saw18").text(collision($("#saw18"), $("#div2"))) 
+         $("#saw19").text(collision($("#saw19"), $("#div2"))) 
+         $("#saw20").text(collision($("#saw20"), $("#div2"))) 
+         
 
     
 

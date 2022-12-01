@@ -1,20 +1,20 @@
-<img src="images/level-6-assets/Objects/1.png" class="" style="position:absolute; left:30452px; top:-30px; width: 40px;" id="obj1"/> 
-<img src="images/level-6-assets/Objects/1.png" class="" style="position:absolute; left:26385px; top:-30px; width: 40px;" id="obj2"/> 
-<img src="images/level-6-assets/Objects/1.png" class="" style="position:absolute; left:21940px; top:-30px; width: 40px;" id="obj3"/> 
-<img src="images/level-6-assets/Objects/2.png" class="" style="position:absolute; left:5315px; top:-30px; width: 40px;" id="obj4"/> 
-<img src="images/level-6-assets/Objects/1.png" class="" style="position:absolute; left:26537px; top:-30px; width: 40px;" id="obj5"/> 
-<img src="images/level-6-assets/Objects/2.png" class="" style="position:absolute; left:10939px; top:-30px; width: 40px;" id="obj6"/> 
-<img src="images/level-6-assets/Objects/2.png" class="" style="position:absolute; left:17514px; top:-30px; width: 40px;" id="obj7"/> 
-<img src="images/level-6-assets/Objects/2.png" class="" style="position:absolute; left:17722px; top:-30px; width: 40px;" id="obj8"/> 
-<img src="images/level-6-assets/Objects/1.png" class="" style="position:absolute; left:10795px; top:-30px; width: 40px;" id="obj9"/> 
-<img src="images/level-6-assets/Objects/2.png" class="" style="position:absolute; left:31182px; top:-30px; width: 40px;" id="obj10"/> 
-<img src="images/level-6-assets/Objects/1.png" class="" style="position:absolute; left:22391px; top:-30px; width: 40px;" id="obj11"/> 
-<img src="images/level-6-assets/Objects/2.png" class="" style="position:absolute; left:2330px; top:-30px; width: 40px;" id="obj12"/> 
-<img src="images/level-6-assets/Objects/2.png" class="" style="position:absolute; left:28718px; top:-30px; width: 40px;" id="obj13"/> 
-<img src="images/level-6-assets/Objects/2.png" class="" style="position:absolute; left:9486px; top:-30px; width: 40px;" id="obj14"/> 
-<img src="images/level-6-assets/Objects/2.png" class="" style="position:absolute; left:28084px; top:-30px; width: 40px;" id="obj15"/> 
-<img src="images/level-6-assets/Objects/2.png" class="" style="position:absolute; left:29532px; top:-30px; width: 40px;" id="obj16"/> 
-<img src="images/level-6-assets/Objects/1.png" class="" style="position:absolute; left:23652px; top:-30px; width: 40px;" id="obj17"/> 
-<img src="images/level-6-assets/Objects/1.png" class="" style="position:absolute; left:10135px; top:-30px; width: 40px;" id="obj18"/> 
-<img src="images/level-6-assets/Objects/1.png" class="" style="position:absolute; left:12218px; top:-30px; width: 40px;" id="obj19"/> 
-<img src="images/level-6-assets/Objects/1.png" class="" style="position:absolute; left:19575px; top:-30px; width: 40px;" id="obj20"/> 
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:19254px; top:0px; width: 100px;" id="saw1" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:6292px; top:0px; width: 100px;" id="saw2" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:4754px; top:0px; width: 100px;" id="saw3" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:15224px; top:0px; width: 100px;" id="saw4" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:32836px; top:0px; width: 100px;" id="saw5" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:34660px; top:0px; width: 100px;" id="saw6" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:10149px; top:0px; width: 100px;" id="saw7" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:21513px; top:0px; width: 100px;" id="saw8" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:34728px; top:0px; width: 100px;" id="saw9" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:12620px; top:0px; width: 100px;" id="saw10" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:31479px; top:0px; width: 100px;" id="saw11" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:31229px; top:0px; width: 100px;" id="saw12" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:16897px; top:0px; width: 100px;" id="saw13" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:24812px; top:0px; width: 100px;" id="saw14" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:17386px; top:0px; width: 100px;" id="saw15" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:2821px; top:0px; width: 100px;" id="saw16" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:8883px; top:0px; width: 100px;" id="saw17" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:28627px; top:0px; width: 100px;" id="saw18" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:5767px; top:0px; width: 100px;" id="saw19" />  
+<img src="images/level-6-assets/Objects/Saw.png" class="antiClockwiseSpin" style="position:absolute; left:24450px; top:0px; width: 100px;" id="saw20" />  
