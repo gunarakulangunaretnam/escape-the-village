@@ -21,7 +21,8 @@ $(window).on('load', function(){
         } else {
 
           
-            dieplayer();
+            console.log($div1.attr("id"))
+            //dieplayer();
             return true;
         }
 
@@ -336,30 +337,47 @@ $(window).on('load', function(){
 
     window.setInterval(function () {
 
-        if( $("#door1").length)  DoorLogic($("#door1"), $("#div2"), "door-open-box-2", 120); 
-        if( $("#door2").length)  DoorLogic($("#door2"), $("#div2"), "door-open-box-1", 0); 
-        if( $("#door3").length)  DoorLogic($("#door3"), $("#div2"), "door-open-box-3", 0); 
-        if( $("#door4").length)  DoorLogic($("#door4"), $("#div2"), "door-open-box-2", 180); 
-        if( $("#door5").length)  DoorLogic($("#door5"), $("#div2"), "door-open-box-4", 240); 
-        if( $("#door6").length)  DoorLogic($("#door6"), $("#div2"), "door-open-box-3", 0); 
-        if( $("#door7").length)  DoorLogic($("#door7"), $("#div2"), "door-open-box-1", 0); 
-        if( $("#door8").length)  DoorLogic($("#door8"), $("#div2"), "door-open-box-2", 240); 
-        if( $("#door9").length)  DoorLogic($("#door9"), $("#div2"), "door-open-box-1", 0); 
-        if( $("#door10").length)  DoorLogic($("#door10"), $("#div2"), "door-open-box-1", 0); 
-        if( $("#door11").length)  DoorLogic($("#door11"), $("#div2"), "door-open-box-3", 0); 
-        if( $("#door12").length)  DoorLogic($("#door12"), $("#div2"), "door-open-box-4", 120); 
-        if( $("#door13").length)  DoorLogic($("#door13"), $("#div2"), "door-open-box-4", 80); 
-        if( $("#door14").length)  DoorLogic($("#door14"), $("#div2"), "door-open-box-3", 0); 
-        if( $("#door15").length)  DoorLogic($("#door15"), $("#div2"), "door-open-box-2", 60); 
+        // if( $("#door1").length)  DoorLogic($("#door1"), $("#div2"), "door-open-box-2", 120); 
+        // if( $("#door2").length)  DoorLogic($("#door2"), $("#div2"), "door-open-box-1", 0); 
+        // if( $("#door3").length)  DoorLogic($("#door3"), $("#div2"), "door-open-box-3", 0); 
+        // if( $("#door4").length)  DoorLogic($("#door4"), $("#div2"), "door-open-box-2", 180); 
+        // if( $("#door5").length)  DoorLogic($("#door5"), $("#div2"), "door-open-box-4", 240); 
+        // if( $("#door6").length)  DoorLogic($("#door6"), $("#div2"), "door-open-box-3", 0); 
+        // if( $("#door7").length)  DoorLogic($("#door7"), $("#div2"), "door-open-box-1", 0); 
+        // if( $("#door8").length)  DoorLogic($("#door8"), $("#div2"), "door-open-box-2", 240); 
+        // if( $("#door9").length)  DoorLogic($("#door9"), $("#div2"), "door-open-box-1", 0); 
+        // if( $("#door10").length)  DoorLogic($("#door10"), $("#div2"), "door-open-box-1", 0); 
+        // if( $("#door11").length)  DoorLogic($("#door11"), $("#div2"), "door-open-box-3", 0); 
+        // if( $("#door12").length)  DoorLogic($("#door12"), $("#div2"), "door-open-box-4", 120); 
+        // if( $("#door13").length)  DoorLogic($("#door13"), $("#div2"), "door-open-box-4", 80); 
+        // if( $("#door14").length)  DoorLogic($("#door14"), $("#div2"), "door-open-box-3", 0); 
+        // if( $("#door15").length)  DoorLogic($("#door15"), $("#div2"), "door-open-box-2", 60); 
 
 
         LevelUp($('#flag'), $('#div2'));
 
-        // $('.result').text(collision($('#water-whole-1'), $('#div2'))) 
-        // $('.result').text(collision($('#water-whole-2'), $('#div2'))) 
-        // $('.result').text(collision($('#water-whole-3'), $('#div2'))) 
-        // $('.result').text(collision($('#water-whole-4'), $('#div2'))) 
-        // $('.result').text(collision($('#water-whole-5'), $('#div2'))) 
+        $('.result').text(collision($('#enm1'), $('#div2'))) 
+        $('.result').text(collision($('#enm2'), $('#div2'))) 
+        $('.result').text(collision($('#enm3'), $('#div2'))) 
+        $('.result').text(collision($('#enm4'), $('#div2'))) 
+        $('.result').text(collision($('#enm5'), $('#div2'))) 
+        $('.result').text(collision($('#enm6'), $('#div2'))) 
+        $('.result').text(collision($('#enm7'), $('#div2'))) 
+        $('.result').text(collision($('#enm8'), $('#div2'))) 
+        $('.result').text(collision($('#enm9'), $('#div2'))) 
+        $('.result').text(collision($('#enm10'), $('#div2'))) 
+        $('.result').text(collision($('#enm11'), $('#div2'))) 
+        $('.result').text(collision($('#enm12'), $('#div2'))) 
+        $('.result').text(collision($('#enm13'), $('#div2'))) 
+        $('.result').text(collision($('#enm14'), $('#div2'))) 
+        $('.result').text(collision($('#enm15'), $('#div2'))) 
+        $('.result').text(collision($('#enm16'), $('#div2'))) 
+        $('.result').text(collision($('#enm17'), $('#div2'))) 
+        $('.result').text(collision($('#enm18'), $('#div2'))) 
+        $('.result').text(collision($('#enm19'), $('#div2'))) 
+        $('.result').text(collision($('#enm20'), $('#div2'))) 
+
+        
 
 
     }, 200);

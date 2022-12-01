@@ -1,120 +1,140 @@
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:20875px; bottom:290px;" id="skybirds-enm1"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:5910px; bottom:285px;" id="skybirds-enm2"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:33515px; bottom:254px;" id="skybirds-enm3"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:16070px; bottom:267px;" id="skybirds-enm4"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:20242px; bottom:253px;" id="skybirds-enm5"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:30427px; bottom:258px;" id="skybirds-enm6"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:6044px; bottom:266px;" id="skybirds-enm7"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:28606px; bottom:277px;" id="skybirds-enm8"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:4348px; bottom:285px;" id="skybirds-enm9"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:22350px; bottom:256px;" id="skybirds-enm10"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:37433px; bottom:277px;" id="skybirds-enm11"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:2171px; bottom:295px;" id="skybirds-enm12"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:25382px; bottom:297px;" id="skybirds-enm13"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:20111px; bottom:300px;" id="skybirds-enm14"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:26278px; bottom:271px;" id="skybirds-enm15"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:32687px; bottom:297px;" id="skybirds-enm16"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:7456px; bottom:295px;" id="skybirds-enm17"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:23133px; bottom:270px;" id="skybirds-enm18"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:22226px; bottom:276px;" id="skybirds-enm19"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:36608px; bottom:270px;" id="skybirds-enm20"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:28298px; bottom:275px;" id="skybirds-enm21"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:28991px; bottom:255px;" id="skybirds-enm22"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:35751px; bottom:296px;" id="skybirds-enm23"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:26215px; bottom:262px;" id="skybirds-enm24"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:9815px; bottom:293px;" id="skybirds-enm25"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:35592px; bottom:272px;" id="skybirds-enm26"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:18085px; bottom:282px;" id="skybirds-enm27"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:2855px; bottom:260px;" id="skybirds-enm28"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:5832px; bottom:261px;" id="skybirds-enm29"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:13809px; bottom:292px;" id="skybirds-enm30"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:24180px; bottom:294px;" id="skybirds-enm31"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:24786px; bottom:251px;" id="skybirds-enm32"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:28640px; bottom:274px;" id="skybirds-enm33"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:24356px; bottom:267px;" id="skybirds-enm34"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:28074px; bottom:265px;" id="skybirds-enm35"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:33289px; bottom:263px;" id="skybirds-enm36"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:29668px; bottom:291px;" id="skybirds-enm37"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:12217px; bottom:280px;" id="skybirds-enm38"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:14476px; bottom:293px;" id="skybirds-enm39"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:15245px; bottom:281px;" id="skybirds-enm40"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:21482px; bottom:269px;" id="skybirds-enm41"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:10471px; bottom:277px;" id="skybirds-enm42"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:24293px; bottom:295px;" id="skybirds-enm43"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:21167px; bottom:264px;" id="skybirds-enm44"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:28686px; bottom:293px;" id="skybirds-enm45"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:27236px; bottom:276px;" id="skybirds-enm46"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:4442px; bottom:250px;" id="skybirds-enm47"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:36740px; bottom:273px;" id="skybirds-enm48"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:23956px; bottom:251px;" id="skybirds-enm49"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:17638px; bottom:286px;" id="skybirds-enm50"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:21228px; bottom:295px;" id="skybirds-enm51"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:12947px; bottom:280px;" id="skybirds-enm52"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:16984px; bottom:296px;" id="skybirds-enm53"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:31152px; bottom:298px;" id="skybirds-enm54"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:24010px; bottom:287px;" id="skybirds-enm55"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:19202px; bottom:255px;" id="skybirds-enm56"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:27331px; bottom:253px;" id="skybirds-enm57"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:13801px; bottom:262px;" id="skybirds-enm58"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:29937px; bottom:275px;" id="skybirds-enm59"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:14110px; bottom:285px;" id="skybirds-enm60"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:15616px; bottom:267px;" id="skybirds-enm61"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:27273px; bottom:253px;" id="skybirds-enm62"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:5621px; bottom:274px;" id="skybirds-enm63"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:32188px; bottom:260px;" id="skybirds-enm64"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:28894px; bottom:262px;" id="skybirds-enm65"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:2894px; bottom:275px;" id="skybirds-enm66"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:31509px; bottom:285px;" id="skybirds-enm67"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:32386px; bottom:251px;" id="skybirds-enm68"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:32822px; bottom:256px;" id="skybirds-enm69"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:26964px; bottom:291px;" id="skybirds-enm70"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:27972px; bottom:252px;" id="skybirds-enm71"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:24334px; bottom:250px;" id="skybirds-enm72"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:3786px; bottom:267px;" id="skybirds-enm73"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:36914px; bottom:250px;" id="skybirds-enm74"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:34907px; bottom:289px;" id="skybirds-enm75"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:11740px; bottom:256px;" id="skybirds-enm76"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:17676px; bottom:280px;" id="skybirds-enm77"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:35757px; bottom:254px;" id="skybirds-enm78"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:31960px; bottom:267px;" id="skybirds-enm79"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:24561px; bottom:265px;" id="skybirds-enm80"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:18306px; bottom:271px;" id="skybirds-enm81"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:4118px; bottom:250px;" id="skybirds-enm82"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:17887px; bottom:298px;" id="skybirds-enm83"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:31950px; bottom:281px;" id="skybirds-enm84"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:21688px; bottom:280px;" id="skybirds-enm85"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:12200px; bottom:292px;" id="skybirds-enm86"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:2521px; bottom:288px;" id="skybirds-enm87"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:31582px; bottom:250px;" id="skybirds-enm88"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:8024px; bottom:254px;" id="skybirds-enm89"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:15597px; bottom:288px;" id="skybirds-enm90"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:24949px; bottom:279px;" id="skybirds-enm91"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:12004px; bottom:251px;" id="skybirds-enm92"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:27984px; bottom:287px;" id="skybirds-enm93"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:12756px; bottom:296px;" id="skybirds-enm94"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:23055px; bottom:271px;" id="skybirds-enm95"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:8661px; bottom:297px;" id="skybirds-enm96"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:12390px; bottom:282px;" id="skybirds-enm97"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:7917px; bottom:275px;" id="skybirds-enm98"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:32314px; bottom:283px;" id="skybirds-enm99"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:32193px; bottom:295px;" id="skybirds-enm100"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:15622px; bottom:265px;" id="skybirds-enm101"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:4890px; bottom:280px;" id="skybirds-enm102"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:17169px; bottom:267px;" id="skybirds-enm103"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:14116px; bottom:260px;" id="skybirds-enm104"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:7373px; bottom:261px;" id="skybirds-enm105"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:34008px; bottom:256px;" id="skybirds-enm106"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:9182px; bottom:260px;" id="skybirds-enm107"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:3160px; bottom:269px;" id="skybirds-enm108"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:36359px; bottom:296px;" id="skybirds-enm109"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:17487px; bottom:286px;" id="skybirds-enm110"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:29666px; bottom:283px;" id="skybirds-enm111"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:16575px; bottom:252px;" id="skybirds-enm112"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:7983px; bottom:250px;" id="skybirds-enm113"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:3787px; bottom:253px;" id="skybirds-enm114"/> 
-<img src="images/level-5-assets/Objects/d3.gif" class="MovingObjects" style="position:absolute; left:7493px; bottom:275px;" id="skybirds-enm115"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:7792px; bottom:269px;" id="skybirds-enm116"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:13799px; bottom:259px;" id="skybirds-enm117"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:4443px; bottom:280px;" id="skybirds-enm118"/> 
-<img src="images/level-5-assets/Objects/d2.gif" class="MovingObjects" style="position:absolute; left:30946px; bottom:297px;" id="skybirds-enm119"/> 
-<img src="images/level-5-assets/Objects/d1.gif" class="MovingObjects" style="position:absolute; left:32233px; bottom:280px;" id="skybirds-enm120"/> 
+<div style="position:absolute; z-index:111; left:25034px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm1"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:21922px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm2"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:18283px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm3"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:18300px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm4"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:17764px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm5"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:8488px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm6"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:13973px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm7"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:2854px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm8"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:12163px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm9"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:25034px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm10"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:19122px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm11"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:5948px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm12"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:15734px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm13"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:12476px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm14"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:11206px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm15"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:28826px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm16"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:35916px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm17"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:9432px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm18"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:2199px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm19"></div>
+                  </div>
+               </div>
+ 
+<div style="position:absolute; z-index:111; left:24839px; bottom:90px;"'>
+                  <div style=" position:relative;">
+                     <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
+                     <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm20"></div>
+                  </div>
+               </div>
+ 
