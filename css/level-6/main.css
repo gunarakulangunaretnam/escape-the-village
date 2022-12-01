@@ -5,10 +5,9 @@ html, body{margin:0px; padding:0px; width:100%; height:100%;}
 
   width: 100%;
   height: 100%;
-  background-image: url("../../images/level-5-assets/BG.png");
-  background-repeat: no-repeat;
+  background-image: url("../../images/level-6-assets/bg2-s.jpg");
+  background-repeat: repeat;
   background-position: center;
-  background-size: cover;
 
 }
 #stage{width:20000px; position:absolute; left:0px; bottom:0px; height:200px;  z-index:8;}
