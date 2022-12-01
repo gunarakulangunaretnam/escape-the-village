@@ -95,7 +95,7 @@ $(window).on('load', function(){
     function DoorOpenSound(){
 
         // Door open Sound
-        var doorOpen = new Audio("music/other-musics/door-open-sound.wav");
+        var doorOpen = new Audio("music/other-musics/final-door.mp3");
         doorOpen.volume = 1;
         doorOpen.play();
 
