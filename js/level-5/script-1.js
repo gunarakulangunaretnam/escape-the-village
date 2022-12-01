@@ -21,8 +21,8 @@ $(window).on('load', function(){
         } else {
 
           
-            console.log($div1.attr("id"))
-            //dieplayer();
+            //console.log($div1.attr("id"))
+            dieplayer();
             return true;
         }
 
