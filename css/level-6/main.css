@@ -12,7 +12,7 @@ html, body{margin:0px; padding:0px; width:100%; height:100%;}
 
 }
 #stage{width:20000px; position:absolute; left:0px; bottom:0px; height:200px;  z-index:8;}
-.mudroadtexture{ background-image:url(../../images/level-5-assets/Tiles/tile-2-edited.png); background-repeat:repeat; height:50%; z-index:10; position:absolute; left:0px; bottom:0px;  width:2000px; outline:0px;}
+.mudroadtexture{ background-image:url(../../images/level-6-assets/Tiles/tile-1.png); background-repeat:repeat; height:50%; z-index:10; position:absolute; left:0px; bottom:0px;  width:2000px; outline:0px;}
 
 #box {background-repeat:no-repeat; width:63px; height:90px;  }
 .waterwarn200{width:179px; height:4px; position:absolute; left:9px; bottom:-14px; }
