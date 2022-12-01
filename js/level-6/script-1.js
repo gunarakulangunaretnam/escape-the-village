@@ -356,28 +356,27 @@ $(window).on('load', function(){
 
         LevelUp($('#flag'), $('#div2'));
 
-        $('.result').text(collision($('#enm1'), $('#div2'))) 
-        $('.result').text(collision($('#enm2'), $('#div2'))) 
-        $('.result').text(collision($('#enm3'), $('#div2'))) 
-        $('.result').text(collision($('#enm4'), $('#div2'))) 
-        $('.result').text(collision($('#enm5'), $('#div2'))) 
-        $('.result').text(collision($('#enm6'), $('#div2'))) 
-        $('.result').text(collision($('#enm7'), $('#div2'))) 
-        $('.result').text(collision($('#enm8'), $('#div2'))) 
-        $('.result').text(collision($('#enm9'), $('#div2'))) 
-        $('.result').text(collision($('#enm10'), $('#div2'))) 
-        $('.result').text(collision($('#enm11'), $('#div2'))) 
-        $('.result').text(collision($('#enm12'), $('#div2'))) 
-        $('.result').text(collision($('#enm13'), $('#div2'))) 
-        $('.result').text(collision($('#enm14'), $('#div2'))) 
-        $('.result').text(collision($('#enm15'), $('#div2'))) 
-        $('.result').text(collision($('#enm16'), $('#div2'))) 
-        $('.result').text(collision($('#enm17'), $('#div2'))) 
-        $('.result').text(collision($('#enm18'), $('#div2'))) 
-        $('.result').text(collision($('#enm19'), $('#div2'))) 
-        $('.result').text(collision($('#enm20'), $('#div2'))) 
+         $('.result').text(collision($('#whole1'), $('#div2'))) 
+         $('.result').text(collision($('#whole2'), $('#div2'))) 
+         $('.result').text(collision($('#whole3'), $('#div2'))) 
+         $('.result').text(collision($('#whole4'), $('#div2'))) 
+         $('.result').text(collision($('#whole5'), $('#div2'))) 
+         $('.result').text(collision($('#whole6'), $('#div2'))) 
+         $('.result').text(collision($('#whole7'), $('#div2'))) 
+         $('.result').text(collision($('#whole8'), $('#div2'))) 
 
-        
+        // $('.result').text(collision($('#enm11'), $('#div2'))) 
+        // $('.result').text(collision($('#enm12'), $('#div2'))) 
+        // $('.result').text(collision($('#enm13'), $('#div2'))) 
+        // $('.result').text(collision($('#enm14'), $('#div2'))) 
+        // $('.result').text(collision($('#enm15'), $('#div2'))) 
+        // $('.result').text(collision($('#enm16'), $('#div2'))) 
+        // $('.result').text(collision($('#enm17'), $('#div2'))) 
+        // $('.result').text(collision($('#enm18'), $('#div2'))) 
+        // $('.result').text(collision($('#enm19'), $('#div2'))) 
+        // $('.result').text(collision($('#enm20'), $('#div2'))) 
+
+    
 
 
     }, 200);

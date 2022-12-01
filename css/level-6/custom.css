@@ -18,4 +18,16 @@
     bottom:-20%;
 }
 
+.droneAnimation{
+
+    animation: example 10s infinite
+
+}
+
+@keyframes example {
+    0%   {margin-left:0px; margin-top:0px;}
+    25%  {margin-left:800px; margin-top:0px;}
+    50%  {margin-left:800px; margin-top:0px;}
+    100% {margin-left:0px; margin-top:0px;}
+  }
 
