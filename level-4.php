@@ -2823,7 +2823,7 @@
             <div style="font-size:25px; font-weight:bold; margin-bottom:10px; margin-top:10px;" >Total Score <span id="showscor"></span></div>
             <div style="margin-top:10px; font-size:13px;">Retry</div>
             <form style="margin-top:20px;">
-               <a href="level-4.html" style="text-decoration: none; background-color:#CC3300; border-radius:10px; padding:10px; color:#FFFFFF; border:2px solid #000; font-size:18px; font-family:Verdana, Arial, Helvetica, sans-serif;">Start Over</a>
+               <a href="level-4.php" style="text-decoration: none; background-color:#CC3300; border-radius:10px; padding:10px; color:#FFFFFF; border:2px solid #000; font-size:18px; font-family:Verdana, Arial, Helvetica, sans-serif;">Start Over</a>
             </form>
          </div>
       </div>

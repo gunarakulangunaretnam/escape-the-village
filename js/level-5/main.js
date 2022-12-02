@@ -49,7 +49,7 @@ function LevelUpSoundEffect(){
     
     audio.onended = function(){
       
-      location.href = "level-6.html";
+      location.href = "level-6.php";
 
     }
 
