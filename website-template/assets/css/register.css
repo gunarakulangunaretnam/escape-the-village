@@ -20,7 +20,8 @@ html {
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
   }
-  .login-box {
+    
+  .login-box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,6 +33,7 @@ html {
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
   }
+  
   
   .login-box h2 {
     margin: 0 0 30px;
@@ -45,6 +47,7 @@ html {
     position: relative;
     
   }
+ 
   .login-box .user-box .forgot{
    font-size: 13px;
     text-decoration:none;
@@ -85,6 +88,58 @@ html {
     color: #ffffff;
     font-size: 12px;
   }
+ 
+
+  /* user box -1  */
+  
+  .login-box .user-box1 {
+    position: relative;
+    
+  }
+ 
+  .login-box .user-box1 .forgot{
+   font-size: 13px;
+    text-decoration:none;
+    color: #000000;
+    /* padding-top: -5px; */
+
+  }
+  .login-box .user-box1 .forgot:hover{
+    color:#fff
+  }
+  
+  .login-box .user-box1 input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    
+  }
+  .login-box .user-box1 label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box1 input:focus ~ label,
+  .login-box .user-box1 input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #ffffff;
+    font-size: 12px;
+  }
+
   
   .login{
     justify-content: center;
@@ -133,7 +188,7 @@ html {
     display: block;
   }
   
-  .login-box .login span:nth-child(1) {
+  /* .login-box .login span:nth-child(1) {
     top: 0;
     left: -100%;
     width: 100%;
@@ -141,6 +196,6 @@ html {
     background: linear-gradient(90deg, transparent, #ffffff);
     animation: btn-anim1 1s linear infinite;
   }
-  
+   */
 
 
