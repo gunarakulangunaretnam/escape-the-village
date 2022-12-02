@@ -1,224 +1,252 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-   <head>
-      
-      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <script type="text/javascript" src="js/jquery-3.6.1.min.JS"></script>
-      <script type="text/javascript" src="js/jquery-ui.js"></script>
-      <script type="text/javascript" src="js/level-5/main.js"></script>
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-      <link href="css/level-5/main.css" rel="stylesheet" type="text/css" />
-      <link href="css/level-5/custom.css" rel="stylesheet" type="text/css" />
-      <link href="css/level-5/timer-ticker-style.css" rel="stylesheet" type="text/css" />
-      <script type="text/javascript" src="js/level-5/script-1.js"></script>
-    
-      
-   </head>
-   <body>
 
-   
-   <div id="level-1-cover-box">
+<head>
 
-      <img id="level-play-btn" src="images/ui-assets/play-btn-1.png">
-
-   </div>
-
-   <!--Door Open Logic API-->
-   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-1">
-      <div style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
-         <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
-         <hr>
-
-         <img id="door-open-box-1-puzzle-image" src="" style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
-       
-         <form class="form-group py-3">
-            <label for="exampleInputEmail1" style="font-weight: bold; font-size: 20px;">Select Your Answer: </label><br>
-            
-            <button  id="DoorOpenBox1AnswerBTN1" style="margin-left: 10px;" class="btn btn-success DoorOpenBox1AnswerBTN">0</button>
-            <button  id="DoorOpenBox1AnswerBTN2" style="margin-left: 10px;" class="btn btn-success DoorOpenBox1AnswerBTN">0</button>
-            <button  id="DoorOpenBox1AnswerBTN3" style="margin-left: 10px;" class="btn btn-success DoorOpenBox1AnswerBTN">0</button>
-            <button  id="DoorOpenBox1AnswerBTN4" style="margin-left: 10px;" class="btn btn-success DoorOpenBox1AnswerBTN">0</button>
-            
-         </form>
-
-      </div>
-   </div>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/jquery-3.6.1.min.JS"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/level-5/main.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/level-5/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/level-5/custom.css" rel="stylesheet" type="text/css" />
+    <link href="css/level-5/timer-ticker-style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/level-5/script-1.js"></script>
 
 
-   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-2">
-      <div style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
-         <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
-         <hr>
+</head>
 
-         <img  id="door-open-box-2-puzzle-image" src = "" style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
-         
-         <form class="form-group py-3">
-            <label for="exampleInputEmail1" style="font-weight: bold; font-size: 20px;">Select Your Answer: </label><br>
-            <button  id="DoorOpenBox2AnswerBTN1" style="margin-left: 10px;" class="btn btn-success DoorOpenBox2AnswerBTN">0</button>
-            <button  id="DoorOpenBox2AnswerBTN2" style="margin-left: 10px;" class="btn btn-success DoorOpenBox2AnswerBTN">0</button>
-            <button  id="DoorOpenBox2AnswerBTN3" style="margin-left: 10px;" class="btn btn-success DoorOpenBox2AnswerBTN">0</button>
-            <button  id="DoorOpenBox2AnswerBTN4" style="margin-left: 10px;" class="btn btn-success DoorOpenBox2AnswerBTN">0</button>
-            <div id="app1"></div>
-            <br>
-   
-         </form>
-
-      </div>
-   </div>
+<body>
 
 
-   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-3">
-      <div style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
-         <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
-         <hr>
+    <div id="level-1-cover-box">
 
-         <img id="door-open-box-3-puzzle-image" src = "" style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
-         
-         <form class="form-inline py-3" style="margin-left: 26%;">
-           
-            <label for="exampleInputEmail1" style="font-weight: bold; font-size: 17px;">Enter Your Answer: </label><br>
-            <input id="DoorOpenBox3AnswerTEXTBOX" style="margin-left: 10px;"  type="text" class="form-control"/>
-            <button id="DoorOpenBox3AnswerBTN" style="margin-left: 10px;" type="submit" class="btn btn-success">Submit The Answer</button>
-            
-         </form>
+        <img id="level-play-btn" src="images/ui-assets/play-btn-1.png">
 
-      </div>
-   </div>
+    </div>
 
-   
+    <!--Door Open Logic API-->
+    <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;"
+        id="door-open-box-1">
+        <div
+            style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
+            <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
+            <hr>
 
-   <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;" id="door-open-box-4">
-      <div style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
-         <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
-         <hr>
+            <img id="door-open-box-1-puzzle-image" src=""
+                style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
 
-         <img id="door-open-box-4-puzzle-image" src = "" style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
-         
-         <div style="position:absolute;" id="app2"></div>
-        
-         <form class="form-inline py-3" style="margin-left: 26%;">
-           
-            <label for="exampleInputEmail1" style="font-weight: bold; font-size: 17px;">Enter Your Answer: </label><br>
-            <input id="DoorOpenBox4AnswerTEXTBOX" style="margin-left: 10px;"  type="text" class="form-control"/>
-            <button id="DoorOpenBox4AnswerBTN" style="margin-left: 10px;" type="submit" class="btn btn-success">Submit The Answer</button>
-                
-         </form>
+            <form class="form-group py-3">
+                <label for="exampleInputEmail1" style="font-weight: bold; font-size: 20px;">Select Your Answer:
+                </label><br>
 
-      </div>
-   </div>
+                <button id="DoorOpenBox1AnswerBTN1" style="margin-left: 10px;"
+                    class="btn btn-success DoorOpenBox1AnswerBTN">0</button>
+                <button id="DoorOpenBox1AnswerBTN2" style="margin-left: 10px;"
+                    class="btn btn-success DoorOpenBox1AnswerBTN">0</button>
+                <button id="DoorOpenBox1AnswerBTN3" style="margin-left: 10px;"
+                    class="btn btn-success DoorOpenBox1AnswerBTN">0</button>
+                <button id="DoorOpenBox1AnswerBTN4" style="margin-left: 10px;"
+                    class="btn btn-success DoorOpenBox1AnswerBTN">0</button>
 
-   
-   <div class="bluesky" id="skydiv">
-         <div id="stage">
+            </form>
 
-            <div class="mudroadtexture"  style="left:0px; width:40000px;"></div>
+        </div>
+    </div>
+
+
+    <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;"
+        id="door-open-box-2">
+        <div
+            style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
+            <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
+            <hr>
+
+            <img id="door-open-box-2-puzzle-image" src=""
+                style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
+
+            <form class="form-group py-3">
+                <label for="exampleInputEmail1" style="font-weight: bold; font-size: 20px;">Select Your Answer:
+                </label><br>
+                <button id="DoorOpenBox2AnswerBTN1" style="margin-left: 10px;"
+                    class="btn btn-success DoorOpenBox2AnswerBTN">0</button>
+                <button id="DoorOpenBox2AnswerBTN2" style="margin-left: 10px;"
+                    class="btn btn-success DoorOpenBox2AnswerBTN">0</button>
+                <button id="DoorOpenBox2AnswerBTN3" style="margin-left: 10px;"
+                    class="btn btn-success DoorOpenBox2AnswerBTN">0</button>
+                <button id="DoorOpenBox2AnswerBTN4" style="margin-left: 10px;"
+                    class="btn btn-success DoorOpenBox2AnswerBTN">0</button>
+                <div id="app1"></div>
+                <br>
+
+            </form>
+
+        </div>
+    </div>
+
+
+    <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;"
+        id="door-open-box-3">
+        <div
+            style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
+            <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
+            <hr>
+
+            <img id="door-open-box-3-puzzle-image" src=""
+                style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
+
+            <form class="form-inline py-3" style="margin-left: 26%;">
+
+                <label for="exampleInputEmail1" style="font-weight: bold; font-size: 17px;">Enter Your Answer:
+                </label><br>
+                <input id="DoorOpenBox3AnswerTEXTBOX" style="margin-left: 10px;" type="text" class="form-control" />
+                <button id="DoorOpenBox3AnswerBTN" style="margin-left: 10px;" type="submit"
+                    class="btn btn-success">Submit The Answer</button>
+
+            </form>
+
+        </div>
+    </div>
+
+
+
+    <div style="display: none; width:100%; margin-top:1.6%; position:fixed; width:100%; left:0px; top:0px; z-index:99999999;"
+        id="door-open-box-4">
+        <div
+            style="width:80%; height: 700px;  margin:auto; background-color:#FFFF99; border:5px solid #CC0000; box-shadow:0px 0px 30px #000; border-radius:10px; padding:20px; text-align:center; ">
+            <h1 class="style1">PLEASE SOLVE THE FOLLOWING PUZZLE TO OPEN THE DOOR</h1>
+            <hr>
+
+            <img id="door-open-box-4-puzzle-image" src=""
+                style="margin-top:1%; width: 60%; height:400px; border: 3px solid rgb(0, 0, 0);">
+
+            <div style="position:absolute;" id="app2"></div>
+
+            <form class="form-inline py-3" style="margin-left: 26%;">
+
+                <label for="exampleInputEmail1" style="font-weight: bold; font-size: 17px;">Enter Your Answer:
+                </label><br>
+                <input id="DoorOpenBox4AnswerTEXTBOX" style="margin-left: 10px;" type="text" class="form-control" />
+                <button id="DoorOpenBox4AnswerBTN" style="margin-left: 10px;" type="submit"
+                    class="btn btn-success">Submit The Answer</button>
+
+            </form>
+
+        </div>
+    </div>
+
+
+    <div class="bluesky" id="skydiv">
+        <div id="stage">
+
+            <div class="mudroadtexture" style="left:0px; width:40000px;"></div>
             <div style="position:absolute; z-index:111; left:25034px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm1"></div>
-               </div>
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm1"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:22922px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm2"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:22922px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm2"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:18283px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm3"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:18283px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm3"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:17300px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm4"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:17300px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm4"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:27764px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm5"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:27764px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm5"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:8488px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm6"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:8488px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm6"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:26973px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm7"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:26973px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm7"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:2854px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm8"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:2854px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm8"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:12000px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm9"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:12000px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm9"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:256734px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm10"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:256734px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm10"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:19122px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm11"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:19122px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm11"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:5948px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm12"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:5948px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm12"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:15734px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm13"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:15734px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm13"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:13276px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm14"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:13276px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm14"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:11206px; bottom:90px;">
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm15"></div>
-               </div>
+            <div style="position:absolute; z-index:111; left:11206px; bottom:90px;">
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm15"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:29826px; bottom:90px;"'>
+            <div style="position:absolute; z-index:111; left:29826px; bottom:90px;"'>
                <div style=" position:relative;">
                   <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
                   <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm16"></div>
@@ -226,13 +254,13 @@
             </div>
 
 <div style="position:absolute; z-index:111; left:35916px; bottom:90px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm17"></div>
-               </div>
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm17"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:9432px; bottom:90px;"'>
+            <div style="position:absolute; z-index:111; left:9432px; bottom:90px;"'>
                <div style=" position:relative;">
                   <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
                   <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm18"></div>
@@ -240,13 +268,13 @@
             </div>
 
 <div style="position:absolute; z-index:111; left:2199px; bottom:90px;"'>
-               <div style=" position:relative;">
-                  <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
-                  <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm19"></div>
-               </div>
+                <div style=" position:relative;">
+                    <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif" />
+                    <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;" id="enm19"></div>
+                </div>
             </div>
 
-<div style="position:absolute; z-index:111; left:24439px; bottom:90px;"'>
+            <div style="position:absolute; z-index:111; left:24439px; bottom:90px;"'>
                <div style=" position:relative;">
                   <img style="width: 160px; height: 160px;" src="images/level-5-assets/Objects/enemy.gif"/>
                   <div style="position:absolute; width:60px; left:20px; top:0px; height:100px;"  id="enm20"></div>
