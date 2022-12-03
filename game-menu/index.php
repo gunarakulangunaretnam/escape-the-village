@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <title>Escape The Village</title>
 
     <meta charset="utf-8">
@@ -9,21 +10,20 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="hsl(221 90% 98%)" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="Canvas" media="(prefers-color-scheme: dark)">
-    <meta name="description" content="🙂">
-    <link rel="icon" href="favicon.ico" sizes="any">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="style.css">
     <script type="module" src="arrowkey-support.js"></script>
     <script type="module" src="mouse-parallax.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
 
     <ul class="threeD-button-set">
-      <li><a href="#">Start Game</a></li>
-      <li><a href="#">Leaderboard</a></li>
-      <li><a href="#">Settings</a></li>
-      <li><a href="#">Logout</a></li>
-    </ul> 
+        <li><a href="#">Start Game</a></li>
+        <li><a href="#">Leaderboard</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">Logout</a></li>
+    </ul>
 
-  </body>
+</body>
+
 </html>
