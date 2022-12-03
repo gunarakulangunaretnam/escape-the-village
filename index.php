@@ -54,8 +54,8 @@ https://templatemo.com/tm-579-cyborg-gaming
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav" style="margin-left: 20%;">
                             <li><a href="index.php" class="active">Home</a></li>
-                            <li><a href="browse.html">About</a></li>
-                            <li><a href="details.html">Contact</a></li>
+                            <li><a href="about.php">About</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
 
                         <ul class="nav">
@@ -94,8 +94,8 @@ https://templatemo.com/tm-579-cyborg-gaming
                                 <div class="header-text">
 
                                     <h4><em>Escape</em> The Village</h4>
-                                    <h6>A survival game where a village man escapes from his hometown and try to enter a
-                                        city-based country.</h6>
+                                    <h6>A survival game where a village man escapes from his hometown and tries to enter
+                                        a city-based country.</h6>
                                     <div class="main-button">
                                         <a href="browse.html">Play Now</a>
                                         <a href="leaderboard.php" style="margin-left: 2%;">Leaderboard</a>
