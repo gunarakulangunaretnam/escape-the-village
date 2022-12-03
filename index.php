@@ -158,14 +158,6 @@ https://templatemo.com/tm-579-cyborg-gaming
                                         </div>
                                     </div>
 
-                                    <!--
-                    <div class="col-lg-12">
-                      <div class="main-button">
-                        <a href="browse.html">Discover Popular</a>
-                      </div>
-                    </div>
-                  -->
-
                                 </div>
                             </div>
                         </div>

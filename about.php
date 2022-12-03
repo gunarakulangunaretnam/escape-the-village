@@ -147,88 +147,73 @@ https://templatemo.com/tm-579-cyborg-gaming
 
                     <div class="most-popular">
                         <div class="row">
-
-                            <div class="heading-section">
-                                <h4>Developer</h4>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="main-profile ">
-                                        <div class="row">
-                                            <div class="col-lg-4">
-                                                <img src="assets/images/profile-full-headshot.jpg" alt=""
-                                                    style="border-radius: 23px;">
-                                            </div>
-                                            <div class="col-lg-8 align-self-center">
-                                                <div class="main-info header-text">
-                                                    <span style="display:none;">Offline</span>
-                                                    <h4>Gunarakulan Gunaretnam</h4>
-                                                    <p>Gunarakulan Gunaretnam is a highly passionate, professional
-                                                        computer science and engineering technologist. He is an
-                                                        entrepreneur, software engineer, researcher, innovator,
-                                                        educator, and community worker for tech-related projects; he is
-                                                        well-known for developing artificial intelligence and machine
-                                                        learning software solutions for business problems and social
-                                                        challenges.
-                                                    </p>
-
-                                                    <br>
-
-
-                                                    <h4>Social Links</h4>
-                                                    <br>
-                                                    <div class="main-button">
-
-                                                        <a href="https://www.linkedin.com/in/gunarakulangunaretnam/"
-                                                            style="font-size: 20px;" target="_blank"
-                                                            class="fa fa-linkedin"></a>
-
-                                                        <a href="https://github.com/gunarakulangunaretnam"
-                                                            target="_blank" style="font-size: 20px;"
-                                                            class="fa fa-github"></a>
-
-                                                        <a href="https://www.kaggle.com/gunarakulan" target="_blank"
-                                                            style="font-size: 20px;" class="fa-brands fa-kaggle"></a>
-
-
-                                                        <a href="https://www.youtube.com/@grtechinstitute5635"
-                                                            target="_blank" style="font-size: 20px;"
-                                                            class="fa fa-youtube-play"></a>
-
-                                                        <a href="https://www.facebook.com/gunarakulangunaretnam"
-                                                            target="_blank" style="font-size: 20px;"
-                                                            class="fa fa-facebook"></a>
-
-                                                        <a href="https://twitter.com/gunarakulan" target="_blank"
-                                                            style="font-size: 20px;" class="fa fa-twitter"></a>
-
-                                                        <a href="https://www.instagram.com/gunarakulangunaretnam/"
-                                                            target="_blank" style="font-size: 20px;"
-                                                            class="fa fa-instagram"></a>
-
-                                                        <a href="https://www.tiktok.com/@gunarakulangunaretnam"
-                                                            target="_blank" style="font-size: 20px;"
-                                                            class="fa-brands fa-tiktok"></a>
-
-
-
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
+                            <div class="col-lg-12">
+                                <div class="heading-section">
+                                    <h4>Gameplay</h4>
                                 </div>
+                                <div class="row">
 
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="item">
+                                            <video style="width:100%; height: 100%;" controls>
+                                                <source src="video/Level1.m4v" type="video/mp4">
+                                            </video>
+                                            <h4>Level 1<br><span>Escape The Jungle</span></h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="item">
+                                            <video style="width:100%; height: 100%;" controls>
+                                                <source src="video/Level2.m4v" type="video/mp4">
+                                            </video>
+                                            <h4>Level 2<br><span>Escape The Desert</span></h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="item">
+                                            <video style="width:100%; height: 100%;" controls>
+                                                <source src="video/Level3.m4v" type="video/mp4">
+                                            </video>
+                                            <h4>Level 3<br><span>Escape The Snowy </span></h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="item">
+                                            <video style="width:100%; height: 100%;" controls>
+                                                <source src="video/Level4.m4v" type="video/mp4">
+                                            </video>
+                                            <h4>Level 4<br><span>Escape The Forest</span></h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="item">
+                                            <video style="width:100%; height: 100%;" controls>
+                                                <source src="video/Level5.m4v" type="video/mp4">
+                                            </video>
+                                            <h4>Level 5<br><span>Escape The Graveyard</span></h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="item">
+                                            <video style="width:100%; height: 100%;" controls>
+                                                <source src="video/Level6.m4v" type="video/mp4">
+                                            </video>
+                                            <h4>Level 6<br><span>Escape The Science Lab</span></h4>
+                                        </div>
+                                    </div>
+
+
+                                </div>
                             </div>
-
                         </div>
-
                     </div>
+
+
                 </div>
                 <!-- ***** Most Popular End ***** -->
             </div>
