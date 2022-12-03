@@ -1,5 +1,8 @@
 body {
   perspective: 40vw;
+  background-image: url("menu-assets/images/bg2.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .threeD-button-set {
