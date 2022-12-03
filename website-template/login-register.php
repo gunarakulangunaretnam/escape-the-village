@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/login-register.css">
+
 </head>
 
 <body>
@@ -26,14 +27,14 @@
                         <legend>Please, enter your email and password for login.</legend>
                         <div class="input-block">
                             <label for="login-email">E-mail</label>
-                            <input id="login-email" type="email" required>
+                            <input id="login-email" type="email" placeholder="example@abc.com" required>
                         </div>
                         <div class="input-block">
                             <label for="login-password">Password</label>
                             <input id="login-password" type="password" required>
                         </div>
                     </fieldset>
-                    <button type="submit" class="btn-login">Login</button>
+                    <button type="submit" class="main-border-button">Login</button>
                 </form>
             </div>
             <div class="form-wrapper">
