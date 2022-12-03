@@ -381,7 +381,7 @@ Header Style
 }
 
 .header-area .main-nav #search input {
-  background-color: #27292a;
+  background-color: #2a2d2f;
   height: 46px;
   border-radius: 23px;
   border: none;
@@ -401,7 +401,7 @@ Header Style
 }
 
 .header-area .main-nav .logo {
-  border-right: 1px solid #27292a;
+  border-right: 1px solid #2a2d2f;
   flex-basis: 25%;
   margin-right: 5%;
   -webkit-transition: all 0.3s ease 0s;
@@ -809,7 +809,7 @@ Most Popular Style
 }
 
 .most-popular .item {
-  background-color: #27292a;
+  background-color: #2a2d2f;
   padding: 30px 15px;
   border-radius: 23px;
   margin-bottom: 30px;
@@ -878,7 +878,7 @@ Gaming Library Style
 }
 
 .gaming-library .item {
-  border-bottom: 1px solid #27292a;
+  border-bottom: 1px solid #2a2d2f;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
@@ -1110,12 +1110,12 @@ Featured Games Style
   text-align: center;
   line-height: 46px;
   color: #ec6090;
-  background-color: #27292a;
+  background-color: #2a2d2f;
   border-radius: 50%;
 }
 
 .top-downloaded ul li {
-  border-bottom: 1px solid #27292a;
+  border-bottom: 1px solid #2a2d2f;
   margin-bottom: 28px;
   padding-bottom: 28px;
 }
@@ -1311,7 +1311,7 @@ Game Details Style
 }
 
 .game-details .content .left-info {
-  background-color: #27292a;
+  background-color: #2a2d2f;
   border-radius: 23px;
   padding: 30px;
   margin-bottom: 30px;
@@ -1352,7 +1352,7 @@ Game Details Style
 }
 
 .game-details .content .right-info {
-  background-color: #27292a;
+  background-color: #2a2d2f;
   border-radius: 23px;
   padding: 30px;
   margin-bottom: 30px;
@@ -1403,7 +1403,7 @@ Other Related Style
 
 .other-games .item {
   position: relative;
-  border-bottom: 1px solid #27292a;
+  border-bottom: 1px solid #2a2d2f;
   padding-bottom: 52px;
   margin-bottom: 30px;
 }
@@ -1547,7 +1547,7 @@ Profile Style
 .main-profile ul {
   border-radius: 23px;
   padding: 30px;
-  background-color: #27292a;
+  background-color: #2a2d2f;
 }
 
 .main-profile ul li {
@@ -1573,7 +1573,7 @@ Profile Style
 
 .clips {
   margin-top: 30px;
-  border-top: 2px solid #27292a;
+  border-top: 2px solid #2a2d2f;
 }
 
 .clips .heading-section {
@@ -1583,7 +1583,7 @@ Profile Style
 .clips .item  {
   border-radius: 23px;
   padding: 30px 15px;
-  background-color: #27292a;
+  background-color: #2a2d2f;
   margin-bottom: 30px;
 }
 
