@@ -36,7 +36,7 @@
 
                         <div class="input-block">
                             <label for="login-password" style="visibility:hidden;">SPACESPACESPA</label>
-                            <a href="#" style="color: #e75e8d !important;">Forgot Password</a>
+                            <a href="forgot-password.php" style="color: #e75e8d !important;">Forgot Password</a>
                         </div>
 
                     </fieldset>

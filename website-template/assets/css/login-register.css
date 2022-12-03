@@ -131,8 +131,16 @@ body {
 }
 
 .form-login {
+
 	border: 1px solid #363535; 
 	animation: hideLogin .3s ease-out forwards;
+}
+
+.form-login2 {
+	
+	border: 1px solid #363535; 
+	background-color: #2a2d2f;
+	
 }
 
 .form-wrapper.is-active .form-login {
