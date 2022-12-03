@@ -198,6 +198,12 @@ p {
   color: #e75e8d;
 }
 
+.activeMainBTN {
+  border-color: #fff !important;
+  background-color: #fff !important;
+  color: #e75e8d !important;
+}
+
 .border-no-active a {
   border-color: #666;
   color: #666;
