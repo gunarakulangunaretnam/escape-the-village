@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en" dir="ltr">
   <head>
-    <title>Game Menu | GUI Challenges</title>
+    <title>Escape The Village</title>
+
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
