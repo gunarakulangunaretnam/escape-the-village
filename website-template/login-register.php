@@ -15,11 +15,11 @@
 <body>
 
     <section class="forms-section">
-        <h1 class="section-title">Animated Forms</h1>
+        <h1 class="section-title">User Authentication</h1>
         <div class="forms">
             <div class="form-wrapper is-active">
                 <button type="button" class="switcher switcher-login">
-                    Login
+                    Sign In
                     <span class="underline"></span>
                 </button>
                 <form class="form form-login">
@@ -33,7 +33,16 @@
                             <label for="login-password">Password</label>
                             <input id="login-password" type="password" required>
                         </div>
+
+                        <div class="input-block">
+                            <label for="login-password" style="visibility:hidden;">SPACESPACESPA</label>
+                            <a href="#" style="color: #e75e8d !important;">Forgot Password</a>
+                        </div>
+
                     </fieldset>
+
+
+
                     <button type="submit" class="main-border-button">Login</button>
                 </form>
             </div>
@@ -45,10 +54,17 @@
                 <form class="form form-signup">
                     <fieldset>
                         <legend>Please, enter your email, password and password confirmation for sign up.</legend>
+
+                        <div class="input-block">
+                            <label for="signup-email">Name</label>
+                            <input id="signup-email" placeholder="Ex: John Michael" type="text" required>
+                        </div>
+
                         <div class="input-block">
                             <label for="signup-email">E-mail</label>
-                            <input id="signup-email" type="email" required>
+                            <input id="signup-email" placeholder="example@abc.com" type="email" required>
                         </div>
+
                         <div class="input-block">
                             <label for="signup-password">Password</label>
                             <input id="signup-password" type="password" required>
@@ -57,8 +73,10 @@
                             <label for="signup-password-confirm">Confirm password</label>
                             <input id="signup-password-confirm" type="password" required>
                         </div>
+
+
                     </fieldset>
-                    <button type="submit" class="btn-signup">Continue</button>
+                    <button type="submit" class="main-border-button">Register</button>
                 </form>
             </div>
         </div>
