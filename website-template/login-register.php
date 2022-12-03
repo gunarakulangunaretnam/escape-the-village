@@ -17,7 +17,7 @@
     <section class="forms-section">
         <h1 class="section-title">User Authentication</h1>
         <div class="forms">
-            <div class="form-wrapper is-active">
+            <div class="form-wrapper is-active" id="signinbox">
                 <button type="button" class="switcher switcher-login">
                     Sign In
                     <span class="underline"></span>
@@ -46,7 +46,7 @@
                     <button type="submit" class="main-border-button">Login</button>
                 </form>
             </div>
-            <div class="form-wrapper">
+            <div class="form-wrapper" id="signupbox">
                 <button type="button" class="switcher switcher-signup">
                     Sign Up
                     <span class="underline"></span>
