@@ -192,7 +192,7 @@ https://templatemo.com/tm-579-cyborg-gaming
                                     <div class="col-lg-6 col-sm-12">
                                         <div class="item">
                                             <video style="width:100%; height: 100%;" controls>
-                                                <source src="video/Level5.m4v" type="video/mp4">
+                                                <source src="video/level5.m4v" type="video/mp4">
                                             </video>
                                             <h4>Level 5<br><span>Escape The Graveyard</span></h4>
                                         </div>
