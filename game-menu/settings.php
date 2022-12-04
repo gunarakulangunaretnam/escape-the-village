@@ -22,18 +22,57 @@
 
 <body>
 
+
     <div class="jumbotron glasseffect" style="width: 1000px !important; ">
         <h1 style="text-align:center;  font-family: Audiowide !important; font-weight:bold;">Settings</h1>
+
+
+        <a type="submit" href="game-dashboard.php" class="btn btn-danger effectForButtonBlue">
+            < Go Back</a>
+    </div>
+
+    <div class="jumbotron glasseffect" style="width: 1000px !important; ">
+
+
+        <form>
+
+            <h2 style="font-family: Audiowide !important; color:black; font-weight:bold;">General Settings</h2>
+            <hr>
+
+            <div class="form-group">
+                <label for="userEmail"
+                    style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Email
+                </label>
+                <input type="email" disabled="true" class="form-control effectForTextBoxes" id="userEmail"
+                    name="userEmail" aria-describedby="emailHelp" placeholder="User Email">
+
+            </div>
+
+            <div class="form-group">
+                <label for="name"
+                    style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Name
+                </label>
+                <input type="email" class="form-control effectForTextBoxes" id="name" name="name"
+                    aria-describedby="emailHelp" placeholder="Name">
+
+            </div>
+
+
+            <input type="submit" style="float:right;" class="btn btn-success effectForButtonGreen
+        " value="Submit">
+
+        </form>
+
     </div>
 
     <div class="jumbotron glasseffect">
-
-
-        <h2 style="font-family: Audiowide !important; color:black; font-weight:bold;">Change Password</h2>
-
-        <hr>
-
         <form>
+
+            <h2 style="font-family: Audiowide !important; color:black; font-weight:bold;">Change Password</h2>
+
+            <hr>
+
+
             <div class="form-group">
                 <label for="currentPassword"
                     style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Current
@@ -61,11 +100,8 @@
 
             </div>
 
-            <a type="submit" href="game-dashboard.php" class="btn btn-danger effectForButtonBlue">
-                < Go Back</a>
-
-                    <input type="submit" style="float:right;" class="btn btn-success effectForButtonGreen
-" value="Submit">
+            <input type="submit" style="float:right;" class="btn btn-success effectForButtonGreen
+        " value="Submit">
         </form>
 
     </div>
@@ -76,12 +112,14 @@
         </h1>
 
         <p class="lead" style="font-weight:bold;"><span
-                style="color:red; font-weight:900; text-shadow: 2px 2px 3px black;">WARNING: </span>Resting the game
+                style="color:red; font-weight:900; text-shadow: 2px 2px 3px black;">WARNING: </span>Resting the
+            game
             will delete all the finished levels and scores and create a new game to play from scratch.</p>
 
         <form>
 
-            <button type="button" class="btn btn-danger btn-lg btn-block effectForButtonRed">RESET THE GAME</button>
+            <button type="button" class="btn btn-danger btn-lg btn-block effectForButtonRed">RESET THE
+                GAME</button>
 
         </form>
     </div>

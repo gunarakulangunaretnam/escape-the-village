@@ -24,9 +24,15 @@
 
     <div class="jumbotron glasseffect" style="width: 1500px !important; ">
         <h1 style="text-align:center;  font-family: Audiowide !important; font-weight:bold;">Leaderboard</h1>
+
+
+        <a type="submit" href="game-dashboard.php" class="btn btn-danger effectForButtonBlue">
+            < Go Back</a>
     </div>
 
     <div class="jumbotron glasseffect">
+
+
 
         <table class="table table-hover table-dark glasseffectForTable">
             <thead>
@@ -66,8 +72,6 @@
             </tbody>
         </table>
 
-        <a type="submit" href="game-dashboard.php" class="btn btn-danger effectForButtonBlue">
-            < Go Back</a>
 
     </div>
 
