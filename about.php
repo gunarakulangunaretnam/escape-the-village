@@ -54,22 +54,22 @@ https://templatemo.com/tm-579-cyborg-gaming
                     <nav class="main-nav">
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav" style="margin-left: 20%;">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="about.php" class="active"> About</a></li>
-                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="./index.php">Home</a></li>
+                            <li><a href="./about.php" class="active"> About</a></li>
+                            <li><a href="./contact.php">Contact</a></li>
                         </ul>
 
                         <ul class="nav">
 
                             <div class="main-button" style="margin-left: -5%;">
-                                <a href="login-register.php?pagetype=signin">Login</a>
+                                <a href="./login-register.php?pagetype=signin">Login</a>
                             </div>
 
                             <p style="visibility:hidden;">S</p>
 
 
                             <div class="main-button">
-                                <a href="login-register.php?pagetype=signup">Create an account</a>
+                                <a href="./login-register.php?pagetype=signup">Create an account</a>
                             </div>
                         </ul>
                         <a class='menu-trigger'>
@@ -113,7 +113,7 @@ https://templatemo.com/tm-579-cyborg-gaming
                                                 city-based country.</h6>
                                             <div class="main-button" style="visibility:hidden;">
                                                 <a href="browse.html">Play Now</a>
-                                                <a href="leaderboard.php" style="margin-left: 2%;">Leaderboard</a>
+                                                <a href="./leaderboard.php" style="margin-left: 2%;">Leaderboard</a>
 
                                             </div>
 

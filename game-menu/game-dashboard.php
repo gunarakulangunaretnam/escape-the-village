@@ -18,9 +18,9 @@
 <body>
 
     <ul class="threeD-button-set">
-        <li><a href="#">Start Game</a></li>
-        <li><a href="game-menu-leaderboard.php">Leaderboard</a></li>
-        <li><a href="settings.php">Settings</a></li>
+        <li><a href="./startgame.php">Start Game</a></li>
+        <li><a href="./game-menu-leaderboard.php">Leaderboard</a></li>
+        <li><a href="./settings.php">Settings</a></li>
         <li><a href="#">Logout</a></li>
     </ul>
 

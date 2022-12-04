@@ -27,7 +27,7 @@
         <h1 style="text-align:center;  font-family: Audiowide !important; font-weight:bold;">Settings</h1>
 
 
-        <a type="submit" href="game-dashboard.php" class="btn btn-danger effectForButtonBlue">
+        <a type="submit" href="./game-dashboard.php" class="btn btn-danger effectForButtonBlue">
             < Go Back</a>
     </div>
 
