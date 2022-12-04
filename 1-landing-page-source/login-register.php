@@ -19,10 +19,8 @@
 
 <body>
 
-    <div class="alert alert-danger alert-dismissible fade show; display:none;" role="alert">
-        <div style="text-align:center; font-size: 20px;"><strong>Holy guacamole!</strong> You should check in on some of
-            those fields
-            below.</div>
+    <div id="ServerMessage" style="display:none;" class="alert alert-danger" role="alert">
+        <div style="text-align:center; font-size: 20px;" id="serverMessageHolder"></div>
     </div>
 
     <section class="forms-section">
@@ -94,6 +92,7 @@
         </div>
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="assets/js/login-register.js" async defer></script>
 </body>
 

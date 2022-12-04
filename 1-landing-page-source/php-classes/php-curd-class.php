@@ -11,6 +11,14 @@
             $this->DatabaseConnection = new mysqli($this->servername, $this->username, $this->password, $this->dbname);
         }
 
+        public function SelectQuery($query){
+            
+            $result = $this->DatabaseConnection->query($query);
+
+            return $result;
+            
+        }
+
         
 
        
