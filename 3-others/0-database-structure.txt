@@ -1,0 +1,16 @@
+user-accounts
+-------------
+auto_id
+name
+email
+password
+otp_number
+activated_status
+
+
+game-data
+---------
+auto_id
+email
+finished_levels
+total_scores
