@@ -8,11 +8,22 @@
     <title>Escape The Village</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/login-register.css">
+
 
 </head>
 
 <body>
+
+    <div class="alert alert-danger alert-dismissible fade show; display:none;" role="alert">
+        <div style="text-align:center; font-size: 20px;"><strong>Holy guacamole!</strong> You should check in on some of
+            those fields
+            below.</div>
+    </div>
 
     <section class="forms-section">
         <h1 class="section-title">User Authentication</h1>
@@ -51,32 +62,33 @@
                     Sign Up
                     <span class="underline"></span>
                 </button>
-                <form class="form form-signup">
+                <form action="php-handles/registeration-handle-script.php" method="POST" class="form form-signup">
                     <fieldset>
                         <legend>Please, enter your email, password and password confirmation for sign up.</legend>
 
                         <div class="input-block">
                             <label for="signup-email">Name</label>
-                            <input id="signup-email" placeholder="Ex: John Michael" type="text" required>
+                            <input id="name" name="name" placeholder="Ex: John Michael" type="text" required>
                         </div>
 
                         <div class="input-block">
                             <label for="signup-email">E-mail</label>
-                            <input id="signup-email" placeholder="example@abc.com" type="email" required>
+                            <input id="email" name="email" placeholder="example@abc.com" type="email" required>
                         </div>
 
                         <div class="input-block">
                             <label for="signup-password">Password</label>
-                            <input id="signup-password" type="password" required>
+                            <input id="password" name="password" type="password" required>
                         </div>
                         <div class="input-block">
                             <label for="signup-password-confirm">Confirm password</label>
-                            <input id="signup-password-confirm" type="password" required>
+                            <input id="confirm_password" name="confirm_password" type="password" required>
                         </div>
 
 
                     </fieldset>
-                    <button type="submit" class="main-border-button">Register</button>
+
+                    <input type="submit" class="main-border-button" value="Register">
                 </form>
             </div>
         </div>
