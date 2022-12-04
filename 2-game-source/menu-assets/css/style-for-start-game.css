@@ -1,0 +1,128 @@
+.level-header{
+
+    color:white !important;
+    font-size: 20px !important;
+}
+
+
+.level-subheader{
+
+    color:white !important;
+    font-size: 20px !important;
+}
+
+.most-popular {
+    margin-top: 60px;
+    padding: 30px;
+    border-radius: 23px;
+    background: rgba(31, 33, 34, 0.30);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+  
+  }
+
+  .most-popular .itemlocked {
+    padding: 30px 15px;
+    border-radius: 23px;
+    margin-bottom: 30px;
+    opacity: 0.65;
+    background: rgba(31, 33, 34, 0.50);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  .most-popular .itemlocked:hover {
+
+    pointer-events: auto! important;
+    cursor: not-allowed! important;
+  }
+
+  
+  .most-popular .itemunlocked {
+    padding: 30px 15px;
+    border-radius: 23px;
+    margin-bottom: 30px;
+    background: rgba(31, 33, 34, 0.50);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  .most-popular .itemunlocked:hover {
+    padding: 30px 15px;
+    border-radius: 23px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color:#1e1e1e;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  
+  .most-popular .item .item {
+    padding: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    margin-bottom: 0px;
+  }
+  
+  .most-popular .item img {
+    border-radius: 23px;
+  }
+  
+  .most-popular .item h4 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+  }
+  
+  .most-popular .item span {
+    color: #666;
+    display: block;
+    margin-top: 7px;
+    font-weight: 400;
+  }
+  
+  .most-popular .item ul {
+    float: right;
+    margin-top: 20px;
+  }
+  
+  .most-popular .item ul li {
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .most-popular .item ul li:first-child i {
+    color: yellow;
+  }
+  
+  .most-popular .item ul li:last-child i {
+    color: #ec6090;
+  }
+  
+  .most-popular .main-button {
+    text-align: center;
+    margin-bottom: -53px;
+  }
+
+
+  @media (max-width: 767px) {
+
+  .most-popular .item .inner-item {
+    margin-bottom: 20px;
+  }
+}
