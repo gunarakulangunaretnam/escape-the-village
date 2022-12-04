@@ -22,57 +22,69 @@
 
 <body>
 
-    <div class="jumbotron glasseffect" style="width: 1500px !important; ">
-        <h1 style="text-align:center;  font-family: Audiowide !important; font-weight:bold;">Leaderboard</h1>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="jumbotron glasseffect col-md-12 col-lg-12 col-sm-12 col-12">
+                <h1 style="text-align:center;  font-family: Audiowide !important; font-weight:bold;">Leaderboard</h1>
 
 
-        <a type="submit" href="./game-dashboard.php" class="btn btn-danger effectForButtonBlue">
-            < Go Back</a>
-    </div>
+                <a type="submit" href="./game-dashboard.php" class="btn btn-danger effectForButtonBlue">
+                    < Go Back</a>
+            </div>
 
-    <div class="jumbotron glasseffect">
-
-
-
-        <table class="table table-hover table-dark glasseffectForTable">
-            <thead>
-                <tr>
-                    <th scope="col">Rank</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Total Score</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Gunarakulan Gunaretnam</td>
-                    <td>25000</td>
-                </tr>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Gunarakulan Gunaretnam</td>
-                    <td>25000</td>
-                </tr>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Gunarakulan Gunaretnam</td>
-                    <td>25000</td>
-                </tr>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Gunarakulan Gunaretnam</td>
-                    <td>25000</td>
-                </tr>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Gunarakulan Gunaretnam</td>
-                    <td>25000</td>
-                </tr>
-
-            </tbody>
-        </table>
+            <div class="jumbotron glasseffect col-md-12 col-lg-12 col-sm-12 col-12">
 
 
+
+                <table class="table table-hover table-dark glasseffectForTable">
+                    <thead>
+                        <tr>
+                            <th scope="col">Rank</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Total Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Gunarakulan Gunaretnam</td>
+                            <td>gunarakulan@mgila.com</td>
+                            <td>25000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Gunarakulan Gunaretnam</td>
+                            <td>gunarakulan@mgila.com</td>
+                            <td>25000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Gunarakulan Gunaretnam</td>
+                            <td>gunarakulan@mgila.com</td>
+                            <td>25000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Gunarakulan Gunaretnam</td>
+                            <td>gunarakulan@mgila.com</td>
+                            <td>25000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Gunarakulan Gunaretnam</td>
+                            <td>gunarakulan@mgila.com</td>
+                            <td>25000</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
     </div>
 
     <script src="" async defer></script>

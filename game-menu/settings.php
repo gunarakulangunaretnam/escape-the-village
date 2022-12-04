@@ -22,106 +22,111 @@
 
 <body>
 
-
-    <div class="jumbotron glasseffect" style="width: 1000px !important; ">
-        <h1 style="text-align:center;  font-family: Audiowide !important; font-weight:bold;">Settings</h1>
-
-
-        <a type="submit" href="./game-dashboard.php" class="btn btn-danger effectForButtonBlue">
-            < Go Back</a>
-    </div>
-
-    <div class="jumbotron glasseffect" style="width: 1000px !important; ">
+    <div class="container">
+        <div class="row">
 
 
-        <form>
+            <div class="jumbotron glasseffect col-md-12 col-lg-12 col-sm-12 col-12">
+                <h1 style="text-align:center;  font-family: Audiowide !important; font-weight:bold;">Settings</h1>
 
-            <h2 style="font-family: Audiowide !important; color:black; font-weight:bold;">General Settings</h2>
-            <hr>
 
-            <div class="form-group">
-                <label for="userEmail"
-                    style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Email
-                </label>
-                <input type="email" disabled="true" class="form-control effectForTextBoxes" id="userEmail"
-                    name="userEmail" aria-describedby="emailHelp" placeholder="User Email">
+                <a type="submit" href="./game-dashboard.php" class="btn btn-danger effectForButtonBlue">
+                    < Go Back</a>
+            </div>
+
+            <div class="jumbotron glasseffect col-md-12 col-lg-12 col-sm-12 col-12">
+
+
+                <form>
+
+                    <h2 style="font-family: Audiowide !important; color:black; font-weight:bold;">General Settings</h2>
+                    <hr>
+
+                    <div class="form-group">
+                        <label for="userEmail"
+                            style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Email
+                        </label>
+                        <input type="email" disabled="true" class="form-control effectForTextBoxes" id="userEmail"
+                            name="userEmail" aria-describedby="emailHelp" placeholder="User Email">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name"
+                            style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Name
+                        </label>
+                        <input type="email" class="form-control effectForTextBoxes" id="name" name="name"
+                            aria-describedby="emailHelp" placeholder="Name">
+
+                    </div>
+
+
+                    <input type="submit" style="float:right;" class="btn btn-success effectForButtonGreen
+                " value="Submit">
+
+                </form>
 
             </div>
 
-            <div class="form-group">
-                <label for="name"
-                    style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Name
-                </label>
-                <input type="email" class="form-control effectForTextBoxes" id="name" name="name"
-                    aria-describedby="emailHelp" placeholder="Name">
+            <div class="jumbotron glasseffect col-md-12 col-lg-12 col-sm-12 col-12">
+                <form>
+
+                    <h2 style="font-family: Audiowide !important; color:black; font-weight:bold;">Change Password</h2>
+
+                    <hr>
+
+
+                    <div class="form-group">
+                        <label for="currentPassword"
+                            style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Current
+                            Password</label>
+                        <input type="email" class="form-control effectForTextBoxes" id="currentPassword"
+                            name="currentPassword" aria-describedby="emailHelp" placeholder="Current Password">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="newPassword"
+                            style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">New
+                            Password</label>
+                        <input type="email" class="form-control effectForTextBoxes" id="newPassword" name="newPassword"
+                            aria-describedby="emailHelp" placeholder="New Password">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirmPassword"
+                            style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Confirm
+                            Password</label>
+                        <input type="email" class="form-control effectForTextBoxes" id="confirmPassword"
+                            name="confirmPassword" aria-describedby="emailHelp" placeholder="Confirm Password">
+
+                    </div>
+
+                    <input type="submit" style="float:right;" class="btn btn-success effectForButtonGreen
+             " value="Submit">
+                </form>
 
             </div>
 
+            <div class="jumbotron glasseffect col-md-12 col-lg-12 col-sm-12 col-12">
+                <h1 style="text-align:center;  font-family: Audiowide !important; font-weight:bold;">
+                    Reset The Game
+                </h1>
 
-            <input type="submit" style="float:right;" class="btn btn-success effectForButtonGreen
-        " value="Submit">
+                <p class="lead" style="font-weight:bold;"><span
+                        style="color:red; font-weight:900; text-shadow: 2px 2px 3px black;">WARNING: </span>Resting the
+                    game
+                    will delete all the finished levels and scores and create a new game to play from scratch.</p>
 
-        </form>
+                <form>
 
-    </div>
+                    <button type="button" class="btn btn-danger btn-lg btn-block effectForButtonRed">RESET THE
+                        GAME</button>
 
-    <div class="jumbotron glasseffect">
-        <form>
-
-            <h2 style="font-family: Audiowide !important; color:black; font-weight:bold;">Change Password</h2>
-
-            <hr>
-
-
-            <div class="form-group">
-                <label for="currentPassword"
-                    style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Current
-                    Password</label>
-                <input type="email" class="form-control effectForTextBoxes" id="currentPassword" name="currentPassword"
-                    aria-describedby="emailHelp" placeholder="Current Password">
-
+                </form>
             </div>
-
-            <div class="form-group">
-                <label for="newPassword"
-                    style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">New
-                    Password</label>
-                <input type="email" class="form-control effectForTextBoxes" id="newPassword" name="newPassword"
-                    aria-describedby="emailHelp" placeholder="New Password">
-
-            </div>
-
-            <div class="form-group">
-                <label for="confirmPassword"
-                    style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Confirm
-                    Password</label>
-                <input type="email" class="form-control effectForTextBoxes" id="confirmPassword" name="confirmPassword"
-                    aria-describedby="emailHelp" placeholder="Confirm Password">
-
-            </div>
-
-            <input type="submit" style="float:right;" class="btn btn-success effectForButtonGreen
-        " value="Submit">
-        </form>
-
-    </div>
-
-    <div class="jumbotron glasseffect" style="width: 1000px !important; ">
-        <h1 style="text-align:center;  font-family: Audiowide !important; font-weight:bold;">
-            Reset The Game
-        </h1>
-
-        <p class="lead" style="font-weight:bold;"><span
-                style="color:red; font-weight:900; text-shadow: 2px 2px 3px black;">WARNING: </span>Resting the
-            game
-            will delete all the finished levels and scores and create a new game to play from scratch.</p>
-
-        <form>
-
-            <button type="button" class="btn btn-danger btn-lg btn-block effectForButtonRed">RESET THE
-                GAME</button>
-
-        </form>
+        </div>
     </div>
 
     <script src="" async defer></script>

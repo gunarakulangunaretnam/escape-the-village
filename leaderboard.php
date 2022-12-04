@@ -116,6 +116,7 @@ https://templatemo.com/tm-579-cyborg-gaming
                                     <tr>
                                         <th scope="col">Rank</th>
                                         <th scope="col">Name</th>
+                                        <th scope="col">Email</th>
                                         <th scope="col">Total Score</th>
                                     </tr>
                                 </thead>
@@ -123,26 +124,31 @@ https://templatemo.com/tm-579-cyborg-gaming
                                     <tr>
                                         <th scope="row">1</th>
                                         <td>Gunarakulan Gunaretnam</td>
+                                        <td>gunarakulan@gmail.com</td>
                                         <td>25000</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">1</th>
                                         <td>Gunarakulan Gunaretnam</td>
+                                        <td>gunarakulan@gmail.com</td>
                                         <td>25000</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">1</th>
                                         <td>Gunarakulan Gunaretnam</td>
+                                        <td>gunarakulan@gmail.com</td>
                                         <td>25000</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">1</th>
                                         <td>Gunarakulan Gunaretnam</td>
+                                        <td>gunarakulan@gmail.com</td>
                                         <td>25000</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">1</th>
                                         <td>Gunarakulan Gunaretnam</td>
+                                        <td>gunarakulan@gmail.com</td>
                                         <td>25000</td>
                                     </tr>
 
