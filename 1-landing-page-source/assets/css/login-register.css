@@ -6,6 +6,21 @@
 	box-sizing: border-box;
 }
 
+.bigBTN{
+	background-color:#e75e8d;
+	color:#fff;
+	width:100%;
+	margin-bottom:-2%;
+	font-weight:900;
+}
+
+
+.bigBTN:hover{
+
+	border-color: #fff;
+	background-color: #fff;
+	color: #e75e8d;
+}
 
 body {
 	margin: 0;
