@@ -4,7 +4,7 @@ session_start();
 
 if (!isset($_SESSION['SESSION_EXISTS']))
 {
-    header("Location: ../1-landing-page-source/login-register.php?pagetype=signin");
+    header("Location: ../../1-landing-page-source/index.php");
     die();
 }
 

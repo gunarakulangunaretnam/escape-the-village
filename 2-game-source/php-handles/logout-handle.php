@@ -4,7 +4,7 @@ session_start();
 
 if (!isset($_SESSION['SESSION_EXISTS']))
 {
-    header("Location: ../../1-landing-page-source/login-register.php?pagetype=signin");
+    header("Location: ../../1-landing-page-source/index.php");
     die();
 }
 
@@ -15,7 +15,7 @@ if(function_exists($_GET['f'])) {
     $_GET['f']();
 }else{
 
-    header("Location: ../../1-landing-page-source/login-register.php?pagetype=siginin");
+    header("Location: ../../1-landing-page-source/index.php");
  }
 
 function logout(){
@@ -27,12 +27,11 @@ function logout(){
         $sessionObj = new OtherClasses();
         $sessionObj->destorySessions();
         
-        header("Location: ../../1-landing-page-source/login-register.php?pagetype=siginin");
+        header("Location: ../../1-landing-page-source/index.php");
         
     }else{
 
-        echo "no ess";
-        header("Location: ../../1-landing-page-source/login-register.php?pagetype=siginin");
+        header("Location: ../../1-landing-page-source/index.php");
     }
 
 }
