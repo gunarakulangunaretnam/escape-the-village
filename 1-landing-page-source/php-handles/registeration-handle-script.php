@@ -17,10 +17,17 @@ if ($data->num_rows > 0) {
     
 }else{
 
-    echo "NO";
+    if($password == $confirm_password){
+
+        
+        
+    }else{
+        
+        header("Location: ../login-register.php?pagetype=signup&ServerMessage=ConfirmPasswordDoesNotMatch");
+        
+    }
     
 }
-
 
 
 ?>

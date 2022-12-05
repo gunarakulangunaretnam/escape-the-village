@@ -22,6 +22,16 @@ window.onload = function(){
 		document.getElementById("ServerMessage").style.display = 'block';
 		document.getElementById("serverMessageHolder").innerHTML = "This email address is already registered!";
 		$("#ServerMessage").delay(6000).slideUp("slow")
+	
+	}
+	
+	if(serverMessage == "ConfirmPasswordDoesNotMatch"){
+
+
+		document.getElementById("ServerMessage").style.display = 'block';
+		document.getElementById("serverMessageHolder").innerHTML = "The confirm password does not match!";
+		$("#ServerMessage").delay(6000).slideUp("slow")
+
 	}
 	
 
