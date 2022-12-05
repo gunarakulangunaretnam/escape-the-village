@@ -1,3 +1,15 @@
+<?php
+
+session_start();
+
+if (!isset($_SESSION['SESSION_EXISTS']))
+{
+    header("Location: ../1-landing-page-source/login-register.php?pagetype=signin");
+    die();
+}
+
+?>
+
 <!doctype html>
 <html lang="en" dir="ltr">
 
