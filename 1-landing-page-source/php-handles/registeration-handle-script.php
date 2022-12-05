@@ -19,8 +19,18 @@ if ($data->num_rows > 0) {
 
     if($password == $confirm_password){
 
-        
-        
+        $Query = "INSERT INTO user_accounts VALUES('','$name','$email','$confirm_password','12345','[FALSE]')";
+        $returnData = $dataObj->InsertQuery($Query);
+
+        if($returnData == "[SUCCESS]"){
+
+            header("Location: ../login-register.php?pagetype=signin&ServerMessage=DataSccuess");
+            
+        }else if($returnData == "[FAILED]"){
+
+            header("Location: ../login-register.php?pagetype=signin&ServerMessage=DataFailed");
+        }
+
     }else{
         
         header("Location: ../login-register.php?pagetype=signup&ServerMessage=ConfirmPasswordDoesNotMatch");

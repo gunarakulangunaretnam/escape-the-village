@@ -33,6 +33,27 @@ window.onload = function(){
 		$("#ServerMessage").delay(6000).slideUp("slow")
 
 	}
+
+		
+	if(serverMessage == "DataSccuess"){
+
+
+		document.getElementById("ServerMessage").style.display = 'block';
+		document.getElementById("ServerMessage").classList.remove("alert-danger")
+		document.getElementById("ServerMessage").classList.add("alert-success")
+		document.getElementById("serverMessageHolder").innerHTML = "Registered Successfully! Please login to continue.";
+		$("#ServerMessage").delay(6000).slideUp("slow")
+
+	}
+
+	if(serverMessage == "DataFailed"){
+
+
+		document.getElementById("ServerMessage").style.display = 'block';
+		document.getElementById("serverMessageHolder").innerHTML = "Error Registering!";
+		$("#ServerMessage").delay(6000).slideUp("slow")
+
+	}
 	
 
 	

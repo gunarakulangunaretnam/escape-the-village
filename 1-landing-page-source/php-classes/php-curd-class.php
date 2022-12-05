@@ -19,6 +19,19 @@
             
         }
 
+        public function InsertQuery($query){
+
+            if ($this->DatabaseConnection->query($query) === TRUE) {
+            
+                return "[SUCCESS]";
+            
+            } else {
+
+                return "[FAILED]";
+           
+            } 
+        }
+
         
 
        
