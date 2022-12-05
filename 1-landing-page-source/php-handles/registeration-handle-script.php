@@ -1,7 +1,7 @@
 <?php
 
 include '../php-classes/php-curd-class.php';
-include '../php-classes/php-email-class.php';
+
 
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -11,7 +11,7 @@ $confirm_password = $_POST['confirm_password'];
 
 $dataObj = new DatabaseCURD();
 
-$emailObj = new EmailClass();
+
 
 
 if($password == $confirm_password){
@@ -29,32 +29,20 @@ if($password == $confirm_password){
             header("Location: ../login-register.php?pagetype=signup&ServerMessage=AlreadyExistEmail");
         
         }else{
-
-            $OTP_Number = rand(11111,99999);
-
-            $emailStatus = $emailObj->registerationOTPSender($email, $OTP_Number);
+          
+            $Query = "INSERT INTO user_accounts VALUES('','$name','$email','$confirm_password','00000','[FALSE]')";
+            $returnData = $dataObj->InsertQuery($Query);
     
-            if($emailStatus == "[EMAIL_SENT]"){
-            
-                $Query = "INSERT INTO user_accounts VALUES('','$name','$email','$confirm_password','$OTP_Number','[FALSE]')";
-                $returnData = $dataObj->InsertQuery($Query);
-        
-                if($returnData == "[SUCCESS]"){
-        
-                    header("Location: ../login-register.php?pagetype=signin&ServerMessage=DataSccuess");
-                    
-                }else if($returnData == "[FAILED]"){
-        
-                    header("Location: ../login-register.php?pagetype=signin&ServerMessage=DataFailed");
-                }
-            
-            }else if ($emailStatus == "[EMAIL_FAILED]"){
-
-                header("Location: ../login-register.php?pagetype=signin&ServerMessage=EmailFaliled");
+            if($returnData == "[SUCCESS]"){
+    
+                header("Location: ../login-register.php?pagetype=signin&ServerMessage=DataSccuess");
+                
+            }else if($returnData == "[FAILED]"){
+    
+                header("Location: ../login-register.php?pagetype=signin&ServerMessage=DataFailed");
             }
-            
+                            
         }
-
     }
 }else{
     

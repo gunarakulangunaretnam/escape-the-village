@@ -33,6 +33,10 @@ https://templatemo.com/tm-579-cyborg-gaming
 
 <body>
 
+    <div id="ServerMessage" style="display:none;" class="alert alert-danger" role="alert">
+        <div style="text-align:center; font-size: 20px;" id="serverMessageHolder"></div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -42,14 +46,23 @@ https://templatemo.com/tm-579-cyborg-gaming
                     <div class="most-popular">
                         <div class="row">
 
+
+
                             <div class="heading-section">
                                 <h4 style="text-align:center;">Enter the OTP to activate!</h4>
+                                <h3 style="text-align:center; color:#ec6090; margin-bottom:10px;">The OTP sent to: <span
+                                        id="emailPlaceHolder">(test@gmail.com)</span>
+                                </h3>
                             </div>
 
 
-                            <form>
+                            <form action="php-handles/otp-confirmation-handle-script.php" method="POST">
 
-                                <input style="border:2px solid #ec6090;" autofocus type="text" class="form-control">
+                                <input style="border:2px solid #ec6090;" autofocus type="text" id="otpnumber"
+                                    name="otpnumber" class="form-control" required>
+
+                                <input style="border:2px solid #ec6090; display:none;" type="text" id="emailbox"
+                                    name="emailbox" class="form-control" required>
 
                                 <br>
                                 <input
@@ -89,6 +102,7 @@ https://templatemo.com/tm-579-cyborg-gaming
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="assets/js/activate-page.js" async defer></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <script src="assets/js/isotope.min.js"></script>

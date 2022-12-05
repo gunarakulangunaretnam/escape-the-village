@@ -34,6 +34,19 @@
             } 
         }
 
+        public function UpdateQuery($query){
+
+            if ($this->DatabaseConnection->query($query) === TRUE) {
+            
+                return "[SUCCESS]";
+            
+            } else {
+
+                return "[FAILED]";
+           
+            } 
+        }
+
         
 
        

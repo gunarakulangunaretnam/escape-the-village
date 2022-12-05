@@ -58,7 +58,7 @@ window.onload = function(){
 	if(serverMessage == "EmailFaliled"){
 
 		document.getElementById("ServerMessage").style.display = 'block';
-		document.getElementById("serverMessageHolder").innerHTML = "Error: The OTP email sending process was failed, therefore unable to register!!!";
+		document.getElementById("serverMessageHolder").innerHTML = "Error: The OTP email sending process was failed, therefore unable to login!!!";
 		$("#ServerMessage").delay(10000).slideUp("slow")
 
 	}
@@ -67,13 +67,28 @@ window.onload = function(){
 
 		document.getElementById("ServerMessage").style.display = 'block';
 		document.getElementById("serverMessageHolder").innerHTML = "The password must contain at least 8 characters";
-		$("#ServerMessage").delay(6000).slideUp("slow")
+		$("#ServerMessage").delay(6000).slideUp("slow");
 
 	}
 
-	
 
+	if(serverMessage == "EmailDoesNotExist"){
+
+		document.getElementById("ServerMessage").style.display = 'block';
+		document.getElementById("serverMessageHolder").innerHTML = "The password or username is invalid!!!";
+		$("#ServerMessage").delay(6000).slideUp("slow");
+
+	}
 	
+	
+	if(serverMessage == "RestrictedAccess"){
+
+		document.getElementById("ServerMessage").style.display = 'block';
+		document.getElementById("serverMessageHolder").innerHTML = "Sorry, Access Restricted! You can't perform this operation, that's illegal.";
+		$("#ServerMessage").delay(15000).slideUp("slow");
+
+	}
+
 }
 
 const switchers = [...document.querySelectorAll('.switcher')]

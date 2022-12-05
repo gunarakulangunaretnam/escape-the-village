@@ -17,43 +17,49 @@
     <section class="forms-section">
         <h1 class="section-title">Forgot Password</h1>
         <div class="forms">
-            <div class="form-wrapper is-active" id="signinbox">
-                <form class="form form-login">
+            <div class="form-wrapper is-active" id="page1">
+                <form action="php-handles/forgot-password-handle.php" method="POST" class="form form-login">
                     <fieldset>
                         <legend>Please, enter your email and password for login.</legend>
                         <div class="input-block">
                             <label for="login-email">E-mail</label>
-                            <input id="login-email" type="email" placeholder="example@abc.com" required>
+                            <input id="email" name="email" type="email" placeholder="example@abc.com" required>
                         </div>
 
                     </fieldset>
 
-                    <button type="submit" class="main-border-button">Continue</button>
+                    <input type="submit" class="main-border-button" value="Continue">
 
                 </form>
             </div>
-            <div class="form-wrapper" id="signupbox">
+            <div class="form-wrapper" id="page2">
                 <form class="form form-signup">
                     <fieldset>
                         <legend>Please, enter your email, password and password confirmation for sign up.</legend>
 
-                        <h2 style="color:#e75e8d; font-family: 'Poppins', sans-serif; text-align:center;">Sent
+                        <h2 id="headerText"
+                            style="color:#e75e8d; font-family: 'Poppins', sans-serif; text-align:center;">
+                            Sent
                             Successfully!</h2>
 
                         <hr>
 
-                        <h4 style="color:#e75e8d; font-family: 'Poppins', sans-serif">The password was sent to your
-                            email, <br> please check it out!!</h4>
-
+                        <h4 id="bodyText" style="color:#e75e8d; font-family: 'Poppins', sans-serif">The password was
+                            sent to your
+                            email, <br> please check it out!!!</h4>
 
                     </fieldset>
-                    <button type="submit" class="main-border-button">Login</button>
+
+                    <button
+                        onclick="this.form.submit(); this.disabled=true; window.location.href='login-register.php?pagetype=siginin'"
+                        type="submit" class="main-border-button">Login</button>
+
                 </form>
             </div>
         </div>
     </section>
 
-    <script src="assets/js/login-register.js" async defer></script>
+    <script src="assets/js/forgot-password.js" async defer></script>
 </body>
 
 </html>

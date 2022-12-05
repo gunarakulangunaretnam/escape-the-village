@@ -31,21 +31,22 @@
                     Sign In
                     <span class="underline"></span>
                 </button>
-                <form class="form form-login">
+                <form action="php-handles/login-handle-script.php" method="POST" class="form form-login">
                     <fieldset>
                         <legend>Please, enter your email and password for login.</legend>
                         <div class="input-block">
                             <label for="login-email">E-mail</label>
-                            <input id="login-email" type="email" placeholder="example@abc.com" required>
+                            <input id="email" name="email" type="email" placeholder="example@abc.com" required>
                         </div>
                         <div class="input-block">
                             <label for="login-password">Password</label>
-                            <input id="login-password" type="password" required>
+                            <input id="password" name="password" type="password" required>
                         </div>
 
                         <div class="input-block">
                             <label for="login-password" style="visibility:hidden;">SPACESPACESPA</label>
-                            <a href="forgot-password.php" style="color: #e75e8d !important;">Forgot Password</a>
+                            <a href="forgot-password.php?pagetype=page1" style="color: #e75e8d !important;">Forgot
+                                Password</a>
                         </div>
 
                     </fieldset>
