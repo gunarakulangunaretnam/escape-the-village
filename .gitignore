@@ -1,1 +1,1 @@
- git rm --cached 1-landing-page-source/vendor/credentials/*.txt
+ git rm --cached 1-landing-page-source/vendor/credentials/
