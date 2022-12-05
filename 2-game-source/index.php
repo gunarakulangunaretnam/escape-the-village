@@ -21,7 +21,7 @@
         <li><a href="./game-menu-start-game.php">Start Game</a></li>
         <li><a href="./game-menu-leaderboard.php">Leaderboard</a></li>
         <li><a href="./game-menu-settings.php">Settings</a></li>
-        <li><a href="#">Logout</a></li>
+        <li><a href="./php-handles/logout-handle.php?f=logout">Logout</a></li>
     </ul>
 
 </body>

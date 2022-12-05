@@ -2,6 +2,7 @@
 
 include '../php-classes/php-curd-class.php';
 include '../php-classes/php-email-class.php';
+include '../php-classes/php-other-classes.php';
 
 $email = $_POST['email'];
 $password = $_POST['password'];
@@ -45,13 +46,11 @@ if ($data->num_rows > 0) {
 
                 header("Location: ../login-register.php?pagetype=signin&ServerMessage=EmailFaliled");
             }
-
             
-        }else if($activatedStatus == "[TRUE]"){ 
-
-            
-            // Login happens here
-            
+        }else if($activatedStatus == "[TRUE]"){   
+            $sessionObj = new OtherClasses();
+            $sessionObj->createSessionForLogin($email);
+            header("Location: ../../2-game-source/index.php");
         }
         
     }else{
