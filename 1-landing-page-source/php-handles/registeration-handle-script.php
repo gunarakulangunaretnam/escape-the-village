@@ -19,7 +19,9 @@ if ($data->num_rows > 0) {
 
     if($password == $confirm_password){
 
-        $Query = "INSERT INTO user_accounts VALUES('','$name','$email','$confirm_password','12345','[FALSE]')";
+        $OTP_Number = rand(11111,99999);
+
+        $Query = "INSERT INTO user_accounts VALUES('','$name','$email','$confirm_password','$OTP_Number','[FALSE]')";
         $returnData = $dataObj->InsertQuery($Query);
 
         if($returnData == "[SUCCESS]"){
