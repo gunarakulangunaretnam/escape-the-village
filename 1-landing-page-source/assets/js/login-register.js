@@ -54,6 +54,23 @@ window.onload = function(){
 		$("#ServerMessage").delay(6000).slideUp("slow")
 
 	}
+
+	if(serverMessage == "EmailFaliled"){
+
+		document.getElementById("ServerMessage").style.display = 'block';
+		document.getElementById("serverMessageHolder").innerHTML = "Error: The OTP email sending process was failed, therefore unable to register!!!";
+		$("#ServerMessage").delay(10000).slideUp("slow")
+
+	}
+
+	if(serverMessage == "PasswordLimitFailed"){
+
+		document.getElementById("ServerMessage").style.display = 'block';
+		document.getElementById("serverMessageHolder").innerHTML = "The password must contain at least 8 characters";
+		$("#ServerMessage").delay(6000).slideUp("slow")
+
+	}
+
 	
 
 	
