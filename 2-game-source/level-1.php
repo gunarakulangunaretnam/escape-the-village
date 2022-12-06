@@ -1,13 +1,55 @@
 <?php
 
+include '../1-landing-page-source/php-classes/php-curd-class.php';
+
 session_start();
 
 if (!isset($_SESSION['SESSION_EXISTS']))
 {
+    
     header("Location: ../1-landing-page-source/index.php");
     die();
-}
 
+}else{
+
+    $finishedLevels = "";
+
+    $dataObj = new DatabaseCURD();
+
+    $SessionValue = $_SESSION['SESSION_VALUE'];
+
+    $data = $dataObj->SelectQuery("SELECT finished_levels FROM game_data WHERE email = '$SessionValue'");
+
+    if ($data->num_rows > 0) {
+
+        while($row = $data->fetch_assoc()) {
+
+            $finishedLevels = $row["finished_levels"];
+        }
+    
+
+    }else{
+
+        header("Location: ../1-landing-page-source/index.php");
+        die();
+        
+    }
+
+
+    if(intval($finishedLevels) >= 1){
+
+       //Do nothing      
+
+    }else{
+
+        header("Location: game-menu-start-game.php");
+        die();
+    }
+
+    
+
+
+}
 ?>
 
 <!DOCTYPE html>
