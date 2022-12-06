@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 06, 2022 at 07:44 AM
+-- Generation Time: Dec 06, 2022 at 05:10 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -34,6 +34,19 @@ CREATE TABLE `game_data` (
   `total_scores` int(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `game_data`
+--
+
+INSERT INTO `game_data` (`auto_id`, `email`, `finished_levels`, `total_scores`) VALUES
+(5, 'gunarakulan@gmail.com', 6, 8500),
+(6, 'yathurshan@gmail.com', 2, 500),
+(7, 'rishanthini@gmail.com', 1, 0),
+(8, 'prajeevan23@gmail.com', 4, 7500),
+(9, 'rajkiran76@gmail.com', 3, 1000),
+(10, 'sabeskhanth@gmail.com', 5, 8200),
+(11, 'macasewary@gmail.com', 1, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -50,8 +63,27 @@ CREATE TABLE `user_accounts` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Dumping data for table `user_accounts`
+--
+
+INSERT INTO `user_accounts` (`auto_id`, `name`, `email`, `password`, `otp_number`, `activated_status`) VALUES
+(6, 'Gunarakulan', 'gunarakulan@gmail.com', 'guna54321', '[VERIFIED]', '[TRUE]'),
+(7, 'Yathusan', 'yathurshan@gmail.com', 'dsad', '[VERIFIED]', '[TRUE]'),
+(8, 'Rishanthini', 'rishanthini@gmail.com', 'dsad', '[VERIFIED]', '[TRUE]'),
+(9, 'Prajeevan', 'prajeevan23@gmail.com', 'dsad', '[VERIFIED]', '[TRUE]'),
+(10, 'Raj Kiran', 'rajkiran76@gmail.com', 'dsad', '[VERIFIED]', '[TRUE]'),
+(11, 'Sabeshkhanth', 'sabeskhanth@gmail.com', 'dsad', '[VERIFIED]', '[TRUE]'),
+(12, 'Macasewary', 'macasewary@gmail.com', 'dsad', '[VERIFIED]', '[TRUE]');
+
+--
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `game_data`
+--
+ALTER TABLE `game_data`
+  ADD PRIMARY KEY (`auto_id`);
 
 --
 -- Indexes for table `user_accounts`
@@ -64,10 +96,16 @@ ALTER TABLE `user_accounts`
 --
 
 --
+-- AUTO_INCREMENT for table `game_data`
+--
+ALTER TABLE `game_data`
+  MODIFY `auto_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+
+--
 -- AUTO_INCREMENT for table `user_accounts`
 --
 ALTER TABLE `user_accounts`
-  MODIFY `auto_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `auto_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
