@@ -15,7 +15,7 @@ window.onload = function(){
 	if(serverMessage == "PasswordChanged"){
 
 		document.getElementById("messageBoxMain").style.display = 'block';
-		document.getElementById("messageBoxSub").innerHTML = "The password has been successfully!";
+		document.getElementById("messageBoxSub").innerHTML = "The password has been updated successfully!";
 		document.getElementById("messageBoxSub").style.color = 'green';
         $("#messageBoxMain").delay(5000).slideUp("slow")
 	
@@ -47,5 +47,15 @@ window.onload = function(){
         $("#messageBoxMain").delay(5000).slideUp("slow")
 	
 	}
+
+	if(serverMessage == "PasswordLimitWrong"){
+
+		document.getElementById("messageBoxMain").style.display = 'block';
+		document.getElementById("messageBoxSub").innerHTML = "The password must contain at least 8 characters!!!";
+		document.getElementById("messageBoxSub").style.color = 'red';
+        $("#messageBoxMain").delay(5000).slideUp("slow")
+	
+	}
+	
 
 }

@@ -31,20 +31,26 @@ if (!isset($_SESSION['SESSION_EXISTS']))
 
         if($newPasswordFromUser == $confirmPasswordFromUser){
 
-            if($currentPasswordFromUser == $currentPasswordFromServer){
+            if(strlen($newPasswordFromUser) < 8){
 
-                
-                $Query = "UPDATE user_accounts SET password='$newPasswordFromUser' WHERE email='$SessionValue'";
-                $returnData = $dataObj->UpdateQuery($Query);
-                header("Location: ../game-menu-settings.php?ServerMessage=PasswordChanged");
-                
+                header("Location: ../game-menu-settings.php?ServerMessage=PasswordLimitWrong");
+
             }else{
-                
-                header("Location: ../game-menu-settings.php?ServerMessage=CurrentPasswordWrong");
-                
+
+                if($currentPasswordFromUser == $currentPasswordFromServer){
+
+                    
+                    $Query = "UPDATE user_accounts SET password='$newPasswordFromUser' WHERE email='$SessionValue'";
+                    $returnData = $dataObj->UpdateQuery($Query);
+                    header("Location: ../game-menu-settings.php?ServerMessage=PasswordChanged");
+                    
+                }else{
+                    
+                    header("Location: ../game-menu-settings.php?ServerMessage=CurrentPasswordWrong");
+                    
+                }
+
             }
-
-
         }else{
 
             header("Location: ../game-menu-settings.php?ServerMessage=ComfirmPasswordDoesNotMatch");

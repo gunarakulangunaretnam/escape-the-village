@@ -66,7 +66,7 @@ window.onload = function(){
 	if(serverMessage == "PasswordLimitFailed"){
 
 		document.getElementById("ServerMessage").style.display = 'block';
-		document.getElementById("serverMessageHolder").innerHTML = "The password must contain at least 8 characters";
+		document.getElementById("serverMessageHolder").innerHTML = "The password must contain at least 8 characters!!!";
 		$("#ServerMessage").delay(6000).slideUp("slow");
 
 	}

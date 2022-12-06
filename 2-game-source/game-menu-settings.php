@@ -132,7 +132,7 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                         <label for="currentPassword"
                             style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Current
                             Password</label>
-                        <input type="email" class="form-control effectForTextBoxes" id="currentPassword"
+                        <input type="password" class="form-control effectForTextBoxes" id="currentPassword"
                             name="currentPassword" aria-describedby="emailHelp" placeholder="Current Password">
 
                     </div>
@@ -141,8 +141,8 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                         <label for="newPassword"
                             style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">New
                             Password</label>
-                        <input type="email" class="form-control effectForTextBoxes" id="newPassword" name="newPassword"
-                            aria-describedby="emailHelp" placeholder="New Password">
+                        <input type="password" class="form-control effectForTextBoxes" id="newPassword"
+                            name="newPassword" aria-describedby="emailHelp" placeholder="New Password">
 
                     </div>
 
@@ -150,7 +150,7 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                         <label for="confirmPassword"
                             style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Confirm
                             Password</label>
-                        <input type="email" class="form-control effectForTextBoxes" id="confirmPassword"
+                        <input type="password" class="form-control effectForTextBoxes" id="confirmPassword"
                             name="confirmPassword" aria-describedby="emailHelp" placeholder="Confirm Password">
 
                     </div>
