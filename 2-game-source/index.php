@@ -25,6 +25,7 @@ if (!isset($_SESSION['SESSION_EXISTS']))
     <link rel="stylesheet" href="menu-assets/css/style.css">
     <script type="module" src="menu-assets/js/arrowkey-support.js"></script>
     <script type="module" src="menu-assets/js/mouse-parallax.js"></script>
+
 </head>
 
 <body>

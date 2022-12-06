@@ -1077,7 +1077,7 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                 <img src="images/coin/dim.png" class=""
                     style="position:absolute; left:9581px; top:-23.948708548299138px;" id="diamond200" />
 
-                <img src="images/flag.gif" id="flag" style="position:absolute; left:3000px; bottom: 100px;" />
+                <img src="images/flag.gif" id="flag" style="position:absolute; left:37000px; bottom: 100px;" />
 
             </div>
         </div>

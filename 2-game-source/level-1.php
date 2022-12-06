@@ -850,10 +850,8 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                 <img src="images/coin/c1.png" class="runcoin" style="position:absolute; left:17922px; top:82px;"
                     id="coin190" />
 
+                <img src="images/flag.gif" id="flag" style="position:absolute; left:20000px; bottom: 100px;" />
 
-
-                <img src="images/flag.gif" id="flag" style="position:absolute; left:1000px; bottom: 100px;" />
-                <!--20000px-->
             </div>
         </div>
     </div>
