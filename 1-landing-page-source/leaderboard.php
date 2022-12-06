@@ -1,3 +1,16 @@
+<?php
+
+include 'php-classes/php-curd-class.php';
+
+
+$dataObj = new DatabaseCURD();
+
+$SessionValue = $_SESSION['SESSION_VALUE'];
+
+$data = $dataObj->SelectQuery("SELECT game_data.*, user_accounts.name FROM game_data, user_accounts WHERE game_data.email = user_accounts.email ORDER BY total_scores DESC");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -121,37 +134,37 @@ https://templatemo.com/tm-579-cyborg-gaming
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Gunarakulan Gunaretnam</td>
-                                        <td>gunarakulan@gmail.com</td>
-                                        <td>25000</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Gunarakulan Gunaretnam</td>
-                                        <td>gunarakulan@gmail.com</td>
-                                        <td>25000</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Gunarakulan Gunaretnam</td>
-                                        <td>gunarakulan@gmail.com</td>
-                                        <td>25000</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Gunarakulan Gunaretnam</td>
-                                        <td>gunarakulan@gmail.com</td>
-                                        <td>25000</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Gunarakulan Gunaretnam</td>
-                                        <td>gunarakulan@gmail.com</td>
-                                        <td>25000</td>
-                                    </tr>
 
+                                    <?php
+                                        $number = 1;
+                                        if ($data->num_rows > 0) {
+
+                                            while($row = $data->fetch_assoc()) {
+
+                                                if($row['email'] == $SessionValue){
+
+                                                    echo "<tr class='glasseffectForLeaderboardSelectedRow'>";
+                                                        echo "<th scope='row'>$number</th>";
+                                                        echo "<td>".$row['name']."</td>";
+                                                        echo "<td>".$row['email']."</td>";
+                                                        echo "<td>".$row['total_scores']."</td>";
+                                                    echo "</tr>";
+
+                                                }else{
+
+                                                    echo "<tr>";
+                                                        echo "<th scope='row'>$number</th>";
+                                                        echo "<td>".$row['name']."</td>";
+                                                        echo "<td>".$row['email']."</td>";
+                                                        echo "<td>".$row['total_scores']."</td>";
+                                                    echo "</tr>";
+                                                }
+
+                                                $number = $number + 1; 
+                                            }
+
+                                        }
+                                    ?>
                                 </tbody>
                             </table>
 

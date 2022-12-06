@@ -99,6 +99,8 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                                             echo "<td>".$row['total_scores']."</td>";
                                         echo "</tr>";
                                     }
+
+                                    $number = $number + 1; 
                                 }
 
                             }
