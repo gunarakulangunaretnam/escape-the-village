@@ -65,6 +65,7 @@ if (!isset($_SESSION['SESSION_EXISTS']))
     <link href="css/level-3/custom.css" rel="stylesheet" type="text/css" />
     <link href="css/level-3/timer-ticker-style.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="js/level-3/script-1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
@@ -73,6 +74,10 @@ if (!isset($_SESSION['SESSION_EXISTS']))
 
 
     <div id="level-1-cover-box">
+
+        <a class="btn btn-danger btn-lg" href="game-menu-start-game.php"
+            style="color:white; font-weight:bold;position:absolute; left: 2%; top:5%; border:2px solid black;">
+            <i class="fa fa-home"></i> Go to Menu</a>
 
         <img id="level-play-btn" src="images/ui-assets/play-btn-1.png">
 
@@ -1219,6 +1224,10 @@ if (!isset($_SESSION['SESSION_EXISTS']))
             </form>
         </div>
     </div>
+
+    <a href="game-menu-start-game.php" class="btn btn-danger btn-lg"
+        style="color:#FFFFFF;  font-weight:bold; position:fixed; left:10px; top:10px; border:5px #FFFFFF; border-radius:50px;">
+        <i class="fa fa-power-off" aria-hidden="true"></i> Exit the Game</a>
 
     <div id="scoreb"
         style=" padding:10px; background-color:#CC0000; color:#FFFFFF; font-size:25px; font-weight:bold; position:fixed; right:10px; top:10px; border:5px #FFFFFF; border-radius:50px;">
