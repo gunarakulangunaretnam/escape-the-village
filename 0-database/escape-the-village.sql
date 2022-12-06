@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 04, 2022 at 02:57 PM
--- Server version: 10.4.22-MariaDB
--- PHP Version: 8.0.13
+-- Generation Time: Dec 06, 2022 at 07:44 AM
+-- Server version: 10.4.27-MariaDB
+-- PHP Version: 8.1.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,39 +24,39 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `game-data`
+-- Table structure for table `game_data`
 --
 
-CREATE TABLE `game-data` (
+CREATE TABLE `game_data` (
   `auto_id` int(11) NOT NULL,
   `email` varchar(250) NOT NULL,
   `finished_levels` int(100) NOT NULL,
   `total_scores` int(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user-accounts`
+-- Table structure for table `user_accounts`
 --
 
-CREATE TABLE `user-accounts` (
+CREATE TABLE `user_accounts` (
   `auto_id` int(11) NOT NULL,
   `name` varchar(250) NOT NULL,
   `email` varchar(250) NOT NULL,
   `password` varchar(250) NOT NULL,
   `otp_number` varchar(50) NOT NULL,
   `activated_status` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `user-accounts`
+-- Indexes for table `user_accounts`
 --
-ALTER TABLE `user-accounts`
+ALTER TABLE `user_accounts`
   ADD PRIMARY KEY (`auto_id`);
 
 --
@@ -64,9 +64,9 @@ ALTER TABLE `user-accounts`
 --
 
 --
--- AUTO_INCREMENT for table `user-accounts`
+-- AUTO_INCREMENT for table `user_accounts`
 --
-ALTER TABLE `user-accounts`
+ALTER TABLE `user_accounts`
   MODIFY `auto_id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
