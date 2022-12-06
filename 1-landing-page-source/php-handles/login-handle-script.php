@@ -47,7 +47,8 @@ if ($data->num_rows > 0) {
                 header("Location: ../login-register.php?pagetype=signin&ServerMessage=EmailFaliled");
             }
             
-        }else if($activatedStatus == "[TRUE]"){   
+        }else if($activatedStatus == "[TRUE]"){ 
+              
             $sessionObj = new OtherClasses();
             $sessionObj->createSessionForLogin($email);
             header("Location: ../../2-game-source/index.php");

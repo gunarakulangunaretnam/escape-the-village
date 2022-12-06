@@ -1,6 +1,8 @@
 <?php
 
 include '../php-classes/php-curd-class.php';
+include '../php-classes/php-email-class.php';
+include '../php-classes/php-other-classes.php';
 
 $dataObj = new DatabaseCURD();
 
@@ -28,7 +30,9 @@ if ($data->num_rows > 0) {
             $Query2 = "UPDATE user_accounts SET activated_status='[TRUE]', otp_number='[VERIFIED]' WHERE email='$emailaddressFromUser'";
             $returnData = $dataObj->UpdateQuery($Query2);
 
-            //Login Start here.
+            $sessionObj = new OtherClasses();
+            $sessionObj->createSessionForLogin($email);
+            header("Location: ../../2-game-source/index.php");
         
         }else{
             header("Location: ../activate-page.php?emailid=$emailaddressFromUser&ServerMessage=OTPWrong");

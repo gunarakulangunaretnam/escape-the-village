@@ -43,10 +43,18 @@ https://templatemo.com/tm-579-cyborg-gaming
                 <div class="page-content">
 
                     <!-- ***** Banner Start ***** -->
+
+                    <a href="login-register.php?pagetype=siginin" type="button"
+                        class="btn btn-danger btn-block btn-lg bigBTN"><i class="fa fa-power-off"></i>
+                        Logout</a>
+
+                    <br>
+                    <br>
+                    <br>
+
+
                     <div class="most-popular">
                         <div class="row">
-
-
 
                             <div class="heading-section">
                                 <h4 style="text-align:center;">Enter the OTP to activate!</h4>
@@ -54,7 +62,6 @@ https://templatemo.com/tm-579-cyborg-gaming
                                         id="emailPlaceHolder">(test@gmail.com)</span>
                                 </h3>
                             </div>
-
 
                             <form action="php-handles/otp-confirmation-handle-script.php" method="POST">
 
@@ -69,10 +76,7 @@ https://templatemo.com/tm-579-cyborg-gaming
                                     style="float: left; position:relative; left: 46.5%; top:15%; background-color:#ec6090;"
                                     type="submit" class="btn btn-secondary btn-lg btn-block">
                             </form>
-
-
                         </div>
-
                     </div>
                 </div>
                 <!-- ***** Most Popular End ***** -->

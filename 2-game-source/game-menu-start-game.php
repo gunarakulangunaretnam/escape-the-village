@@ -44,10 +44,20 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                     < Go Back</a>
             </div>
 
+
+
             <div class="jumbotron glasseffect col-md-12 col-lg-12 col-sm-12 col-12">
 
                 <h1 style="text-align:center;  font-family: Audiowide !important; font-weight:bold;">Levels</h1>
                 <hr>
+
+                <div class="alert alert-primary glasseffect col-md-4"
+                    style="text-align:center; font-weight:900; color:red; margin-bottom:-4%;" role="alert">
+                    <h4 style="font-size: 30px; text-shadow:2px 2px 4px black;"><span id="scorebox"
+                            style="font-weight:bold;">Total
+                            Scores: 1500 </span></h4>
+                </div>
+
                 <!-- ***** Most Popular Start ***** -->
                 <div class="most-popular">
                     <div class="row">
@@ -110,6 +120,7 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                         </div>
                     </div>
                 </div>
+
                 <!-- ***** Most Popular End ***** -->
             </div>
         </div>
