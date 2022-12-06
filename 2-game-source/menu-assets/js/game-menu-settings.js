@@ -12,10 +12,37 @@ window.onload = function(){
 	
 	}
 
+	if(serverMessage == "PasswordChanged"){
+
+		document.getElementById("messageBoxMain").style.display = 'block';
+		document.getElementById("messageBoxSub").innerHTML = "The password has been successfully!";
+		document.getElementById("messageBoxSub").style.color = 'green';
+        $("#messageBoxMain").delay(5000).slideUp("slow")
+	
+	}
+
     if(serverMessage == "DatabaseError"){
 
 		document.getElementById("messageBoxMain").style.display = 'block';
 		document.getElementById("messageBoxSub").innerHTML = "Something went wrong!";
+		document.getElementById("messageBoxSub").style.color = 'red';
+        $("#messageBoxMain").delay(5000).slideUp("slow")
+	
+	}
+
+	if(serverMessage == "ComfirmPasswordDoesNotMatch"){
+
+		document.getElementById("messageBoxMain").style.display = 'block';
+		document.getElementById("messageBoxSub").innerHTML = "The password confirmation does not match!";
+		document.getElementById("messageBoxSub").style.color = 'red';
+        $("#messageBoxMain").delay(5000).slideUp("slow")
+	
+	}
+
+	if(serverMessage == "CurrentPasswordWrong"){
+
+		document.getElementById("messageBoxMain").style.display = 'block';
+		document.getElementById("messageBoxSub").innerHTML = "Your current password is wrong!";
 		document.getElementById("messageBoxSub").style.color = 'red';
         $("#messageBoxMain").delay(5000).slideUp("slow")
 	

@@ -121,7 +121,7 @@ if (!isset($_SESSION['SESSION_EXISTS']))
             </div>
 
             <div class="jumbotron glasseffect col-md-12 col-lg-12 col-sm-12 col-12">
-                <form>
+                <form action="php-handles/password-change-settings-handle.php" method="POST">
 
                     <h2 style="font-family: Audiowide !important; color:black; font-weight:bold;">Change Password</h2>
 
