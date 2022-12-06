@@ -11,9 +11,6 @@ $confirm_password = $_POST['confirm_password'];
 
 $dataObj = new DatabaseCURD();
 
-
-
-
 if($password == $confirm_password){
 
     if(strlen($confirm_password) < 8){

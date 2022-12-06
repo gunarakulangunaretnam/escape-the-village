@@ -1,11 +1,43 @@
 <?php
 
+include '../1-landing-page-source/php-classes/php-curd-class.php';
+
 session_start();
 
 if (!isset($_SESSION['SESSION_EXISTS']))
 {
+    
     header("Location: ../1-landing-page-source/index.php");
     die();
+
+}else{
+
+
+    $nameFromServer = "";
+    $emailFromServer = "";
+
+    $dataObj = new DatabaseCURD();
+
+    $SessionValue = $_SESSION['SESSION_VALUE'];
+
+    $data = $dataObj->SelectQuery("SELECT * FROM user_accounts WHERE email = '$SessionValue'");
+
+    if ($data->num_rows > 0) {
+
+        while($row = $data->fetch_assoc()) {
+
+            $nameFromServer = $row["name"];
+            $emailFromServer = $row["email"];
+        }
+    
+
+    }else{
+
+        header("Location: ../1-landing-page-source/index.php");
+        die();
+        
+    }
+
 }
 
 ?>
@@ -37,8 +69,9 @@ if (!isset($_SESSION['SESSION_EXISTS']))
 
     <div class="container">
         <div class="row">
+
             <div id="messageBoxMain" class="alert alert-primary glasseffect col-12 col-md-12 col-sm-12"
-                style="text-align:center; font-weight:900; color:blue; " role="alert">
+                style="text-align:center; font-weight:900; color:blue; display:none;" role="alert">
                 <h2 id="messageBoxSub" style="font-weight:bold;">Message</h2>
             </div>
 
@@ -54,7 +87,7 @@ if (!isset($_SESSION['SESSION_EXISTS']))
             <div class="jumbotron glasseffect col-md-12 col-lg-12 col-sm-12 col-12">
 
 
-                <form>
+                <form action="php-handles/general-settings-handle.php" method="POST">
 
                     <h2 style="font-family: Audiowide !important; color:black; font-weight:bold;">General Settings</h2>
                     <hr>
@@ -64,7 +97,8 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                             style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Email
                         </label>
                         <input type="email" disabled="true" class="form-control effectForTextBoxes" id="userEmail"
-                            name="userEmail" aria-describedby="emailHelp" placeholder="User Email">
+                            name="userEmail" value="<?php echo $emailFromServer; ?>" aria-describedby="emailHelp"
+                            placeholder="User Email">
 
                     </div>
 
@@ -72,8 +106,9 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                         <label for="name"
                             style="color:black; font-size: 22px; font-weight:bold; text-shadow: 1px 1px 4px red;">Name
                         </label>
-                        <input type="email" class="form-control effectForTextBoxes" id="name" name="name"
-                            aria-describedby="emailHelp" placeholder="Name">
+                        <input type="text" value="<?php echo $nameFromServer; ?>"
+                            class="form-control effectForTextBoxes" id="name" name="name" aria-describedby="emailHelp"
+                            placeholder="Name">
 
                     </div>
 
@@ -145,8 +180,8 @@ if (!isset($_SESSION['SESSION_EXISTS']))
             </div>
         </div>
     </div>
-
-    <script src="" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="menu-assets/js/game-menu-settings.js"></script>
 </body>
 
 </html>

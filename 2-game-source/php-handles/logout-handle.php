@@ -1,5 +1,7 @@
 <?php
 
+include '../../1-landing-page-source/php-classes/php-other-classes.php';
+
 session_start();
 
 if (!isset($_SESSION['SESSION_EXISTS']))
@@ -7,9 +9,6 @@ if (!isset($_SESSION['SESSION_EXISTS']))
     header("Location: ../../1-landing-page-source/index.php");
     die();
 }
-
-
-include '../../1-landing-page-source/php-classes/php-other-classes.php';
 
 if(function_exists($_GET['f'])) {
     $_GET['f']();
