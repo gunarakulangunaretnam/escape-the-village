@@ -20,6 +20,16 @@ window.onload = function(){
         $("#messageBoxMain").delay(5000).slideUp("slow")
 	
 	}
+	
+	if(serverMessage == "GameReset"){
+
+		document.getElementById("messageBoxMain").style.display = 'block';
+		document.getElementById("messageBoxSub").innerHTML = "The game has been reset successfully!";
+		document.getElementById("messageBoxSub").style.color = 'green';
+        $("#messageBoxMain").delay(5000).slideUp("slow")
+	
+	}
+	
 
     if(serverMessage == "DatabaseError"){
 

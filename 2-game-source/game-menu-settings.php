@@ -171,9 +171,12 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                     game
                     will delete all the finished levels and scores and create a new game to play from scratch.</p>
 
-                <form>
+                <form
+                    onsubmit="return confirm('Do you really reset the game? \nWARNING: It will remove all of your finished levels and scores!!!');"
+                    action="
+                    php-handles/reset-the-game-handle.php" method="POST">
 
-                    <button type="button" class="btn btn-danger btn-lg btn-block effectForButtonRed">RESET THE
+                    <button type="submit" class="btn btn-danger btn-lg btn-block effectForButtonRed">RESET THE
                         GAME</button>
 
                 </form>
