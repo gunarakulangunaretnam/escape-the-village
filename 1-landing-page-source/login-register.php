@@ -1,3 +1,15 @@
+<?php
+
+    session_start();
+
+    if(isset($_SESSION['SESSION_EXISTS']))
+    {
+        header("Location: ../2-game-source/index.php");
+
+    }
+
+?>
+
 <!DOCTYPE html>
 
 <html>

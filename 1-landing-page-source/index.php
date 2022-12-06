@@ -97,7 +97,8 @@ https://templatemo.com/tm-579-cyborg-gaming
                                     <h6>A survival game where a village man escapes from his hometown and tries to enter
                                         a city-based country.</h6>
                                     <div class="main-button">
-                                        <a href="browse.html">Play Now</a>
+                                        <a href="./login-register.php?pagetype=signin">Play
+                                            Now</a>
                                         <a href="./leaderboard.php" style="margin-left: 2%;">Leaderboard</a>
 
                                     </div>
