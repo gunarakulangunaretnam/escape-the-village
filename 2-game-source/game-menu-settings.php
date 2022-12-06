@@ -37,15 +37,19 @@ if (!isset($_SESSION['SESSION_EXISTS']))
 
     <div class="container">
         <div class="row">
-
+            <div id="messageBoxMain" class="alert alert-primary glasseffect col-12 col-md-12 col-sm-12"
+                style="text-align:center; font-weight:900; color:blue; " role="alert">
+                <h2 id="messageBoxSub" style="font-weight:bold;">Message</h2>
+            </div>
 
             <div class="jumbotron glasseffect col-md-12 col-lg-12 col-sm-12 col-12">
                 <h1 style="text-align:center;  font-family: Audiowide !important; font-weight:bold;">Settings</h1>
 
-
                 <a type="submit" href="./index.php" class="btn btn-danger effectForButtonBlue">
                     < Go Back</a>
             </div>
+
+
 
             <div class="jumbotron glasseffect col-md-12 col-lg-12 col-sm-12 col-12">
 
