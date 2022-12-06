@@ -1740,7 +1740,7 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                     style="position:absolute; left:3942px; top:0.8180522029360446px;" id="diamond200" />
 
 
-                <img src="images/flag.gif" id="flag" style="position:absolute; left:37000px; bottom: 100px;" />
+                <img src="images/flag.gif" id="flag" style="position:absolute; left:3000px; bottom: 100px;" />
 
             </div>
         </div>

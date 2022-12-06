@@ -22,7 +22,6 @@ timerTicker.loop = true;
 
 
 
-
 function InitialObjectsMover() {
 
   stage1Audio.play();
@@ -48,7 +47,8 @@ function LevelUpSoundEffect(){
     
     audio.onended = function(){
       
-      location.href = "level-2.php";
+      var TotalScore = document.getElementById("doughnuts").innerText;
+      window.location.href = "php-handles/level-upgrader-handle.php?total_score="+TotalScore+"&level=2";
 
     }
 

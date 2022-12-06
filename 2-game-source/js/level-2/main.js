@@ -49,7 +49,8 @@ function LevelUpSoundEffect(){
     
     audio.onended = function(){
       
-      location.href = "level-3.php";
+      var TotalScore = document.getElementById("doughnuts").innerText;
+      window.location.href = "php-handles/level-upgrader-handle.php?total_score="+TotalScore+"&level=3";
 
     }
 

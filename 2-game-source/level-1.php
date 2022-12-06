@@ -448,7 +448,6 @@ if (!isset($_SESSION['SESSION_EXISTS']))
                 <img src="images/doors/2.png" style="position:absolute; left:18960px; top:-165px;" id="door11" />
 
 
-
                 <img src="images/coin/dim.png" class="" style="position:absolute; left:1350px; top:100px;"
                     id="diamond1" />
                 <img src="images/coin/dim.png" class="" style="position:absolute; left:1300px; top:130px;"
@@ -853,8 +852,8 @@ if (!isset($_SESSION['SESSION_EXISTS']))
 
 
 
-                <img src="images/flag.gif" id="flag" style="position:absolute; left:20000px; bottom: 100px;" />
-
+                <img src="images/flag.gif" id="flag" style="position:absolute; left:1000px; bottom: 100px;" />
+                <!--20000px-->
             </div>
         </div>
     </div>

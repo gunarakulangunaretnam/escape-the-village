@@ -1190,7 +1190,7 @@ if (!isset($_SESSION['SESSION_EXISTS']))
 
 
 
-                <img src="images/flag.gif" id="flag" style="position:absolute; left:37000px; bottom: 100px;" />
+                <img src="images/flag.gif" id="flag" style="position:absolute; left:3000px; bottom: 100px;" />
 
             </div>
         </div>
