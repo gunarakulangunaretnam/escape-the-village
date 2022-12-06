@@ -39,9 +39,6 @@ if ($data->num_rows > 0) {
                 $Query2 = "UPDATE user_accounts SET otp_number='$OTP_Number' WHERE email='$email'";
                 $returnData = $dataObj->UpdateQuery($Query2);
 
-                $Query3 = "INSERT INTO game_data VALUES('','$email','1','0')";
-                $returnData = $dataObj->InsertQuery($Query3);
-
                 header("Location: ../activate-page.php?emailid=$email");
 
                 

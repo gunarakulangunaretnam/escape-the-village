@@ -30,8 +30,12 @@ if ($data->num_rows > 0) {
             $Query2 = "UPDATE user_accounts SET activated_status='[TRUE]', otp_number='[VERIFIED]' WHERE email='$emailaddressFromUser'";
             $returnData = $dataObj->UpdateQuery($Query2);
 
+            $Query3 = "INSERT INTO game_data VALUES('','$emailaddressFromUser','1','0')";
+            $returnData = $dataObj->InsertQuery($Query3);
+
             $sessionObj = new OtherClasses();
-            $sessionObj->createSessionForLogin($email);
+            $sessionObj->createSessionForLogin($emailaddressFromUser);
+            
             header("Location: ../../2-game-source/index.php");
         
         }else{
