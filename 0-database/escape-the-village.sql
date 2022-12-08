@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 06, 2022 at 05:10 PM
+-- Generation Time: Dec 08, 2022 at 12:00 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -39,13 +39,13 @@ CREATE TABLE `game_data` (
 --
 
 INSERT INTO `game_data` (`auto_id`, `email`, `finished_levels`, `total_scores`) VALUES
-(5, 'gunarakulan@gmail.com', 6, 8500),
 (6, 'yathurshan@gmail.com', 2, 500),
-(7, 'rishanthini@gmail.com', 1, 0),
+(7, 'rishanthini@gmail.com', 6, 13000),
 (8, 'prajeevan23@gmail.com', 4, 7500),
 (9, 'rajkiran76@gmail.com', 3, 1000),
 (10, 'sabeskhanth@gmail.com', 5, 8200),
-(11, 'macasewary@gmail.com', 1, 0);
+(11, 'macasewary@gmail.com', 1, 0),
+(14, 'gunarakulan@gmail.com', 1, 0);
 
 -- --------------------------------------------------------
 
@@ -67,13 +67,13 @@ CREATE TABLE `user_accounts` (
 --
 
 INSERT INTO `user_accounts` (`auto_id`, `name`, `email`, `password`, `otp_number`, `activated_status`) VALUES
-(6, 'Gunarakulan', 'gunarakulan@gmail.com', 'guna54321', '[VERIFIED]', '[TRUE]'),
-(7, 'Yathusan', 'yathurshan@gmail.com', 'dsad', '[VERIFIED]', '[TRUE]'),
-(8, 'Rishanthini', 'rishanthini@gmail.com', 'dsad', '[VERIFIED]', '[TRUE]'),
-(9, 'Prajeevan', 'prajeevan23@gmail.com', 'dsad', '[VERIFIED]', '[TRUE]'),
-(10, 'Raj Kiran', 'rajkiran76@gmail.com', 'dsad', '[VERIFIED]', '[TRUE]'),
-(11, 'Sabeshkhanth', 'sabeskhanth@gmail.com', 'dsad', '[VERIFIED]', '[TRUE]'),
-(12, 'Macasewary', 'macasewary@gmail.com', 'dsad', '[VERIFIED]', '[TRUE]');
+(7, 'Yathusan', 'yathurshan@gmail.com', 'yathu@12345', '[VERIFIED]', '[TRUE]'),
+(8, 'Rishanthini', 'rishanthini@gmail.com', 'rishanthini@1998', '[VERIFIED]', '[TRUE]'),
+(9, 'Prajeevan', 'prajeevan23@gmail.com', 'prajeevan@1234', '[VERIFIED]', '[TRUE]'),
+(10, 'Raj Kiran', 'rajkiran76@gmail.com', 'raj1234567', '[VERIFIED]', '[TRUE]'),
+(11, 'Sabeshkhanth', 'sabeskhanth@gmail.com', 'sabe@12345', '[VERIFIED]', '[TRUE]'),
+(12, 'Macasewary', 'macasewary@gmail.com', 'maca@12345', '[VERIFIED]', '[TRUE]'),
+(15, 'Guna', 'gunarakulan@gmail.com', 'guna12345', '[VERIFIED]', '[TRUE]');
 
 --
 -- Indexes for dumped tables
@@ -99,13 +99,13 @@ ALTER TABLE `user_accounts`
 -- AUTO_INCREMENT for table `game_data`
 --
 ALTER TABLE `game_data`
-  MODIFY `auto_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `auto_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `user_accounts`
 --
 ALTER TABLE `user_accounts`
-  MODIFY `auto_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `auto_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
