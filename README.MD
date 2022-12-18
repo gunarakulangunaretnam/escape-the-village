@@ -202,4 +202,7 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 
 ## Gameplay
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](github-readme-content/level1.m4v)
+<video width="640" height="480" controls>
+  <source src="github-readme-content/level1.m4v" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
