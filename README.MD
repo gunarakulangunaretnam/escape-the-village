@@ -195,3 +195,7 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 ### Leaderboard Page
 
 ![Leaderboard Page](github-readme-content/21-leaderboard-page.png)
+
+### Settings Page
+
+![Settings Page](github-readme-content/22-settings-page.png)
