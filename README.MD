@@ -186,4 +186,8 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 
 ### Game Home Screen
 
-![Homepage](github-readme-content/19-game-home-screen.gif)
+![Game Home Screen](github-readme-content/19-game-home-screen.gif)
+
+### Start Game Page
+
+![Start Game Page](github-readme-content/20-startgame-page.png)
