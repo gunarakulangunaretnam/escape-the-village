@@ -102,3 +102,31 @@ This project is using MySQL database. Therefore, MySQL database engine is needed
 **Note 1:** Currently, this project is hosted on localhost, if it is setup on any online server, then is important to update the database credentials of the MySQL Server.
 
 **Note 2:** The ultimate goal of the above 3 steps to explain how to setup the MySQL database, other methods of setting up database is also applicable if it is workable.
+
+### Setup Google SMTP Server
+
+This project is using the Google SMTP server to send emails, OTP when registering users, these are the following steps to setup Google SMTP.
+
+**Step 01:** Choose or create an Google Email to use as a sender from Escape The Village Game: (Ex: escape_the_village_game_2022@gmail.com)
+
+**Step 02:** Turn on the 2-Step Verification method to allow the email to send mails programmatically.
+
+- <img src="github-readme-content/4-turn-on-two-factor.jpg" data-canonical-src="github-readme-content/4-turn-on-two-factor.jpg" width="600" height="300" />
+
+**Note 1:** There are some basic process to turn on the two factor authentication, after turning on, follow the step 3.
+
+**Step 03:** Craete an app password | after creating app password, SMTP server can be setup.
+
+- <img src="github-readme-content/5-app-password.jpg" data-canonical-src="github-readme-content/5-app-password.jpg" width="600" height="350" />
+
+- <img src="github-readme-content/6-create-app-password.jpg" data-canonical-src="github-readme-content/6-create-app-password.jpg" width="600" height="350" />
+
+- <img src="github-readme-content/7-app-password.jpg" data-canonical-src="github-readme-content/7-app-password.jpg" width="600" height="350" />
+
+**Step 04:** Enter the app password and the sender email address in the following file **"1-landing-page-source/php-classes/credentials.txt/"**
+
+- <img src="github-readme-content/8-app-password-file.jpg" data-canonical-src="github-readme-content/8-app-password-file.jpg" width="600" height="350" />
+
+**WARNING:** If the SMTP Mail service was not set, the game will not work, because it will fails to send OTP when registering.
+
+**Note 1:** If any trouble occurs when creating app password, it is recommended to search on Google.

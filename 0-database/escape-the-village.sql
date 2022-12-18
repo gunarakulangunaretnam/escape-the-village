@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 08, 2022 at 12:00 PM
+-- Generation Time: Dec 18, 2022 at 01:24 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -45,7 +45,8 @@ INSERT INTO `game_data` (`auto_id`, `email`, `finished_levels`, `total_scores`) 
 (9, 'rajkiran76@gmail.com', 3, 1000),
 (10, 'sabeskhanth@gmail.com', 5, 8200),
 (11, 'macasewary@gmail.com', 1, 0),
-(14, 'gunarakulan@gmail.com', 1, 0);
+(14, 'gunarakulan@gmail.com', 1, 0),
+(15, 'gunarakulan@gmail.com', 1, 0);
 
 -- --------------------------------------------------------
 
@@ -73,7 +74,7 @@ INSERT INTO `user_accounts` (`auto_id`, `name`, `email`, `password`, `otp_number
 (10, 'Raj Kiran', 'rajkiran76@gmail.com', 'raj1234567', '[VERIFIED]', '[TRUE]'),
 (11, 'Sabeshkhanth', 'sabeskhanth@gmail.com', 'sabe@12345', '[VERIFIED]', '[TRUE]'),
 (12, 'Macasewary', 'macasewary@gmail.com', 'maca@12345', '[VERIFIED]', '[TRUE]'),
-(15, 'Guna', 'gunarakulan@gmail.com', 'guna12345', '[VERIFIED]', '[TRUE]');
+(15, 'Gunarakulan', 'gunarakulan@gmail.com', 'guna12345', '[VERIFIED]', '[TRUE]');
 
 --
 -- Indexes for dumped tables
@@ -99,7 +100,7 @@ ALTER TABLE `user_accounts`
 -- AUTO_INCREMENT for table `game_data`
 --
 ALTER TABLE `game_data`
-  MODIFY `auto_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `auto_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `user_accounts`
