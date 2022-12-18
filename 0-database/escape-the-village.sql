@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 18, 2022 at 01:24 PM
+-- Generation Time: Dec 18, 2022 at 02:39 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -45,8 +45,7 @@ INSERT INTO `game_data` (`auto_id`, `email`, `finished_levels`, `total_scores`) 
 (9, 'rajkiran76@gmail.com', 3, 1000),
 (10, 'sabeskhanth@gmail.com', 5, 8200),
 (11, 'macasewary@gmail.com', 1, 0),
-(14, 'gunarakulan@gmail.com', 1, 0),
-(15, 'gunarakulan@gmail.com', 1, 0);
+(14, 'gunarakulan@gmail.com', 1, 0);
 
 -- --------------------------------------------------------
 
