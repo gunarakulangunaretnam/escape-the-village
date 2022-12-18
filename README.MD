@@ -174,14 +174,16 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 
 ### Forgot Password Page 1
 
-![Homepage](github-readme-content/14-password-forgot-page.png)
+![Forgot Password Page 1](github-readme-content/14-password-forgot-page.png)
 
 ### Forgot Password Page 2
 
-![Homepage](github-readme-content/16-forgot-password-2.png)
+![Forgot Password Page 2](github-readme-content/16-forgot-password-2.png)
 
 ### Forgot Password Email
 
-![Homepage](github-readme-content/19-game-home-screen.gif)
+![Forgot Password Email](github-readme-content/18-forgot-password-email.png)
 
 ### Game Home Screen
+
+![Homepage](github-readme-content/19-game-home-screen.gif)
