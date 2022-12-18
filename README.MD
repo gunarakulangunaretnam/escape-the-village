@@ -199,3 +199,7 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 ### Settings Page
 
 ![Settings Page](github-readme-content/22-settings-page.png)
+
+## Gameplay
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](github-readme-content/level1.m4v)
