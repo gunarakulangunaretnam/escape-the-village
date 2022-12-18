@@ -182,4 +182,6 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 
 ### Forgot Password Email
 
-![Homepage](github-readme-content/18-forgot-password-email.jpg)
+![Homepage](github-readme-content/19-game-home-screen.gif)
+
+### Game Home Screen
