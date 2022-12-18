@@ -132,7 +132,7 @@ This project is using the Google SMTP server to send emails, OTP when registerin
 
 **Note 1:** If any trouble occurs when creating app password, it is recommended to search on Google.
 
-### Host Project
+### Setup Hosting (Host the Project)
 
 The database and SMTP mail services are set up successfully; now, it's time to host the project source on the server. To host this project, any kind of server can be used, but that server should have installed **PHP Version > 8.0**.
 
@@ -141,3 +141,9 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 - <img src="github-readme-content/9-files-and-folder.jpg" data-canonical-src="github-readme-content/9-files-and-folder.jpg" width="600" height="350" />
 
 **WARNING:** NEVER CHANGE ANY FILES OR FOLDERS NAME WHEN DEPLOYING, IF CHANGED, IT WON'T WORK.
+
+## Project Demonstration
+
+### Homepage
+
+![Homepage](github-readme-content/10-homepage.png)
