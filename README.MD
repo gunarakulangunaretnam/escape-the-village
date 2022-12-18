@@ -87,6 +87,18 @@ This game was developed using **web technologies**, one advantage is that the ga
 
 This project is using MySQL database. Therefore, MySQL database engine is needed for this projects, the database file is found under the **"0-database"** folder.
 
-**Step 01:** Database name: escape-the-village | Craete a database with the name of **escape-the-village**
+**Step 01:** Database name: escape-the-village | Craete an empty database with the name of **escape-the-village**
 
-- ![Create Database Image](github-readme-content/1-create-database.jpg)
+- <img src="github-readme-content/1-create-database.jpg" data-canonical-src="github-readme-content/github-readme-content/1-create-database.jpg" width="500" height="200" />
+
+**Step 02:** Import the "escape-the-village" database that is found under the folder of **"0-database"** into the created empty database.
+
+- <img src="github-readme-content/2-import-database.jpg" data-canonical-src="github-readme-content/2-import-database.jpg" width="500" height="300" />
+
+**Step 03:** Update the database credentials | The credentials are found under **"1-landing-page-source/php-classes/php-curd-class.php" | From Line 7:10**
+
+- <img src="github-readme-content/3-database-credentials.jpg" data-canonical-src="github-readme-content/3-database-credentials.jpg" width="500" height="300" />
+
+**Note 1:** Currently, this project is hosted on localhost, if it is setup on any online server, then is important to update the database credentials of the MySQL Server.
+
+**Note 2:** The ultimate goal of the above 3 steps to explain how to setup the MySQL database, other methods of setting up database is also applicable if it is workable.
