@@ -202,4 +202,4 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 
 ## Gameplay
 
-github-readme-content/level1.m4v.mp4
+github-readme-content/level1.mp4
