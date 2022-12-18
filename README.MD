@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![Alt Text](github-readme-content/0-banner-image.jpg)
+![Banner Image](github-readme-content/0-banner-image.jpg)
 
 Escape the Village is a 2D survival game where a village man tries to escape from his hometown and make it to a city-based country. The game is set up in a series of levels, with each level offering its own set of challenges and obstacles for the player to overcome. To progress through the game, the player must solve math puzzles in order to open doors and move on to the next level.
 
@@ -82,3 +82,11 @@ This game was developed using **web technologies**, one advantage is that the ga
     ├── LICENSE                     # Contains Apache License 2.0
     └── README.md                   # Contains Readme Documentations
     └──.gitignore                   # Contains gitignore information
+
+### Setup Database
+
+This project is using MySQL database. Therefore, MySQL database engine is needed for this projects, the database file is found under the **"0-database"** folder.
+
+**Step 01:** Database name: escape-the-village | Craete a database with the name of **escape-the-village**
+
+- ![Create Database Image](github-readme-content/1-create-database.jpg)
