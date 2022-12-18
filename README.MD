@@ -40,6 +40,10 @@ This game was developed using **web technologies**, one advantage is that the ga
 - PHPMailer
 - Google SMTP Server
 
+### Others
+
+- Python
+
 <hr>
 
 **HTML:** Since this game was built with web technologies, HTML is unavoidable; It is used to create the structure of the game and as well as every single element in the project.
@@ -60,4 +64,21 @@ This game was developed using **web technologies**, one advantage is that the ga
 
 **PHPMailer:** It is a library for PHP that allows developers to send email messages from a PHP application or website. It provides a simple and convenient way to send emails using PHP, this library is used for OTP number sending, and password resetting purposes.
 
-**Google SMTP Server:** it is a service provided by Google that allows users to send email messages using the Simple Mail Transfer Protocol (SMTP). SMTP is a standard protocol for sending email messages that is used by most email servers and clients.
+**Google SMTP Server:** It is a service provided by Google that allows users to send email messages using the Simple Mail Transfer Protocol (SMTP). SMTP is a standard protocol for sending email messages used by most email servers and clients.
+
+**Python:** It is used to generate html codes to make game objects, enemies, coins, diamonds in random locations in all levels.
+
+## Setup
+
+**Note:** To setup this project in production, PHP, MySQL, Google SMTP Server and web server is needed.
+
+### Folder Structure
+
+    ├── 0-database                  # Contains the MySQL Database.
+    ├── 1-landing-page-source       # Contains the landing website source (Register / Login).
+    ├── 2-game-source               # Contains the the game source (Game Screens / Game).
+    ├── 3-others                    # Contains other research works and, Python scripts.
+    ├── github-readme-content       # Contains readme contents.
+    ├── LICENSE						# Contains Apache License 2.0
+    └── README.md					# Contains Readme Documentations
+    └──.gitignore					# Contains gitignore information
