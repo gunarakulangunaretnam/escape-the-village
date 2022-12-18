@@ -150,20 +150,25 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 
 ### About Page
 
-![Homepage](github-readme-content/11-aboutus-page.png)
+![About Page](github-readme-content/11-aboutus-page.png)
 
 ### Contact Page
 
-![Homepage](github-readme-content/15-login-page.png)
+![Contact Page](github-readme-content/15-login-page.png)
 
 ### Login Page
 
-![Homepage](github-readme-content/10-homepage.png)
+![Login Page](github-readme-content/10-homepage.png)
 
 ### Registration Page
 
-![Homepage](github-readme-content/13-register-page.png)
+![Registration Page](github-readme-content/13-register-page.png)
 
-### Password Forgot Page
+### OTP Page (Registration)
+
+![OTP Page](github-readme-content/16-otp-page.png)
+![OTP Page](github-readme-content/17-otp-email.png)
+
+### Forgot Password Page
 
 ![Homepage](github-readme-content/14-password-forgot-page.png)
