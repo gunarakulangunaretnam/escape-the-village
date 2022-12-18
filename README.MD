@@ -154,4 +154,16 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 
 ### Contact Page
 
-![Homepage](github-readme-content/12-contact-page.png)
+![Homepage](github-readme-content/15-login-page.png)
+
+### Login Page
+
+![Homepage](github-readme-content/10-homepage.png)
+
+### Registration Page
+
+![Homepage](github-readme-content/13-register-page.png)
+
+### Password Forgot Page
+
+![Homepage](github-readme-content/14-password-forgot-page.png)
