@@ -82,6 +82,7 @@ This game was developed using **web technologies**, one advantage is that the ga
     ├── LICENSE                     # Contains Apache License 2.0
     └── README.md                   # Contains Readme Documentations
     └──.gitignore                   # Contains gitignore information
+    └── index.php                   # Index page | it redirects to the landing-page
 
 ### Setup Database
 
@@ -130,3 +131,13 @@ This project is using the Google SMTP server to send emails, OTP when registerin
 **WARNING:** If the SMTP Mail service was not set, the game will not work, because it will fails to send OTP when registering.
 
 **Note 1:** If any trouble occurs when creating app password, it is recommended to search on Google.
+
+### Host Project
+
+The database and SMTP mail services are set up successfully; now, it's time to host the project source on the server. To host this project, any kind of server can be used, but that server should have installed **PHP Version > 8.0**.
+
+**Step 01:** Move all the files and folders of this repo to the server (Public Folder) | 0-database, .git, .gitignore and other unwanted files can be muted, But **"1-landing-page-source"**, **"2-game-source"** and **"index.php"** are the IMPORTANT files.
+
+- <img src="github-readme-content/9-files-and-folder.jpg" data-canonical-src="github-readme-content/9-files-and-folder.jpg" width="600" height="350" />
+
+**WARNING:** NEVER CHANGE ANY FILES OR FOLDERS NAME WHEN DEPLOYING, IF CHANGED, IT WON'T WORK.
