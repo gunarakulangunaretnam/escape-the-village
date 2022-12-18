@@ -112,7 +112,7 @@ This project is using the Google SMTP server to send emails, OTP when registerin
 
 **Step 02:** Turn on the 2-Step Verification method to allow the email to send mails programmatically.
 
-- <img src="github-readme-content/4-turn-on-two-factor.jpg" data-canonical-src="github-readme-content/4-turn-on-two-factor.jpg" width="600" height="300" />
+- <img src="github-readme-content/4-turn-on-two-factor.jpg" data-canonical-src="github-readme-content/4-turn-on-two-factor.jpg" width="600" height="350" />
 
 **Note 1:** There are some basic process to turn on the two factor authentication, after turning on, follow the step 3.
 
