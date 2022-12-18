@@ -158,7 +158,7 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 
 ### Login Page
 
-![Login Page](github-readme-content/10-homepage.png)
+![Login Page](github-readme-content/15-login-page.png)
 
 ### Registration Page
 
@@ -167,7 +167,7 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 ### OTP Page (Registration)
 
 ![OTP Page](github-readme-content/16-otp-page.png)
-![OTP Page](github-readme-content/17-otp-email.png)
+![OTP Page](github-readme-content/17-otp-email.jpg)
 
 ### Forgot Password Page
 
