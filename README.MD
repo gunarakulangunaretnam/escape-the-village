@@ -191,3 +191,7 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 ### Start Game Page
 
 ![Start Game Page](github-readme-content/20-startgame-page.png)
+
+### Leaderboard Page
+
+![Leaderboard Page](github-readme-content/21-leaderboard-page.png)
