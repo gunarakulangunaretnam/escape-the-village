@@ -144,8 +144,6 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 
 ## Testing Accounts Credentials
 
-There are some sample logins are provided bellow for testing purposes.
-
 ### Account 1
 
 - **Email:** yathurshan@gmail.com
