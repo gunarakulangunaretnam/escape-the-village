@@ -148,38 +148,38 @@ There are some sample logins are provided bellow for testing purposes.
 
 ### Account 1
 
-**Email:** yathurshan@gmail.com <br />
-**Password:** yathu@12345
+- **Email:** yathurshan@gmail.com
+- **Password:** yathu@12345
 
 ### Account 2
 
-**Email:** rishanthini@gmail.com <br />
-**Password:** rishanthini@1998
+- **Email:** rishanthini@gmail.com
+- **Password:** rishanthini@1998
 
 ### Account 3
 
-**Email:** prajeevan23@gmail.com <br />
-**Password:** prajeevan@1234
+- **Email:** prajeevan23@gmail.com
+- **Password:** prajeevan@1234
 
 ### Account 4
 
-**Email:** rajkiran76@gmail.com <br />
-**Password:** raj1234567
+- **Email:** rajkiran76@gmail.com
+- **Password:** raj1234567
 
 ### Account 5
 
-**Email:** sabeskhanth@gmail.com <br />
-**Password:** sabe@12345
+- **Email:** sabeskhanth@gmail.com
+- **Password:** sabe@12345
 
 ### Account 6
 
-**Email:** macasewary@gmail.com <br />
-**Password:** maca@12345
+- **Email:** macasewary@gmail.com
+- **Password:** maca@12345
 
 ### Account 7
 
-**Email:** guna1234@gmail.com
-**Password:** guna12345
+- **Email:** guna1234@gmail.com
+- **Password:** guna12345
 
 ## Project Demonstration
 
