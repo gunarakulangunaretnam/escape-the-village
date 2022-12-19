@@ -142,6 +142,45 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 
 **WARNING:** NEVER CHANGE ANY FILES OR FOLDERS NAME WHEN DEPLOYING, IF CHANGED, IT WON'T WORK.
 
+## Testing Accounts Credentials
+
+There are some sample logins are provided bellow for testing purposes.
+
+### Account 1
+
+**Email:** yathurshan@gmail.com
+**Password:** yathu@12345
+
+### Account 2
+
+**Email:** rishanthini@gmail.com
+**Password:** rishanthini@1998
+
+### Account 3
+
+**Email:** prajeevan23@gmail.com
+**Password:** prajeevan@1234
+
+### Account 4
+
+**Email:** rajkiran76@gmail.com
+**Password:** raj1234567
+
+### Account 5
+
+**Email:** sabeskhanth@gmail.com
+**Password:** sabe@12345
+
+### Account 6
+
+**Email:** macasewary@gmail.com
+**Password:** maca@12345
+
+### Account 7
+
+**Email:** guna1234@gmail.com
+**Password:** guna12345
+
 ## Project Demonstration
 
 ### Homepage
@@ -206,11 +245,9 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 
 https://user-images.githubusercontent.com/45822509/208386286-bac71e29-f5c2-4ff7-a091-9ec42a61549b.mp4
 
-
 ### Level 2
 
 https://user-images.githubusercontent.com/45822509/208386392-b593762c-fe09-4322-a496-1c8a14d1a2e0.mp4
-
 
 ### Level 3
 
@@ -227,7 +264,3 @@ https://user-images.githubusercontent.com/45822509/208386592-fba664f9-0bb4-4f5e-
 ### Level 6
 
 https://user-images.githubusercontent.com/45822509/208386657-63ffb9f5-33e3-4e7a-a756-e1f24c532c1b.mp4
-
-
-
-
