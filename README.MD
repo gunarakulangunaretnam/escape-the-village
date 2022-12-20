@@ -179,6 +179,22 @@ The database and SMTP mail services are set up successfully; now, it's time to h
 - **Email:** guna1234@gmail.com
 - **Password:** guna12345
 
+## Maintenance Commands
+
+### Git Commands
+
+- Stop Tracking File Without Deleting From Repo
+
+```git
+    git update-index --assume-unchanged <file>
+```
+
+- Reset Stop Tracking File Without Deleting From Repo
+
+```git
+    git update-index --no-assume-unchanged <file>
+```
+
 ## Project Demonstration
 
 ### Homepage
