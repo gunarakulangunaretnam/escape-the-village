@@ -7,8 +7,8 @@
     ├── 3-others                    # Contains other research works and, Python scripts.
     ├── github-readme-content       # Contains readme contents.
     ├── LICENSE                     # Contains Apache License 2.0
-    └── README.md                   # Contains Readme Documentations
-    └──.gitignore                   # Contains gitignore information
+    ├── README.md                   # Contains Readme Documentations
+    ├──.gitignore                   # Contains gitignore information
     └── index.php                   # Index page | it redirects to the landing-page
 ```
 ## Introduction
