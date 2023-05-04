@@ -9,7 +9,7 @@
     ├── LICENSE                     # Contains Apache License 2.0
     ├── README.md                   # Contains Readme Documentations
     ├──.gitignore                   # Contains gitignore information
-    └── index.php                   # Index page | it redirects to the landing-page
+    └── index.php                   # Index page | It redirects to the landing-page
 ```
 ## Introduction
 
