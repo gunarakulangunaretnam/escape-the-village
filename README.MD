@@ -1,5 +1,16 @@
 # Escape The Village
 
+```
+    ├── 0-database                  # Contains the MySQL Database.
+    ├── 1-landing-page-source       # Contains the landing website source (Register / Login).
+    ├── 2-game-source               # Contains the the game source (Game Screens / Game).
+    ├── 3-others                    # Contains other research works and, Python scripts.
+    ├── github-readme-content       # Contains readme contents.
+    ├── LICENSE                     # Contains Apache License 2.0
+    └── README.md                   # Contains Readme Documentations
+    └──.gitignore                   # Contains gitignore information
+    └── index.php                   # Index page | it redirects to the landing-page
+```
 ## Introduction
 
 ![Banner Image](github-readme-content/0-banner-image.jpg)
@@ -71,18 +82,6 @@ This game was developed using **web technologies**, one advantage is that the ga
 ## Setup
 
 **Note:** To setup this project in production, PHP, MySQL, Google SMTP Server and web server is needed.
-
-### Folder Structure
-
-    ├── 0-database                  # Contains the MySQL Database.
-    ├── 1-landing-page-source       # Contains the landing website source (Register / Login).
-    ├── 2-game-source               # Contains the the game source (Game Screens / Game).
-    ├── 3-others                    # Contains other research works and, Python scripts.
-    ├── github-readme-content       # Contains readme contents.
-    ├── LICENSE                     # Contains Apache License 2.0
-    └── README.md                   # Contains Readme Documentations
-    └──.gitignore                   # Contains gitignore information
-    └── index.php                   # Index page | it redirects to the landing-page
 
 ### Setup Database
 
