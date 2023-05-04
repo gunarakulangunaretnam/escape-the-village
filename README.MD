@@ -1,4 +1,3 @@
-### Repo Structure
 ```
     ├── 0-database                  # Contains the MySQL Database.
     ├── 1-landing-page-source       # Contains the landing website source (Register / Login).
