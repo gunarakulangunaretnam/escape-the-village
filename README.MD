@@ -1,3 +1,7 @@
+# Escape The Village
+
+## Repo Structure
+
 ```
     ├── 0-database                  # Contains the MySQL Database.
     ├── 1-landing-page-source       # Contains the landing website source (Register / Login).
@@ -9,8 +13,6 @@
     ├──.gitignore                   # Contains gitignore information
     └── index.php                   # Index page | It redirects to the landing-page
 ```
-
-# Escape The Village
 
 ## Introduction
 
