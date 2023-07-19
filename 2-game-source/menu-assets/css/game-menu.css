@@ -91,7 +91,7 @@ body {
 
 .threeD-button-set a:hover {
 
-  background-color:red;
+  background-color:red !important;
 
 }
 
