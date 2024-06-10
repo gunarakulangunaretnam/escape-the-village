@@ -1,4 +1,4 @@
-# ESCAPE THE VILLAGE
+# Escape The Village
 
 ## Repo Structure
 
